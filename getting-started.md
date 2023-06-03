@@ -2,7 +2,7 @@
 title: 'Getting Started'
 course: 'Computer Programming C++'
 date: '23-04-28'
-header 'test.jpg'
+header: 'test.jpg'
 
 ---
 
@@ -165,6 +165,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTcxMTYzMjUsLTE0MTMwOTA4MzddfQ
-==
+eyJoaXN0b3J5IjpbLTE2NDIyMzA5ODcsLTE3OTcxMTYzMjUsLT
+E0MTMwOTA4MzddfQ==
 -->
