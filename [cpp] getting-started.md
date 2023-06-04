@@ -169,11 +169,11 @@ C --> D
 # Schedule
 |  | Monday | Tuesday | Wednesday | Thursday |
 |--|--|--|--|--|
-|8:30-10:30| Computer Programming C++<br />(51212)|  | Computer Programming C++<br />(51212)||
-|10:30-12:30| 
+|8:30-10:30|Computer Programming C++<br />(51212)|| Computer Programming C++<br />(51212)||
+|10:30-11:30|
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlstMTIxODMzMjA0OSwtMTY0MjIzMDk4N119
+kiOlstMjA1MjI2MDU3MCwtMTY0MjIzMDk4N119
 -->
