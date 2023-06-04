@@ -153,6 +153,7 @@ CUSTOMER  ||--o{  ORDER : ""
 CUSTOMER  }|..|{  DELIVERY-ADDRESS :  ""
 CUSTOMER ||--|{ TESTS : ""
 ORDER  ||--|{  LINE-ITEM :  ""
+LINE-ITEM }|--o| TEST : ""
 ```
 
 For example, this will produce a sequence diagram:
@@ -193,6 +194,6 @@ C --> D
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlstODYyOTM3MzM3LC0xMTYwMzAwODEsLTE2NDIyMzA5ODdd
+kiOlsxMTE1NDU0NTQ5LC0xMTYwMzAwODEsLTE2NDIyMzA5ODdd
 fQ==
 -->
