@@ -175,11 +175,11 @@ C --> D
 |10:30-11:30||Office Hours||Office Hours|
 |11:30-12:30||||
 |12:30-1:30|C# Introduction to Programming {2}||C# Introduction to Programming {2}||
-|1:30-2:30|||||
+|1:30-2:30|X||||
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlstMTE0MDc3MjM3OSwtMTE2MDMwMDgxLC0xNjQyMjMwOTg3
+kiOlstMTQ0NjU5MzA0MSwtMTE2MDMwMDgxLC0xNjQyMjMwOTg3
 XX0=
 -->
