@@ -12,7 +12,8 @@ Hello There
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
-//<Video />
+
+[//]: # (Video src="test")
 
 # Files
 
@@ -195,6 +196,6 @@ C --> D
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOls4NjYzMTE1OTMsMTU5ODM5Mjk2OSwxMTE1NDU0NTQ5LC0x
-MTYwMzAwODEsLTE2NDIyMzA5ODddfQ==
+kiOlstMTkwMjc2NjU4NSw4NjYzMTE1OTMsMTU5ODM5Mjk2OSwx
+MTE1NDU0NTQ5LC0xMTYwMzAwODEsLTE2NDIyMzA5ODddfQ==
 -->
