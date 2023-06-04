@@ -173,10 +173,11 @@ C --> D
 |9:30-10:30|Office Hours {2}|TLC Hours||TLC Hours|
 |10:30-11:30||Office Hours||Office Hours|
 |11:30-12:30||||
-|12:30-1:30|||||
+|12:30-1:30|C# ||||
+|1:30-2:30|||||
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlstOTc4MzMyOTk5LC0xNjQyMjMwOTg3XX0=
+kiOlstMTE2MDMwMDgxLC0xNjQyMjMwOTg3XX0=
 -->
