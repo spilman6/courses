@@ -164,7 +164,13 @@ A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
 ```
+
+
+# Schedule
+| 	| Monday | Tuesday | Wednesday | Thursday |
+|------------------------------------------------------|
+|
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlstNjk4NjIzMTgxLC0xNjQyMjMwOTg3XX0=
+kiOlstMzc2MDI2ODM0LC0xNjQyMjMwOTg3XX0=
 -->
