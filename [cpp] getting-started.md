@@ -170,10 +170,12 @@ C --> D
 |  | Monday | Tuesday | Wednesday | Thursday |
 |--|--|--|--|--|
 |8:30-9:30|Computer Programming C++<br />(51212)|| Computer Programming C++<br />(51212)||
-|9:30-11:30|
+|9:30-10:30||TLC Hours||TLC Hours|
+|10:30-11||Office Hours||Office Hours|
+|
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlsxMDU4MDIxNzYyLC0xNjQyMjMwOTg3XX0=
+kiOlstODExMDg4Njk4LC0xNjQyMjMwOTg3XX0=
 -->
