@@ -6,9 +6,7 @@ header: 'test.jpg'
 
 ---
 
-
 Hello There
-
 
 # Welcome to StackEdit!
 
@@ -103,7 +101,10 @@ Since one file can be published to multiple locations, you can list and manage p
 StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
-![Circuit ](https://cdn.discordapp.com/attachments/1065057104521597058/1113507329766342706/Ryan_Appel_Wallpaper_microchip_processor_electronics_circuit_bl_61d2a0ee-3617-47fd-81ea-3f04c3142a4b.png)
+
+> This is a test
+> 
+![Circuit Banner Image](https://cdn.discordapp.com/attachments/1065057104521597058/1113507329766342706/Ryan_Appel_Wallpaper_microchip_processor_electronics_circuit_bl_61d2a0ee-3617-47fd-81ea-3f04c3142a4b.png)
 
 ## SmartyPants
 
@@ -194,6 +195,6 @@ C --> D
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlsxNzY0NTU0NDAzLDExMTU0NTQ1NDksLTExNjAzMDA4MSwt
+kiOlsxNTk4MzkyOTY5LDExMTU0NTQ1NDksLTExNjAzMDA4MSwt
 MTY0MjIzMDk4N119
 -->
