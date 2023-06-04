@@ -146,11 +146,13 @@ You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/).
 
 ERD:
 
----
-title: Order example
+```mermaid
+erDiagram
 
---- 
- ER Diagram  CUSTOMER  ||--o{  ORDER  :  places  ORDER  ||--|{  LINE-ITEM  :  contains  CUSTOMER  }|..|{  DELIVERY-ADDRESS  :  uses
+CUSTOMER  ||--o{  ORDER : ""
+ORDER  ||--|{  LINE-ITEM :  ""
+CUSTOMER  }|..|{  DELIVERY-ADDRESS :  ""
+```
 
 For example, this will produce a sequence diagram:
 
@@ -190,6 +192,6 @@ C --> D
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlsxMDY3NDcwODk5LC0xMTYwMzAwODEsLTE2NDIyMzA5ODdd
+kiOlsxODUyMzYxMDAxLC0xMTYwMzAwODEsLTE2NDIyMzA5ODdd
 fQ==
 -->
