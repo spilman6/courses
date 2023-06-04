@@ -150,8 +150,8 @@ ERD:
 erDiagram
 
 CUSTOMER  ||--o{  ORDER : ""
-ORDER  ||--|{  LINE-ITEM :  ""
 CUSTOMER  }|..|{  DELIVERY-ADDRESS :  ""
+ORDER  ||--|{  LINE-ITEM :  ""
 ```
 
 For example, this will produce a sequence diagram:
@@ -192,6 +192,6 @@ C --> D
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlsxODUyMzYxMDAxLC0xMTYwMzAwODEsLTE2NDIyMzA5ODdd
-fQ==
+kiOls4MTY5MjI2NSwtMTE2MDMwMDgxLC0xNjQyMjMwOTg3XX0=
+
 -->
