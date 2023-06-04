@@ -192,11 +192,3 @@ C --> D
 |11:30-12:30||||
 |12:30-1:30|C# Introduction to Programming {2}||C# Introduction to Programming {2}||
 |1:30-2:30|X||||
-
-
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlstMjIwMDExNTY3LC0xOTAyNzY2NTg1LDg2NjMxMTU5Mywx
-NTk4MzkyOTY5LDExMTU0NTQ1NDksLTExNjAzMDA4MSwtMTY0Mj
-IzMDk4N119
--->
