@@ -169,9 +169,11 @@ C --> D
 # Schedule
 |  | Monday | Tuesday | Wednesday | Thursday |
 |--|--|--|--|--|
-| 9:30-10:30 | Computer Programming C++ |  | Comp | |
+| 8:30-9:30 | Computer Programming C++ |  | Computer Programming C++ | |
+| 9:30-10:30| 
+
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlstMTk4NjA1MzY4NywtMTY0MjIzMDk4N119
+kiOlstNzMwMTYxNDQ1LC0xNjQyMjMwOTg3XX0=
 -->
