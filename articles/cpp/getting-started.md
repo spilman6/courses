@@ -151,6 +151,7 @@ erDiagram
 
 CUSTOMER  ||--o{  ORDER : ""
 CUSTOMER  }|..|{  DELIVERY-ADDRESS :  ""
+CUSTOMER ||--|{ TESTS : ""
 ORDER  ||--|{  LINE-ITEM :  ""
 ```
 
@@ -192,6 +193,6 @@ C --> D
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOls4MTY5MjI2NSwtMTE2MDMwMDgxLC0xNjQyMjMwOTg3XX0=
-
+kiOlstODYyOTM3MzM3LC0xMTYwMzAwODEsLTE2NDIyMzA5ODdd
+fQ==
 -->
