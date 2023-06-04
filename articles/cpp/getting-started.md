@@ -142,7 +142,17 @@ $$
 
 ## UML diagrams
 
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). 
+
+ERD:
+
+---
+title: Order example
+
+--- 
+ ER Diagram  CUSTOMER  ||--o{  ORDER  :  places  ORDER  ||--|{  LINE-ITEM  :  contains  CUSTOMER  }|..|{  DELIVERY-ADDRESS  :  uses
+
+For example, this will produce a sequence diagram:
 
 ```mermaid
 sequenceDiagram
@@ -180,6 +190,6 @@ C --> D
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlstMTQ0NjU5MzA0MSwtMTE2MDMwMDgxLC0xNjQyMjMwOTg3
-XX0=
+kiOlsxMDY3NDcwODk5LC0xMTYwMzAwODEsLTE2NDIyMzA5ODdd
+fQ==
 -->
