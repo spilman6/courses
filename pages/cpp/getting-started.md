@@ -142,10 +142,10 @@ foreach (string name in names)
 
 | header1          | header2          |
 | ---------------- | ---------------- |
-| cell (rowspan=2)<td rowspan="2">3</td>
-| ^                | cell             |
-| >                | cell (colspan=2) |
-| escape >         | \>               |
-| escape ^         | \^               |
+| 1 (rowspan=2)<td rowspan="2">2</td>
+| 3                | 4             |
+| 5                | 6 |
+| 7      | 10              |
+| 7        | 9             |
 
 
