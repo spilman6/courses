@@ -7,7 +7,7 @@ banner: 'https://cdn.discordapp.com/attachments/1065057104521597058/111350732976
 
 ---
 
-Hello There
+<article>
 
 <FaGithub />
 
@@ -183,5 +183,6 @@ foreach (string name in names)
 		</tr>
 	</tbody>
 </table>
-
+	
+</article>
 
