@@ -127,7 +127,7 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 |9:30-10:30|Office Hours {"{2}"2}|TLC Hours||TLC Hours|
 |10:30-11:30||Office Hours||Office Hours|
 |11:30-12:30||||
-|12:30-1:30|C# Introduction to Programming {"{2}"}||C# Introduction to Programming {"{}"2}||
+|12:30-1:30|C# Introduction to Programming||C# Introduction to Programming||
 |1:30-2:30|X||||
 
 
