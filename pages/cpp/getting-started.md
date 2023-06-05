@@ -135,7 +135,4 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 erDiagram  CUSTOMER  ||--o{  ORDER  :  places  ORDER  ||--|{  LINE-ITEM  :  contains  CUSTOMER  }|..|{  DELIVERY-ADDRESS  :  uses
 
 ```
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOls2NjAwMjUxODQsMTA1NjM5NjMzNl19
--->
+
