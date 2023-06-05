@@ -142,8 +142,8 @@ foreach (string name in names)
 
 | header1          | header2          |
 | ---------------- | ---------------- |
-| 1 (rowspan=2)<td rowspan="2">2</td>
-| 3                | 4             |
+| 1 <td rowspan="2">2</td>
+ 3                | 4             |
 | 5                | 6 |
 | 7      | 10              |
 | 7        | 9             |
