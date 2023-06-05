@@ -131,6 +131,7 @@ foreach (string name in names)
 
 <table>
     <tr>
+        <td></td>
         <td>Monday</td>
         <td>Tuesday</td>
         <td>Wednesday</td>
