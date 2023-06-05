@@ -130,13 +130,13 @@ foreach (string name in names)
 # Schedule
 
 <table>
-    <tr>
-        <td></td>
-        <td>Monday</td>
-        <td>Tuesday</td>
-        <td>Wednesday</td>
-        <td>Thursday</td>
-    </tr>
+    <thead>
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+    </thead>
     <tr>
         <td>10:30-11:30</td>
         <td></td>
