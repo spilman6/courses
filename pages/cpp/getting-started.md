@@ -66,6 +66,7 @@ You can save any file of the workspace to **Google Drive**, **Dropbox** or **Git
 
 Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
 
+
 <details><summary>Open tango</summary>
 
 If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
