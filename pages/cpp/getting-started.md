@@ -131,8 +131,3 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 |1:30-2:30|X||||
 
 
-```mermaid
-erDiagram  CUSTOMER  ||--o{  ORDER  :  places  ORDER  ||--|{  LINE-ITEM  :  contains  CUSTOMER  }|..|{  DELIVERY-ADDRESS  :  uses
-
-```
-
