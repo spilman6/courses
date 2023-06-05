@@ -143,9 +143,9 @@ foreach (string name in names)
 		<tr>
 			<td>10:30-11:30</td>
 			<td></td>
-			<td rowspan="2">Computer Programming C++</td>
+			<td rowSpan="2">Computer Programming C++</td>
 			<td></td>
-			<td rowspan="2">Computer Programming C++</td>
+			<td rowSpan="2">Computer Programming C++</td>
 		</tr>
 		<tr>
 			<td>11:30-12:30</td>
@@ -154,9 +154,9 @@ foreach (string name in names)
 		</tr>
 		<tr>
 			<td>12:30-1:30</td>
-			<td rowspan="2">C# Introduction to Programming</td>
+			<td rowSpan="2">C# Introduction to Programming</td>
 			<td>TLC Hours</td>
-			<td rowspan="2">C# Introduction to Programming</td>
+			<td rowSpan="2">C# Introduction to Programming</td>
 			<td>TLC Hours</td>
 		</tr>
 		<tr>
@@ -166,10 +166,10 @@ foreach (string name in names)
 		</tr>
 		<tr>
 			<td>2:30-3:30</td>
-			<td rowspan="3">Office Hours</td>
-			<td rowspan="2">C# Intermediate</td>
+			<td rowSpan="3">Office Hours</td>
+			<td rowSpan="2">C# Intermediate</td>
 			<td>Team Meeting</td>
-			<td rowspan="2">C# Intermediate</td>
+			<td rowSpan="2">C# Intermediate</td>
 		</tr>
 		<tr>
 			<td>3:30-4:30</td>
