@@ -138,4 +138,14 @@ foreach (string name in names)
 |12:30-1:30|C# Introduction to Programming||C# Introduction to Programming||
 |1:30-2:30|^||||
 
+# Test Table
+
+| header1          | header2          |
+| ---------------- | ---------------- |
+| cell (rowspan=2) | cell             |
+| ^                | cell             |
+| >                | cell (colspan=2) |
+| escape >         | \>               |
+| escape ^         | \^               |
+
 
