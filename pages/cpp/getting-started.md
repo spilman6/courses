@@ -129,7 +129,13 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 |11:30-12:30||||
 |12:30-1:30|C# Introduction to Programming {"{2}"}||C# Introduction to Programming {"{}"2}||
 |1:30-2:30|X||||
+
+
+```mermaid
+erDiagram  CUSTOMER  ||--o{  ORDER  :  places  ORDER  ||--|{  LINE-ITEM  :  contains  CUSTOMER  }|..|{  DELIVERY-ADDRESS  :  uses
+
+```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlc3RcbiIsImhpc3Rvcn
-kiOlsxMDU2Mzk2MzM2XX0=
+kiOls2NjAwMjUxODQsMTA1NjM5NjMzNl19
 -->
