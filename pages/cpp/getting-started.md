@@ -129,23 +129,61 @@ foreach (string name in names)
 
 # Schedule
 
-|  | Monday | Tuesday | Wednesday | Thursday |
-|--|--|--|--|--|
-|8:30-9:30||Computer Programming C++<br />(51212)|| Computer Programming C++<br />(51212)|
-|9:30-10:30|Office Hours|^||^|
-|10:30-11:30|^|Office Hours||Office Hours|
-|11:30-12:30||||
-|12:30-1:30|C# Introduction to Programming||C# Introduction to Programming||
-|1:30-2:30|^||||
-
-# Test Table
-
-| header1          | header2          |
-| ---------------- | ---------------- |
-| 1 <td rowspan="2">2</td>
- 3                | 4             |
-| 5                | 6 |
-| 7      | 10              |
-| 7        | 9             |
+<table>
+    <tr>
+        <td>Monday</td>
+        <td>Tuesday</td>
+        <td>Wednesday</td>
+        <td>Thursday</td>
+    </tr>
+    <tr>
+        <td>10:30-11:30</td>
+        <td></td>
+        <td colspan="2">Computer Programming C++</td>
+        <td></td>
+        <td colspan="2">Computer Programming C++</td>
+    </tr>
+    <tr>
+        <td>11:30-12:30</td>
+        <td></td>
+        <td></td>
+        <td>TLC Hours</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>12:30-1:30</td>
+        <td colspan="2">C# Introduction to Programming</td>
+        <td>TLC Hours</td>
+        <td colspan="2">C# Introduction to Programming</td>
+        <td>TLC Hours</td>
+    </tr>
+    <tr>
+        <td>1:30-2:30</td>
+        <td></td>
+        <td>Office Hours</td>
+        <td></td>
+        <td>Office Hours</td>
+    </tr>
+    <tr>
+        <td>2:30-3:30</td>
+        <td></td>
+        <td colspan="2">C# Intermediate</td>
+        <td>Team Meeting</td>
+        <td colspan="2">C# Intermediate</td>
+    </tr>
+    <tr>
+        <td>3:30-4:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>4:30-5:30</td>
+        <td></td>
+        <td></td>
+        <td>AITP</td>
+    </tr>
+</table>
 
 
