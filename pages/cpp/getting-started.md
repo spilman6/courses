@@ -146,9 +146,7 @@ foreach (string name in names)
     <tr>
         <td>11:30-12:30</td>
         <td></td>
-        <td></td>
         <td>TLC Hours</td>
-        <td></td>
     </tr>
     <tr>
         <td>12:30-1:30</td>
@@ -159,9 +157,7 @@ foreach (string name in names)
     </tr>
     <tr>
         <td>1:30-2:30</td>
-        <td></td>
         <td>Office Hours</td>
-        <td></td>
         <td>Office Hours</td>
     </tr>
     <tr>
@@ -173,8 +169,6 @@ foreach (string name in names)
     </tr>
     <tr>
         <td>3:30-4:30</td>
-        <td></td>
-        <td></td>
         <td></td>
         <td></td>
     </tr>
