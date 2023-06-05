@@ -166,7 +166,7 @@ foreach (string name in names)
 		</tr>
 		<tr>
 			<td>2:30-3:30</td>
-			<td></td>
+			<td rowspan="3">Office Hours</td>
 			<td rowspan="2">C# Intermediate</td>
 			<td>Team Meeting</td>
 			<td rowspan="2">C# Intermediate</td>
@@ -174,11 +174,9 @@ foreach (string name in names)
 		<tr>
 			<td>3:30-4:30</td>
 			<td></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>4:30-5:30</td>
-			<td></td>
 			<td></td>
 			<td>AITP</td>
 			<td></td>
