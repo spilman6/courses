@@ -61,13 +61,19 @@ You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening 
 
 You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
 
+	
 ## Synchronize a file
 
 Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
 
+<details><summary>Open tango</summary>
+
 If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
 
 > **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
+
+</details>
+
 
 ## Manage file synchronization
 
