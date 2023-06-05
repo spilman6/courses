@@ -119,6 +119,14 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 } 
 ```
 
+```c#
+var names = new List<string>() { "John", "Tom", "Peter" };
+foreach (string name in names)
+{
+    Console.WriteLine(name);
+}
+```
+
 # Schedule
 
 |  | Monday | Tuesday | Wednesday | Thursday |
