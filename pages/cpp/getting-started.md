@@ -13,11 +13,7 @@ Hello There
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
 
-[//]: # (<Video src="test">)
-
 # Files
-
-
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
@@ -98,7 +94,6 @@ After publishing, StackEdit keeps your file linked to that publication which mak
 
 Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
 
-
 # Markdown extensions
 
 StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
@@ -106,10 +101,8 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 
 > This is a test
-> 
+
 ![Circuit Banner Image](https://cdn.discordapp.com/attachments/1065057104521597058/1113507329766342706/Ryan_Appel_Wallpaper_microchip_processor_electronics_circuit_bl_61d2a0ee-3617-47fd-81ea-3f04c3142a4b.png)
-
-
 
 # Code Snippits
 
@@ -122,9 +115,8 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 } 
 ```
 
-
-
 # Schedule
+
 |  | Monday | Tuesday | Wednesday | Thursday |
 |--|--|--|--|--|
 |8:30-9:30||Computer Programming C++<br />(51212)|| Computer Programming C++<br />(51212)|
