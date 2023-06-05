@@ -3,18 +3,18 @@ title: 'Getting Started'
 description: 'Getting Started with C++'
 course: 'Computer Programming C++'
 date: '23-04-28'
-header: 'test.jpg'
+banner: 'https://cdn.discordapp.com/attachments/1065057104521597058/1113507329766342706/Ryan_Appel_Wallpaper_microchip_processor_electronics_circuit_bl_61d2a0ee-3617-47fd-81ea-3f04c3142a4b.png'
 
 ---
 
-Hello There
-
-<FaGithub />
+<article>
 
 # Welcome to StackEdit!
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
+
+<FaGithub />
 
 # Files
 
@@ -61,13 +61,11 @@ You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening 
 
 You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
 
+	
 ## Synchronize a file
 
 Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
 
-If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
-
-> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
 
 ## Manage file synchronization
 
@@ -119,15 +117,70 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 } 
 ```
 
+```c#
+var names = new List<string>() { "John", "Tom", "Peter" };
+foreach (string name in names)
+{
+    Console.WriteLine(name);
+}
+```
+
 # Schedule
 
-|  | Monday | Tuesday | Wednesday | Thursday |
-|--|--|--|--|--|
-|8:30-9:30||Computer Programming C++<br />(51212)|| Computer Programming C++<br />(51212)|
-|9:30-10:30|Office Hours|TLC Hours||TLC Hours|
-|10:30-11:30||Office Hours||Office Hours|
-|11:30-12:30||||
-|12:30-1:30|C# Introduction to Programming||C# Introduction to Programming||
-|1:30-2:30|X||||
-
+<table>
+    <thead>
+	    <tr>
+			<th></th>
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+		</tr>
+    </thead>
+	<tbody>
+		<tr>
+			<td>10:30-11:30</td>
+			<td></td>
+			<td rowSpan="2">Computer Programming C++</td>
+			<td></td>
+			<td rowSpan="2">Computer Programming C++</td>
+		</tr>
+		<tr>
+			<td>11:30-12:30</td>
+			<td></td>
+			<td>TLC Hours</td>
+		</tr>
+		<tr>
+			<td>12:30-1:30</td>
+			<td rowSpan="2">C# Introduction to Programming</td>
+			<td>TLC Hours</td>
+			<td rowSpan="2">C# Introduction to Programming</td>
+			<td>TLC Hours</td>
+		</tr>
+		<tr>
+			<td>1:30-2:30</td>
+			<td>Office Hours</td>
+			<td>Office Hours</td>
+		</tr>
+		<tr>
+			<td>2:30-3:30</td>
+			<td rowSpan="3">Office Hours</td>
+			<td rowSpan="2">C# Intermediate</td>
+			<td>Team Meeting</td>
+			<td rowSpan="2">C# Intermediate</td>
+		</tr>
+		<tr>
+			<td>3:30-4:30</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>4:30-5:30</td>
+			<td></td>
+			<td>AITP</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+	
+</article>
 
