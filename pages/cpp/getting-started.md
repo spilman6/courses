@@ -1,5 +1,6 @@
 ---
 title: 'Getting Started'
+description: 'Getting Started with C++'
 course: 'Computer Programming C++'
 date: '23-04-28'
 header: 'test.jpg'
