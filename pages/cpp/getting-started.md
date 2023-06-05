@@ -131,55 +131,59 @@ foreach (string name in names)
 
 <table>
     <thead>
-        <th></th>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
+	    <tr>
+			<th></th>
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+		</tr>
     </thead>
-    <tr>
-        <td>10:30-11:30</td>
-        <td></td>
-        <td rowspan="2">Computer Programming C++</td>
-        <td></td>
-        <td rowspan="2">Computer Programming C++</td>
-    </tr>
-    <tr>
-        <td>11:30-12:30</td>
-        <td></td>
-        <td>TLC Hours</td>
-    </tr>
-    <tr>
-        <td>12:30-1:30</td>
-        <td rowspan="2">C# Introduction to Programming</td>
-        <td>TLC Hours</td>
-        <td rowspan="2">C# Introduction to Programming</td>
-        <td>TLC Hours</td>
-    </tr>
-    <tr>
-        <td>1:30-2:30</td>
-        <td>Office Hours</td>
-        <td>Office Hours</td>
-    </tr>
-    <tr>
-        <td>2:30-3:30</td>
-        <td></td>
-        <td rowspan="2">C# Intermediate</td>
-        <td>Team Meeting</td>
-        <td rowspan="2">C# Intermediate</td>
-    </tr>
-    <tr>
-        <td>3:30-4:30</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>4:30-5:30</td>
-        <td></td>
-        <td></td>
-        <td>AITP</td>
-        <td></td>
-    </tr>
+	<tbody>
+		<tr>
+			<td>10:30-11:30</td>
+			<td></td>
+			<td rowspan="2">Computer Programming C++</td>
+			<td></td>
+			<td rowspan="2">Computer Programming C++</td>
+		</tr>
+		<tr>
+			<td>11:30-12:30</td>
+			<td></td>
+			<td>TLC Hours</td>
+		</tr>
+		<tr>
+			<td>12:30-1:30</td>
+			<td rowspan="2">C# Introduction to Programming</td>
+			<td>TLC Hours</td>
+			<td rowspan="2">C# Introduction to Programming</td>
+			<td>TLC Hours</td>
+		</tr>
+		<tr>
+			<td>1:30-2:30</td>
+			<td>Office Hours</td>
+			<td>Office Hours</td>
+		</tr>
+		<tr>
+			<td>2:30-3:30</td>
+			<td></td>
+			<td rowspan="2">C# Intermediate</td>
+			<td>Team Meeting</td>
+			<td rowspan="2">C# Intermediate</td>
+		</tr>
+		<tr>
+			<td>3:30-4:30</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>4:30-5:30</td>
+			<td></td>
+			<td></td>
+			<td>AITP</td>
+			<td></td>
+		</tr>
+	</tbody>
 </table>
 
 
