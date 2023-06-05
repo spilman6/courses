@@ -124,10 +124,10 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 |  | Monday | Tuesday | Wednesday | Thursday |
 |--|--|--|--|--|
 |8:30-9:30||Computer Programming C++<br />(51212)|| Computer Programming C++<br />(51212)|
-|9:30-10:30|Office Hours|TLC Hours||TLC Hours|
-|10:30-11:30||Office Hours||Office Hours|
+|9:30-10:30|Office Hours|^||^|
+|10:30-11:30|^|Office Hours||Office Hours|
 |11:30-12:30||||
 |12:30-1:30|C# Introduction to Programming||C# Introduction to Programming||
-|1:30-2:30|X||||
+|1:30-2:30|^||||
 
 
