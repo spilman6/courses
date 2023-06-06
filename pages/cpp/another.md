@@ -7,6 +7,22 @@ Since one file can be published to multiple locations, you can list and manage p
 
 Testing 123
 
+### A sub-sub-heading
+
+Testing 123
+
+#### A sub-sub-sub-heading
+
+Testing 123
+
+##### A sub-sub-sub-sub-heading
+
+Testing 123
+
+###### A sub-sub-sub-sub-sub-heading
+
+Testing 123
+
 # Markdown extensions
 
 StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
@@ -93,3 +109,16 @@ foreach (string name in names)
 	</tbody>
 </table>
 	
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
