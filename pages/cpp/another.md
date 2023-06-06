@@ -133,7 +133,7 @@ You can embed HTML in your Markdown files. This is useful for embedding tables:
 </table>
 	
 
-## Table of Contents
+## Links
 
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
