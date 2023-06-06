@@ -1,3 +1,7 @@
+<meta name="title" content="Getting Started" />
+<meta name="course" content="Computer Programming C++" />
+<meta name="author" content="Ryan Appel" />
+
 
 # Manage file publication
 
