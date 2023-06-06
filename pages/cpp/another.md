@@ -72,6 +72,8 @@ foreach (string name in names)
 
 # Schedule
 
+You can embed HTML in your Markdown files. This is useful for embedding tables:
+
 <table>
     <thead>
 	    <tr>
