@@ -19,7 +19,9 @@ It keeps track of all headings, even if they are nested.
 
 ### A sub-sub-heading
 
-You can nest headings as deep as you want, up to 6 levels (using h1 through h6).
+You can nest headings as deep as you want.
+
+> Well, maybe not *as deep as you want*... but up to 6 levels (h1-h6).
 
 #### A sub-sub-sub-heading
 
@@ -45,6 +47,10 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 # Code Snippits
 
+You can embed code snippits in your Markdown files.
+
+Here's a C++ example:
+
 ```cpp
 #include <iostream>
    int main()
@@ -53,6 +59,8 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
    return 0;
 } 
 ```
+
+And here's a C# example:
 
 ```c#
 var names = new List<string>() { "John", "Tom", "Peter" };
