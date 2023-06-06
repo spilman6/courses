@@ -10,10 +10,16 @@ Since one file can be published to multiple locations, you can list and manage p
 ## A sub-heading
 
 Testing 123
+This is some more text...
+
+...and some more text.
 
 ### A sub-sub-heading
 
 Testing 123
+Here's a line:
+
+---
 
 #### A sub-sub-sub-heading
 
