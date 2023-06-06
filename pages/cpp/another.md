@@ -1,6 +1,6 @@
 
-<meta name="title" content="Getting Started" />
-<meta name="course" content="Computer Programming C++" />
+<meta name="title" content="Example Page" />
+<meta name="course" content="Example Course" />
 <meta name="author" content="Ryan Appel" />
 
 
