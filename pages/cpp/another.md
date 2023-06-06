@@ -11,7 +11,9 @@ This page is rendered on the server. It is ***not*** a static HTML page!
 The source file (.md) is parsed and converted to HTML on the server. You can see the source file
 on GitHub [here](https://raw.githubusercontent.com/RDAppel/courses/master/pages/cpp/another.md).
 
-## The TOC is generated automatically based on the headings in the document
+## Table of Contents
+
+The ___Table of Contents___ is generated automatically based on the headings in the document.
 
 As you scroll the page the TOC will update to show your current position in the document.
 
@@ -20,6 +22,7 @@ It keeps track of all headings, even if they are nested.
 ### A sub-sub-heading
 
 You can nest headings as deep as you want.
+
 
 > Well, maybe not *as deep as you want*... but up to 6 levels (h1-h6).
 
