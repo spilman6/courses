@@ -1,25 +1,25 @@
+
 <meta name="title" content="Getting Started" />
 <meta name="course" content="Computer Programming C++" />
 <meta name="author" content="Ryan Appel" />
 
 
-# Manage file publication
+# Rendered using Markdown!
 
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
+This page is rendered on the server. It is ***not*** a static HTML page!
 
-## A sub-heading
+The source file (.md) is parsed and converted to HTML on the server. You can see the source file
+on GitHub [here](https://raw.githubusercontent.com/RDAppel/courses/master/pages/cpp/another.md).
 
-Testing 123
-This is some more text...
+## The TOC is generated automatically based on the headings in the document
 
-...and some more text.
+As you scroll the page the TOC will update to show your current position in the document.
+
+It keeps track of all headings, even if they are nested.
 
 ### A sub-sub-heading
 
-Testing 123
-Here's a line:
-
----
+You can nest headings as deep as you want, up to 6 levels (using h1 through h6).
 
 #### A sub-sub-sub-heading
 
