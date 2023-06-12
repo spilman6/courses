@@ -48,6 +48,11 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 ![Circuit Banner Image](https://cdn.discordapp.com/attachments/1065057104521597058/1113507329766342706/Ryan_Appel_Wallpaper_microchip_processor_electronics_circuit_bl_61d2a0ee-3617-47fd-81ea-3f04c3142a4b.png)
 
+# Checkboxes?
+
+- [ ] Unchecked
+- [x] Checked!
+
 # Code Snippits
 
 You can embed code snippits in your Markdown files.
