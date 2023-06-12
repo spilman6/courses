@@ -53,6 +53,17 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 - [ ] Unchecked
 - [x] Checked!
 
+Or use html to make them checkable:
+
+<div>
+  <input type="checkbox" name="uchk">
+  <label for="uchk">Unchecked.</label>
+</div>
+<div>
+  <input type="checkbox" name="chk" checked>
+  <label for="chk">Checked.</label>
+</div>
+
 # Code Snippits
 
 You can embed code snippits in your Markdown files.
