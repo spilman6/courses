@@ -95,7 +95,7 @@ These dates are tentative and may change at my digression. If changes are made, 
 
 | Week | Start | Content | Items Due | Effort (Estimated |
 |------|-------|---------|-----------|-------------------|
-| 1 | 1/15/23 | Console Read and Write, Variables, Casting, Assignment and Unary Operations, and Escape Characters 8 hours |
+| 1 | 1/15/23 | Console Read and Write, Variables, Casting, Assignment and Unary Operations, and Escape Characters | | 8 hours |
 | 2 | 1/22/23 | Functions, Reference and Value Parameters, Overloading, Recursion | Assignment 1, Lab Exercise 1 | 11 hours |
 | 3 | 1/29/23 | Structures and Enumerations | Assignment 2 | 10 hours |
 | 4 | 2/5/23 | Exam 1 | Lab Exercise 2 Exam 1 | 11 hours |
