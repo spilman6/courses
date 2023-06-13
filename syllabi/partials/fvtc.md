@@ -16,4 +16,3 @@ FVTC works closely with area employers to ensure our students are learning the s
 - Work Collaboratively
 - Communicate Effectively and Respectfully
 - Act Responsibly
-
