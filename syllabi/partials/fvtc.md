@@ -16,3 +16,7 @@ FVTC works closely with area employers to ensure our students are learning the s
 - Work Collaboratively
 - Communicate Effectively and Respectfully
 - Act Responsibly
+
+# Amendment to Syllabus
+
+Any changes to the information in the syllabus affecting the course, or course content will be announced by the instructor. Changes to the course policies may occur due to extenuating circumstances.

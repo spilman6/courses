@@ -1,7 +1,8 @@
 ---
-title: C# Introduction to Programming
-description: Introduces students with little or no programming background to programming and logic principles that apply to traditional and Windows systems.  Uses C# to apply the principles by developing simple Windows applications.
-prereqs: None
+title: Computer Programming C++
+description: Introduces C++ programming concepts and statements including input and output of data in a console application, variables and data type considerations, if-else and switch-case programming constructs, looping constructs, creating programmer defined functions, arrays, pointers, string manipulation, data structures and sequential file processing. It also introduces Object Oriented Programming in the C++ language.
+prereqs: C# Introduction to Programming (10152111)
+
 
 section: 21307
 days: We
@@ -12,7 +13,6 @@ dates: 08/23/2023 - 12/13/2023
 weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/30, 11/6, 11/13, 11/20, 11/27, 12/4, 12/11, 12/18
 
 ---
-
 
 # Course Information
 
@@ -105,24 +105,24 @@ All students are required to complete the required lecture and lab time for the 
 
 These dates are tentative and may change at my digression. If changes are made, you will be notified in person or by email. For exact due dates, check the course calendar in Blackboard.
 
-| Week | Start         | Content                                           | Items Due             | Effort (Estimated) |
-|------|---------------|---------------------------------------------------|-----------------------|--------------------|
-| 1    | {{ week 1 }}  |                                                   |                       | X hours            |
-| 2    | {{ week 2 }}  |                                                   |                       | X hours            |
-| 3    | {{ week 3 }}  |                                                   |                       | X hours            |
-| 4    | {{ week 4 }}  |                                                   |                       | X hours            |
-| 5    | {{ week 5 }}  |                                                   |                       | X hours            |
-| 6    | {{ week 6 }}  |                                                   |                       | X hours            |
-| 7    | {{ week 7 }}  |                                                   |                       | X hours            |
-| 8    | {{ week 8 }}  |                                                   |                       | X hours            |
-| 9    | {{ week 9 }}  |                                                   |                       | X hours            |
-| 10   | {{ week 10 }} |                                                   |                       | X hours            |
-| 11   | {{ week 11 }} |                                                   |                       | X hours            |
-| 12   | {{ week 12 }} |                                                   |                       | X hours            |
-| 13   | {{ week 13 }} |                                                   |                       | X hours            |
-| 14   | {{ week 14 }} |                                                   |                       | X hours            |
-| 15   | {{ week 15 }} |                                                   |                       | X hours            |
-| 16   | {{ week 16 }} |                                                   |                       | X hours            |
+| Week | Start         | Content                                                                                            | Items Due                    | Effort (Estimated) |
+|------|---------------|----------------------------------------------------------------------------------------------------|------------------------------|--------------------|
+| 1    | {{ week 1 }}  | Console Read and Write, Variables, Casting, Assignment and Unary Operations, and Escape Characters | Nothing                      | 8 hours            |
+| 2    | {{ week 2 }}  | Functions, Reference and Value Parameters, Overloading, Recursion                                  | Assignment 1, Lab Exercise 1 | 11 hours           |
+| 3    | {{ week 3 }}  | Structures and Enumerations                                                                        | Assignment 2                 | 10 hours           |
+| 4    | {{ week 4 }}  | Exam 1                                                                                             | Lab Exercise 2, Exam 1       | 11 hours           |
+| 5    | {{ week 5 }}  | Pointers, Stack vs. Heap Memory                                                                    | Nothing                      | 7 hours            |
+| 6    | {{ week 6 }}  | 1-Dimensional, N-Dimensional and Character Arrays                                                  | Assignment 3                 | 10 hours           |
+| 7    | {{ week 7 }}  | String Functions, Vectors, and File I/O                                                            | Assignment 4                 | 6 hours            |
+| 8    | {{ week 8 }}  | Exam 2                                                                                             | Lab Exercise 3, Exam 2       | 10 hours           |
+| 9    | {{ week 9 }}  | Classes: Fields, Methods, Constructors, and Destructors                                            | Nothing                      | 6 hours            |
+| 10   | {{ week 10 }} | OOP: Encapsulation, Inheritance, Polymorphism                                                      | Nothing                      | 7 hours            |
+| 11   | {{ week 11 }} | Static Variables and Methods                                                                       | Assignment 5                 | 9 hours            |
+| 12   | {{ week 12 }} | Exam 3                                                                                             | Lab Exercise 4, Exam 3       | 9 hours            |
+| 13   | {{ week 13 }} | Final Project                                                                                      | Nothing                      | 10 hours           |
+| 14   | {{ week 14 }} | Final Project (Continued)                                                                          | Assignment 6, Lab Exercise 5 | 10 hours           |
+| 15   | {{ week 15 }} | Final Project (Continued)                                                                          | Nothing                      | 10 hours           |
+| 16   | {{ week 16 }} | Final Project (Continued)                                                                          | Lab Exercise 6               | 10 hours           |
 
 ## Attendance
 
@@ -143,8 +143,6 @@ I expect you to be in class. Plan your schedule so that you can be present for s
 {{ prereqs }}
 
 ## Competencies
-
-> THESE ARE THE C++ COMPETENCIES. I NEED TO UPDATE THEM FOR C#!!
 
 1. Create programs that use cout to output data to the console.
 2. Create programs that use assignment operations and math functions.
