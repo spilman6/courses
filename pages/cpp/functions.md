@@ -26,6 +26,7 @@ header: 'test.jpg'
 | Textbook | None |
 | Supplies Needed | PC with internet access, Email, Visual Studio 2022 |
 
+---
 
 # Covid 19 Addendum
 
