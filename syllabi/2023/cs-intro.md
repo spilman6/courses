@@ -2,7 +2,7 @@
 title: C# Introduction to Programming
 description: Introduces C++ programming concepts and statements including input and output of data in a console application, variables and data type considerations, if-else and switch-case programming constructs, looping constructs, creating programmer defined functions, arrays, pointers, string manipulation, data structures and sequential file processing. It also introduces Object Oriented Programming in the C++ language.
 prereqs: C# Introduction to Programming (10152111)
-competencies: competencies\cs-intro.md
+competencies: - 1. Create programs that use cout to output data to the console.- 2. Create programs that use assignment operations and math functions.- 3. Create programs that use conditional statements.- 4. Create programs that use loops.- 5. Debug programs using the debug utility in Visual Studio.- 6. Create user-defined functions that have void and non-void return types.- 7. Create user-defined functions that have by-value and by-ref parameters.- 8. Create programs that delclare and use pointers.- 9. Create programs that use arrays on the stack, and on the heap.- 10. Create programs that use string input and output.- 11. Create structures (structs) to hold single record data.- 12. Create programs that read from, and write to a file.- 13. Create programs that use classes and object-oriented principles.- 14. Create classes that use constructors and/or destructors.
 
 
 section: 21300
@@ -12,6 +12,9 @@ dates: 	Aug 21, 2023-Dec 13, 2023 (10/25/2023)
 weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/30, 11/6, 11/13, 11/20, 11/27, 12/4, 12/11, 12/18
 
 ---
+
+
+
 
 # Course Information
 
