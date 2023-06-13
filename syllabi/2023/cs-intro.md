@@ -74,11 +74,16 @@ There are assignments and quizes that are to be completed each week. Each quiz a
 You must receive at least 1 point on every assignment and quiz to pass the course.
 
 Grading for 4 point assignments is as follows:
-- 0 points: Means the assignment wasn't submitted or it was submitted improperly. I will leave a comment in the grade book if this is the case.
-- 1 point: Means that you really didn't understand the content and need to review the material. Then complete the assignment again. You will probably not recieve any written feedback.
-- 2 points: Means that you understood some of the content, but made a few mistakes, or didn't follow the instructions. Review the feedback and try again.
-- 3 points: Means that you understood the content, but made some minor mistakes. You may or may not recieve written feedback. You can fix your mistakes and resubmit the assignment for a higher score.
-- 4 points: Means that you understood the content and followed the instructions. You will not recieve any written feedback.
+
+**0 points:** Means the assignment wasn't submitted or it was submitted improperly. I will leave a comment in the grade book if this is the case.
+
+**1 point:** Means that you really didn't understand the content and need to review the material. Then complete the assignment again. You will probably not recieve any written feedback.
+
+**2 points:** Means that you understood some of the content, but made a few mistakes, or didn't follow the instructions. Review the feedback and try again.
+
+**3 points:** Means that you understood the content, but made some minor mistakes. You may or may not recieve written feedback. You can fix your mistakes and resubmit the assignment for a higher score.
+
+**4 points:** Means that you understood the content and followed the instructions. You will not recieve any written feedback.
 
 Quiz questions are randomly selected from a pool of questions. Some of these questions will be used again on the exams. You can take the quiz as many times as you want, but only the last attempt will be used for grading purposes. I recommend taking each quiz multiple times. This will help you prepare for the exams.
 
