@@ -8,7 +8,8 @@ header: 'test.jpg'
 
 # Course Information
 
-
+| Title | Computer Programming C++ |
+|-------|--------------------------|
 | Catalog/State Course # | 10152114 |
 | Credits | 3.0 |
 | Instructor | Ryan Appel |
