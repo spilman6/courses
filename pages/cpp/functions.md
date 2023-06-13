@@ -35,10 +35,30 @@ Refer to <a href="https://www.fvtc.edu/forward-fox-valley-tech">Forward Fox Vall
 Email: <a href="mailto:online@fvtc.edu">online@fvtc.edu</a>
 Phone: <a href="tel:+19207354816" class="phone">(920) 735-4816</a>
 
+# Course Policies
 
+## Communication
 
+For the quickest response, I recommend messaging me on Microsoft Teams if I'm on. If I don't respond, then email me.  I respond to email messages within a day between Monday and Friday, and sporadically on weekends.
 
+## Grading
 
+I will attempt to grade all assignments within one week of submission. Allow an extra week for larger projects. Feedback will be posted in the Blackboard grade book.
+
+### Grading Scale
+
+- **A **(93 - 100%)
+- **A-** (90 - 93%)
+- **B+** (87 - 90%)
+- **B **(83 - 87%)
+- **B-** (80 - 83%)
+- **C+** (77 - 80%)
+- **C **(73 - 77%)
+- **C-** (70 - 73%)
+- **D+** (67 - 70%)
+- **D **(63 - 67%)
+- **D-** (60 - 63%)
+- **F **(0 - 60%)
 
 
 
