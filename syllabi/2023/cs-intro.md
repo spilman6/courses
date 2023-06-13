@@ -2,7 +2,7 @@
 title: C# Introduction to Programming
 description: Introduces C++ programming concepts and statements including input and output of data in a console application, variables and data type considerations, if-else and switch-case programming constructs, looping constructs, creating programmer defined functions, arrays, pointers, string manipulation, data structures and sequential file processing. It also introduces Object Oriented Programming in the C++ language.
 prereqs: C# Introduction to Programming (10152111)
-competencies: - 1. Create programs that use cout to output data to the console.- 2. Create programs that use assignment operations and math functions.- 3. Create programs that use conditional statements.- 4. Create programs that use loops.- 5. Debug programs using the debug utility in Visual Studio.- 6. Create user-defined functions that have void and non-void return types.- 7. Create user-defined functions that have by-value and by-ref parameters.- 8. Create programs that delclare and use pointers.- 9. Create programs that use arrays on the stack, and on the heap.- 10. Create programs that use string input and output.- 11. Create structures (structs) to hold single record data.- 12. Create programs that read from, and write to a file.- 13. Create programs that use classes and object-oriented principles.- 14. Create classes that use constructors and/or destructors.
+competencies: 1. Create programs that use cout to output data to the console. 2. Create programs that use assignment operations and math functions. 3. Create programs that use conditional statements. 4. Create programs that use loops. 5. Debug programs using the debug utility in Visual Studio. 6. Create user-defined functions that have void and non-void return types. 7. Create user-defined functions that have by-value and by-ref parameters. 8. Create programs that delclare and use pointers. 9. Create programs that use arrays on the stack, and on the heap. 10. Create programs that use string input and output. 11. Create structures (structs) to hold single record data. 12. Create programs that read from, and write to a file. 13. Create programs that use classes and object-oriented principles. 14. Create classes that use constructors and/or destructors.
 
 
 section: 21300
@@ -20,7 +20,7 @@ weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/30, 11/6, 11/13,
 
 | Title | {{ title }} |
 |-------|--------------------------|
-| Catalog/State Course # | 10152114 |
+| Catalog/State Course# | 10152114 |
 | Credits | 3.0 |
 | Instructor | Ryan Appel |
 | Email | <a href="mailto:ryan.appel3240@fvtc.edu">ryan.appel3240@fvtc.edu</a> |
@@ -171,32 +171,9 @@ Underlined items are hyperlinks to the FVTC College resources and/or policies.
 
 {{ competencies }}
 
-# Department Level Competencies
+{{{ it }}}
 
-The Information Technology (Instructional) department has implemented the following technical skills as Department Level Competencies.
-
-- Design software systems
-- Integrate database technologies
-- Develop software applications
-- Develop technical documentation
-
-# FVTC Mission
-
-Provide relevant technical education and training to support student goals, a skilled workforce, and the economic vitality of our communities.
-
-# FVTC Vision
-
-A catalyst in engaging partners to bring innovative educational solutions to individuals, employers, and communities – transforming challenges into opportunities.
-
-# Employability Essentials
-
-FVTC works closely with area employers to ensure our students are learning the skills needed in today's competitive workplace. In addition to technical skills, you will also learn and practice the following Employability Essentials—the skills and behaviors employers want in the workplace.
-
-- Adapt to Change
-- Think Critically and Creatively
-- Work Collaboratively
-- Communicate Effectively and Respectfully
-- Act Responsibly
+{{{ fvtc }}}
 
 # Amendment to Syllabus
 
