@@ -26,8 +26,6 @@ header: 'test.jpg'
 | Textbook | None |
 | Supplies Needed | PC with internet access, Email, Visual Studio 2022 |
 
----
-
 # Covid 19 Addendum
 
 Refer to <a href="https://www.fvtc.edu/forward-fox-valley-tech">Forward Fox Valley Tech</a> for the current COVID 19 procedures and services. Procedures and services may change frequently, so please check this link often.
@@ -76,7 +74,6 @@ Exams must be completed in the classroom unless otherwise instructed (exception:
 ## Extensions
 
 ## Attendance
-
 
 > Applies only to classroom and virtual sections. It does not apply for online sections.
 
