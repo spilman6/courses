@@ -98,11 +98,11 @@ These dates are tentative and may change at my digression. If changes are made, 
 | 1 | 1/15/23 | Console Read and Write, Variables, Casting, Assignment and Unary Operations, and Escape Characters | | 8 hours |
 | 2 | 1/22/23 | Functions, Reference and Value Parameters, Overloading, Recursion | Assignment 1, Lab Exercise 1 | 11 hours |
 | 3 | 1/29/23 | Structures and Enumerations | Assignment 2 | 10 hours |
-| 4 | 2/5/23 | Exam 1 | Lab Exercise 2 Exam 1 | 11 hours |
+| 4 | 2/5/23 | Exam 1 | Lab Exercise 2, Exam 1 | 11 hours |
 | 5 | 2/12/23 | Pointers, Stack vs. Heap Memory | | 7 hours |
 | 6 | 2/19/23 | 1-Dimensional, N-Dimensional and Character Arrays | Assignment 3 | 10 hours |
 | 7 | 2/26/23 | String Functions, Vectors, and File I/O | Assignment 4 | 6 hours |
-| 8 | 3/5/23 | Exam 2 | Lab Exercise 3 Exam 2 | 10 hours |
+| 8 | 3/5/23 | Exam 2 | Lab Exercise, 3 Exam 2 | 10 hours |
 | 9 | 3/19/23 | Classes: Fields, Methods, Constructors, and Destructors | | 6 hours |
 | 10 | 3/26/23 | OOP: Encapsulation, Inheritance, Polymorphism | | 7 hours |
 | 11 | 4/2/23 | Static Variables and Methods | Assignment 5 | 9 hours |
