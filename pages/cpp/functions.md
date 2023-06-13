@@ -71,7 +71,13 @@ Exams must be completed in the classroom unless otherwise instructed (exception:
 
 ## Academic Honesty
 
+Students are expected to uphold the school’s standard of conduct relating to academic honesty. The guiding principle of academic integrity shall be that a student’s submitted work, examinations and projects must be that of the student’s own work. The penalty for violating the honor code is severe – the student(s) will receive a zero grade for the project or quiz and will be reported to the Dean of Students. A serious or second offense will result in failing the class.
+
+General advice and interaction between students is encouraged. However, each person must develop his or her own solutions. Students may not “work together” on graded assignments unless it is a group assignment. In layman’s terms: It is fine to help each other with homework assignments, but copying another person’s work is not allowed and will result in a grade of zero for the assignment for both parties. Be careful who you give copies of your programs to!
+
 ## Extensions
+
+I do not give EX grades. All work must be done prior to the end of the semester.
 
 ## Attendance
 
