@@ -132,16 +132,3 @@ You can embed HTML in your Markdown files. This is useful for embedding tables:
 	</tbody>
 </table>
 	
-
-## Links
-
-- [Table of Contents](#table-of-contents)
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
