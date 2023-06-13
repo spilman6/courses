@@ -131,9 +131,9 @@ These dates are tentative and may change at my digression. If changes are made, 
 
 ## Attendance
 
-> Applies only to classroom and virtual sections. It does not apply for online sections.
-
 I expect you to be in class. Plan your schedule so that you can be present for scheduled class sessions and manage your time so that you can complete your assignments and assessments on or before the date they are due. Please contact me ahead of time if you know you will be missing class, and I will attempt to make appropriate accommodations.
+
+> Applies only to classroom and virtual sections. It does not apply for online sections.
 
 {{{ resources }}}
 
