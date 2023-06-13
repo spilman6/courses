@@ -4,11 +4,12 @@ description: Introduces C++ programming concepts and statements including input 
 prereqs: C# Introduction to Programming (10152111)
 competencies: competencies\cs-intro.md
 
-
 section: 21300
-days: Monday, Wednesday
+days: MoWe
 times: 10:30AM - 12:20PM
-dates: 	Aug 21, 2023-Dec 13, 2023 (10/25/2023)
+location: Appleton Campus C125
+dates: 08/21/2023 - 12/13/2023
+
 weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/30, 11/6, 11/13, 11/20, 11/27, 12/4, 12/11, 12/18
 
 ---

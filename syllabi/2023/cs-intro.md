@@ -1,6 +1,6 @@
 ---
 title: C# Introduction to Programming
-description: Introduces C++ programming concepts and statements including input and output of data in a console application, variables and data type considerations, if-else and switch-case programming constructs, looping constructs, creating programmer defined functions, arrays, pointers, string manipulation, data structures and sequential file processing. It also introduces Object Oriented Programming in the C++ language.
+description: Introduces students with little or no programming background to programming and logic principles that apply to traditional and Windows systems.  Uses C# to apply the principles by developing simple Windows applications.
 prereqs: C# Introduction to Programming (10152111)
 
 
