@@ -17,7 +17,7 @@ weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/23, 10/30, 11/6,
 
 | Title                 | {{ title }}                          |
 |-----------------------|--------------------------------------|
-| Catalog/State Course# | 10152114                             |
+| Catalog/State Course# | 10152168                             |
 | Credits               | 3.0                                  |
 | Instructor            | Ryan Appel                           |
 | Email                 | ryan.appel3240@fvtc.edu              |
