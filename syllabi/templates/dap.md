@@ -1,7 +1,7 @@
 ---
 title: Data Access for Programmers
-description: Introduces C++ programming concepts and statements including input and output of data in a console application, variables and data type considerations, if-else and switch-case programming constructs, looping constructs, creating programmer defined functions, arrays, pointers, string manipulation, data structures and sequential file processing. It also introduces Object Oriented Programming in the C++ language.
-prereqs: C# Introduction to Programming (10152111)
+description: Provides background in fundamental database concepts, design, documentation, implementation and distribution involving the relational database model. Students will create, query and update relational databases using Structured Query Language (SQL).
+prereqs: None
 
 section: 21307
 days: We
@@ -15,23 +15,23 @@ weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/23, 10/30, 11/6,
 
 # Course Information
 
-| Title                 | {{ title }}                                              |
-|-----------------------|----------------------------------------------------------|
-| Catalog/State Course# | 10152114                                                 |
-| Credits               | 3.0                                                      |
-| Instructor            | Ryan Appel                                               |
-| Email                 | ryan.appel3240@fvtc.edu                                  |
-| Office                | C165                                                     |
-| Office Hours          | See my schedule for office hours.                        |
-| Phone                 | (920) 831-5428                                           |
-| Schedule              | https://fvtc.ryan-appel.com/schedule                     |
-| Section               | {{ section }}                                            |
-| Meeting Days          | {{ days }}                                               |
-| Class Times           | {{ times }}                                              |
-| Start/End Dates       | {{ dates }}                                              |
-| Location              | {{ location }}                                           |
-| Textbook              | None                                                     |
-| Supplies Needed       | PC with internet access, Email, Visual Studio 2022       |
+| Title                 | {{ title }}                          |
+|-----------------------|--------------------------------------|
+| Catalog/State Course# | 10152114                             |
+| Credits               | 3.0                                  |
+| Instructor            | Ryan Appel                           |
+| Email                 | ryan.appel3240@fvtc.edu              |
+| Office                | C165                                 |
+| Office Hours          | See my schedule for office hours.    |
+| Phone                 | (920) 831-5428                       |
+| Schedule              | https://fvtc.ryan-appel.com/schedule |
+| Section               | {{ section }}                        |
+| Meeting Days          | {{ days }}                           |
+| Class Times           | {{ times }}                          |
+| Start/End Dates       | {{ dates }}                          |
+| Location              | {{ location }}                       |
+| Textbook              | None                                 |
+| Supplies Needed       | PC with internet access, Email       |
 
 {{{ covid-19 }}}
 
@@ -68,7 +68,7 @@ You must receive at least 1 point on every assignment and quiz to pass the cours
 
 Grading for 4 point assignments is as follows:
 
-**0 points:** Means the assignment wasn't submitted or it was submitted improperly. I will leave a comment in the grade book if this is the case.
+**0 points:** Means the assignment wasn't submitted, or it was submitted improperly. I will leave a comment in the grade book if this is the case.
 
 **1 point:** Means that you really didn't understand the content and need to review the material. Then complete the assignment again. You will probably not recieve any written feedback.
 
@@ -143,28 +143,20 @@ I expect you to be in class. Plan your schedule so that you can be present for s
 
 ## Competencies
 
-1. Create programs that use cout to output data to the console.
-2. Create programs that use assignment operations and math functions.
-3. Create programs that use conditional statements.
-4. Create programs that use loops.
-5. Debug programs using the debug utility in Visual Studio.
-6. Create user-defined functions that have void and non-void return types.
-7. Create user-defined functions that have by-value and by-ref parameters.
-8. Create programs that delclare and use pointers.
-9. Create programs that use arrays on the stack, and on the heap.
-10. Create programs that use string input and output.
-11. Create structures (structs) to hold single record data.
-12. Create programs that read from, and write to a file.
-13. Create programs that use classes and object-oriented principles.
-14. Create classes that use constructors and/or destructors.
+1.	Classify primitive types of data.
+2.	Group data into objects.
+3.	Create single-table Entity Diagrams and databases.
+4.	Compose SQL statements to query single-table databases.
+5.	Create arrays and one-to-many relationships.
+6.	Compose SQL statements that combine tables. 
+7.	Create Views and Stored Procedures.
+8.	Create JSON objects and ERDs that have many-to-many relationships.
+9.	Normalize entity data.
+10.	Build an API to access data in a database.
 
 {{{ it }}}
 
-{{{fvtc}}}
-
-# Amendment to Syllabus
-
-Any changes to the information in the syllabus affecting the course, or course content will be announced by the instructor. Changes to the course policies may occur due to extenuating circumstances.
+{{{ fvtc }}}
 
 {{{ it-addendum }}}
 

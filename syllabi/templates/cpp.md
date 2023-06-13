@@ -15,23 +15,23 @@ weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/23, 10/30, 11/6,
 
 # Course Information
 
-| Title                 | {{ title }}                                              |
-|-----------------------|----------------------------------------------------------|
-| Catalog/State Course# | 10152114                                                 |
-| Credits               | 3.0                                                      |
-| Instructor            | Ryan Appel                                               |
-| Email                 | ryan.appel3240@fvtc.edu                                  |
-| Office                | C165                                                     |
-| Office Hours          | See my schedule for office hours.                        |
-| Phone                 | (920) 831-5428                                           |
-| Schedule              | https://fvtc.ryan-appel.com/schedule                     |
-| Section               | {{ section }}                                            |
-| Meeting Days          | {{ days }}                                               |
-| Class Times           | {{ times }}                                              |
-| Start/End Dates       | {{ dates }}                                              |
-| Location              | {{ location }}                                           |
-| Textbook              | None                                                     |
-| Supplies Needed       | PC with internet access, Email, Visual Studio 2022       |
+| Title                 | {{ title }}                                        |
+|-----------------------|----------------------------------------------------|
+| Catalog/State Course# | 10152114                                           |
+| Credits               | 3.0                                                |
+| Instructor            | Ryan Appel                                         |
+| Email                 | ryan.appel3240@fvtc.edu                            |
+| Office                | C165                                               |
+| Office Hours          | See my schedule for office hours.                  |
+| Phone                 | (920) 831-5428                                     |
+| Schedule              | https://fvtc.ryan-appel.com/schedule               |
+| Section               | {{ section }}                                      |
+| Meeting Days          | {{ days }}                                         |
+| Class Times           | {{ times }}                                        |
+| Start/End Dates       | {{ dates }}                                        |
+| Location              | {{ location }}                                     |
+| Textbook              | None                                               |
+| Supplies Needed       | PC with internet access, Email, Visual Studio 2022 |
 
 {{{ covid-19 }}}
 
@@ -68,7 +68,7 @@ You must receive at least 1 point on every assignment and quiz to pass the cours
 
 Grading for 4 point assignments is as follows:
 
-**0 points:** Means the assignment wasn't submitted or it was submitted improperly. I will leave a comment in the grade book if this is the case.
+**0 points:** Means the assignment wasn't submitted, or it was submitted improperly. I will leave a comment in the grade book if this is the case.
 
 **1 point:** Means that you really didn't understand the content and need to review the material. Then complete the assignment again. You will probably not recieve any written feedback.
 
@@ -160,11 +160,7 @@ I expect you to be in class. Plan your schedule so that you can be present for s
 
 {{{ it }}}
 
-{{{fvtc}}}
-
-# Amendment to Syllabus
-
-Any changes to the information in the syllabus affecting the course, or course content will be announced by the instructor. Changes to the course policies may occur due to extenuating circumstances.
+{{{ fvtc }}}
 
 {{{ it-addendum }}}
 

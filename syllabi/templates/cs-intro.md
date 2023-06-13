@@ -16,23 +16,23 @@ weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/23, 10/30, 11/6,
 
 # Course Information
 
-| Title                 | {{ title }}                                              |
-|-----------------------|----------------------------------------------------------|
-| Catalog/State Course# | 10152114                                                 |
-| Credits               | 3.0                                                      |
-| Instructor            | Ryan Appel                                               |
-| Email                 | ryan.appel3240@fvtc.edu                                  |
-| Office                | C165                                                     |
-| Office Hours          | See my schedule for office hours.                        |
-| Phone                 | (920) 831-5428                                           |
-| Schedule              | https://fvtc.ryan-appel.com/schedule                     |
-| Section               | {{ section }}                                            |
-| Meeting Days          | {{ days }}                                               |
-| Class Times           | {{ times }}                                              |
-| Start/End Dates       | {{ dates }}                                              |
-| Location              | {{ location }}                                           |
-| Textbook              | None                                                     |
-| Supplies Needed       | PC with internet access, Email, Visual Studio 2022       |
+| Title                 | {{ title }}                                        |
+|-----------------------|----------------------------------------------------|
+| Catalog/State Course# | 10152114                                           |
+| Credits               | 3.0                                                |
+| Instructor            | Ryan Appel                                         |
+| Email                 | ryan.appel3240@fvtc.edu                            |
+| Office                | C165                                               |
+| Office Hours          | See my schedule for office hours.                  |
+| Phone                 | (920) 831-5428                                     |
+| Schedule              | https://fvtc.ryan-appel.com/schedule               |
+| Section               | {{ section }}                                      |
+| Meeting Days          | {{ days }}                                         |
+| Class Times           | {{ times }}                                        |
+| Start/End Dates       | {{ dates }}                                        |
+| Location              | {{ location }}                                     |
+| Textbook              | None                                               |
+| Supplies Needed       | PC with internet access, Email, Visual Studio 2022 |
 
 {{{ covid-19 }}}
 
@@ -61,33 +61,13 @@ I will attempt to grade all assignments within one week of submission. Allow an 
 - **D-** (60 - 63%)
 - **F** (0 - 60%)
 
-## Assignments and Quizes
+## Assignments
 
-There are assignments and quizes that are to be completed each week. Each quiz and assignment is worth 4 points. You'll have until the end of the semester to complete all assignments and quizes. However, I recommend completing them as they are assigned, as they will help you prepare for the exams, and will help you stay on track.
+It is your responsibility to meet the due dates on assignments. Assignments can be done early. Other commitments or minor illness are not acceptable excuses for being late on an assignment. Assignments will receive a 1 point deduction for every day it is turned in late update to two weeks late. After an assignment is two weeks late, it will not be accepted for credit. There are enough points built into the scoring that occasionally being a day or two late will not affect your final grade. If you turn in a program that does not compile, or one that doesn't meet the expectations for the assingment will be rejected! This includes assignments that are not submitted properly. You can redo any rejected assignments within a reasonable amount of time (contact your instructor).
 
-You must receive at least 1 point on every assignment and quiz to pass the course.
+## Exams
 
-Grading for 4 point assignments is as follows:
-
-**0 points:** Means the assignment wasn't submitted or it was submitted improperly. I will leave a comment in the grade book if this is the case.
-
-**1 point:** Means that you really didn't understand the content and need to review the material. Then complete the assignment again. You will probably not recieve any written feedback.
-
-**2 points:** Means that you understood some of the content, but made a few mistakes, or didn't follow the instructions. Review the feedback and try again.
-
-**3 points:** Means that you understood the content, but made some minor mistakes. You may or may not recieve written feedback. You can fix your mistakes and resubmit the assignment for a higher score.
-
-**4 points:** Means that you understood the content and followed the instructions. You will not recieve any written feedback.
-
-Quiz questions are randomly selected from a pool of questions. Some of these questions will be used again on the exams. You can take the quiz as many times as you want, but only the last attempt will be used for grading purposes. I recommend taking each quiz multiple times. This will help you prepare for the exams.
-
-## Exams and Projects
-
-Exams must be completed in the classroom unless otherwise instructed (exception: online classes). Exams that are completed after the due date will be subject to a penalty of one full letter grade per week. Students must receive a passing grade on all exams to pass the course. Exams will be multiple-choice and/or a practical exam.
-
-Projects must be completed on your own unless otherwise stated.
-
-Points for exams and projects are displayed in blackboard.
+Exams must be completed in the classroom unless otherwise instructed (exception: online classes). Assignments that are completed after the due date will be subject to a penalty of one full letter grade per week. Students must receive a passing grade on all practical exams to pass the course.
 
 > I do not give EX grades. All work must be done prior to the end of the semester!
 
@@ -105,24 +85,24 @@ All students are required to complete the required lecture and lab time for the 
 
 These dates are tentative and may change at my digression. If changes are made, you will be notified in person or by email. For exact due dates, check the course calendar in Blackboard.
 
-| Week | Start         | Content                                           | Items Due             | Effort (Estimated) |
-|------|---------------|---------------------------------------------------|-----------------------|--------------------|
-| 1    | {{ week 1 }}  |                                                   |                       | X hours            |
-| 2    | {{ week 2 }}  |                                                   |                       | X hours            |
-| 3    | {{ week 3 }}  |                                                   |                       | X hours            |
-| 4    | {{ week 4 }}  |                                                   |                       | X hours            |
-| 5    | {{ week 5 }}  |                                                   |                       | X hours            |
-| 6    | {{ week 6 }}  |                                                   |                       | X hours            |
-| 7    | {{ week 7 }}  |                                                   |                       | X hours            |
-| 8    | {{ week 8 }}  |                                                   |                       | X hours            |
-| 9    | {{ week 9 }}  |                                                   |                       | X hours            |
-| 10   | {{ week 10 }} |                                                   |                       | X hours            |
-| 11   | {{ week 11 }} |                                                   |                       | X hours            |
-| 12   | {{ week 12 }} |                                                   |                       | X hours            |
-| 13   | {{ week 13 }} |                                                   |                       | X hours            |
-| 14   | {{ week 14 }} |                                                   |                       | X hours            |
-| 15   | {{ week 15 }} |                                                   |                       | X hours            |
-| 16   | {{ week 16 }} |                                                   |                       | X hours            |
+| Week | Start         | Content                                            | Items Due            | Effort (Estimated) |
+|------|---------------|----------------------------------------------------|----------------------|--------------------|
+| 1    | {{ week 1 }}  | Intro to Visual Studio, C#, and Controls           | Nothing              | 10 hours           |
+| 2    | {{ week 2 }}  | Control Events, Attributes, and Behaviors          | Assignment 1         | 10 hours           |
+| 3    | {{ week 3 }}  | Exam 1                                             | Assignment 2, Exam 1 | 8 hours            |
+| 4    | {{ week 4 }}  | Variables and Debugging                            | Nothing              | 12 hours           |
+| 5    | {{ week 5 }}  | Constant Variables and Additional Controls         | Assignment 3         | 10 hours           |
+| 6    | {{ week 6 }}  | Exam 2                                             | Assignment 4, Exam 2 | 8 hours            |
+| 7    | {{ week 7 }}  | Comparison and Logical Operators, and Conditionals | Nothing              | 10 hours           |
+| 8    | {{ week 8 }}  | Conditionals and String Manipulation               | Assignment 5         | 10 hours           |
+| 9    | {{ week 9 }}  | String Manipulation and Debugging                  | Assignment 6         | 11 hours           |
+| 10   | {{ week 10 }} | Exam 3                                             | Exam 3               | 9 hours            |
+| 11   | {{ week 11 }} | Looping                                            | Assignment 7         | 12 hours           |
+| 12   | {{ week 12 }} | Methods                                            | Assignment 8         | 12 hours           |
+| 13   | {{ week 13 }} | Exam 4                                             | Assignment 9, Exam 4 | 8 hours            |
+| 14   | {{ week 14 }} | Classes and Objects                                | Nothing              | 12 hours           |
+| 15   | {{ week 15 }} | Classes and Objects (Continued)                    | Assignment 10        | 12 hours           |
+| 16   | {{ week 16 }} | Exam 5                                             | Exam 5               | 8 hours            |
 
 ## Attendance
 
@@ -146,28 +126,17 @@ I expect you to be in class. Plan your schedule so that you can be present for s
 
 > THESE ARE THE C++ COMPETENCIES. I NEED TO UPDATE THEM FOR C#!!
 
-1. Create programs that use cout to output data to the console.
-2. Create programs that use assignment operations and math functions.
-3. Create programs that use conditional statements.
-4. Create programs that use loops.
-5. Debug programs using the debug utility in Visual Studio.
-6. Create user-defined functions that have void and non-void return types.
-7. Create user-defined functions that have by-value and by-ref parameters.
-8. Create programs that delclare and use pointers.
-9. Create programs that use arrays on the stack, and on the heap.
-10. Create programs that use string input and output.
-11. Create structures (structs) to hold single record data.
-12. Create programs that read from, and write to a file.
-13. Create programs that use classes and object-oriented principles.
-14. Create classes that use constructors and/or destructors.
+1. Recognize and describe the basic concepts of programming using IT terminology.
+2. Apply programming concepts by using Microsoft Visual Studio Development Environment to build, save, and run a C# application.
+3. Build and Debug an application using User Input, numeric variables, constants, arithmetic operations and format features.
+4. Build and Debug an application using selection structures (if, if... else, if... else if, else, nested if, and switch).
+5. Build and Debug an application using repetition structures (for, do and while) and Files.
+6. Build and Debug an application using modularity (methods).
+7. Build and Debug an application using multiple forms.
 
 {{{ it }}}
 
-{{{fvtc}}}
-
-# Amendment to Syllabus
-
-Any changes to the information in the syllabus affecting the course, or course content will be announced by the instructor. Changes to the course policies may occur due to extenuating circumstances.
+{{{ fvtc }}}
 
 {{{ it-addendum }}}
 
