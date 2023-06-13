@@ -34,6 +34,7 @@ Refer to <a href="https://www.fvtc.edu/forward-fox-valley-tech">Forward Fox Vall
 # Blackboard Support
 
 Email: <a href="mailto:online@fvtc.edu">online@fvtc.edu</a>
+
 Phone: <a href="tel:+19207354816" class="phone">(920) 735-4816</a>
 
 # Course Policies
