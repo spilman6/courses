@@ -1,8 +1,6 @@
 ---
-title: 'Functions'
-course: 'Computer Programming C++'
-date: '23-04-28'
-header: 'test.jpg'
+title: 'Computer Programming C++'
+course: '81382'
 
 ---
 
