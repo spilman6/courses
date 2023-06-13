@@ -1,5 +1,5 @@
 ---
-title: Computer Programming C++
+title: Data Access for Programmers
 description: Introduces C++ programming concepts and statements including input and output of data in a console application, variables and data type considerations, if-else and switch-case programming constructs, looping constructs, creating programmer defined functions, arrays, pointers, string manipulation, data structures and sequential file processing. It also introduces Object Oriented Programming in the C++ language.
 prereqs: C# Introduction to Programming (10152111)
 
@@ -104,24 +104,24 @@ All students are required to complete the required lecture and lab time for the 
 
 These dates are tentative and may change at my digression. If changes are made, you will be notified in person or by email. For exact due dates, check the course calendar in Blackboard.
 
-| Week | Start         | Content                                                                                            | Items Due                    | Effort (Estimated) |
-|------|---------------|----------------------------------------------------------------------------------------------------|------------------------------|--------------------|
-| 1    | {{ week 1 }}  | Console Read and Write, Variables, Casting, Assignment and Unary Operations, and Escape Characters | Nothing                      | 8 hours            |
-| 2    | {{ week 2 }}  | Functions, Reference and Value Parameters, Overloading, Recursion                                  | Assignment 1, Lab Exercise 1 | 11 hours           |
-| 3    | {{ week 3 }}  | Structures and Enumerations                                                                        | Assignment 2                 | 10 hours           |
-| 4    | {{ week 4 }}  | Exam 1                                                                                             | Lab Exercise 2, Exam 1       | 11 hours           |
-| 5    | {{ week 5 }}  | Pointers, Stack vs. Heap Memory                                                                    | Nothing                      | 7 hours            |
-| 6    | {{ week 6 }}  | 1-Dimensional, N-Dimensional and Character Arrays                                                  | Assignment 3                 | 10 hours           |
-| 7    | {{ week 7 }}  | String Functions, Vectors, and File I/O                                                            | Assignment 4                 | 6 hours            |
-| 8    | {{ week 8 }}  | Exam 2                                                                                             | Lab Exercise 3, Exam 2       | 10 hours           |
-| 9    | {{ week 9 }}  | Classes: Fields, Methods, Constructors, and Destructors                                            | Nothing                      | 6 hours            |
-| 10   | {{ week 10 }} | OOP: Encapsulation, Inheritance, Polymorphism                                                      | Nothing                      | 7 hours            |
-| 11   | {{ week 11 }} | Static Variables and Methods                                                                       | Assignment 5                 | 9 hours            |
-| 12   | {{ week 12 }} | Exam 3                                                                                             | Lab Exercise 4, Exam 3       | 9 hours            |
-| 13   | {{ week 13 }} | Final Project                                                                                      | Nothing                      | 10 hours           |
-| 14   | {{ week 14 }} | Final Project (Continued)                                                                          | Assignment 6, Lab Exercise 5 | 10 hours           |
-| 15   | {{ week 15 }} | Final Project (Continued)                                                                          | Nothing                      | 10 hours           |
-| 16   | {{ week 16 }} | Final Project (Continued)                                                                          | Lab Exercise 6               | 10 hours           |
+| Week | Start         | Content                                     | Items Due                      | Effort (Estimated) |
+|------|---------------|---------------------------------------------|--------------------------------|--------------------|
+| 1    | {{ week 1 }}  | Primitive Data-Types                        | Week 1 Quiz                    | 8 hours            |
+| 2    | {{ week 2 }}  | Objects and File Types                      | Assignment 1, Week 2 Quiz      | 8 hours            |
+| 3    | {{ week 3 }}  | Single Table Databases                      | Assignments 2 & 3, Week 3 Quiz | 8 hours            |
+| 4    | {{ week 4 }}  | Single Table Queries                        | Assignment 4, Week 4 Quiz      | 8 hours            |
+| 5    | {{ week 5 }}  | Group By and Having Statements              | Assignment 5, Week 5 Quiz      | 8 hours            |
+| 6    | {{ week 6 }}  | One to Many Relationships                   | Assignment 6 & 7, Week 6 Quiz  | 8 hours            |
+| 7    | {{ week 7 }}  | Multi-Table Queries                         | Assignment 8 & 9, Week 7 Quiz  | 10 hours           |
+| 8    | {{ week 8 }}  | Exam 1                                      | Assignment 10, Exam 1          | 10 hours           |
+| 9    | {{ week 9 }}  | Advanced Joins, Views and Stored Procedures | Week 9 Quiz                    | 8 hours            |
+| 10   | {{ week 10 }} | Many to Many Relationships                  | Assignment 11, Week 10 Quiz    | 8 hours            |
+| 11   | {{ week 11 }} | Database Normalization                      | Assignment 12, Week 11 Quiz    | 8 hours            |
+| 12   | {{ week 12 }} | RESTFul APIs                                | Assignment 13, Week 12 Quiz    | 8 hours            |
+| 13   | {{ week 13 }} | Start Final Project                         | Assignment 14                  | 10 hours           |
+| 14   | {{ week 14 }} | Exam 2                                      | Exam 2                         | 10 hours           |
+| 15   | {{ week 15 }} | Final Project                               | Nothing                        | 12 hours           |
+| 16   | {{ week 16 }} | Final Project (Continued)                   | Assignment 15                  | 12 hours           |
 
 ## Attendance
 
@@ -160,7 +160,11 @@ I expect you to be in class. Plan your schedule so that you can be present for s
 
 {{{ it }}}
 
-{{{ fvtc }}}
+{{{fvtc}}}
+
+# Amendment to Syllabus
+
+Any changes to the information in the syllabus affecting the course, or course content will be announced by the instructor. Changes to the course policies may occur due to extenuating circumstances.
 
 {{{ it-addendum }}}
 

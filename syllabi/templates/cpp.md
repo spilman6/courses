@@ -3,14 +3,13 @@ title: Computer Programming C++
 description: Introduces C++ programming concepts and statements including input and output of data in a console application, variables and data type considerations, if-else and switch-case programming constructs, looping constructs, creating programmer defined functions, arrays, pointers, string manipulation, data structures and sequential file processing. It also introduces Object Oriented Programming in the C++ language.
 prereqs: C# Introduction to Programming (10152111)
 
-
 section: 21307
 days: We
 times: 5:30PM - 9:20PM
 location: Appleton Campus C125
 dates: 08/23/2023 - 12/13/2023
 
-weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/30, 11/6, 11/13, 11/20, 11/27, 12/4, 12/11, 12/18
+weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/23, 10/30, 11/6, 11/13, 11/20, 11/27, 12/4, 12/11
 
 ---
 
