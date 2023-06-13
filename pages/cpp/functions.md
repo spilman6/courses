@@ -9,7 +9,6 @@ header: 'test.jpg'
 # Course Information
 
 
-|------------------------|-----------|
 | Catalog/State Course # | 10152114 |
 | Credits | 3.0 |
 | Instructor | Ryan Appel |
