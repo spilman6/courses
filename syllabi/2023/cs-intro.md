@@ -14,7 +14,7 @@ weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/30, 11/6, 11/13,
 ---
 
 
-# Course Information
+# Course Informationd
 
 | Title | {{ title }} |
 |-------|--------------------------|
@@ -148,7 +148,7 @@ I expect you to be in class. Plan your schedule so that you can be present for s
 
 {{{ it }}}
 
-{{{ fvtc }}}
+{{{fvtc}}}
 
 # Amendment to Syllabus
 
