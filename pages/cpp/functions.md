@@ -8,7 +8,6 @@ header: 'test.jpg'
 
 # Course Information
 
-+----------------+--------------+
 | Catalog/State Course # | 10152114 |
 | Credits | 3.0 |
 | Instructor | Ryan Appel |
@@ -24,7 +23,6 @@ header: 'test.jpg'
 | Location | C125 |
 | Textbook | None |
 | Supplies Needed | PC with internet access, Email, Visual Studio 2022 |
-+---------------+-----------------+
 
 # Covid 19 Addendum
 
