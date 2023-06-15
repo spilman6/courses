@@ -15,23 +15,23 @@ weeks: 8/21, 8/28, 9/4, 9/11, 9/18, 9/25, 10/2, 10/9, 10/16, 10/23, 10/30, 11/6,
 
 # Course Information
 
-| Title                 | {{ title }}                          |
-|-----------------------|--------------------------------------|
-| Catalog/State Course# | 10152168                             |
-| Credits               | 3.0                                  |
-| Instructor            | Ryan Appel                           |
-| Email                 | ryan.appel3240@fvtc.edu              |
-| Office                | C165                                 |
-| Office Hours          | See my schedule for office hours.    |
-| Phone                 | (920) 831-5428                       |
-| Schedule              | https://fvtc.ryan-appel.com/schedule |
-| Section               | {{ section }}                        |
-| Meeting Days          | {{ days }}                           |
-| Class Times           | {{ times }}                          |
-| Start/End Dates       | {{ dates }}                          |
-| Location              | {{ location }}                       |
-| Textbook              | None                                 |
-| Supplies Needed       | PC with internet access, Email       |
+| Title                 | {{ title }}                       |
+|-----------------------|-----------------------------------|
+| Catalog/State Course# | 10152168                          |
+| Credits               | 3.0                               |
+| Instructor            | Ryan Appel                        |
+| Email                 | ryan.appel3240@fvtc.edu           |
+| Office                | C165                              |
+| Office Hours          | See my schedule for office hours. |
+| Phone                 | (920) 831-5428                    |
+| Schedule              | https://schedule.ryan-appel.com/  |
+| Section               | {{ section }}                     |
+| Meeting Days          | {{ days }}                        |
+| Class Times           | {{ times }}                       |
+| Start/End Dates       | {{ dates }}                       |
+| Location              | {{ location }}                    |
+| Textbook              | None                              |
+| Supplies Needed       | PC with internet access, Email    |
 
 {{{ covid-19 }}}
 
