@@ -1,4 +1,9 @@
 {
-	"course": "Computer Programming C++",
-	"available": true
+	"title": "Computer Programming C++",
+	"units": [
+		"Getting Started",
+		"Functions",
+		"Loops",
+		"Another"
+	]
 }
