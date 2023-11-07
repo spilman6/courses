@@ -5,9 +5,6 @@ course: 'Computer Programming C++'
 next:
 - title: 'Variables'
   page: 'variables.md'
-previous:
-- title: 'Functions'
-  page: 'functions.md'
 ---
 
 
