@@ -2,7 +2,7 @@
 title: 'Getting Started'
 description: 'Getting Started with C++'
 course: 'Computer Programming C++'
-next: 'bla'
+next: 'bla bla bla'
 ---
 
 
