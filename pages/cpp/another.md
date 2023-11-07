@@ -2,7 +2,6 @@
 title: 'Getting Started'
 description: 'Getting Started with C++'
 course: 'Computer Programming C++'
-date: '23-04-28'
 next:
 - title: 'Variables'
   page: 'variables.md'
