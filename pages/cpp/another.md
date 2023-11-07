@@ -1,4 +1,3 @@
-
 ---
 title: 'Getting Started'
 description: 'Getting Started with C++'
