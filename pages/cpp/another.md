@@ -2,9 +2,7 @@
 title: 'Getting Started'
 description: 'Getting Started with C++'
 course: 'Computer Programming C++'
-next:
-- title: 'Variables'
-  page: 'variables.md'
+next: 'bla'
 ---
 
 
