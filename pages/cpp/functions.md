@@ -47,6 +47,12 @@ I will attempt to grade all assignments within one week of submission. Allow an 
 > [!NOTE]
 > Highlights information that users should take into account, even when skimming.
 
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
 - **A** (93 - 100%)
 - **A-** (90 - 93%)
 - **B+** (87 - 90%)
