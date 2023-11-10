@@ -111,7 +111,7 @@ Salary: $9,000,000
 ```
 
 <details>
-  <summary>Click here to see the answer</summary>
+  <summary>Show the Answer</summary>
 
 ```yaml
 Name: Kirill Kaprizov - String
@@ -165,7 +165,7 @@ Shoots: Right
 ```
 
 <details>
-  <summary>Click here to see the answer</summary>
+  <summary>Show the Answer</summary>
 
 ```yaml
 Name: Alex Goligoski - String
