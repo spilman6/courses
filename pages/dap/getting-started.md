@@ -186,8 +186,8 @@ Shoots: Right - String (or Boolean)
     wmode="transparent"
     type="video/mp4"
     width="100%" height="100%"
-    allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-    allowfullscreen="true"
+    allow="autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="allowfullscreen"
   >
 </div>
 
