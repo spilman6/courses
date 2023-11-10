@@ -101,7 +101,7 @@ One of the most common problems that programmers face is determining the type of
 
 Take a minute to look at the following data, then try to determine the data-type of each value.
 
-```
+```ebnf
 Name: Kirill Kaprizov
 Age: 25
 Team: Minnesota Wild
@@ -113,7 +113,7 @@ Salary: $9,000,000
 <details>
   <summary>Show the Answer</summary>
 
-```
+```ebnf
 Name: Kirill Kaprizov - String
 Age: 25 - Integer
 Team: Minnesota Wild - String
@@ -153,7 +153,7 @@ Sometimes we chose NOT to store data because it can be calculated from another p
 
 Let's take a look at the following data. Can you determine the data-type of each value? Or determine if the value is calculated, and should not be stored?
 
-```
+```ebnf
 Name: Alex Goligoski
 DOB: 7/30/1985
 AGE: 37
@@ -167,7 +167,7 @@ Shoots: Right
 <details>
   <summary>Show the Answer</summary>
 
-```
+```ebnf
 Name: Alex Goligoski - String
 DOB: 7/30/1985 - String (really an object)
 AGE: 37 - Integer (calculated)
