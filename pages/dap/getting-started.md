@@ -97,7 +97,7 @@ One of the most common problems that programmers face is determining the type of
 	</div>
 </details>
 
-# Exercise 1
+## Exercise 1
 
 Take a minute to look at the following data, then try to determine the data-type of each value.
 
@@ -134,7 +134,7 @@ Salary: $9,000,000 - Float (9000000.00)
 	</div>
 </details>
 
-# Calculated Data
+## Calculated Data
 
 Sometimes we chose NOT to store data because it can be calculated from another piece of data. For example, if we have a database that stores the date of birth for a person, we can calculate their age by subtracting their date of birth from today's date.
 
@@ -149,7 +149,7 @@ Sometimes we chose NOT to store data because it can be calculated from another p
 	</div>
 </details>
 
-# Exercise 2
+## Exercise 2
 
 Let's take a look at the following data. Can you determine the data-type of each value? Or determine if the value is calculated, and should not be stored?
 
@@ -190,7 +190,7 @@ Shoots: Right - String (or Boolean)
 	</div>
 </details>
 
-# Data-Type Conversion
+## Data-Type Conversion
 
 Sometimes we need to convert data from one type to another. For example, if we have a string that contains a number, we may need to convert it to an integer or floating-point number. Or, if we have a string that contains a date, we may need to convert it to a date object.
 
