@@ -156,6 +156,7 @@ We will be using Virtual Machines in this class. This will make it easier for us
   >
 </div>
 
+## Programming Demos
 
 The VMs that we are using in this class are pre-configured with all of the software that we will need. This includes Visual Studio Code, Google Chrome, MySQL Workbench, and the MySQL Server. It also includes a few databases that we will be using in our exercises.
 
