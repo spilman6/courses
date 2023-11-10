@@ -206,8 +206,6 @@ Sometimes we need to convert data from one type to another. For example, if we h
   >
 </div>
 
-
-
 # Accessing your VM
 
 We will be using Virtual Machines in this class. This will make it easier for us to all be using the same software and tools.
@@ -258,4 +256,16 @@ This video will show you how to run the programming demos.
 <details>
   <summary>Answer</summary>
   An integer is a whole number, while a floating-point number is a number with a decimal point.
+</details>
+
+3. How would you turn an integer into a string?
+<details>
+  <summary>Answer</summary>
+  You would use a "ToString" function.
+</details>
+
+4. How would you turn a string into a floating-point number?
+<details>
+  <summary>Answer</summary>
+  You would use a "Parse" function.
 </details>
