@@ -55,6 +55,7 @@ After string data, the next most common data-types are numeric types.
 
 > [!NOTE]
 > Some examples of integers are: 100, -37, 0, and 3,217,401.
+>
 > Some examples of floating-point numbers are: 3.14, 0.0, and -1.618.
 
 <div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
@@ -110,18 +111,6 @@ Number: 97
 Position: Left Wing
 Salary: $9,000,000
 ```
-
-<div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
-  <embed
-    src="https://www.youtube.com/embed/1i4pzNaLHpY"
-    wmode="transparent"
-    type="video/mp4"
-    width="100%" height="100%"
-    allow="autoplay; encrypted-media; picture-in-picture"
-    allowfullscreen
-  >
-</div>
-
 <details>
   <summary>Click here to see the answers</summary>
 
@@ -134,6 +123,18 @@ Salary: $9,000,000
   Salary: Float
   ```
 </details>
+
+<div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/HOd-IRnhFyo"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+  >
+</div>
+
 
 
 
