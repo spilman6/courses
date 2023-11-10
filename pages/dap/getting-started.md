@@ -183,8 +183,7 @@ Shoots: Right - String (or Boolean)
 <div style="width: 80%; aspect-ratio: 16 / 9;">
   <embed
     src="https://www.youtube.com/embed/sozq2ervdYc"
-    wmode="transparent"
-    type="video/mp4"
+    wmode="transparent" type="video/mp4"
     width="100%" height="100%"
     allow="autoplay; encrypted-media; picture-in-picture;"
     allowfullscreen="allowfullscreen"
