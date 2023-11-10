@@ -35,6 +35,9 @@ There are an infinite number of types of data that programmers need to use when 
 
 The data type that we'll be using most often is called a string, short for a "string of characters".
 
+> [!NOTE]
+> Some examples of string data are: "Data Access for Programmers," "Green Bay Packers," and "Starbucks".
+
 <div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
   <embed
     src="https://www.youtube.com/embed/-dRicTc2GFA"
@@ -50,9 +53,13 @@ The data type that we'll be using most often is called a string, short for a "st
 
 After string data, the next most common data-types are numeric types.
 
+> [!NOTE]
+> Some examples of integers are: 100, -37, 0, and 3,217,401.
+> Some examples of floating-point numbers are: 3.14, 0.0, and -1.618.
+
 <div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
   <embed
-    src="https://www.youtube.com/embed/iwbAMmSP4Ls"
+    src="https://www.youtube.com/embed/6MbgzppUupY"
     wmode="transparent"
     type="video/mp4"
     width="100%" height="100%"
@@ -65,13 +72,76 @@ After string data, the next most common data-types are numeric types.
 
 The last type that we are going to focus on this week is a boolean (true/false) data-type.
 
+<div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/iwbAMmSP4Ls"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+  >
+</div>
+
+## String Ambiguity
+
+One of the most common problems that programmers face is determining the type of data that they are working with. Since strings can contain numeric characters, it's important to determine which type of data you're working with.
+
+<div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/1i4pzNaLHpY"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+  >
+</div>
+
+# Exercise 1
+
+Take a minute to look at the following data, then try to determine the data-type of each value.
+
+```yaml
+Name: Kirill Kaprizov
+Age: 25
+Team: Minnesota Wild
+Number: 97
+Position: Left Wing
+Salary: $9,000,000
+```
+
+<div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/1i4pzNaLHpY"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+  >
+</div>
+
+<details>
+  <summary>Click here to see the answers</summary>
+
+  ```yaml
+  Name: String
+  Age: Integer
+  Team: String
+  Number: Integer
+  Position: String
+  Salary: Float
+  ```
+</details>
+
 
 
 # Accessing your VM
 
 We will be using Virtual Machines in this class. This will make it easier for us to all be using the same software and tools.
 
-> [!NOTE]
+> [!IMPORTANT]
 > It is important to understand that we have two different Virtual Machine infrastructures. We have Citrix Machines (General Desktop for example), and VMWare vSphere Machines (Training VMs). This class uses the Training VMs.
 
 <div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
