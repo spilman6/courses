@@ -45,8 +45,7 @@ The data type that we'll be using most often is called a string, short for a "st
 After string data, the next most common data-types are numeric types.
 
 > [!NOTE]
-> Some examples of integers are: 100, -37, 0, and 3,217,401.
->
+> Some examples of integers are: 100, -37, 0, and 3,217,401.  
 > Some examples of floating-point numbers are: 3.14, 0.0, and -1.618.
 
 <div style="width: 80%; aspect-ratio: 16 / 9;">
