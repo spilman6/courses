@@ -174,3 +174,18 @@ This video will show you how to run the programming demos.
     allowfullscreen
   >
 </div>
+
+
+# Review Questions
+
+1. What is the difference between a string and a numeric data-type?
+<details>
+  <summary>Answer</summary>
+  A string is a sequence of characters, while a numeric data-type is a number.
+</details>
+
+2. What is the difference between an integer and a floating-point number?
+<details>
+  <summary>Answer</summary>
+  An integer is a whole number, while a floating-point number is a number with a decimal point.
+</details>
