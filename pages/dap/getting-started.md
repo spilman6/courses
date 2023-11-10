@@ -112,16 +112,16 @@ Position: Left Wing
 Salary: $9,000,000
 ```
 <details>
-  <summary>Click here to see the answers</summary>
+  <summary>Click here to see the answer</summary>
 
-  ```yaml
-  Name: String
-  Age: Integer
-  Team: String
-  Number: Integer
-  Position: String
-  Salary: Float
-  ```
+```yaml
+Name: Kirill Kaprizov - String
+Age: 25 - Integer
+Team: Minnesota Wild - String
+Number: 97 - String (or Integer)
+Position: Left Wing - String
+Salary: $9,000,000 - Float
+```
 </details>
 
 <div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
@@ -135,6 +135,76 @@ Salary: $9,000,000
   >
 </div>
 
+# Calculated Data
+
+Sometimes we chose NOT to store data because it can be calculated from another piece of data. For example, if we have a database that stores the date of birth for a person, we can calculate their age by subtracting their date of birth from today's date.
+
+<div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/sozq2ervdYc"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+  >
+</div>
+
+# Exercise 2
+
+Let's take a look at the following data. Can you determine the data-type of each value? Or determine if the value is calculated, and should not be stored?
+
+```yaml
+Name: Alex Goligoski
+DOB: 7/30/1985
+AGE: 37
+Team: Minnesota Wild
+Number: 47
+Height: 5-11
+Weight: 173
+Shoots: Right
+```
+
+<details>
+  <summary>Click here to see the answer</summary>
+
+```yaml
+Name: Alex Goligoski - String
+DOB: 7/30/1985 - String (really an object)
+AGE: 37 - Integer (calculated)
+Team: Minnesota Wild - String
+Number: 47 - String (or Integer)
+Height: 5-11 - Integer (71 inches)
+Weight: 173 - Integer (or Float)
+Shoots: Right - String (or Boolean)
+```
+</details>
+
+<div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/sozq2ervdYc"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+  >
+</div>
+
+# Data-Type Conversion
+
+Sometimes we need to convert data from one type to another. For example, if we have a string that contains a number, we may need to convert it to an integer or floating-point number. Or, if we have a string that contains a date, we may need to convert it to a date object.
+
+<div style="width: 100%; aspect-ratio: 16 / 9; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/x825r0BYcMs"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+  >
+</div>
 
 
 
