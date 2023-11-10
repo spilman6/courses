@@ -1,8 +1,3 @@
----
-title: 'Computer Programming C++'
-course: '81382'
-
----
 
 # Course Information
 

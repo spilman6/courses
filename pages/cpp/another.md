@@ -1,9 +1,4 @@
 
-<meta name="title" content="Example Page" />
-<meta name="course" content="Example Course" />
-<meta name="author" content="Ryan Appel" />
-
-
 # Rendered using Markdown! 
 
 This page is rendered on the server. It is ***not*** a static HTML page!
