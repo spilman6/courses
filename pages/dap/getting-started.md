@@ -181,13 +181,14 @@ Shoots: Right - String (or Boolean)
 </details>
 
 <div style="width: 80%; aspect-ratio: 16 / 9;">
-  <embed
-    src="https://www.youtube.com/embed/sozq2ervdYc"
-    wmode="transparent" type="video/mp4"
-    width="100%" height="100%"
-    allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-    allowfullscreen="allowfullscreen"
-  >
+<iframe
+  width="100%"
+  height="100%"
+  src="https://www.youtube.com/embed/sozq2ervdYc"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
 </div>
 
 # Data-Type Conversion
