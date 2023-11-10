@@ -5,7 +5,7 @@ course: 'Data Access for Programmers'
 
 # Welcome to Data Access for Programmers!
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/sLDuwpjPfBQ"
 		width="100%" height="100%" frameborder="0" allowfullscreen
@@ -17,7 +17,7 @@ course: 'Data Access for Programmers'
 
 There are an infinite number of types of data that programmers need to use when developing an application. However, all data-types can be broken down into its core components. These components are often referred to as "basic" or "primitive" types. Depending on the language that the programmer is using, similar data-types may have different names. The following video will cover some of the most common data-types.
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/DO6E9hOeg4k"
 		width="100%" height="100%" frameborder="0" allowfullscreen
@@ -32,7 +32,7 @@ The data type that we'll be using most often is called a string, short for a "st
 > [!NOTE]
 > Some examples of string data are: "Data Access for Programmers," "Green Bay Packers," and "Starbucks".
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/-dRicTc2GFA"
 		width="100%" height="100%" frameborder="0" allowfullscreen
@@ -48,7 +48,7 @@ After string data, the next most common data-types are numeric types.
 > Some examples of integers are: 100, -37, 0, and 3,217,401. <br>
 > Examples of floating-point numbers include: 3.14, 0.0, and -1.618.
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/6MbgzppUupY"
 		width="100%" height="100%" frameborder="0" allowfullscreen
@@ -60,7 +60,7 @@ After string data, the next most common data-types are numeric types.
 
 The last type that we are going to focus on this week is a boolean (true/false) data-type.
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/iwbAMmSP4Ls"
 		width="100%" height="100%" frameborder="0" allowfullscreen
@@ -72,7 +72,7 @@ The last type that we are going to focus on this week is a boolean (true/false) 
 
 One of the most common problems that programmers face is determining the type of data that they are working with. Since strings can contain numeric characters, it's important to determine which type of data you're working with.
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/1i4pzNaLHpY"
 		width="100%" height="100%" frameborder="0" allowfullscreen
@@ -94,7 +94,7 @@ Salary: $9,000,000
 ```
 </details>
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/1i4pzNaLHpY"
 		width="100%" height="100%" frameborder="0" allowfullscreen
@@ -106,7 +106,7 @@ Salary: $9,000,000
 
 Sometimes we chose NOT to store data because it can be calculated from another piece of data. For example, if we have a database that stores the date of birth for a person, we can calculate their age by subtracting their date of birth from today's date.
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/sozq2ervdYc"
 		width="100%" height="100%" frameborder="0" allowfullscreen
@@ -144,7 +144,7 @@ Shoots: Right - String (or Boolean)
 ```
 </details>
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/p33gEY2LZzk"
 		width="100%" height="100%" frameborder="0" allowfullscreen
@@ -156,7 +156,7 @@ Shoots: Right - String (or Boolean)
 
 Sometimes we need to convert data from one type to another. For example, if we have a string that contains a number, we may need to convert it to an integer or floating-point number. Or, if we have a string that contains a date, we may need to convert it to a date object.
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/x825r0BYcMs"
 		width="100%" height="100%" frameborder="0" allowfullscreen
@@ -171,7 +171,7 @@ We will be using Virtual Machines in this class. This will make it easier for us
 > [!IMPORTANT]
 > It is important to understand that we have two different Virtual Machine infrastructures. We have Citrix Machines (General Desktop for example), and VMWare vSphere Machines (Training VMs). This class uses the Training VMs.
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/uWYML0FP8Co"
 		width="100%" height="100%" frameborder="0" allowfullscreen
@@ -187,7 +187,7 @@ On the desktop, you will find a folder called "Programming Demos". This folder c
 
 This video will show you how to run the programming demos.
 
-<div style="width: 80%; aspect-ratio: 16 / 9;">
+<div class="video-container">
 	<iframe
 		src="https://www.youtube.com/embed/rJyPbLtdkvk"
 		width="100%" height="100%" frameborder="0" allowfullscreen
