@@ -46,7 +46,7 @@ After string data, the next most common data-types are numeric types.
 
 > [!NOTE]
 > Some examples of integers are: 100, -37, 0, and 3,217,401. <br>
-> Some examples of floating-point numbers are: 3.14, 0.0, and -1.618.
+> Examples of floating-point numbers include: 3.14, 0.0, and -1.618.
 
 <div style="width: 80%; aspect-ratio: 16 / 9;">
 	<iframe
@@ -108,7 +108,7 @@ Sometimes we chose NOT to store data because it can be calculated from another p
 
 <div style="width: 80%; aspect-ratio: 16 / 9;">
 	<iframe
-		src="https://www.youtube.com/embed/"
+		src="https://www.youtube.com/embed/sozq2ervdYc"
 		width="100%" height="100%" frameborder="0" allowfullscreen
 		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 	></iframe>
@@ -146,7 +146,7 @@ Shoots: Right - String (or Boolean)
 
 <div style="width: 80%; aspect-ratio: 16 / 9;">
 	<iframe
-		src="https://www.youtube.com/embed/"
+		src="https://www.youtube.com/embed/p33gEY2LZzk"
 		width="100%" height="100%" frameborder="0" allowfullscreen
 		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 	></iframe>
