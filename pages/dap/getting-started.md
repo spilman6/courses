@@ -109,6 +109,18 @@ Number: 97
 Position: Left Wing
 Salary: $9,000,000
 ```
+
+<details>
+  <summary>Click here to see the answer</summary>
+
+```yaml
+Name: Kirill Kaprizov - String
+Age: 25 - Integer
+Team: Minnesota Wild - String
+Number: 97 - String (or Integer)
+Position: Left Wing - String
+Salary: $9,000,000 - Float (9000000.00)
+```
 </details>
 
 <details open>
