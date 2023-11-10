@@ -185,7 +185,7 @@ Shoots: Right - String (or Boolean)
     src="https://www.youtube.com/embed/sozq2ervdYc"
     wmode="transparent" type="video/mp4"
     width="100%" height="100%"
-    allow="autoplay; encrypted-media; picture-in-picture;"
+    allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
     allowfullscreen="allowfullscreen"
   >
 </div>
