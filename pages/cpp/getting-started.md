@@ -5,21 +5,12 @@ course: 'Computer Programming C++'
 date: '23-04-28'
 banner: 'https://cdn.discordapp.com/attachments/1065057104521597058/1113507329766342706/Ryan_Appel_Wallpaper_microchip_processor_electronics_circuit_bl_61d2a0ee-3617-47fd-81ea-3f04c3142a4b.png'
 next:
-	title: 'Variables'
-	page: 'variables.md'
+- title: 'Variables'
+  page: 'variables.md'
 previous:
-	title: 'Functions'
-	page: 'functions.md'
+- title: 'Functions'
+  page: 'functions.md'
 ---
-
-# Welcome to StackEdit!
-
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-
-
-# Files
-
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
 ## Create files and folders
 

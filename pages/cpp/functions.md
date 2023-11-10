@@ -39,6 +39,14 @@ For the quickest response, I recommend messaging me on Microsoft Teams if I'm on
 I will attempt to grade all assignments within one week of submission. Allow an extra week for larger projects. Feedback will be posted in the Blackboard grade book.
 
 ### Grading Scale
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
 
 - **A** (93 - 100%)
 - **A-** (90 - 93%)
