@@ -29,6 +29,8 @@ Let's take a look at a couple of examples. The first one is written in C#, and t
 	</div>
 </details>
 
+Here's the C# code:
+
 ```csharp
 // First we define a class
 
@@ -52,6 +54,8 @@ john.City = "Appleton";
 john.State = "WI";
 john.Phone = "920-722-5013";
 ```
+
+And here's the JavaScript code:
 
 ```javascript
 const john = {
