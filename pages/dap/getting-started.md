@@ -97,7 +97,7 @@ One of the most common problems that programmers face is determining the type of
 	</div>
 </details>
 
-## Exercise 1
+# Exercise 1
 
 Take a minute to look at the following data, then try to determine the data-type of each value.
 
@@ -149,7 +149,7 @@ Sometimes we chose NOT to store data because it can be calculated from another p
 	</div>
 </details>
 
-## Exercise 2
+# Exercise 2
 
 Let's take a look at the following data. Can you determine the data-type of each value? Or determine if the value is calculated, and should not be stored?
 
