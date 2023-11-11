@@ -3,7 +3,7 @@ title: 'Primitive Data Types'
 course: 'Data Access for Programmers'
 ---
 
-# Welcome to Data Access for Programmers!
+# Welcome to the Class!
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
