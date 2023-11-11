@@ -250,13 +250,56 @@ You can see/download the JSON file [here](https://github.com/RDAppel/courses/blo
 	</div>
 </details>
 
-The solution files for this demo can be found [here]().
+The solution files for this demo can be found here: [CSV File](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/exercise1.csv), [XML File](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/exercise1.xml), [JSON File](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/exercise1.json).
+
+# RESTful APIs
+
+REST stands for "representational state transfer". It's a software architectural style that defines a set of constraints to be used for creating web services. A RESTful API is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data. In this course, we will be using RESTful APIs to retrieve data from the internet.
+
+## Star Wars API Example
+
+Let's take a look at an example.
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
 		<iframe
-			src="https://www.youtube.com/embed/"
+			src="https://www.youtube.com/embed/DUQkz-JgjV4"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
+I recommend that you take a few minutes to check out the [Star Wars API](https://swapi.dev/). It's a great example, and as I mentioned in the video, it's near and dear to my heart.
+
+## Running Demo 2
+
+Let's take a look at a JavaScript program that uses a RESTful API to retrieve the text crawl from Star Wars Episode IV.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/oZjavtjEOfQ"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
+# Exercise 2
+
+Search the internet for a RESTful API that interests you, and determine if it:
+- Supports JSON/XML/Other?
+- Free/Paid?
+- What kind of application would you build with it?
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/9Y3-2-6DSrE"
 			width="100%" height="100%" frameborder="0" allowfullscreen
 			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		></iframe>
@@ -281,4 +324,51 @@ The solution files for this demo can be found [here]().
 <details>
   <summary>Answer</summary>
   True
+</details>
+
+4. What are the three common ways to persist data?
+<details>
+  <summary>Answer</summary>
+  Files, databases, and key-value stores.
+</details>
+
+5. What is a CSV file?
+<details>
+  <summary>Answer</summary>
+  A CSV file is a comma-separated values file. It's used to store tabular data.
+</details>
+
+6. What is an XML file?
+<details>
+  <summary>Answer</summary>
+  An XML file is an extensible markup language file. It's used to store hierarchical data.
+</details>
+
+7. What is a JSON file?
+<details>
+  <summary>Answer</summary>
+  A JSON file is a JavaScript object notation file. It's similar to an XML file, but it's less verbose.
+</details>
+
+8. What does REST stand for?
+<details>
+  <summary>Answer</summary>
+  Representational state transfer.
+</details>
+
+9. What is a RESTful API?
+<details>
+  <summary>Answer</summary>
+  A RESTful API is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data.
+</details>
+
+10. What are some examples of RESTful APIs?
+<details>
+  <summary>Answer</summary>
+  - [Star Wars API](https://swapi.dev/)
+  - [Pokemon API](https://pokeapi.co/)
+  - [Chuck Norris API](https://api.chucknorris.io/)
+  - [Open Weather Map API](https://openweathermap.org/api)
+  - [NASA API](https://api.nasa.gov/)
+  - etc...
 </details>
