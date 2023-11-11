@@ -1,3 +1,7 @@
+---
+title: 'Single Table Databases'
+course: 'Data Access for Programmers'
+---
 
 # Single Table Databases
 
