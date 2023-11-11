@@ -111,7 +111,9 @@ Create an Entity Diagram, suitable to hold the following `Inventory` data:
 ```ebnf
 Item ID: 2447
 Description: "Pogo 32 oz. Water Bottle"
-Vendor ID
+Vendor ID: 355
+In Stock Quantity: 6
+Back Ordered Quantity: 800
 ```
 
 
@@ -120,6 +122,95 @@ Vendor ID
 	<div class="video-container">
 		<iframe
 			src="https://www.youtube.com/embed/npZNtd1jGGk"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
+# Creating Databases
+
+SQL stands for Structured Query Language. It's a language that allows us to interact with databases. We'll be learning quite a bit of it throught this course.
+
+Here is the SQL code for creating the `Students` table we created in the previous exercise:
+
+```sql
+CREATE TABLE Students (
+	ID INT,
+	FirstName VARCHAR(63),
+	LastName VARCHAR(63),
+	Phone VARCHAR(15)
+);
+```
+
+## Creating a Schema and Table
+
+The following video will give a brief overview of how to create a schema and table in MySQL Workbench.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/nzSHvnShOHs"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
+## Adding Data to the Table
+
+To add (or insert) data into a table, we use the `INSERT INTO` statement. To insert data into the `Students` table, we would use the following SQL code:
+
+```sql
+INSERT INTO Students (ID, FirstName, LastName) VALUES (123456, "Ryan", "Appel");
+```
+
+Or if we are inserting data into all of the columns, we can omit the column names:
+
+```sql
+INSERT INTO Students VALUES (123456, "Ryan", "Appel");
+```
+
+The following video will give a brief overview of how to insert data into our table from the previous exercise video.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/Q5AxufplWUg"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
+## A Few SQL Commands
+
+As you saw at the end of the previous video, we can use the `SELECT` statement to retrieve data from a table. The code again for that was:
+
+> [!NOTE]
+> The asterisk `*` means "all columns". So you could read this as "select all columns from the Students table".
+
+```sql
+
+```sql
+SELECT * FROM Students;
+```
+
+You may also want to delete a table from your database. To do that, you can use the `DROP TABLE` statement:
+
+```sql
+DROP TABLE Students;
+```
+
+You can also delete it using the GUI in MySQL Workbench. The following video will give a brief overview of how to do that.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/nNrBzcAqWmw"
 			width="100%" height="100%" frameborder="0" allowfullscreen
 			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		></iframe>
@@ -137,7 +228,6 @@ Vendor ID
 		></iframe>
 	</div>
 </details>
-
 
 # Exercise 3
 
@@ -167,4 +257,9 @@ Vendor ID
 	A property of a column that specifies how the data in the column should be stored.
 </details>
 
+5. What is a Primary Key?
+<details>
+	<summary>Answer</summary>
+	A unique identifier for each row in the table.
+</details>
 
