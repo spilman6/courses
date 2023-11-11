@@ -241,6 +241,8 @@ In Stock Quantity: 209
 Back Ordered Quantity: 0
 ```
 
+The video will walk you through the process if you have any trouble.
+
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
