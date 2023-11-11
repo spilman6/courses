@@ -145,6 +145,83 @@ const john = {
 }
 ```
 
+# Persisting Data
+
+Most computer applications use data persistence, in one form or another. When you save a file, you are persisting data. When you save a game, you are persisting data. When you sign up for a website, again, you are persisting data.
+
+Persisting data is going to be a large part of what we do in this course. Let's take a closer look.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/fg0EvwCUUW4"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
+## Ways to Persist Data
+
+There are many ways to persist data. Three of the most common ways are:
+
+1. Files
+2. Databases
+3. Key Value Stores
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/O2I8OQSBnC0"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
+## File Storage
+
+The first way to persist data is by using files. Files are the most common way to persist data. They are easy to use, and they are supported by every programming language.
+
+### CSV Files
+
+One common file type is called a CSV file. CSV stands for "comma-separated values". CSV files are used to store tabular data. They are easy to read and write, and they are supported by major every programming language.
+
+Here's an example of a CSV file:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/69G8Ts69PDo"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
+You can download the example CSV file [here](https://raw.githubusercontent.com/ProfAvery/cis-172-winter2021/master/lessons/01-what-are-objects/01-what-are-objects.csv).
+
+
+### XML Files
+
+Another common file type is called an XML file. XML stands for "extensible markup language". XML files are used to store hierarchical data.
+
+
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
 # Review Questions
 
 1. Why do we use objects?
