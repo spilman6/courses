@@ -217,19 +217,40 @@ You can also delete it using the GUI in MySQL Workbench. The following video wil
 	</div>
 </details>
 
+# Exercise 3
+
+Create a database schema called `acme`. Then using your ERD From the previous exercise, create a table called `Inventory` in the `acme` database. Finally, insert the following data into the table:
+
+```ebnf
+Item ID: 2447
+Description: "Pogo 32 oz. Water Bottle"
+Vendor ID: 355
+In Stock Quantity: 6
+Back Ordered Quantity: 800
+--------------------
+Item ID: 2473
+Description: "Dimmer Switch"
+Vendor ID: 21
+In Stock Quantity: 411
+Back Ordered Quantity: 0
+--------------------
+Item ID: 2501
+Description: "Reolink Wired Security Camera"
+Vendor ID: 21
+In Stock Quantity: 209
+Back Ordered Quantity: 0
+```
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
 		<iframe
-			src="https://www.youtube.com/embed/"
+			src="https://www.youtube.com/embed/GWSxdOYJhEI"
 			width="100%" height="100%" frameborder="0" allowfullscreen
 			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		></iframe>
 	</div>
 </details>
-
-# Exercise 3
 
 # Review Questions
 
@@ -263,3 +284,32 @@ You can also delete it using the GUI in MySQL Workbench. The following video wil
 	A unique identifier for each row in the table.
 </details>
 
+6. What does SQL stand for?
+<details>
+	<summary>Answer</summary>
+	Structured Query Language.
+</details>
+
+7. What is the SQL code for creating a table?
+<details>
+	<summary>Answer</summary>
+	<code>CREATE TABLE</code>
+</details>
+
+8. What is the SQL code for inserting data into a table?
+<details>
+	<summary>Answer</summary>
+	<code>INSERT INTO</code>
+</details>
+
+9. What is the SQL code for retrieving all columns from a table?
+<details>
+	<summary>Answer</summary>
+	<code>SELECT * FROM</code>
+</details>
+
+10. What is the SQL code for deleting a table?
+<details>
+	<summary>Answer</summary>
+	<code>DROP TABLE</code>
+</details>
