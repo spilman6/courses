@@ -376,10 +376,5 @@ Search the internet for a RESTful API that interests you, and determine if it:
 10. What are some examples of RESTful APIs?
 <details>
   <summary>Answer</summary>
-[Star Wars API](https://swapi.dev/)  
-[Pokemon API](https://pokeapi.co/)  
-[Chuck Norris API](https://api.chucknorris.io/)  
-[Open Weather Map API](https://openweathermap.org/api)  
-[NASA API](https://api.nasa.gov/)  
-etc...
+  The Star Wars API, the Marvel API, the Pokemon API, the Chuck Norris API, etc.
 </details>
