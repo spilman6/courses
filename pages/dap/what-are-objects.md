@@ -202,7 +202,7 @@ Here's an example of a CSV file:
 	</div>
 </details>
 
-You can download the example CSV file [here](https://raw.githubusercontent.com/ProfAvery/cis-172-winter2021/master/lessons/01-what-are-objects/01-what-are-objects.csv).
+You can see/download the CSV file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/example.csv).
 
 
 ### XML Files
