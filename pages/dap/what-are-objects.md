@@ -239,7 +239,18 @@ The last common file type is called a JSON file. JSON stands for "JavaScript Obj
 
 You can see/download the JSON file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/example.json).
 
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/ptJgn9UdjdM"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
 
+The solution files for this demo can be found [here]().
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
