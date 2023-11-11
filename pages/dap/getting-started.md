@@ -1,6 +1,7 @@
 ---
 title: 'Primitive Data Types'
 course: 'Data Access for Programmers'
+next: 'Objects and File Types'
 ---
 
 # Welcome to the Class!
