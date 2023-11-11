@@ -197,8 +197,6 @@ As you saw at the end of the previous video, we can use the `SELECT` statement t
 > The asterisk `*` means "all columns". So you could read this as "select all columns from the Students table".
 
 ```sql
-
-```sql
 SELECT * FROM Students;
 ```
 
