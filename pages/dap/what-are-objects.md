@@ -286,7 +286,7 @@ I recommend that you take a few minutes to check out the [Star Wars API](https:/
 
 ## Running Demo 2
 
-Let's take a look at a JavaScript program that uses a RESTful API to retrieve the text crawl from Star Wars Episode IV.
+Let's take a look at a JavaScript program that uses a RESTful API to retrieve the text crawl from a few of the Star Wars movies.
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
