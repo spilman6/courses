@@ -1,0 +1,26 @@
+<Students>
+	<Student>
+		<ID>120333241</ID>
+		<FirstName>John</FirstName>
+		<LastName>Smith</LastName>
+		<City>Appleton</City>
+		<State>WI</State>
+		<Phone>(920) 722-5013</Phone>
+	</Student>
+	<Student>
+		<ID>129123820</ID>
+		<FirstName>Becka</FirstName>
+		<LastName>Jones</LastName>
+		<City>Menasha</City>
+		<State>WI</State>
+		<Phone>(920) 202-4110</Phone>
+	</Student>
+	<Student>
+		<ID>133899119</ID>
+		<FirstName>Kassy</FirstName>
+		<LastName>Clark</LastName>
+		<City>Appleton</City>
+		<State>WI</State>
+		<Phone>(920) 851-9297</Phone>
+	</Student>
+</Students>

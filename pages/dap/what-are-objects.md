@@ -209,6 +209,36 @@ You can see/download the CSV file [here](https://github.com/RDAppel/courses/blob
 
 Another common file type is called an XML file. XML stands for "extensible markup language". XML files are used to store hierarchical data.
 
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/PCt51OMi4v4"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
+You can see/download the XML file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/example.xml).
+
+### JSON Files
+
+The last common file type is called a JSON file. JSON stands for "JavaScript Object Notation". JSON files are also used to store hierarchical data. They are very similar to XML files, but they are easier to read and write, and they are a little more compact.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/a-LexOly3Jo"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
+You can see/download the JSON file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/example.json).
+
 
 
 <details open>
