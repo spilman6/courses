@@ -7,7 +7,7 @@ Now that you have an understanding of primitive data-types, we can move on to mo
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
 		<iframe
-			src="https://www.youtube.com/embed/"
+			src="https://www.youtube.com/embed/1xVC54ozhRU"
 			width="100%" height="100%" frameborder="0" allowfullscreen
 			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		></iframe>
@@ -22,7 +22,7 @@ Let's take a look at a couple of examples. The first one is written in C#, and t
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
 		<iframe
-			src="https://www.youtube.com/embed/"
+			src="https://www.youtube.com/embed/SpQgxu8XVTY"
 			width="100%" height="100%" frameborder="0" allowfullscreen
 			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		></iframe>
@@ -72,7 +72,7 @@ Let's take a look at an object used in a JavaScript program.
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
 		<iframe
-			src="https://www.youtube.com/embed/"
+			src="https://www.youtube.com/embed/BOeEJ8HKyCc"
 			width="100%" height="100%" frameborder="0" allowfullscreen
 			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		></iframe>
@@ -109,7 +109,7 @@ An object's properties are often primitive data-types, as seen in the previous e
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
 		<iframe
-			src="https://www.youtube.com/embed/"
+			src="https://www.youtube.com/embed/leXkMbThfy8"
 			width="100%" height="100%" frameborder="0" allowfullscreen
 			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		></iframe>
