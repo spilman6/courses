@@ -83,10 +83,13 @@ For future reference, here is a list of the column attributes we can use:
 
 Create the `Students` table (shown in the previous video) in MySQL Workbench. If you were following along with the video, you can skip this exercise.
 
+> [!NOTE]
+> Remember that even though you're allowed to use spaces in your column names, it's not a great idea. In the future, when you're writing queries, you'll have to use backticks (\`) around the column names if they contain spaces. My advice is to use camel case instead. For example, `FirstName` instead of `First Name`.
+
 ```ebnf
 ID: Integer, Primary Key
-FirstName: String (VARCHAR)
-LastName: String (VARCHAR)
+First Name: String (VARCHAR)
+Last Name: String (VARCHAR)
 Phone: String (VARCHAR)
 ```
 
@@ -103,13 +106,12 @@ Phone: String (VARCHAR)
 
 # Exercise 2
 
-Create an Entity Diagram, suitable to hold the following data:
+Create an Entity Diagram, suitable to hold the following `Inventory` data:
 
 ```ebnf
-ID: Integer, Primary Key
-FirstName: String (VARCHAR)
-LastName: String (VARCHAR)
-Phone: String (VARCHAR)
+Item ID: 2447
+Description: "Pogo 32 oz. Water Bottle"
+Vendor ID
 ```
 
 
