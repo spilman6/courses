@@ -1,3 +1,7 @@
+---
+title: 'What are Objects?'
+course: 'Data Access for Programmers'
+---
 
 # What are Objects?
 
