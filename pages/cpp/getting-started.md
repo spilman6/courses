@@ -6,7 +6,7 @@ date: '23-04-28'
 banner: 'https://cdn.discordapp.com/attachments/1065057104521597058/1113507329766342706/Ryan_Appel_Wallpaper_microchip_processor_electronics_circuit_bl_61d2a0ee-3617-47fd-81ea-3f04c3142a4b.png'
 next:
 - title: 'Variables with alt title'
-  page: 'variables'
+  src: 'variables'
 previous: 'Functions'
 ---
 
