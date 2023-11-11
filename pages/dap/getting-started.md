@@ -134,7 +134,7 @@ Salary: $9,000,000 - Float (9000000.00)
 	</div>
 </details>
 
-## Calculated Data
+# Calculated Data
 
 Sometimes we chose NOT to store data because it can be calculated from another piece of data. For example, if we have a database that stores the date of birth for a person, we can calculate their age by subtracting their date of birth from today's date.
 
@@ -190,7 +190,7 @@ Shoots: Right - String (or Boolean)
 	</div>
 </details>
 
-## Data-Type Conversion
+# Data-Type Conversion
 
 Sometimes we need to convert data from one type to another. For example, if we have a string that contains a number, we may need to convert it to an integer or floating-point number. Or, if we have a string that contains a date, we may need to convert it to a date object.
 
@@ -223,7 +223,7 @@ We will be using Virtual Machines in this class. This will make it easier for us
 	</div>
 </details>
 
-## Programming Demos
+# Programming Demos
 
 The VMs that we are using in this class are pre-configured with all of the software that we will need. This includes Visual Studio Code, Google Chrome, MySQL Workbench, and the MySQL Server. It also includes a few databases that we will be using in our exercises.
 
