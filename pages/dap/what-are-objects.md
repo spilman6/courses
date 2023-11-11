@@ -202,7 +202,7 @@ Here's an example of a CSV file:
 	</div>
 </details>
 
-You can see/download the CSV file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/example.csv).
+You can see/download the CSV file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/example.csv).
 
 
 ### XML Files
