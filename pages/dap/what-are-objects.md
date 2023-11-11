@@ -239,6 +239,17 @@ The last common file type is called a JSON file. JSON stands for "JavaScript Obj
 
 You can see/download the JSON file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/example.json).
 
+# Exercise 1
+
+Time to create your first object! Create a CSV, XML, and JSON file that contains the following information:
+
+```ebnf
+Course ID: 10-152-168
+Course Name: Data Access for Programmers
+Instuctor Name: Ryan Appel
+Credits: 3
+```
+
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
