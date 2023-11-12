@@ -210,7 +210,7 @@ Here's an example of a CSV file:
 	</div>
 </details>
 
-You can see/download the CSV file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/example.csv).
+You can see/download the CSV file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/example.csv).
 
 
 ### XML Files
@@ -228,7 +228,7 @@ Another common file type is called an XML file. XML stands for "extensible marku
 	</div>
 </details>
 
-You can see/download the XML file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/example.xml).
+You can see/download the XML file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/example.xml).
 
 ### JSON Files
 
@@ -245,7 +245,7 @@ The last common file type is called a JSON file. JSON stands for "JavaScript Obj
 	</div>
 </details>
 
-You can see/download the JSON file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/example.json).
+You can see/download the JSON file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/example.json).
 
 # Exercise 1
 
@@ -269,7 +269,7 @@ Credits: 3
 	</div>
 </details>
 
-The solution files for this demo can be found here: [CSV File](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/exercise1.csv), [XML File](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/exercise1.xml), [JSON File](https://github.com/RDAppel/courses/blob/master/support-files/dap/what-are-objects/exercise1.json).
+The solution files for this demo can be found here: [CSV File](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/exercise1.csv), [XML File](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/exercise1.xml), [JSON File](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/exercise1.json).
 
 # RESTful APIs
 
