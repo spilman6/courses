@@ -227,34 +227,239 @@ Let's see it in action.
 
 # Null Values
 
-# Limit and Order By
+Sometimes a column will not have a value for a particular row. This is called a "null" value. We can use the `IS NULL` and `IS NOT NULL` operators to filter rows based on whether or not a column has a null value.
 
-# Exercise 2
+```sql
+SELECT * FROM customer WHERE STREET IS NULL
+```
 
-# Exercise 3
-
-# Aggregate Functions
-
-## Count Function
-
-## Sum Function
-
-## Min, Max, and Avg Functions
-
-# Exercise 4
-
-# Exercise 5
-
-# Additional Practice
-
-# Programming Demos
-
---------------------
+```sql
+SELECT * FROM customer WHERE STREET IS NOT NULL
+```
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/BXfIEb7HkDE" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+# Limit and Order By
+
+Another way to filter rows is to use the `LIMIT` keyword. This will limit the number of rows that are returned.
+
+```sql
+SELECT * FROM customer LIMIT 3 -- This will return the first 3 rows
+```
+
+We can add another term to the `LIMIT` clause to specify the offset.
+
+```sql
+SELECT * FROM customer LIMIT 3, 3 -- This will return rows 4, 5, and 6
+```
+
+We can also sort the rows using the `ORDER BY` clause. By default, the rows will be sorted in ascending order. We can use the `DESC` keyword to sort in descending order.
+
+```sql
+SELECT * FROM customer ORDER BY BALANCE LIMIT 3 -- Get the 3 customers with the lowest balance
+```
+
+```sql
+SELECT * FROM customer ORDER BY BALANCE DESC LIMIT 3 -- Get the 3 customers with the highest balance
+```
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/229n2VPb8PI" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+# Exercise 2
+
+Using the customer table in the Primer Database, show the city with the zip code 33321. Only show one result.
+
+<details>
+	<summary>Show the Answer</summary>
+
+Using the `LIMIT` keyword:
+
+```sql
+SELECT CITY FROM customer WHERE ZIP = 33321 LIMIT 1
+```
+Or you could use the `DISTINCT` keyword:
+
+```sql
+SELECT DISTINCT CITY FROM customer WHERE ZIP = 33321
+```
+</details>
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/-KpbOKoYyEA" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+# Exercise 3
+
+Show the customer names and their balances of all customers that have "shop" or "store" in the name. Also, show the balances, and order the results by balance from highest to lowest.
+
+<details>
+	<summary>Show the Answer</summary>
+
+```sql
+SELECT CUSTOMER_NAME, BALANCE FROM customer
+WHERE CUSTOMER_NAME LIKE "%shop%" OR CUSTOMER_NAME LIKE "%store%"
+ORDER BY BALANCE DESC
+```
+</details>
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/Od5_A58w7nU" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+# Aggregate Functions
+
+SQL has a number of built-in functions that we can use to calculate summary statistics. These are called "aggregate functions." There are 5 aggregate functions that we will be using in this course: `COUNT`, `SUM`, `MIN`, `MAX`, and `AVG`.
+
+For the following examples, we will be using the `part` table in the Premiere Database.
+
+
+## Count Function
+
+The `COUNT` function will count the number of rows in the result set.
+
+```sql
+SELECT COUNT(*) FROM part
+```
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/66lyi4ZE6Jc" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+## Sum Function
+
+The `SUM` function will add up all of the values in a column.
+
+```sql
+SELECT SUM(ON_HAND) FROM part
+```
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/VKtZp6A0Jqs" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+## Min, Max, and Avg Functions
+
+The `MIN`, `MAX`, and `AVG` functions will find the minimum, maximum, and average values in a column, respectively.
+
+```sql
+SELECT DESCRIPTION, MIN(PRICE) FROM part
+```
+> [!WARNING]
+> There are definitely some caveats to using these functions. The following video will explain some of the issues that you may run into.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/ZcvBseCCfgA" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+# Exercise 4
+
+How many "HouseWare" items do we have on hand that cost over $30?
+
+> [!NOTE]
+> By "HouseWare" items, we mean items that have a class of "HW". So start by filtering the rows based on the class.
+
+<details>
+	<summary>Show the Answer</summary>
+
+```sql
+SELECT sum(ON_HAND) FROM part WHERE CLASS = "HW" AND PRICE > 30
+```
+</details>
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/VH35GKPjRyc" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+# Exercise 5
+
+What is the average price of the items in warehouse 3?
+
+<details>
+	<summary>Show the Answer</summary>
+
+```sql
+SELECT AVG(PRICE) FROM part WHERE WAREHOUSE_ID = 3
+```
+</details>
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/CZLV0L7eqJk" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+# Additional Practice
+
+Posted in Blackboard are some additional practice problems, along with the solutions. Please work through these before you begin the assignment. If you have any questions, post them in the Teams channel, because other students may have the same question.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/FLXRKxir47A" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+# Programming Demos
+
+It has been a while since we have looked at any programming demos. In this video, we will look at a couple of programs, one written in JavaScript and one in Python, that connect to the premiere database, and select the customers.
+
+> [!NOTE]
+> I don't expect you to understand everything that is going on in these programs. That being said, I would encourage you to try to run them yourself, and then modify the SQL queries to see what happens.
+
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/qh_OxubWSDY" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -274,4 +479,60 @@ Let's see it in action.
 <details>
 	<summary>Show the Answer</summary>
 	A result table is a table that exists in memory, but not in the database. It is the result of a query.
+</details>
+
+3. What rows will show if a query was run with: LIMIT 2, 4?
+
+<details>
+	<summary>Show the Answer</summary>
+	Rows 3, 4, 5, and 6.
+</details>
+
+4. What is the difference between the `LIKE` and `=` operators?
+
+<details>
+	<summary>Show the Answer</summary>
+	The `LIKE` operator is used with wildcards, while the `=` operator is used to match an exact value.
+</details>
+
+5. What is the difference between the `IS NULL` and `IS NOT NULL` operators?
+
+<details>
+	<summary>Show the Answer</summary>
+	The `IS NULL` operator is used to match rows that have a null value, while the `IS NOT NULL` operator is used to match rows that do not have a null value.
+</details>
+
+6. Will a query that uses `AND`, or a query that uses `OR` likely, return more rows?
+
+<details>
+	<summary>Show the Answer</summary>
+	A query that uses `OR` will likely return more rows, because it will match rows that match either condition.
+</details>
+
+7. Arrange the following keywords in the order they would need to be in, in order to run a query: `FROM`, `LIMIT`, `WHERE`, `SELECT`, `ORDER BY`.
+
+<details>
+	<summary>Show the Answer</summary>
+	`SELECT`, `FROM`, `WHERE`, `ORDER BY`, `LIMIT`
+</details>
+
+8. Why do we need to be careful when using aggregate functions?
+
+<details>
+	<summary>Show the Answer</summary>
+	Because they will return a single value for the entire result set, so they will not return the same number of rows as the original table.
+</details>
+
+9. What is the difference between the `COUNT` and `SUM` functions?
+
+<details>
+	<summary>Show the Answer</summary>
+	The `COUNT` function will count the number of rows in the result set, while the `SUM` function will add up all of the values in a column.
+</details>
+
+10. What are the 5 aggregate functions that we covered in this unit?
+
+<details>
+	<summary>Show the Answer</summary>
+	`COUNT`, `SUM`, `MIN`, `MAX`, and `AVG`.
 </details>
