@@ -304,6 +304,7 @@ Creating a database with multiple tables is pretty similar to what we did in the
 
 <details>
 	<summary>Show the Answer</summary>
-	
-	They are difficult put into a database table directly. And though we didn't discuss this above, but they are also difficult to search, update, sort, filter, etc.
+
+1. They are difficult put into a database table directly.
+2. We didn't discuss this above, but they are also difficult to search, update, sort, filter, etc.
 </details>
