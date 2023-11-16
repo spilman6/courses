@@ -105,9 +105,9 @@ column name for the zip code be "ZIP_CODE".
 <details>
 	<summary>Show the Answer</summary>
 
-	```sql
-	SELECT STREET, CITY, STATE, ZIP AS ZIP_CODE FROM customer
-	```
+```sql
+SELECT STREET, CITY, STATE, ZIP AS ZIP_CODE FROM customer
+```
 </details>
 
 <details open>
@@ -130,14 +130,14 @@ WHERE CREDIT_LIMIT > 10000
 
 Here is a list of the comparison operators that we can use in the `WHERE` clause:
 
-| Operator | Description |
-| --- | --- |
-| = | Equal to |
-| <> | Not equal to |
-| < | Less than |
-| <= | Less than or equal to |
-| > | Greater than |
-| >= | Greater than or equal to |
+| Operator | Description              |
+| -------- | ------------------------ |
+| =        | Equal to                 |
+| <>       | Not equal to             |
+| <        | Less than                |
+| <=       | Less than or equal to    |
+| >        | Greater than             |
+| >=       | Greater than or equal to |
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
