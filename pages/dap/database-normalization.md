@@ -35,13 +35,27 @@ You can download the Excel file here: [students.xlsx](https://github.com/RDAppel
 > [!NOTE]
 > There is an error in the video. The Student ID for Erica Zastrow is 125, not 124.
 
-https://youtu.be/QCHyuVq0uFA
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/QCHyuVq0uFA" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 ## Dependency Diagram
 
 A **dependency diagram** is a visual representation of the relationships between attributes. In this video we will start to create a dependency diagram for our data. You don't have to follow along, but if you want to, we're using https://app.diagrams.net/.
 
-https://youtu.be/ZD80woN8m9s
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/ZD80woN8m9s" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 So looking at the data above, we have the following determinants: `Student ID`, `Course ID`, and `Student ID` + `Course ID`. We also have the following functional dependencies:
 
@@ -115,7 +129,14 @@ See how `Registration Date` ends up in both tables (for now), because of the dep
 
 This video demonstrates the process.
 
-https://youtu.be/9XlJATAgnKg
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/9XlJATAgnKg" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 ## Second Normal Form (2NF)
 
@@ -126,7 +147,14 @@ A database is in **Second Normal Form** if it meets the following criteria:
 
 In this video we will explore how concatinated primary keys relate to Second Normal Form.
 
-https://youtu.be/KqSYSdXCYxM
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/KqSYSdXCYxM" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 Remember that Registration Date is dependent on both Student ID and Course ID. So to get into second normal form, we will create a new table for Registration Date.
 
@@ -218,13 +246,27 @@ And at this point, we have four tables that are in third normal form!
 
 Let's look at the same process, but with the dependency diagram.
 
-https://youtu.be/t0AdL6ZiLDc
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/t0AdL6ZiLDc" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 ## Denormalization
 
 Denormalization is the process of taking a normalized database and adding redundant data to it. This is done to improve performance. In this video we will continue our example from above, and denormalize our database.
 
-https://youtu.be/0KGe5kfJHAQ
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/0KGe5kfJHAQ" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 ## Remembering the Normal Forms
 
@@ -236,7 +278,14 @@ A common pneumonic device for remembering the normal forms is:
 
 This video will explain.
 
-https://youtu.be/U9Kf8vl6iJ4
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/U9Kf8vl6iJ4" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 
 # Review Questions
