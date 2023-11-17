@@ -265,6 +265,7 @@ A `JOIN` will combine the columns from two or more tables into a single result s
 <details>
 	<summary>Show the Answer</summary>
 
+A nested query is a `SELECT` statement that is nested inside of another `SELECT` statement.
 </details>
 
 4. What is a view?
