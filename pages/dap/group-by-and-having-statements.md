@@ -79,7 +79,7 @@ The query would return only Oshkosh, because Appleton only has one customer with
 	<summary>Show the Answer</summary>
 
 ```sql
-SELECT CITYFROM customer WHERE BALANCE >= 1000 GROUP BY CITY HAVING count(*) > 1
+SELECT CITY FROM customer WHERE BALANCE >= 1000 GROUP BY CITY HAVING count(*) > 1
 ```
 </details>
 
