@@ -47,7 +47,7 @@ This video will demonstrate this query.
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/https://youtu.be/mdGvZBUOXTg" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/mdGvZBUOXTg" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -89,7 +89,7 @@ This video will demonstrate the previous two exercises.
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/https://youtu.be/2T8xj67xHp0" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/2T8xj67xHp0" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>

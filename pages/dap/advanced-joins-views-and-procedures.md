@@ -34,8 +34,7 @@ In this video we will discuss this query in more detail.
 	</div>
 </details>
 
-> [!NOTE]
-> If the Venn diagrams shown in the video were helpful, you may find [Oleksii Vasyliev's SQL Joins Visualizer](https://sql-joins.leopard.in.ua/) helpful as well. It allows you to select parts of the Venn diagram to see the SQL code that would produce that result.
+If the Venn diagrams shown in the video were helpful, you may find [Oleksii Vasyliev's SQL Joins Visualizer](https://sql-joins.leopard.in.ua/) helpful as well. It allows you to select parts of the Venn diagram to see the SQL code that would produce that result.
 
 # Exercise 1
 
