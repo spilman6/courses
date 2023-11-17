@@ -30,7 +30,7 @@ If you want to follow along with the video, we'll be using this data:
 | 133        | Erin       | Price     | Appleton | WI | 54913 | 2, 3    | C# Intro to Programming, PHP  | 1/07, 1/05 |
 | 134        | Marquise   | Alton     | Appleton | WI | 54915 | 2       | C# Intro to Programming 		| 1/05       |
 
-You can download the Excel file here: [students.xlsx](www.example.com).
+You can download the Excel file here: [students.xlsx](https://github.com/RDAppel/courses/raw/master/support-files/dap/database-normalization/students.xlsx).
 
 > [!NOTE]
 > There is an error in the video. The Student ID for Erica Zastrow is 125, not 124.
@@ -66,56 +66,54 @@ After creating the new rows, we will end up with:
 
 | Student ID | First Name | Last Name | City | State | Zip | Course ID | Course Name | Registration Date |
 | ---------- | ---------- | --------- | ---- | ----- | --- | --------- | ----------- | ----------------- |
-| 123        | Jimmy      | Smith     | Appleton | WI | 54911 | 1      | Data Access for Programmers   | 1/05 |
-| 124        | Erin       | Donaldson | Neenah   | WI | 54956 | 2      | C# Intro to Programming       | 1/06 |
-| 124        | Erin       | Donaldson | Neenah   | WI | 54956 | 3      | PHP                           | 1/06 |
-| 125        | Erica      | Zastrow   | Appleton | WI | 54914 | 1      | Data Access for Programmers   | 1/05 |
-| 125        | Erica      | Zastrow   | Appleton | WI | 54914 | 4      | Computer Programming C++      | 1/06 |
-| 127        | Greg       | Olsen     | Appleton | WI | 54911 | 2      | C# Intro to Programming 	   | 1/05 |
-| 129        | Kim        | Palmer    | Neenah   | WI | 54956 | 4      | Computer Programming C++      | 1/05 |
-| 131        | Bryce      | Davis     | Appleton | WI | 54911 | 1      | Data Access for Programmers   | 1/07 |
-| 133        | Erin       | Price     | Appleton | WI | 54913 | 2      | C# Intro to Programming       | 1/07 |
-| 133        | Erin       | Price     | Appleton | WI | 54913 | 3      | PHP                           | 1/05 |
-| 134        | Marquise   | Alton     | Appleton | WI | 54915 | 2      | C# Intro to Programming 	   | 1/05 |
+| 123        | Jimmy      | Smith     | Appleton | WI | 54911 | 1      | Data Access for Programmers | 1/05 |
+| 124        | Erin       | Donaldson | Neenah   | WI | 54956 | 2      | C# Intro to Programming     | 1/06 |
+| 124        | Erin       | Donaldson | Neenah   | WI | 54956 | 3      | PHP                         | 1/06 |
+| 125        | Erica      | Zastrow   | Appleton | WI | 54914 | 1      | Data Access for Programmers | 1/05 |
+| 125        | Erica      | Zastrow   | Appleton | WI | 54914 | 4      | Computer Programming C++    | 1/06 |
+| 127        | Greg       | Olsen     | Appleton | WI | 54911 | 2      | C# Intro to Programming 	 | 1/05 |
+| 129        | Kim        | Palmer    | Neenah   | WI | 54956 | 4      | Computer Programming C++    | 1/05 |
+| 131        | Bryce      | Davis     | Appleton | WI | 54911 | 1      | Data Access for Programmers | 1/07 |
+| 133        | Erin       | Price     | Appleton | WI | 54913 | 2      | C# Intro to Programming     | 1/07 |
+| 133        | Erin       | Price     | Appleton | WI | 54913 | 3      | PHP                         | 1/05 |
+| 134        | Marquise   | Alton     | Appleton | WI | 54915 | 2      | C# Intro to Programming 	 | 1/05 |
 
-And then when we remove any columns that are not dependent on the primary key, we end up with these two tables:
-
-> [!NOTE]
-> Registration Date is functionally dependent on Student ID and Course ID, so it ends up in both tables (for now).
+Next, we will remove any columns that are not dependent on the primary key. After doing so, we end up with these two tables:
 
 > [!NOTE]
 > We are using the * symbol here to indicate the primary keys.
 
 | Student ID* | First Name | Last Name | City | State | Zip | Registration Date |
-| ---------- | ---------- | --------- | ---- | ----- | --- | ----------------- |
-| 123        | Jimmy      | Smith     | Appleton | WI | 54911 | 1/05 |
-| 124        | Erin       | Donaldson | Neenah   | WI | 54956 | 1/06 |
-| 124        | Erin       | Donaldson | Neenah   | WI | 54956 | 1/06 |
-| 125        | Erica      | Zastrow   | Appleton | WI | 54914 | 1/05 |
-| 125        | Erica      | Zastrow   | Appleton | WI | 54914 | 1/06 |
-| 127        | Greg       | Olsen     | Appleton | WI | 54911 | 1/05 |
-| 129        | Kim        | Palmer    | Neenah   | WI | 54956 | 1/05 |
-| 131        | Bryce      | Davis     | Appleton | WI | 54911 | 1/07 |
-| 133        | Erin       | Price     | Appleton | WI | 54913 | 1/07 |
-| 133        | Erin       | Price     | Appleton | WI | 54913 | 1/05 |
-| 134        | Marquise   | Alton     | Appleton | WI | 54915 | 1/05 |
+| ----------- | ---------- | --------- | ---- | ----- | --- | ----------------- |
+| 123         | Jimmy      | Smith     | Appleton | WI | 54911 | 1/05 |
+| 124         | Erin       | Donaldson | Neenah   | WI | 54956 | 1/06 |
+| 124         | Erin       | Donaldson | Neenah   | WI | 54956 | 1/06 |
+| 125         | Erica      | Zastrow   | Appleton | WI | 54914 | 1/05 |
+| 125         | Erica      | Zastrow   | Appleton | WI | 54914 | 1/06 |
+| 127         | Greg       | Olsen     | Appleton | WI | 54911 | 1/05 |
+| 129         | Kim        | Palmer    | Neenah   | WI | 54956 | 1/05 |
+| 131         | Bryce      | Davis     | Appleton | WI | 54911 | 1/07 |
+| 133         | Erin       | Price     | Appleton | WI | 54913 | 1/07 |
+| 133         | Erin       | Price     | Appleton | WI | 54913 | 1/05 |
+| 134         | Marquise   | Alton     | Appleton | WI | 54915 | 1/05 |
 
 | Course ID* | Course Name | Registration Date |
-| --------- | ----------- | ----------------- |
-| 1         | Data Access for Programmers   | 1/05 |
-| 2         | C# Intro to Programming       | 1/06 |
-| 3         | PHP                           | 1/06 |
-| 1         | Data Access for Programmers   | 1/05 |
-| 4         | Computer Programming C++      | 1/06 |
-| 2         | C# Intro to Programming 	    | 1/05 |
-| 4         | Computer Programming C++      | 1/05 |
-| 1         | Data Access for Programmers   | 1/07 |
-| 2         | C# Intro to Programming       | 1/07 |
-| 3         | PHP                           | 1/05 |
-| 2         | C# Intro to Programming 	    | 1/05 |
+| ---------- | ----------- | ----------------- |
+| 1          | Data Access for Programmers | 1/05 |
+| 2          | C# Intro to Programming     | 1/06 |
+| 3          | PHP                         | 1/06 |
+| 1          | Data Access for Programmers | 1/05 |
+| 4          | Computer Programming C++    | 1/06 |
+| 2          | C# Intro to Programming     | 1/05 |
+| 4          | Computer Programming C++    | 1/05 |
+| 1          | Data Access for Programmers | 1/07 |
+| 2          | C# Intro to Programming     | 1/07 |
+| 3          | PHP                         | 1/05 |
+| 2          | C# Intro to Programming     | 1/05 |
 
+See how `Registration Date` ends up in both tables (for now), because of the dependency on both parts of the primary key. We will fix this in the next section.
 
-Take a look:
+This video demonstrates the process.
 
 https://youtu.be/9XlJATAgnKg
 
@@ -126,12 +124,71 @@ A database is in **Second Normal Form** if it meets the following criteria:
 - It is in First Normal Form.
 - All non-key attributes are dependent on the entire primary key. (This only applies to concatinated/composite primary keys.)
 
-So this really only affects Registration Date, which is dependent on both Student ID and Course ID. So we will create a new table for Registration Date.
-
-| Student ID* | Course ID* | Registration Date |
-
-
-
+In this video we will explore how concatinated primary keys relate to Second Normal Form.
 
 https://youtu.be/KqSYSdXCYxM
+
+Remember that Registration Date is dependent on both Student ID and Course ID. So to get into second normal form, we will create a new table for Registration Date.
+
+| Student ID* | Course ID* | Registration Date |
+| ----------- | ---------- | ----------------- |
+| 123         | 1          | 1/05              |
+| 124         | 2          | 1/06              |
+| 124         | 3          | 1/06              |
+| 125         | 1          | 1/05              |
+| 125         | 4          | 1/06              |
+| 127         | 2          | 1/05              |
+| 129         | 4          | 1/05              |
+| 131         | 1          | 1/07              |
+| 133         | 2          | 1/07              |
+| 133         | 3          | 1/05              |
+| 134         | 2          | 1/05              |
+
+Because of this table, we can now remove the `Registration Date` column from the other two tables. This is a big win, because we it means we get to remove a bunch of duplicate data!
+
+Take a look at our Student table:
+
+| Student ID* | First Name | Last Name | City | State | Zip |
+| ----------- | ---------- | --------- | ---- | ----- | --- |
+| 123         | Jimmy      | Smith     | Appleton | WI | 54911 |
+| 124         | Erin       | Donaldson | Neenah   | WI | 54956 |
+| 124         | Erin       | Donaldson | Neenah   | WI | 54956 |
+| 125         | Erica      | Zastrow   | Appleton | WI | 54914 |
+| 125         | Erica      | Zastrow   | Appleton | WI | 54914 |
+| 127         | Greg       | Olsen     | Appleton | WI | 54911 |
+| 129         | Kim        | Palmer    | Neenah   | WI | 54956 |
+| 131         | Bryce      | Davis     | Appleton | WI | 54911 |
+| 133         | Erin       | Price     | Appleton | WI | 54913 |
+| 133         | Erin       | Price     | Appleton | WI | 54913 |
+| 134         | Marquise   | Alton     | Appleton | WI | 54915 |
+
+Notice how students 124 (Erin Donaldson), 125 (Erica Zastrow), and 133 (Erin Price) are duplicated? We can now safely remove the duplicate rows! So in second normal form, we end up with:
+
+| Student ID* | First Name | Last Name | City | State | Zip |
+| ----------- | ---------- | --------- | ---- | ----- | --- |
+| 123         | Jimmy      | Smith     | Appleton | WI | 54911 |
+| 124         | Erin       | Donaldson | Neenah   | WI | 54956 |
+| 125         | Erica      | Zastrow   | Appleton | WI | 54914 |
+| 127         | Greg       | Olsen     | Appleton | WI | 54911 |
+| 129         | Kim        | Palmer    | Neenah   | WI | 54956 |
+| 131         | Bryce      | Davis     | Appleton | WI | 54911 |
+| 133         | Erin       | Price     | Appleton | WI | 54913 |
+| 134         | Marquise   | Alton     | Appleton | WI | 54915 |
+
+And our Course table becomes really concise:
+
+| Course ID* | Course Name |
+| ---------- | ----------- |
+| 1          | Data Access for Programmers |
+| 2          | C# Intro to Programming     |
+| 3          | PHP                         |
+| 4          | Computer Programming C++    |
+
+## Third Normal Form (3NF)
+
+A database is in **Third Normal Form** if it meets the following criteria:
+
+- It is in Second Normal Form.
+- All non-key attributes are dependent on the primary key.
+
 
