@@ -9,7 +9,7 @@ next: 'RESTful APIs'
 
 Normalization is the process of organizing data in a database. This includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency.
 
-# Determinants and Functional Dependencies
+# Determinants and Dependencies
 
 Before we can normalize a database, we need to understand determinants and functional dependencies.
 
@@ -191,4 +191,101 @@ A database is in **Third Normal Form** if it meets the following criteria:
 - It is in Second Normal Form.
 - All non-key attributes are dependent on the primary key.
 
+The idea on this step is to remove any columns that have more that one functional dependency. In our example, we have two columns `City,` and `State` that are dependent on `Zip.` (If I know your zip-code, I know your city and state.) So we will create a new table for `Zip,` `City,` and `State.`
+
+| Zip*  | City     | State |
+| ----- | -------- | ----- |
+| 54911 | Appleton | WI    |
+| 54913 | Appleton | WI    |
+| 54914 | Appleton | WI    |
+| 54915 | Appleton | WI    |
+| 54956 | Neenah   | WI    |
+
+The City and State can then be removed from the Student table, leaving us with:
+
+| Student ID* | First Name | Last Name | Zip   |
+| ----------- | ---------- | --------- | ---   |
+| 123         | Jimmy      | Smith     | 54911 |
+| 124         | Erin       | Donaldson | 54956 |
+| 125         | Erica      | Zastrow   | 54914 |
+| 127         | Greg       | Olsen     | 54911 |
+| 129         | Kim        | Palmer    | 54956 |
+| 131         | Bryce      | Davis     | 54911 |
+| 133         | Erin       | Price     | 54913 |
+| 134         | Marquise   | Alton     | 54915 |
+
+And at this point, we have four tables that are in third normal form!
+
+Let's look at the same process, but with the dependency diagram.
+
+https://youtu.be/t0AdL6ZiLDc
+
+## Denormalization
+
+Denormalization is the process of taking a normalized database and adding redundant data to it. This is done to improve performance. In this video we will continue our example from above, and denormalize our database.
+
+https://youtu.be/0KGe5kfJHAQ
+
+## Remembering the Normal Forms
+
+A common pneumonic device for remembering the normal forms is:
+
+- 1NF: The key.
+- 2NF: The whole key.
+- 3NF: Nothing but the key.
+
+This video will explain.
+
+https://youtu.be/U9Kf8vl6iJ4
+
+
+# Review Questions
+
+1. What is a determinant?
+
+<details>
+	<summary>Show the Answer</summary>
+
+A determinant is any attribute whose value determines other values within a row.
+</details>
+
+2. What is a functional dependency?
+
+<details>
+	<summary>Show the Answer</summary>
+
+A functional dependency is a relationship between two attributes, typically between the determinant and the dependent attribute.
+</details>
+
+3. What are the rules for first normal form?
+
+<details>
+	<summary>Show the Answer</summary>
+
+To be in first normal form, a table must not have any multi-value attributes, and all columns must be dependent on the primary key.
+</details>
+
+4. What are the rules for second normal form?
+
+<details>
+	<summary>Show the Answer</summary>
+
+To be in second normal form, a table must be in first normal form, and all non-key attributes must be dependent on the entire primary key.
+</details>
+
+5. What are the rules for third normal form?
+
+<details>
+	<summary>Show the Answer</summary>
+
+To be in third normal form, a table must be in second normal form, and all non-key attributes must be dependent on only the primary key.
+</details>
+
+6. Why might you want to denormalize a database?
+
+<details>
+	<summary>Show the Answer</summary>
+
+To improve performance. (Not having to join tables).
+</details>
 
