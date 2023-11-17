@@ -207,6 +207,7 @@ SELECT CUSTOMER_NAME from customer WHERE CITY = 'Grove';
 
 SELECT * FROM vwGroveCustomers;
 ```
+</details>
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
