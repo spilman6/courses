@@ -231,6 +231,7 @@ SELECT CUSTOMER_NAME FROM customer WHERE CITY = FromCity;
 
 CALL spCustomersFrom('Fillmore');
 ```
+</details>
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
