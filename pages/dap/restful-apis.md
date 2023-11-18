@@ -27,7 +27,7 @@ We're going to create a RESTful API that stores information about Pokémon and t
 
 ## Data Normalization
 
-In the following videos we'll be designing the database for our Pokémon API. We'll start by creating an ERD. The Wikipedia page that we'll be using is [here](https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon). We'll be using the first generation of Pokémon, so we'll be using the first table on the page.
+In the following videos we'll be designing the database for our Pokémon API. We'll start by creating an ERD. The Wikipedia page that we'll be using is [here](https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon). We'll be using the first generation of Pokémon, so we'll be using the first table on the page.
 
 In this video we'll go over the dependencies and normalization of the columns.
 
