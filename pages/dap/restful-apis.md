@@ -218,7 +218,7 @@ Now that we have connected our app to our database, we can start querying it. Th
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/2Z3QX6Z3Zqo" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/M5QgQg8QIBA" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -426,6 +426,7 @@ app.get('/type/:typeName', (request, response) => {
 	})
 })
 ```
+</details>
 
 # Review Questions
 
