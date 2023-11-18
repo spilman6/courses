@@ -23,7 +23,7 @@ The first big decission to make... what kind of data should we store in our data
 
 # Pokémon API
 
-We're going to create a RESTful API that stores information about Pokémon. We'll need to store information about the Pokémon themselves, as well as information about their types, moves, and abilities.
+We're going to create a RESTful API that stores information about Pokémon and their types.
 
 ## Data Normalization
 
