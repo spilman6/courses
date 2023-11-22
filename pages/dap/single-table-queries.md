@@ -1,8 +1,7 @@
 ---
 title: 'Single Table Queries'
 course: 'Data Access for Programmers'
-previous: 'Single Table Databases'
-next: 'Group By and Having Statements'
+subtitle: 'Data Access for Programmers'
 ---
 
 # Single Table Queries
