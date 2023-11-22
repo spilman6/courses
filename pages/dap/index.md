@@ -4,24 +4,24 @@ course: " "
 hide-aside: true
 ---
 
-[Getting Started](/appel/dap/getting-started)
+[Getting Started](dap/getting-started)
 
-[Objects and File Types](./XXXXXXXXX)
+[Objects and File Types](dap/objects-and-file-types)
 
-[Single Table Databases](XXXXXXXXX)
+[Single Table Databases](dap/single-table-databases)
 
-[Single Table Queries](/appel/dap/XXXXXXXXX)
+[Single Table Queries](dap/single-table-queries)
 
-[Group by and Having Statements](/appel/dap/XXXXXXXXX)
+[Group by and Having Statements](dap/group-by-and-having-statments)
 
-[One-to-Many Relationships](/appel/dap/XXXXXXXXX)
+[One-to-Many Relationships](dap/one-to-many-relationships)
 
-[Multi-Table Queries](/appel/dap/XXXXXXXXX)
+[Multi-Table Queries](dap/multi-table-queries)
 
-[Advanced Joins, Views, and Procedures](/appel/dap/XXXXXXXXX)
+[Advanced Joins, Views, and Procedures](dap/advanced-joins-views-and-procedures)
 
-[Many-to-Many Relationships](/appel/dap/XXXXXXXXX)
+[Many-to-Many Relationships](dap/many-to-many-relationships)
 
-[Database Normalization](/appel/dap/XXXXXXXXX)
+[Database Normalization](dap/database-normalization)
 
-[RESTful APIs](/appel/dap/XXXXXXXXX)
+[RESTful APIs](dap/restful-apis)
