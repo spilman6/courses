@@ -1,6 +1,6 @@
 ---
 title: "Data Access for Programmers"
-hide-aside: true
+hide-nav: true
 ---
 
 [Getting Started](https://fvtc.software/appel/dap/getting-started) (Week 1)
