@@ -12,7 +12,7 @@ hide-aside: true
 
 [Single Table Queries](dap/single-table-queries)
 
-[Group by and Having Statements](dap/group-by-and-having-statments)
+[Group by and Having Statements](dap/group-by-and-having-statements)
 
 [One-to-Many Relationships](dap/one-to-many-relationships)
 
