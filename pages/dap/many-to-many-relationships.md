@@ -1,8 +1,7 @@
 ---
 title: 'Many-to-Many Relationships'
 course: 'Data Access for Programmers'
-previous: 'Advanced Joins, Views, and Procedures'
-next: 'Database Normalization'
+subtitle: 'Data Access for Programmers'
 ---
 
 # Many-to-Many Relationships
