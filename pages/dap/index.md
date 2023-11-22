@@ -1,5 +1,7 @@
 ---
 title: "Data Access for Programmers"
+course: " "
+hide-aside: true
 ---
 
 [Getting Started](/appel/dap/getting-started)
