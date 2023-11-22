@@ -11,7 +11,7 @@ hide-aside: true
 
 [Single Table Queries](https://fvtc.software/appel/dap/single-table-queries)
 
-[Group by and Having Statements](https://fvtc.software/appel/dap/group-by-and-having-statments)
+[Group by and Having Statements](https://fvtc.software/appel/dap/group-by-and-having-statements)
 
 [One-to-Many Relationships](https://fvtc.software/appel/dap/one-to-many-relationships)
 
