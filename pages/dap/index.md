@@ -1,27 +1,26 @@
 ---
 title: "Data Access for Programmers"
-course: " "
 hide-aside: true
 ---
 
-[Getting Started](dap/getting-started)
+[Getting Started](https://fvtc.software/appel/dap/getting-started)
 
-[Objects and File Types](dap/objects-and-file-types)
+[Objects and File Types](https://fvtc.software/appel/dap/objects-and-file-types)
 
-[Single Table Databases](dap/single-table-databases)
+[Single Table Databases](https://fvtc.software/appel/dap/single-table-databases)
 
-[Single Table Queries](dap/single-table-queries)
+[Single Table Queries](https://fvtc.software/appel/dap/single-table-queries)
 
-[Group by and Having Statements](dap/group-by-and-having-statments)
+[Group by and Having Statements](https://fvtc.software/appel/dap/group-by-and-having-statments)
 
-[One-to-Many Relationships](dap/one-to-many-relationships)
+[One-to-Many Relationships](https://fvtc.software/appel/dap/one-to-many-relationships)
 
-[Multi-Table Queries](dap/multi-table-queries)
+[Multi-Table Queries](https://fvtc.software/appel/dap/multi-table-queries)
 
-[Advanced Joins, Views, and Procedures](dap/advanced-joins-views-and-procedures)
+[Advanced Joins, Views, and Procedures](https://fvtc.software/appel/dap/advanced-joins-views-and-procedures)
 
-[Many-to-Many Relationships](dap/many-to-many-relationships)
+[Many-to-Many Relationships](https://fvtc.software/appel/dap/many-to-many-relationships)
 
-[Database Normalization](dap/database-normalization)
+[Database Normalization](https://fvtc.software/appel/dap/database-normalization)
 
-[RESTful APIs](dap/restful-apis)
+[RESTful APIs](https://fvtc.software/appel/dap/restful-apis)
