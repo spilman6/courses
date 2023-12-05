@@ -107,74 +107,76 @@ JavaScript has several different operators. The most common ones are:
 
 Assignment operators are used to assign values to variables. The most common assignment operator is `=`. Here is an example:
 
-  ```javascript
-  let x = 5
-  console.log(x) // 5
-  ```
+```javascript
+let x = 5
+console.log(x) // 5
+```
 
 ## Arithmetic Operators
 
 Arithmetic operators are used to perform arithmetic operations on numbers. The most common arithmetic operators are `+`, `-`, `*`, `/`, and `%`. Here is an example:
 
-  ```javascript
-  let x = 5
-  let y = 10
-  console.log(x + y) // 15
-  console.log(x - y) // -5
-  console.log(x * y) // 50
-  console.log(x / y) // 0.5
-  console.log(x % y) // 5
-  ```
+```javascript
+let x = 5
+let y = 10
+console.log(x + y) // 15
+console.log(x - y) // -5
+console.log(x * y) // 50
+console.log(x / y) // 0.5
+console.log(x % y) // 5
+```
 
 ## Comparison Operators
 
 Comparison operators are used to compare two values. The most common comparison operators are `==`, `!=`, `===`, `!==`, `>`, `<`, `>=`, and `<=`. Here is an example:
 
-  ```javascript
-  let x = 5
-  let y = 10
-  console.log(x == y) // false
-  console.log(x != y) // true
-  console.log(x === y) // false
-  console.log(x !== y) // true
-  console.log(x > y) // false
-  console.log(x < y) // true
-  console.log(x >= y) // false
-  console.log(x <= y) // true
-  ```
+```javascript
+let x = 5
+let y = 10
+console.log(x == y) // false
+console.log(x != y) // true
+console.log(x === y) // false
+console.log(x !== y) // true
+console.log(x > y) // false
+console.log(x < y) // true
+console.log(x >= y) // false
+console.log(x <= y) // true
+```
+
 > [!NOTE] The `==` and `!=` operators are used to compare values, while the `===` and `!==` operators are used to compare values and types. So, `5 == "5"` is true, but `5 === "5"` is false. I always use the `===` and `!==` operators, because they are more strict.
 
 ## Logical Operators
 
 Logical operators are used to combine multiple conditions. The most common logical operators are `&&` (and), `||` (or), and `!` (not). Here is an example:
 
-  ```javascript
-  let x = 5
-  let y = 10
-  console.log(x > 0 && y > 0) // true
-  console.log(x > 0 || y > 0) // true
-  console.log(!(x > 0)) // false
-  ```
+```javascript
+let x = 5
+let y = 10
+console.log(x > 0 && y > 0) // true
+console.log(x > 0 || y > 0) // true
+console.log(!(x > 0)) // false
+```
+
 > [!NOTE] The `||` operator is often used to provide a default value for a variable. For example, if we want to assign a default value of "John Doe" to a variable called `name`, we can do this: `let name = inputValue || "John Doe"`.
 
 ## Increment and Decrement Operators
 
 Increment and decrement operators are used to increase or decrease the value of a variable by 1. The most common increment and decrement operators are `++` and `--`. Here is an example:
 
-  ```javascript
-  let x = 5
-  x++
-  console.log(x) // 6
-  x--
-  console.log(x) // 5
-  ```
+```javascript
+let x = 5
+x++
+console.log(x) // 6
+x--
+console.log(x) // 5
+```
 
 ## Ternary Operator
 
 The ternary operator is used to assign a value to a variable based on a condition. It is similar to an if statement. Here is an example:
 
-  ```javascript
-  let x = 5
-  let y = x > 0 ? "positive" : "negative"
-  console.log(y) // "positive"
-  ```
+```javascript
+let x = 5
+let y = x > 0 ? "positive" : "negative"
+console.log(y) // "positive"
+```
