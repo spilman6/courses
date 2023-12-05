@@ -157,7 +157,7 @@ console.log(x > 0 || y > 0) // true
 console.log(!(x > 0)) // false
 ```
 
-> [!NOTE] The `||` operator is often used to provide a default value for a variable. For example, if we want to assign a default value of "John Doe" to a variable called `name`, we can do this: `let name = inputValue || "John Doe"`.
+> [!TIP] The `||` operator is often used to provide a default value for a variable. For example, if we want to assign a default value of "John Doe" to a variable called `name`, we can do this: `let name = inputValue || "John Doe"`.
 
 ## Increment and Decrement Operators
 
