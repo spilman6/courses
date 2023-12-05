@@ -21,21 +21,6 @@ However, if you want to install the software on your computer, it will probably 
 
 4. **A web browser**. Any modern web browser will work, but I recommend using Google Chrome: [https://www.google.com/chrome/](https://www.google.com/chrome/). This is the browser that will be used in the videos.
 
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
 # Hello World
 
 Let's start by creating a simple "Hello World" program. Create a new file called `app.js` and open it in VS Code. Then, add the following code:
