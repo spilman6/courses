@@ -23,7 +23,7 @@ However, if you want to install the software on your computer, it will probably 
 
 # Hello World
 
-Let's start by creating a simple "Hello World" program. Create a new file called `hello-world.js` and open it in VS Code. Then, add the following code:
+Let's start by creating a simple "Hello World" program. Create a new file called `app.js` and open it in VS Code. Then, add the following code:
 
 ```javascript
 console.log("Hello World!")
@@ -32,7 +32,7 @@ console.log("Hello World!")
 This code will print "Hello World!" to the console. To run this code, open a terminal in VS Code by going to `Terminal > New Terminal`. Then, type the following command:
 
 ```bash
-node hello-world.js
+> node app
 ```
 
 You should see "Hello World!" printed to the console.
