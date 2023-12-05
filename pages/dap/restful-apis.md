@@ -1,7 +1,7 @@
 ---
 title: 'RESTful APIs'
 course: 'Data Access for Programmers'
-previous: 'Database Normalization'
+subtitle: 'Data Access for Programmers'
 ---
 
 # RESTful APIs

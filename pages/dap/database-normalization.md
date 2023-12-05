@@ -1,8 +1,7 @@
 ---
 title: 'Database Normalization'
 course: 'Data Access for Programmers'
-previous: 'Many-to-Many Relationships'
-next: 'RESTful APIs'
+subtitle: 'Data Access for Programmers'
 ---
 
 # Database Normalization

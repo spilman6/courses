@@ -1,8 +1,7 @@
 ---
 title: 'Single Table Databases'
 course: 'Data Access for Programmers'
-previous: 'Objects and File Types'
-next: 'Single Table Queries'
+subtitle: 'Data Access for Programmers'
 ---
 
 # Single Table Databases
