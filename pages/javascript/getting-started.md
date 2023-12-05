@@ -58,21 +58,21 @@ This will print "Hello John!" to the console.
 
 There are several different data types in JavaScript. The most common ones are:
 
-## String**: A string is a sequence of characters. Strings are used to represent text. Strings are declared using double quotes (`"`) or single quotes (`'`).
+- **String**: A string is a sequence of characters. Strings are used to represent text. Strings are declared using double quotes (`"`) or single quotes (`'`).
 
-## Number**: A number is a numeric value. Numbers can be integers (whole numbers) or floating-point numbers (numbers with a decimal point). Numbers are declared without quotes.
+- **Number**: A number is a numeric value. Numbers can be integers (whole numbers) or floating-point numbers (numbers with a decimal point). Numbers are declared without quotes.
 
-## Boolean**: A boolean is a value that is either `true` or `false`. Booleans are used to represent the truth value of an expression. Booleans are declared without quotes.
+- **Boolean**: A boolean is a value that is either `true` or `false`. Booleans are used to represent the truth value of an expression. Booleans are declared without quotes.
 
-## Null**: Null is a special value that represents "nothing". Null is declared without quotes.
+- **Null**: Null is a special value that represents "nothing". Null is declared without quotes.
 
-## Undefined**: Undefined is a special value that represents a variable that has not been assigned a value. Undefined is declared without quotes.
+- **Undefined**: Undefined is a special value that represents a variable that has not been assigned a value. Undefined is declared without quotes.
 
-## Object**: An object is a collection of key-value pairs. Objects are declared using curly braces (`{}`).
+- **Object**: An object is a collection of key-value pairs. Objects are declared using curly braces (`{}`).
 
-## Array**: An array is a collection of values. Arrays are declared using square brackets (`[]`).
+- **Array**: An array is a collection of values. Arrays are declared using square brackets (`[]`).
 
-## Function**: A function is a block of code that can be called by name. Functions are declared using the `function` keyword.
+- **Function**: A function is a block of code that can be called by name. Functions are declared using the `function` keyword.
 
 ## String Interpolation
 
