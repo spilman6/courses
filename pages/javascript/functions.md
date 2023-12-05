@@ -4,7 +4,7 @@ subtitle: JavaScript
 
 # Functions
 
-Similar to Methods in C#, functions are a way to group code together to perform a specific task. Usually we assign a name to a function, and then call that function by name when we want to execute the code inside of it.
+Similar to Methods in C#, functions are a way to group code together to perform a specific task. Usually we assign a name to a function, and then call that function by name when we want to run the code inside of it.
 
 Here is an example of a function:
 
@@ -14,11 +14,20 @@ function sayHello() {
 }
 ```
 
-If printing "Hello World!" to the console is something we want to do often, this function will save us time by allowing us to call it (or invoke it) by name.
+When we want to run the code inside of the function, we call it by name:
 
 ```javascript
 sayHello()
-// instead of:
+```
+
+If printing "Hello World!" to the console is something we want to do often, this function will save us time by allowing us to call:
+
+```javascript
+sayHello()
+```
+Instead of:
+
+```javascript
 console.log("Hello World!")
 ```
 
