@@ -42,6 +42,6 @@ In this example, the `name` variable is a parameter. When we call the function, 
 sayHello("John")
 ```
 
-> [!TIP] I have always found is strange that the word "parameter" is used to describe a variable that is part of a function definition. I think it would make more sense to call it a "function variable" or something like that. But, that's just the way it is. I also find it odd that you don't have to use the `var` keyword when declaring a parameter.
+> [!NOTE] I have always found is strange that the word "parameter" is used to describe a variable that is part of a function definition. I think it would make more sense to call it a "function variable" or something like that. But, that's just the way it is. I also find it odd that you don't have to use the `var` keyword when declaring a parameter.
 
 ## Return Values
