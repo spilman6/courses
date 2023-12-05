@@ -3,7 +3,7 @@ title: "Data Access for Programmers"
 hide-nav: true
 ---
 
-[Getting Started](getting-started.md) - _Week 1_
+[Getting Started](getting-started) - _Week 1_
 
 [Objects and File Types](objects-and-file-types) - _Week 2_
 
