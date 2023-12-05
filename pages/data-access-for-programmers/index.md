@@ -3,24 +3,24 @@ title: "Data Access for Programmers"
 hide-nav: true
 ---
 
-[Getting Started](/appel/dap/getting-started) - _Week 1_
+[Getting Started](data-access-for-programmers/getting-started) - _Week 1_
 
-[Objects and File Types](/appel/dap/objects-and-file-types) - _Week 2_
+[Objects and File Types](data-access-for-programmers/objects-and-file-types) - _Week 2_
 
-[Single Table Databases](/appel/dap/single-table-databases) - _Week 3_
+[Single Table Databases](data-access-for-programmers/single-table-databases) - _Week 3_
 
-[Single Table Queries](/appel/dap/single-table-queries) - _Week 4_
+[Single Table Queries](data-access-for-programmers/single-table-queries) - _Week 4_
 
-[Group by and Having Statements](/appel/dap/group-by-and-having-statements) - _Week 5_
+[Group by and Having Statements](data-access-for-programmers/group-by-and-having-statements) - _Week 5_
 
-[One-to-Many Relationships](/appel/dap/one-to-many-relationships) - _Week 6_
+[One-to-Many Relationships](data-access-for-programmers/one-to-many-relationships) - _Week 6_
 
-[Multi-Table Queries](/appel/dap/multi-table-queries) - _Week 7_
+[Multi-Table Queries](data-access-for-programmers/multi-table-queries) - _Week 7_
 
-[Advanced Joins, Views, and Procedures](/appel/dap/advanced-joins-views-and-procedures) - _Week 9_
+[Advanced Joins, Views, and Procedures](data-access-for-programmers/advanced-joins-views-and-procedures) - _Week 9_
 
-[Many-to-Many Relationships](/appel/dap/many-to-many-relationships) - _Week 10_
+[Many-to-Many Relationships](data-access-for-programmers/many-to-many-relationships) - _Week 10_
 
-[Database Normalization](/appel/dap/database-normalization) - _Week 11_
+[Database Normalization](data-access-for-programmers/database-normalization) - _Week 11_
 
-[RESTful APIs](/appel/dap/restful-apis) - _Week 12_
+[RESTful APIs](data-access-for-programmers/restful-apis) - _Week 12_
