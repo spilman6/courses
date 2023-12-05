@@ -14,13 +14,23 @@ function sayHello() {
 }
 ```
 
-If printing "Hello World!" to the console is something we want to do often, this function will save us time by allowing us to call it by name, instead of having to write the code to print "Hello World!"
+If printing "Hello World!" to the console is something we want to do often, this function will save us time by allowing us to call it (or invoke it) by name.
 
 ```javascript
 sayHello()
 // instead of:
 console.log("Hello World!")
 ```
+
+We don't actually have to name functions, which may seem strange. This is referred to as an "anonymous function". Here is an example:
+
+```javascript
+function() {
+	console.log("Hello World!")
+}
+```
+
+This specific example is not very useful, because we have no way to call the function. However, we will see later that anonymous functions can be very useful, so it's worth mentioning.
 
 ## Parameters and Arguments
 
@@ -36,7 +46,7 @@ function sayHello(name) {
 }
 ```
 
-In this example, the `name` variable is a parameter. When we call the function, we pass in an argument for the `name` parameter.
+In this example, the `name` variable is a parameter. When we call the function, we pass in the argument "John":
 
 ```javascript
 sayHello("John")
