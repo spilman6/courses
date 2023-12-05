@@ -158,7 +158,7 @@ console.log(x >= y) // false
 console.log(x <= y) // true
 ```
 
-> [!NOTE] The `==` and `!=` operators are used to compare values, while the `===` and `!==` operators are used to compare values and types. So, `5 == "5"` is true, but `5 === "5"` is false. I always use the `===` and `!==` operators, because they are more strict.
+> [!NOTE] The `==` and `!=` operators are used to compare values, while the `===` and `!==` operators are used to compare values and types. So, `5 == "5"` is true, but `5 === "5"` is false. I recommend using the `===` and `!==` operators, because they are more strict.
 
 ## Logical Operators
 
