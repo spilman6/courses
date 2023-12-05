@@ -32,7 +32,7 @@ console.log("Hello World!")
 This code will print "Hello World!" to the console. To run this code, open a terminal in VS Code by going to `Terminal > New Terminal`. Then, type the following command:
 
 ```bash
-> node app
+node app
 ```
 
 You should see "Hello World!" printed to the console.
@@ -58,21 +58,21 @@ This will print "Hello John!" to the console.
 
 There are several different data types in JavaScript. The most common ones are:
 
-- **String**: A string is a sequence of characters. Strings are used to represent text. Strings are declared using double quotes (`"`) or single quotes (`'`).
+## String**: A string is a sequence of characters. Strings are used to represent text. Strings are declared using double quotes (`"`) or single quotes (`'`).
 
-- **Number**: A number is a numeric value. Numbers can be integers (whole numbers) or floating-point numbers (numbers with a decimal point). Numbers are declared without quotes.
+## Number**: A number is a numeric value. Numbers can be integers (whole numbers) or floating-point numbers (numbers with a decimal point). Numbers are declared without quotes.
 
-- **Boolean**: A boolean is a value that is either `true` or `false`. Booleans are used to represent the truth value of an expression. Booleans are declared without quotes.
+## Boolean**: A boolean is a value that is either `true` or `false`. Booleans are used to represent the truth value of an expression. Booleans are declared without quotes.
 
-- **Null**: Null is a special value that represents "nothing". Null is declared without quotes.
+## Null**: Null is a special value that represents "nothing". Null is declared without quotes.
 
-- **Undefined**: Undefined is a special value that represents a variable that has not been assigned a value. Undefined is declared without quotes.
+## Undefined**: Undefined is a special value that represents a variable that has not been assigned a value. Undefined is declared without quotes.
 
-- **Object**: An object is a collection of key-value pairs. Objects are declared using curly braces (`{}`).
+## Object**: An object is a collection of key-value pairs. Objects are declared using curly braces (`{}`).
 
-- **Array**: An array is a collection of values. Arrays are declared using square brackets (`[]`).
+## Array**: An array is a collection of values. Arrays are declared using square brackets (`[]`).
 
-- **Function**: A function is a block of code that can be called by name. Functions are declared using the `function` keyword.
+## Function**: A function is a block of code that can be called by name. Functions are declared using the `function` keyword.
 
 ## String Interpolation
 
@@ -85,7 +85,7 @@ console.log(`Hello ${name}!`)
 
 This will print "Hello John!" to the console.
 
-## Comments
+# Comments
 
 Comments in JavaScript are similar to comments in C#. Single-line comments start with `//` and multi-line comments start with `/*` and end with `*/`. Here is an example:
 
@@ -99,18 +99,22 @@ So spany lines. Much comment. Very multi-line. Wow. - Doge
 */
 ```
 
-## Operators
+# Operators
 
 JavaScript has several different operators. The most common ones are:
 
-- **Assignment Operators**: Assignment operators are used to assign values to variables. The most common assignment operator is `=`. Here is an example:
+## Assignment Operators
+
+Assignment operators are used to assign values to variables. The most common assignment operator is `=`. Here is an example:
 
   ```javascript
   let x = 5
   console.log(x) // 5
   ```
 
-- **Arithmetic Operators**: Arithmetic operators are used to perform arithmetic operations on numbers. The most common arithmetic operators are `+`, `-`, `*`, `/`, and `%`. Here is an example:
+## Arithmetic Operators
+
+Arithmetic operators are used to perform arithmetic operations on numbers. The most common arithmetic operators are `+`, `-`, `*`, `/`, and `%`. Here is an example:
 
   ```javascript
   let x = 5
@@ -122,7 +126,9 @@ JavaScript has several different operators. The most common ones are:
   console.log(x % y) // 5
   ```
 
-- **Comparison Operators**: Comparison operators are used to compare two values. The most common comparison operators are `==`, `!=`, `===`, `!==`, `>`, `<`, `>=`, and `<=`. Here is an example:
+## Comparison Operators
+
+Comparison operators are used to compare two values. The most common comparison operators are `==`, `!=`, `===`, `!==`, `>`, `<`, `>=`, and `<=`. Here is an example:
 
   ```javascript
   let x = 5
@@ -138,7 +144,9 @@ JavaScript has several different operators. The most common ones are:
   ```
 > [!NOTE] The `==` and `!=` operators are used to compare values, while the `===` and `!==` operators are used to compare values and types. So, `5 == "5"` is true, but `5 === "5"` is false. I always use the `===` and `!==` operators, because they are more strict.
 
-- **Logical Operators**: Logical operators are used to combine multiple conditions. The most common logical operators are `&&` (and), `||` (or), and `!` (not). Here is an example:
+## Logical Operators
+
+Logical operators are used to combine multiple conditions. The most common logical operators are `&&` (and), `||` (or), and `!` (not). Here is an example:
 
   ```javascript
   let x = 5
@@ -149,7 +157,9 @@ JavaScript has several different operators. The most common ones are:
   ```
 > [!NOTE] The `||` operator is often used to provide a default value for a variable. For example, if we want to assign a default value of "John Doe" to a variable called `name`, we can do this: `let name = inputValue || "John Doe"`.
 
-- **Increment and Decrement Operators**: Increment and decrement operators are used to increase or decrease the value of a variable by 1. The most common increment and decrement operators are `++` and `--`. Here is an example:
+## Increment and Decrement Operators
+
+Increment and decrement operators are used to increase or decrease the value of a variable by 1. The most common increment and decrement operators are `++` and `--`. Here is an example:
 
   ```javascript
   let x = 5
@@ -159,7 +169,9 @@ JavaScript has several different operators. The most common ones are:
   console.log(x) // 5
   ```
 
-- **Ternary Operator**: The ternary operator is used to assign a value to a variable based on a condition. It is similar to an if statement. Here is an example:
+## Ternary Operator
+
+The ternary operator is used to assign a value to a variable based on a condition. It is similar to an if statement. Here is an example:
 
   ```javascript
   let x = 5
