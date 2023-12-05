@@ -1,0 +1,16 @@
+{
+	"title": "Data Access for Programmers",
+	"units": [
+		"Getting Started",
+		"Objects and File Types",
+		"Single Table Databases",
+		"Single Table Queries",
+		"Group by and Having Statements",
+		"One-to-Many Relationships",
+		"Multi-Table Queries",
+		"Advanced Joins, Views, and Procedures",
+		"Many-to-Many Relationships",
+		"Database Normalization",
+		"RESTful APIs"
+	]
+}
