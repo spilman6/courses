@@ -13,11 +13,11 @@ All of the software used in this course is free and open-source. If you don't wa
 
 However, if you want to install the software on your computer, it will probably be faster and a more pleasant experience. The software we will be using is:
 
-1. Visual Studio Code (VS Code) as our code editor. VS Code is a free, open-source code editor that is available for Windows, Mac, and Linux. You can download it here: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+1. **Visual Studio Code (VS Code)** as our code editor. VS Code is a free, open-source code editor that is available for Windows, Mac, and Linux. You can download it here: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-2. Node.js, which is a JavaScript runtime environment. Node.js allows us to run JavaScript code outside of a web browser. You can download it here: [https://nodejs.org/en/](https://nodejs.org/en/)
+2. **Node.js**, which is a JavaScript runtime environment. Node.js allows us to run JavaScript code outside of a web browser. You can download it here: [https://nodejs.org/en/](https://nodejs.org/en/)
 
-3. Git, which is a version control system. Git allows us to keep track of changes to our code, and to collaborate with others. You can download it here: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+3. **Git**, which is a version control system. Git allows us to keep track of changes to our code, and to collaborate with others. You can download it here: [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-4. A web browser. Any modern web browser will work, but I recommend using Google Chrome: [https://www.google.com/chrome/](https://www.google.com/chrome/). This is the browser that will be used in the videos.
+4. **A web browser**. Any modern web browser will work, but I recommend using Google Chrome: [https://www.google.com/chrome/](https://www.google.com/chrome/). This is the browser that will be used in the videos.
 
