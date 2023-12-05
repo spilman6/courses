@@ -1,5 +1,5 @@
 ---
-title: 'Primitive Data Types'
+title: 'Getting Started'
 course: 'Data Access for Programmers'
 next: 'Objects and File Types'
 ---
