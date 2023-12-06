@@ -38,7 +38,7 @@ The thing to remember about reducer functions is that they have two parameters. 
 const getEvenNumbers = (acc, item) => { }
 ```
 
-Need a refresher? [/appel/javascript/advanced-functions#reduce]
+Need a refresher? (/appel/javascript/advanced-functions#reduce)
 
 </details>
 
