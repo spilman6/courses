@@ -1,10 +1,10 @@
 ---
-title: Functions - Exercise 3
+title: Functions - Exercise 2
 subtitle: "JavaScript"
 course: "JavaScript"
 ---
 
-# Exercise 3
+# Exercise 2
 
 For this exercise, write the missing reducer function `getEvenNumbers`. To determine if a number is even, use the mod operator (`%`), and mod the given number by 2. If the remainder equals zero, it's even. Otherwise it's odd.
 
