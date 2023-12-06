@@ -71,6 +71,6 @@ const names = people.map(getFullName)
 console.log({ names })
 ```
 
-You can also run the code [here](https://onecompiler.com/javascript/3zvmsuzm3).
+You can also run the code [here](https://onecompiler.com/javascript/3zvk3dea9).
 
 </details>
