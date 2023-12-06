@@ -1,6 +1,7 @@
 ---
 title: Functions - Exercise 3
 subtitle: "JavaScript"
+course: "JavaScript"
 ---
 
 # Exercise 3
