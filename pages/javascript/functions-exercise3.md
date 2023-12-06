@@ -1,10 +1,10 @@
 ---
-title: Functions - Exercise 3
+title: Functions - Exercise 2
 subtitle: "JavaScript"
 course: "JavaScript"
 ---
 
-# Exercise 3
+# Exercise 2
 
 For this exercise, write the missing map function called `getFullName()`. The map function should destructure the first and last name of a person object and return the full name using string interpolation.
 
