@@ -6,24 +6,25 @@ course: "JavaScript"
 
 # Exercise 3
 
-For this exercise, write the missing map function called `getFullName()`. The map function should destructure the first and last name of a person object and return the full name using string interpolation.
+For this exercise, write the missing reducer function `getEvenNumbers`. To determine if a number is even, use the mod operator (`%`), and mod the given number by 2. If the remainder equals zero, it's even. Otherwise it's odd.
 
-Try to inline the function if possible.
+For example:
+
+```javascript
+console.log(5 % 2) // 1, so 5 is odd
+console.log(12 % 2) // 0, so 12 is even
+```
 
 Start with this code, and write the function where instructed:
 
 ```javascript
-const people = [
-	{ firstName: "Harper", lastName: "Smith", age: 22 },
-	{ firstName: "Kayla", lastName: "Johannson", age: 27 },
-	{ firstName: "Tim", lastName: "Richards", age: 44 }
-]
+const numbers = [ 5, 13, 45, 12, 111, 6 ]
 
 // write your function here:
 
 
-const names = people.map(getFullName)
-console.log({ names })
+const evenNumbers = numbers.reduce(getEvenNumbers, [ ])
+console.log({ evenNumbers })
 ```
 
 ## Hint
@@ -31,13 +32,13 @@ console.log({ names })
 <details>
 	<summary>How do I get started?</summary>
 
-Start by creating a function that simply returns the person being passed in to the parameter.
+The thing to remember about reducer functions is that they have two parameters. An accumulator object, and an item from the array. So the function signature should look like:
 
-Need a refresher?
+```javascript
+const getEvenNumbers = (acc, item) => { }
+```
 
-[JavaScript Function Parameters](/appel/javascript/functions#parameters)
-
-[JavaScript Return Statement](/appel/javascript/functions#return-statement)
+Need a refresher? (/appel/javascript/advanced-functions#reduce)
 
 </details>
 
@@ -58,19 +59,17 @@ Need a refresher?
 	<summary>Show the answer</summary>
 
 ```javascript
-const people = [
-	{ firstName: "Harper", lastName: "Smith", age: 22 },
-	{ firstName: "Kayla", lastName: "Johannson", age: 27 },
-	{ firstName: "Tim", lastName: "Richards", age: 44 }
-]
+const numbers = [ 5, 13, 45, 12, 111, 6 ]
 
-// write your function here:
-const getFullName = ({ firstName, lastName }) => `${firstName} ${lastName}`
+const getEvenNumbers = (acc, item) => {
+    if (item % 2 == 1) return acc
+    return [ ...acc, item ]
+}
 
-const names = people.map(getFullName)
-console.log({ names })
+const evenNumbers = numbers.reduce(getEvenNumbers, [ ])
+console.log({ evenNumbers })
 ```
 
-You can also run the code [here](https://onecompiler.com/javascript/3zvk3dea9).
+You can also run the code [here](https://onecompiler.com/javascript/3zvmsuzm3).
 
 </details>
