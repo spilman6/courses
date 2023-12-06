@@ -22,6 +22,26 @@ const numbers = [ 5, 13, 45, 12, 111, 6 ]
 // write your function here:
 
 
-const evenNumbers = numbers.reduce(getEvenNumbers)
+const evenNumbers = numbers.reduce(getEvenNumbers, [ ])
 console.log({ evenNumbers })
 ```
+
+## Hint
+
+<details>
+	<summary>How do I get started?</summary>
+
+The thing to remember about reducer functions is that they have two parameters. An accumulator object, and an item from the array. So the function signature should look like:
+
+```javascript
+const getEvenNumbers = (acc, item) => { }
+```
+
+Need a refresher? [/appel/javascript/advanced-functions#reduce]
+
+<details>
+
+## Answer
+
+<details>
+	<summary>Show the answer</summary>
