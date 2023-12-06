@@ -64,7 +64,7 @@ Need a refresher?
 
 ## Answer
 
-<details open>
+<details>
 	<summary class="video">Walkthrough Video</summary>
     	<div class="video-container">
 		<iframe
@@ -132,7 +132,7 @@ Need a refresher?
 
 ## Answer
 
-<details open>
+<details>
 	<summary class="video">Walkthrough Video</summary>
     	<div class="video-container">
 		<iframe
@@ -204,7 +204,7 @@ Need a refresher? (/appel/javascript/advanced-functions#reduce)
 
 ## Answer
 
-<details open>
+<details>
 	<summary class="video">Walkthrough Video</summary>
     	<div class="video-container">
 		<iframe
