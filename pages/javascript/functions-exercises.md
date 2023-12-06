@@ -22,6 +22,8 @@ const people = [
 people.forEach(/* write your function here */)
 ```
 
+[Open in OneCompiler](https://onecompiler.com/javascript/3zvmvmcad)
+
 ## Hints
 
 <details>
