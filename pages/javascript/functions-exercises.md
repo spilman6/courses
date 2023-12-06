@@ -65,17 +65,6 @@ Need a refresher?
 ## Answer
 
 <details>
-	<summary class="video">Walkthrough Video</summary>
-    	<div class="video-container">
-		<iframe
-			src="https://www.youtube.com/embed/-dRicTc2GFA"
-			width="100%" height="100%" frameborder="0" allowfullscreen
-			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-		></iframe>
-	</div>
-</details>
-
-<details>
 	<summary>Show the answer</summary>
 
 
@@ -91,6 +80,17 @@ people.forEach(({ firstName }) => console.log(firstName))
 
 You can also run the code [here](https://onecompiler.com/javascript/3zvk3dea9).
 
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+    	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/-dRicTc2GFA"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
 </details>
 
 # Exercise 2
@@ -133,17 +133,6 @@ Need a refresher?
 ## Answer
 
 <details>
-	<summary class="video">Walkthrough Video</summary>
-    	<div class="video-container">
-		<iframe
-			src="https://www.youtube.com/embed/-dRicTc2GFA"
-			width="100%" height="100%" frameborder="0" allowfullscreen
-			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-		></iframe>
-	</div>
-</details>
-
-<details>
 	<summary>Show the answer</summary>
 
 ```javascript
@@ -162,6 +151,17 @@ console.log({ names })
 
 You can also run the code [here](https://onecompiler.com/javascript/3zvk3dea9).
 
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+    	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/-dRicTc2GFA"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
 </details>
 
 # Exercise 3
@@ -205,17 +205,6 @@ Need a refresher? (/appel/javascript/advanced-functions#reduce)
 ## Answer
 
 <details>
-	<summary class="video">Walkthrough Video</summary>
-    	<div class="video-container">
-		<iframe
-			src="https://www.youtube.com/embed/-dRicTc2GFA"
-			width="100%" height="100%" frameborder="0" allowfullscreen
-			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-		></iframe>
-	</div>
-</details>
-
-<details>
 	<summary>Show the answer</summary>
 
 ```javascript
@@ -232,4 +221,15 @@ console.log({ evenNumbers })
 
 You can also run the code [here](https://onecompiler.com/javascript/3zvmsuzm3).
 
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+    	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/-dRicTc2GFA"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
 </details>
