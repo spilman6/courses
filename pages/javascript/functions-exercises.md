@@ -35,7 +35,7 @@ Start by creating an empty anonymous function that just logs something to the co
 
 Need a refresher?
 
-[JavaScript Function Parameters](/appel/javascript/functions#anonymous)
+[JavaScript Anonymous Functions](/appel/javascript/functions#anonymous)
 
 </details>
 
@@ -58,7 +58,7 @@ const { coursdId, instructorName } = courseInfo
 
 Need a refresher?
 
-[JavaScript Function Parameters](/appel/javascript/objects#destructuring)
+[JavaScript Object Destructuring](/appel/javascript/objects#destructuring)
 
 </details>
 
