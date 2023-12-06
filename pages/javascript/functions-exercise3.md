@@ -39,9 +39,34 @@ const getEvenNumbers = (acc, item) => { }
 
 Need a refresher? [/appel/javascript/advanced-functions#reduce]
 
-<details>
+</details>
 
 ## Answer
 
 <details>
 	<summary>Show the answer</summary>
+
+```javascript
+const numbers = [ 5, 13, 45, 12, 111, 6 ]
+
+const getEvenNumbers = (acc, item) => {
+    if (item % 2 == 1) return acc
+    return [ ...acc, item ]
+}
+
+const evenNumbers = numbers.reduce(getEvenNumbers, [ ])
+console.log({ evenNumbers })
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+    	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/-dRicTc2GFA"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
