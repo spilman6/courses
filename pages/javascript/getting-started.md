@@ -9,7 +9,16 @@ JavaScript is a programming language that was created to make web pages interact
 
 ## Software Used in this Course
 
-All of the software used in this course is free and open-source. If you don't want to install them on your computer, a virtual machine has been provided for you to use. See the [Virtual Machine](/virtual-machine) page for more information on how to use it.
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+All of the software used in this course is free and open-source. If you don't want to (or can't) install them on your computer, contact your instructor and they will have a virtual machine set up for you.
 
 However, if you want to install the software on your computer, it will probably be faster and a more pleasant experience. The software we will be using is:
 
