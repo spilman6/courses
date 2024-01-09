@@ -1,7 +1,7 @@
 ---
 title: Assignment 1 - GitHub Account
-subtitle: "JavaScript"
-course: "JavaScript"
+subtitle: "Modern JavaScript"
+course: "Modern JavaScript"
 ---
 
 # Assignment 1 - GitHub Account

@@ -1,7 +1,7 @@
 ---
 title: Array Functions - Exercises
-subtitle: "JavaScript"
-course: "JavaScript"
+subtitle: "Modern JavaScript"
+course: "Modern JavaScript"
 ---
 
 # Exercise 1
