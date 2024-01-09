@@ -142,4 +142,24 @@ Again, the process for pushing code to Azure DevOps is very similar to pushing c
 	</div>
 </details>
 
+## Subsequent Pushes
 
+After you have pushed your code to one of these services, if you make any changes to your code, you can push them by running the following commands.
+
+First stage your changes:
+
+```bash
+git add .
+``` 
+
+Then commit your changes:
+
+```bash
+git commit -m "New code added!"
+```
+
+Finally, push your changes:
+
+```bash
+git push
+```
