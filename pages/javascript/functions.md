@@ -1,5 +1,6 @@
 ---
-subtitle: JavaScript
+title: 'Getting Started'
+subtitle: 'Modern JavaScript'
 ---
 
 # Functions

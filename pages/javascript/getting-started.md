@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started'
-subtitle: 'JavaScript'
+subtitle: 'Modern JavaScript'
 ---
 
 # Getting Started
@@ -9,7 +9,16 @@ JavaScript is a programming language that was created to make web pages interact
 
 ## Software Used in this Course
 
-All of the software used in this course is free and open-source. If you don't want to install them on your computer, a virtual machine has been provided for you to use. See the [Virtual Machine](/virtual-machine) page for more information on how to use it.
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/-3CwVcZsLyA" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+All of the software used in this course is free and open-source. If you don't want to (or can't) install them on your computer, contact your instructor and they will have a virtual machine set up for you.
 
 However, if you want to install the software on your computer, it will probably be faster and a more pleasant experience. The software we will be using is:
 
@@ -17,7 +26,7 @@ However, if you want to install the software on your computer, it will probably 
 
 2. **Node.js**, which is a JavaScript runtime environment. Node.js allows us to run JavaScript code outside of a web browser. You can download it here: [https://nodejs.org/en/](https://nodejs.org/en/). I would recommend downloading the LTS version, which is the most stable version.
 
-3. **Git**, which is a version control system. Git allows us to keep track of changes to our code, and to collaborate with others. You can download it here: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+3. **Git**, which is a version control system. Git allows us to keep track of changes to our code. Some of you have probably used Git before, but if you haven't, I have a series of videos that will walk you through installing Git, and get you started with the basics. You can watch them here: [https://fvtc.software/appel/source-control/getting-started](https://fvtc.software/appel/source-control/getting-started)
 
 4. **A web browser**. Any modern web browser will work, but I recommend using Google Chrome: [https://www.google.com/chrome/](https://www.google.com/chrome/). This is the browser that will be used in the videos.
 
@@ -157,7 +166,7 @@ console.log(x > 0 || y > 0) // true
 console.log(!(x > 0)) // false
 ```
 
-> [!TIP] The `||` operator is often used to provide a default value for a variable. For example, if we want to assign a default value of "John Doe" to a variable called `name`, we can do this: `let name = inputValue || "John Doe"`.
+> [!NOTE] The `||` operator is often used to provide a default value for a variable. For example, if we want to assign a default value of "John Doe" to a variable called `name`, we can do this: `let name = inputValue || "John Doe"`.
 
 ## Increment and Decrement Operators
 
