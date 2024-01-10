@@ -8,7 +8,7 @@ hide-nav: true
 
 [Data Access for Programmers](/appel/data-access-for-programmers)
 
-[JavaScript](/appel/javascript)
+[Modern JavaScript](/appel/javascript)
 
 [Computer Programming C++](/appel/computer-programming-cpp)
 
