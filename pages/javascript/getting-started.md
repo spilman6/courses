@@ -30,42 +30,156 @@ However, if you want to install the software on your computer, it will probably 
 
 4. **A web browser**. Any modern web browser will work, but I recommend using Google Chrome: [https://www.google.com/chrome/](https://www.google.com/chrome/). This is the browser that will be used in the videos.
 
-# Hello World
+# A Brief History of JavaScript
 
-Let's start by creating a simple "Hello World" program. Create a new file called `app.js` and open it in VS Code. Then, add the following code:
+JavaScript was created in 1995, and was designed to be a simple scripting language to make web pages more interactive. It has evolved into a full-fledged programming language.
 
-```javascript
-console.log("Hello World!")
+In the early days of JavaScript, it was used primarily for simple tasks like form validation, and since every browser had its own implementation of JavaScript, it was difficult to write cross-browser code. However, in 2015, the ECMAScript 2015 (ES6) specification was released, which standardized JavaScript and added many new features. Since then, JavaScript has become a very popular language for both front-end and back-end development.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/U0aCrHZYrks" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+> [!NOTE] The video above mentions a VS Code extension called "Live Server". If you had any difficulty installing it, there is an installation link here: [https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+# Writing JavaScript Code
+
+Let's start by creating a simple webpage and writing some JavaScript code.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/beEIte8U09w" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code that we wrote in the video:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<h1>Hi</h1>
+	<p>My name is Ryan.</p>
+	<article>Hello</article>
+</body>
+<script>
+
+console.log('Hello World')
+
+</script>
+
+</html>
 ```
 
-This code will print "Hello World!" to the console. To run this code, open a terminal in VS Code by going to `Terminal > New Terminal`. Then, type the following command:
+## Playing around with our Webpage
 
-```bash
-node app
+Continuing from the previous video, let's modify our webpage and see what happens.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/TNAMTdReE6o" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code that we wrote in the video:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<h1>Hi</h1>
+	<p>My name is Ryan.</p>
+	<article>Hello</article>
+</body>
+<script>
+
+const article = document.querySelector('article')
+const now = new Date().toLocaleTimeString()
+
+if (now.includes('PM')) {
+	article.textContent = 'Good Evening'
+} else if (now.includes('AM')) {
+	article.textContent = 'Good Morning'
+}
+
+</script>
+
+</html>
 ```
-
-You should see "Hello World!" printed to the console.
 
 # Variables
 
-Variables are used to store data. They are declared using the `let` keyword. Here is an example:
+You should be familiar with variables from C#. In JavaScript, variables are declared using the `let` keyword and constants are declared using the `const` keyword. This video will walk you through declaring variables and constants in JavaScript.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/RxdP32ag3Ag" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code that we wrote in the video:
+
+Remember that `let` is used for variables:
 
 ```javascript
-let name = "John"
+let name = 'John'
 ```
 
-In this example, we are declaring a variable called `name` and assigning it the value "John". We can then use this variable later in our code:
+And `const` is used for constants:
 
 ```javascript
-let name = "John"
-console.log(`Hello ${name}!`)
+const name = 'John'
+const age = 20
 ```
 
-This will print "Hello John!" to the console.
+The backtick character (`` ` ``) in combination with the dollar sign/curly braces (`${}`) is used for string interpolation:
+
+```javascript
+console.log(`${name} is ${age + 50} years old.`) 
+```
 
 ## Data Types
 
-There are several different data types in JavaScript. The most common ones are:
+There are several different data types in JavaScript. The most common ones are covered in this video.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/Hff36CaQ-pg" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+For reference, here are the data types that we covered in the video:
 
 - **String**: A string is a sequence of characters. Strings are used to represent text. Strings are declared using double quotes (`"`) or single quotes (`'`).
 
@@ -83,18 +197,7 @@ There are several different data types in JavaScript. The most common ones are:
 
 - **Function**: A function is a block of code that can be called by name. Functions are declared using the `function` keyword.
 
-## String Interpolation
-
-String interpolation is a way to insert variables into a string. It is done using the backtick character (`` ` ``) instead of double quotes (`"`). Here is an example:
-
-```javascript
-let name = "John"
-console.log(`Hello ${name}!`)
-```
-
-This will print "Hello John!" to the console.
-
-# Comments
+## Comments
 
 Comments in JavaScript are similar to comments in C#. Single-line comments start with `//` and multi-line comments start with `/*` and end with `*/`. Here is an example:
 
@@ -110,7 +213,16 @@ So spany lines. Much comment. Very multi-line. Wow. - Doge
 
 # Operators
 
-JavaScript has several different operators. The most common ones are:
+JavaScript has several different operators. In this video, we will cover the most common ones.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/jQsIDKfERGM" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 ## Assignment Operators
 
@@ -126,13 +238,13 @@ console.log(x) // 5
 Arithmetic operators are used to perform arithmetic operations on numbers. The most common arithmetic operators are `+`, `-`, `*`, `/`, and `%`. Here is an example:
 
 ```javascript
-let x = 5
-let y = 10
-console.log(x + y) // 15
-console.log(x - y) // -5
-console.log(x * y) // 50
-console.log(x / y) // 0.5
-console.log(x % y) // 5
+const a = 10
+const b = 3
+const c = a + b // 13
+const d = a - b // 7
+const e = a * b // 30
+const f = a / b // 3.333333
+const g = a % b // 1
 ```
 
 ## Comparison Operators
@@ -156,7 +268,16 @@ console.log(x <= y) // true
 
 ## Logical Operators
 
-Logical operators are used to combine multiple conditions. The most common logical operators are `&&` (and), `||` (or), and `!` (not). Here is an example:
+Logical operators are used to combine multiple conditions. The most common logical operators are `&&` (and), `||` (or), and `!` (not). Let's take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/hjj0gNGpsHs" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 ```javascript
 let x = 5
@@ -170,13 +291,26 @@ console.log(!(x > 0)) // false
 
 ## Increment and Decrement Operators
 
-Increment and decrement operators are used to increase or decrease the value of a variable by 1. The most common increment and decrement operators are `++` and `--`. Here is an example:
+Increment and decrement operators are used to modify the value of a variable. They work just like you are used to from C#. Let's take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/YiatrtrJnB8" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 ```javascript
 let x = 5
 x++
 console.log(x) // 6
 x--
+console.log(x) // 5
+x += 10
+console.log(x) // 15
+x -= 10
 console.log(x) // 5
 ```
 
@@ -189,3 +323,4 @@ let x = 5
 let y = x > 0 ? "positive" : "negative"
 console.log(y) // "positive"
 ```
+
