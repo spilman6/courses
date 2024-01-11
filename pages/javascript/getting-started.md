@@ -18,9 +18,9 @@ JavaScript is a programming language that was created to make web pages interact
 	</div>
 </details>
 
-All of the software used in this course is free and open-source. If you don't want to (or can't) install them on your computer, contact your instructor and they will have a virtual machine set up for you.
+All of the software used in this course is free. Installing them on your computer will probably be the best experience. If you don't want to (or can't) install them on your computer, contact your instructor and they can have a virtual machine set up for you.
 
-However, if you want to install the software on your computer, it will probably be faster and a more pleasant experience. The software we will be using is:
+The software we will be using is:
 
 1. **Visual Studio Code (VS Code)** as our code editor. VS Code is a free, open-source code editor that is available for Windows, Mac, and Linux. You can download it here: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
