@@ -1,6 +1,6 @@
 ---
 title: 'Selecting DOM Elements'
-subtitle: 'JavaScript'
+subtitle: 'Modern JavaScript'
 ---
 
 # Selecting DOM Elements
