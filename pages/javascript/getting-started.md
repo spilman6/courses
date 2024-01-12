@@ -326,4 +326,4 @@ console.log(y) // "positive"
 
 # Exercises
 
-[Getting Started Exercises](/javascript/getting-started-exercises)
+[Getting Started Exercises](/appel/javascript/getting-started-exercises)

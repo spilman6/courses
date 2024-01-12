@@ -269,4 +269,4 @@ git push
 
 # Exercises
 
-[Query Selector Exercises](/javascript/selecting-dom-elements-exercises)
+[Query Selector Exercises](/appel/javascript/selecting-dom-elements-exercises)
