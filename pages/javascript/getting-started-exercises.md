@@ -1,3 +1,7 @@
+---
+title: 'Getting Started - Exercises'
+subtitle: 'Modern JavaScript'
+---
 
 # Exercise 1
 
