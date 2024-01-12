@@ -324,3 +324,6 @@ let y = x > 0 ? "positive" : "negative"
 console.log(y) // "positive"
 ```
 
+# Exercises
+
+[Getttin Started Exercises](/javascript/getting-started-exercises)
