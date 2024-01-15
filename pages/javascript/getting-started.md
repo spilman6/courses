@@ -12,7 +12,7 @@ JavaScript is a programming language that was created to make web pages interact
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/-3CwVcZsLyA" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/m5JbppYDn80" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>

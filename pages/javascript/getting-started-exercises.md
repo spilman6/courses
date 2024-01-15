@@ -42,7 +42,7 @@ p.textContent = 'Hello world'
 
 </details>
 
-## Answer
+## Solution
 
 <details>
 	<summary>Show the answer</summary>
