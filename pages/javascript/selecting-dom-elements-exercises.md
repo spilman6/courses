@@ -261,3 +261,14 @@ document.querySelector('div p').textContent = 'Exercise 2 - Step 3'
 
 document.querySelector('#footer').textContent = 'Exercise 2 - <Your Name>'
 ```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
