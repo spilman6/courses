@@ -43,7 +43,7 @@ For this exercise, create a JavaScript file called `exercise1.js` and link it to
 
 In the JavaScript file, select the `<h1>` element and set its `textContent` to "Exercise 1".
 
-## Hint
+## Hints
 
 <details>
 	<summary>How do I attach a JavaScript file to an HTML file?</summary>
@@ -146,7 +146,7 @@ In exercise2.js, do the following:
 
 4. Select the `<p>` element with the id `footer` and set its `textContent` to "Exercise 2 - &lt;Your Name&gt;".
 
-## Hint
+## Hints
 
 <details>
 	<summary>How do I get the script to run without using `defer`?</summary>
