@@ -57,7 +57,7 @@ In the JavaScript file, select the `<h1>` element and set its `textContent` to "
 </details>
 
 <details>
-	<summary>How do I select the `&gt;h1&lt;` element?</summary>
+	<summary>How do I select the `&lt;h1&gt;` element?</summary>
 
 ```js
 const h1 = document.querySelector('h1')
@@ -74,7 +74,7 @@ h1.textContent = 'Exercise 1'
 
 </details>
 
-# Solution
+## Solution
 
 <details>
 	<summary>Show the answer</summary>
@@ -144,7 +144,7 @@ In exercise2.js, do the following:
 
 3. Select the `<p>` element inside the `<div>` and set its `textContent` to "Exercise 2 - Step 3".
 
-4. Select the `<p>` element with the id `footer` and set its `textContent` to "Exercise 2 - &gt;Your Name&lt;".
+4. Select the `<p>` element with the id `footer` and set its `textContent` to "Exercise 2 - &lt;Your Name&gt;".
 
 ## Hint
 
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </details>
 
 <details>
-	<summary>How do I select the first `&gt;p&lt;` element?</summary>
+	<summary>How do I select the first `&lt;p&gt;` element?</summary>
 
 ```js
 const p = document.querySelector('p')
@@ -178,7 +178,7 @@ const p = document.querySelector('p')
 </details>
 
 <details>
-	<summary>How do I select the `&gt;p&lt;` element with the class `underlined`?</summary>
+	<summary>How do I select the `&lt;p&gt;` element with the class `underlined`?</summary>
 
 ```js
 const p = document.querySelector('.underlined')
@@ -187,7 +187,7 @@ const p = document.querySelector('.underlined')
 </details>
 
 <details>
-	<summary>How do I select the `&gt;p&lt;` element inside the `&gt;div&lt;`?</summary>
+	<summary>How do I select the `&lt;p&gt;` element inside the `&lt;div&gt;`?</summary>
 
 ```js
 const p = document.querySelector('div p')
@@ -196,10 +196,68 @@ const p = document.querySelector('div p')
 </details>
 
 <details>
-	<summary>How do I select the `&gt;p&lt;` element with the id `footer`?</summary>
+	<summary>How do I select the `&lt;p&gt;` element with the id `footer`?</summary>
 
 ```js
 const p = document.querySelector('#footer')
 ```
 
 </details>
+
+## Solution
+
+<details>
+	<summary>Show the answer</summary>
+
+HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Exercises</title>
+    <style>.underlined { text-decoration: underline; }</style>
+    <script src="exercise1.js" defer></script>
+</head>
+<body>
+    <h1></h1>
+    <p></p>
+    <div>
+        <p></p>
+        <p class="underlined"></p>
+    </div>
+    <p id="footer"></p>
+</body>
+<script src="exercise2.js"></script>
+</html>
+```
+
+JavaScript (exercise2.js):
+
+```js
+const p1 = document.querySelector('p')
+p1.textContent = 'Exercise 2 - Step 1'
+
+const p2 = document.querySelector('.underlined')
+p2.textContent = 'Exercise 2 - Step 2'
+
+const p3 = document.querySelector('div p')
+p3.textContent = 'Exercise 2 - Step 3'
+
+const p4 = document.querySelector('#footer')
+p4.textContent = 'Exercise 2 - <Your Name>'
+```
+
+Alternatively, you could skip the `const` declarations and do it all in one line:
+
+```js
+document.querySelector('p').textContent = 'Exercise 2 - Step 1'
+
+document.querySelector('.underlined').textContent = 'Exercise 2 - Step 2'
+
+document.querySelector('div p').textContent = 'Exercise 2 - Step 3'
+
+document.querySelector('#footer').textContent = 'Exercise 2 - <Your Name>'
+```
