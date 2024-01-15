@@ -235,7 +235,8 @@ We can also use `querySelectorAll` to select all elements with a specific class:
 </details>
 
 ```javascript
-const copyrights = document.querySelectorAll('.copyright') // get all elements with `class="copyright"`
+// get all elements with class="copyright"
+const copyrights = document.querySelectorAll('.copyright')
 ```
 
 # Pushing Code Changes to GitHub
