@@ -42,11 +42,12 @@ You're going to push your website to GitHub Pages. To do this, you will need to 
 > [!IMPORTANT] Even if you have used GitHub before, you should follow the instructions below! There are some important steps when creating a GitHub Pages site that you may not be familiar with!
 
 Things to remember when creating your repository:
-	1. Make sure your index page is named `index.html`. index.htm will not work! 
 
-	2. The name of the repository must be `<your GitHub username>.github.io`. For example, if your GitHub username is `johndoe`, the name of the repository must be `johndoe.github.io`.
+1. Make sure your index page is named `index.html`. index.htm will not work! 
 
-	3. Make sure you select "Public" when creating the repository.
+2. The name of the repository must be `<your GitHub username>.github.io`. For example, if your GitHub username is `johndoe`, the name of the repository must be `johndoe.github.io`.
+
+3. Make sure you select "Public" when creating the repository.
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
