@@ -1,11 +1,41 @@
 ---
-title: 'Getting Started'
+title: 'Objects and Functions'
 subtitle: 'Modern JavaScript'
 ---
+
+# Objects in JavaScript
+
+Objects are a way to group related data together. They are similar to objects in C#, but since JavaScript is a dynamic language, they are more flexible.
+
+## Creating Objects
+
+Let's take a look at how to create an object in JavaScript.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 # Functions
 
 Similar to Methods in C#, functions are a way to group code together to perform a specific task. Usually we assign a name to a function, and then call that function by name when we want to run the code inside of it.
+
+## Defining and Calling Functions
+
+Let's look at how to create and call a function in JavaScript.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 Here is an example of a function:
 
