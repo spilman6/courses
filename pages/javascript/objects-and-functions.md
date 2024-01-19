@@ -8,6 +8,7 @@ videos:
 - 5XaS9A_kKEQ
 - m6A5wXUYF1I
 - Q76SPkXuU_4
+- ZhFn3IxC6mU
 - 1Nl2o-_hE6s
 ---
 
@@ -181,9 +182,9 @@ createCard(cards[1], cardInfo2)
 createCard(cards[2], cardInfo3)
 ```
 
-## Functions as Data and Arrow Functions
+# Functions as Data and Arrow Functions
 
-Remember that function is a data type, just like a string or a number. This means that we can pass functions as arguments to other functions.
+Remember that function is a data type, just like a string or a number. This video shows how we can assign a function to a variable, and then call that function by using the variable name, and then we turn the createCard function into an arrow function:
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
@@ -194,6 +195,35 @@ Remember that function is a data type, just like a string or a number. This mean
 	</div>
 </details>
 
+Here is the `createCard` function as an arrow function:
+
+```javascript
+const createCard = (card, info) => {
+	card.style.backgroundImage = `url(${info.image})`
+	card.style.color = info.color
+
+	const h1 = card.querySelector('h1')
+	h1.textContent = cardInfo.title
+
+	const p = card.querySelector('p')
+	p.textContent = cardInfo.text
+}
+```
+
+## Why Use Arrow Functions?
+
+Arrow functions are a newer feature of JavaScript. They are a little bit shorter than regular functions. This doesn't seem like a big deal, but when you are passing functions into other functions, it can make your code a lot easier to read.
+
+Let's take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/ZhFn3IxC6mU" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 # Exercises
 
