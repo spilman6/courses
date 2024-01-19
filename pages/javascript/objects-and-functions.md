@@ -165,7 +165,36 @@ Here is the finished code from the video:
 
 ```javascript
 function createCard(card, info) {
+	card.style.backgroundImage = `url(${info.image})`
+	card.style.color = info.color
+
 	const h1 = card.querySelector('h1')
 	h1.textContent = cardInfo.title
+
+	const p = card.querySelector('p')
+	p.textContent = cardInfo.text
 }
+
+const cards = document.querySelectorAll('.card')
+createCard(cards[0], cardInfo1)
+createCard(cards[1], cardInfo2)
+createCard(cards[2], cardInfo3)
 ```
+
+## Functions as Data and Arrow Functions
+
+Remember that function is a data type, just like a string or a number. This means that we can pass functions as arguments to other functions.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/Q76SPkXuU_4" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+
+# Exercises
+
+[Objects and Functions Exercises](/appel/javascript/objects-and-functions-exercises)
