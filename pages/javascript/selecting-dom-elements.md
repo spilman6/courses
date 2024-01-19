@@ -5,7 +5,7 @@ subtitle: 'Modern JavaScript'
 
 # Selecting DOM Elements
 
-aIn this unit, we will learn how to select DOM elements using the `querySelector` method in JavaScript.
+In this unit, we will learn how to select DOM elements using the `querySelector` method in JavaScript.
 
 The `querySelector` method is a powerful tool that allows you to select DOM elements using CSS selectors. It returns the first element that matches the specified selector.
 
