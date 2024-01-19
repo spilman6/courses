@@ -89,21 +89,45 @@ Let's look at how to create and call a function in JavaScript.
 Here is an example of a function:
 
 ```javascript
-function sayHello() {
-	console.log("Hello World!")
+function createCard() {
+	console.log("hi")
 }
 ```
 
 When we want to run the code inside of the function, we call it by name:
 
 ```javascript
-sayHello()
+createCard()
 ```
 
-If printing "Hello World!" to the console is something we want to do often, calling this is easier than typing out the code every time:
+## Returning Values from Functions
+
+Functions can also return values. When a function returns a value, we can assign that value to a variable, or use it in other ways.
+
+Here is an example of a function that returns a value:
 
 ```javascript
-console.log("Hello World!")
+function createCard() {
+	return 5
+}
+```
+
+When we call the function, we can assign the return value to a variable:
+
+```javascript
+const x = createCard() // x will be 5
+```
+
+Here is the finished code from the video:
+
+```javascript
+function createCard() {
+	const card = document.querySelector('.card')
+	const h1 = card.querySelector('h1')
+	h1.textContent = cardInfo1.title
+}
+
+createCard()
 ```
 
 ## Parameters and Arguments
@@ -126,16 +150,22 @@ In this example, the `name` variable is a parameter. When we call the function, 
 sayHello("John")
 ```
 
-Unlike in other languages, you are not required to supply a value for each parameter. If we call the function without passing in an argument, the value of the parameter will be `undefined`:
+In this video we will make our createCard function accept a card element and the card info as parameters:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/m6A5wXUYF1I" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the finished code from the video:
 
 ```javascript
-sayHello()
-```
-
-This will currently print "Hello undefined!" to the console, which is probably not what we want. However, we can use this to our advantage if we want to provide a default value for a parameter. For example, if we want to print "Hello world!" if no name is provided, we can do this:
-
-```javascript
-function sayHello(name) {
-	console.log(`Hello ${name || "world"}!`) // if name is undefined, use "world"
+function createCard(card, info) {
+	const h1 = card.querySelector('h1')
+	h1.textContent = cardInfo.title
 }
 ```
