@@ -1,24 +1,72 @@
 ---
 title: 'Objects and Functions'
 subtitle: 'Modern JavaScript'
+videos:
+- ZTguyiACw1k
+- WOOPFgqyLtQ
+- s6yrF5FmwNo
+- 5XaS9A_kKEQ
+- m6A5wXUYF1I
+- Q76SPkXuU_4
+- 1Nl2o-_hE6s
 ---
 
 # Objects in JavaScript
 
 Objects are a way to group related data together. They are similar to objects in C#, but since JavaScript is a dynamic language, they are more flexible.
 
-## Creating Objects
+## Getting the Starter Code
 
-Let's take a look at how to create an object in JavaScript.
+Before we get started, let's fork and clone down some starter code.
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/ZTguyiACw1k" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
 </details>
+
+You can find the starter code [here](https://github.com/RDAppel/example-website2).
+
+## Looking at the Starter Code Objects
+
+Let's take a look at the starter code that we just cloned down.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/WOOPFgqyLtQ" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code that we added to our JavaScript file:
+
+```javascript
+const title = "Adidas"
+const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+const image = "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+const color = "#deaf01"
+
+const cardInfo4 = { title, text, image, color }
+```
+
+> [!NOTE] GitHub Copilot created the image url for us. It actually just used the image for the Nike shoes from cardInfo1.
+
+## Printing Objects to the Console
+
+Let's print the cardInfo objects to the console to see what they look like.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/s6yrF5FmwNo" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
 
 # Functions
 
