@@ -1,15 +1,6 @@
 ---
 title: 'Objects and Functions'
 subtitle: 'Modern JavaScript'
-videos:
-- ZTguyiACw1k
-- WOOPFgqyLtQ
-- s6yrF5FmwNo
-- 5XaS9A_kKEQ
-- m6A5wXUYF1I
-- Q76SPkXuU_4
-- ZhFn3IxC6mU
-- 1Nl2o-_hE6s
 ---
 
 # Objects in JavaScript
@@ -224,6 +215,96 @@ Let's take a look:
 		</iframe>
 	</div>
 </details>
+
+Here is the finished code from the video:
+
+```javascript
+const cards = document.querySelectorAll('.card')
+//createCard(cards[0], cardInfo1)
+createCard(cards[1], cardInfo2)
+createCard(cards[2], cardInfo3)
+
+setTimeout(() => createCard(cards[0], cardInfo1), 1000)
+```
+
+# Functions that Return Objects
+
+The syntax for functions that return objects can be a bit challenging, since they both use curly braces. Let's take a closer look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/4sIKaBCwMY0" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+In the video, we wrapped the cardInfo objects into a function that returns an object:
+
+```javascript
+const getCardInfo = index => {
+	if (index === 0) return {
+		"title": "Nike",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"color": "#deaf01"
+	}
+
+	if (index === 1) return {
+		"title": "Independent",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"image": "https://images.pexels.com/photos/5657417/pexels-photo-5657417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"color": "#554a33"
+	}
+
+	if (index === 2) return {
+		"title": "Michael Kors",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"image": "https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg",
+		"color": "#01322f"
+	}
+}
+```
+
+That allows us to use a loop to create our cards:
+
+```javascript
+const cards = document.querySelectorAll('.card')
+for (let i = 0; i < cards.length; i++) {
+	createCard(cards[i], cardInfo[i])
+}
+```
+
+## Object Destructuring
+
+Object destructuring is a way to extract properties from an object and assign them to variables. This video shows how to use object destructuring to make our createCard function a little bit shorter:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/OjjvdcjRwRA" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+After we use object destructuring, our createCard function looks like this:
+
+```javascript
+const createCard = (card, { title, text, image, color }) => {
+	card.style.backgroundImage = `url(${image})`
+	card.style.color = color
+
+	const h1 = card.querySelector('h1')
+	h1.textContent = title
+
+	const p = card.querySelector('p')
+	p.textContent = text
+}
+```
+
+
 
 # Exercises
 
