@@ -304,7 +304,20 @@ const createCard = (card, { title, text, image, color }) => {
 }
 ```
 
+# Real World Example
 
+Let's take a minute to look at a real world example of some code that is running live on a website. In fact, it's part of the site that you're looking at right now!
+
+Take a peek:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/4b_BVHUrVeE" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 # Exercises
 
