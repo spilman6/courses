@@ -132,7 +132,7 @@ h1.textContent = 'Exercise '1
 	</div>
 </details>
 
-For this exercise, create a JavaScript file called `exercise2.js` and link it to the HTML file using a `<script>` tag.
+For this exercise, create another JavaScript file called `exercise2.js` and link it to the HTML file using a `<script>` tag.
 
 **Do not add the defer tag!**
 
