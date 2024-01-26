@@ -36,9 +36,9 @@ Add a `<div>` element to your page with an id of `welcome`. Use the code shown a
 
 ## Submission
 
-### Pushing to GitHub Pages
+### Pushing to GitHub
 
-You're going to push your website to GitHub Pages. Remember that you are adding to an existing repository, so you don't need to use `git init`.
+You're going to push your changes to your github.io repository. Remember that you are adding to an existing repository, so you don't need to use `git init`.
 
 Once your changes are working on your computer, run the following git commands:
 
