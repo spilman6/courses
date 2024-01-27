@@ -9,7 +9,7 @@ hide-nav: true
 
 [Objects and Functions](/appel/javascript/objects-and-functions) - _Week 3_
 
-[Arrays and Form Validation](/appel/javascript/arrays-and-form-validation) - _Week 4_
+[Arrays](/appel/javascript/arrays) - _Week 4_
 
 [Local Storage](/appel/javascript/local-storage) - _Week 6_
 
