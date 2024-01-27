@@ -32,7 +32,7 @@ div.id = 'container2'
 document.body.append(div)
 ```
 
-## Creating and Accessing Elements of an Array
+## Creating Arrays and Accessing Elements
 
 As mentioned above, we use arrays to store a list of values. Let's start testing by creating an array of food items.
 
