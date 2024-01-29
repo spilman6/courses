@@ -331,7 +331,72 @@ nextButton.addEventListener('click', () => updateCards(1))
 
 That's it! You should now be able to click the buttons to change the cards.
 
-Now that we have our cards working, give the following exercises a try...
+# Additional Array Methods
+
+There are many other methods that we can use with arrays. We will take a look at a few of them in this video.
+
+## Includes, Split, Slice, and At
+
+The `includes` method is used to determine if an array contains a specific value or item.
+
+The `split` method is used to split a string into an array of substrings.
+
+The `slice` method is used to copy part of an array.
+
+The `at` method is used to get an item from an array at a specific index.
+
+Let's take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/F3BmNV8Sm2Q" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+Here is the code from the video:
+
+```javascript
+// includes
+const greeting = hey
+if ([ 'hi', 'hello', 'hey' ].includes(greeting)) console.log(greeting)
+
+// split
+const someText = 'Hello there, how are you?'
+const words = someText.toLowerCase().split(' ')
+console.log(words)
+
+// slice and at
+const uppercase = text => `${text.at(0).toUpperCase()}${text.slice(1).toLowerCase()}`
+console.log(uppercase('ryan'))
+```
+
+# Array Destructuring
+
+You can destructure an array, similar to how you destructure an object. This allows you to assign variables to the elements of an array.
+
+Take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/gjB4oWTTuqI" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+Again, here is the code from the video:
+
+```javascript
+const [ first ] = 'Hello there, how are you?'.split(' ')
+console.log(first) // Hello
+
+const printFirstWord = ([ first ]) => console.log(first)
+printFirstWord('Hello there, how are you?'.split(' ')) // Hello
+```
 
 # Exercises
 
