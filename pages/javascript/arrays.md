@@ -400,4 +400,4 @@ printFirstWord('Hello there, how are you?'.split(' ')) // Hello
 
 # Exercises
 
-[Array Exercises](/appel/javascript/array-exercises)
+[Arrays Exercises](/appel/javascript/arrays-exercises)
