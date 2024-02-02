@@ -360,7 +360,7 @@ Here is the code from the video:
 
 ```javascript
 // includes
-const greeting = hey
+const greeting = 'hey'
 if ([ 'hi', 'hello', 'hey' ].includes(greeting)) console.log(greeting)
 
 // split
