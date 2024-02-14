@@ -8,7 +8,7 @@ subtitle: 'Modern JavaScript'
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/WRQfEqmlJ-s" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -199,7 +199,7 @@ button.addEventListener('click', e => {
 <details>
 	<summary>Walkthrough Video</summary>
 		<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/ivO7l8B4mwk" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -210,7 +210,7 @@ button.addEventListener('click', e => {
 <details>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/tLRvTPoKmmU" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -317,7 +317,7 @@ getExistingPeople().forEach(appendPerson)
 <details>
 	<summary>Walkthrough Video</summary>
 		<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/se9ufXOvbsQ" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -328,7 +328,7 @@ getExistingPeople().forEach(appendPerson)
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/wdTvqGP4l9c" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -400,8 +400,31 @@ button.addEventListener('click', () => {
 <details>
 	<summary>Show the answer</summary>
 
+> [!NOTE] Your solution may be different than the one shown here.
+
+The `appendPerson` function should be modified to include the button. Here is the updated function:
+
 ```javascript
-// todo: add the code here
+const appendPerson = ({ firstName, lastName }) => {
+	const p = document.createElement('p')
+	p.textContent = `${firstName} ${lastName}`
+	namesDiv.append(p)
+
+	const button = document.createElement('button')
+	button.textContent = "Remove"
+	p.append(button)
+	button.addEventListener('click', () => {
+		p.remove()
+
+		const people = getExistingPeople()
+		const index = people.findIndex(p => {
+			return p.firstName === firstName || p.lastName === lastName
+		})
+		
+		const updatedPeople = [ ...people.slice(0, index), ...people.slice(index + 1) ]
+		localStorage.setItem('people', JSON.stringify(updatedPeople))
+	})
+}
 ```
 
 </details>
@@ -409,7 +432,7 @@ button.addEventListener('click', () => {
 <details>
 	<summary>Walkthrough Video</summary>
 		<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/o8dUHYyMDIU" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
