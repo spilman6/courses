@@ -11,7 +11,7 @@ hide-nav: true
 
 [Arrays](/appel/javascript/arrays) - _Week 4_
 
-[Local Storage](/appel/javascript/local-storage) - _Week 6_
+[Form Validation and Local Storage](/appel/javascript/form-validation-and-local-storage) - _Week 6_
 
 [Higher Order Functions](/appel/javascript/higher-order-functions) - _Week 7_
 
