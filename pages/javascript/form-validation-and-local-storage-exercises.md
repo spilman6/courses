@@ -344,6 +344,8 @@ button.addEventListener('click', () => {
 })
 ```
 
+</details>
+
 ## Solution
 
 <details>
