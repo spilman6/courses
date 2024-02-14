@@ -1,11 +1,11 @@
 ---
-title: 'Assignment 4 - XXXXXXX'
+title: 'Assignment 4 - Secret Message'
 subtitle: 'Modern JavaScript'
 ---
 
-# Assignment 2 - Homepage
+# Assignment 4 - Secret Message
 
-In this assignment, you will create a homepage for yourself. The homepage will contain your name, a photograph of you, a short bio, and a list of your favorite movies or books. You will then push your homepage to GitHub Pages.
+In this assignment, you add to your homepage that you created for Assignment 2.
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
@@ -18,46 +18,24 @@ In this assignment, you will create a homepage for yourself. The homepage will c
 
 ## Specifications
 
-Your website should have the following:
+You are going to send me a "secret" message, using localStorage. Modify your site.js file so that when it runs, it adds a message to localStorage. The message should be a string, and it can be anything you want. It could be a simple message, or a joke, or a quote, or anything else you want me to see.
 
-1. Create an index.html page that contains:
-	- Your name
-	- A photograph of yourself
-	- A short bio about yourself
-	- A list of your favorite movies or books
+You must use the key `It's a secret to everybody.`. It must be spelled exactly like that, with the same capitalization and punctuation. If not, my code won't be able to find it. If I can't find it, you'll get a zero score, and a comment that says, "Message not received. Try again."
 
-2. Style the page using CSS. You can use an external stylesheet or style the page using `<style>` tags in the `<head>` section of the page. You can be as creative as you want with the design, but at a minimum, you should:
-	- Change the background color of the page
-	- Change the font family and color of the text
+**500 brownie points** if you your message is a reference to something related to that key.
 
-3. Create a JavaScript file called `site.js` and link it to your page.
-	- You can write an alert or a console message to test that the file is linked correctly, but otherwise the file should be empty.
+> [!NOTE] Just because something is a "secret" doesn't mean it's secure. This is just a fun exercise to practice using localStorage. Don't use localStorage for anything that needs to be secure. Using localStorage for secure data is like writing your password on a sticky note and putting it under your keyboard.
 
 ## Submission
 
-### Pushing to GitHub Pages
+Push your changes to your github.io repository. Remember that you are adding to an existing repository, so you don't need to use `git init`. The three commands you need to run are:
 
-You're going to push your website to GitHub Pages. To do this, you will need to create a new repository on GitHub and push your files to it.
+```bash
+git add .
 
-> [!IMPORTANT] Even if you have used GitHub before, you should follow the instructions below! There are some important steps when creating a GitHub Pages site that you may not be familiar with!
+git commit -m "Added secret message"
 
-Things to remember when creating your repository:
+git push
+```
 
-1. Make sure your index page is named `index.html`. index.htm will not work! 
-
-2. The name of the repository must be `<your GitHub username>.github.io`. For example, if your GitHub username is `johndoe`, the name of the repository must be `johndoe.github.io`.
-
-3. Make sure you select "Public" when creating the repository.
-
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/wrqY4VC6GZY" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		></iframe>
-	</div>
-</details>
-
-### Submitting to Blackboard
-
-Once you have your website pushed to GitHub, submit the link to your GitHub Pages site to Blackboard.
+Once your website is updated, submit the link to your GitHub Pages site to Blackboard.
