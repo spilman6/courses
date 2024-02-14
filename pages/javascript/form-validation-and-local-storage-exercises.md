@@ -278,7 +278,7 @@ div.append(p)
 ```javascript
 const button = document.querySelector('button')
 const error = document.querySelector('#error')
-const namesDiv = document.querySelector("#output")
+const namesDiv = document.querySelector('#output')
 
 const form = document.querySelector('form')
 const inputs = form.querySelectorAll('input')
