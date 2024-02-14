@@ -78,7 +78,7 @@ This will also make the default error messages disappear.
 
 Test your code by entering some names and checking the `Application` > `localStorage` in the browser's developer tools.
 
-## Hints
+## Hints {#exercise-1-hints}
 
 <details>
 	<summary>How do I make an input required?</summary>
@@ -149,7 +149,7 @@ const str = JSON.stringify(obj)
 
 </details>
 
-## Solution
+## Solution {#exercise-1-solution}
 
 <details>
 	<summary>Show the answer</summary>
@@ -222,7 +222,7 @@ Each name should be displayed in a `p` tag, which should be appended to the `out
 
 When a new person is saved, the `output` div should be updated to include the new person.
 
-## Hints
+## Hints {#exercise-2-hints}
 
 <details>
 	<summary>How do I get data from localStorage?</summary>
@@ -270,7 +270,7 @@ div.append(p)
 
 </details>
 
-## Solution
+## Solution {#exercise-2-solution}
 
 <details>
 	<summary>Show the answer</summary>
@@ -358,7 +358,7 @@ You can use the index along with the `slice` method to remove the person from th
 const updatedPeople = [ ...people.slice(0, index), ...people.slice(index + 1) ]
 ```
 
-## Hints
+## Hints {#exercise-3-hints}
 
 <details>
 	<summary>How do I create a new button element?</summary>
@@ -395,7 +395,7 @@ button.addEventListener('click', () => {
 
 </details>
 
-## Solution
+## Solution {#exercise-3-solution}
 
 <details>
 	<summary>Show the answer</summary>
