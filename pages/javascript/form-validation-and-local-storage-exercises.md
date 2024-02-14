@@ -78,7 +78,74 @@ Test your code by entering some names and checking the `Application` > `localSto
 
 ## Hints
 
+<details>
+	<summary>How do I make an input required?</summary>
 
+You can make an input required by adding the `required` attribute to the input tag:
+
+```html
+<input type="text" ... required>
+```
+
+</details>
+
+<details>
+	<summary>How do I set a minimum length for an input?</summary>
+
+You can set a minimum length for an input by adding the `minlength` attribute to the input tag:
+
+```html
+<input type="text" ... minlength="2">
+```
+
+</details>
+
+<details>
+	<summary>How do I check if a form is valid?</summary>
+
+You can check if a form is valid by using the `checkValidity` method on the form element:
+
+```javascript
+if (form.checkValidity()) {
+	// form is valid
+}
+```
+
+</details>
+
+<details>
+	<summary>How do I get the values of the inputs?</summary>
+
+You can get the values of the inputs by using the `value` property of the input elements:
+
+```javascript
+const firstName = document.querySelector('#firstName').value
+```
+
+</details>
+
+<details>
+	<summary>How do I save data to localStorage?</summary>
+
+You can save data to `localStorage` by using the `setItem` method:
+
+```javascript
+localStorage.setItem('key', 'value')
+```
+
+</details>
+
+<details>
+	<summary>How do I convert an object to a string?</summary>
+
+You can convert an object to a string by using the `JSON.stringify` method:
+
+```javascript
+const obj = { title: 'Star Wars', year: 1977 }
+const str = JSON.stringify(obj)
+```
+
+</details>
 
 ## Solution
 
@@ -93,6 +160,10 @@ HTML:
 <input type="text" ... placeholder="First Name" required minlength="2">
 <input type="text" ... placeholder="Last Name" required minlength="2">
 ```
+
+JavaScript:
+
+> [!NOTE] Your solution may be different than the one shown here.
 
 ```javascript
 const button = document.querySelector('button')
@@ -109,18 +180,27 @@ const addPerson = person => {
 
 button.addEventListener('click', e => {
 	e.preventDefault()
-	if (form.checkValidity()) {
+	const isValid = form.checkValidity()
+
+	if (isValid) {
 		const firstName = inputs[0].value
 		const lastName = inputs[1].value
 		addPerson({ firstName, lastName })
-		error.textContent = ''
 	}
-	else {
-		error.textContent = 'Please enter a first and last name'
-	}
+
+	error.textContent = isValid ? '' : 'Please enter a first and last name'
 })
 ```
 
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
 </details>
 
 # Exercise 2
