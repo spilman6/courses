@@ -306,4 +306,4 @@ getStoredNames().forEach(displayName)
 
 # Exercises
 
-[Form Validation and Local Storage Exercises](/appel/javascript/form-validation-and-localstorage-exercises)
+[Form Validation and Local Storage Exercises](/appel/javascript/form-validation-and-local-storage-exercises)
