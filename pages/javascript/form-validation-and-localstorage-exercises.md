@@ -1,5 +1,5 @@
 ---
-title: 'Local Storage'
+title: 'Form Validation and LocalStorage - Exercises'
 subtitle: 'Modern JavaScript'
 ---
 
