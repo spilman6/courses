@@ -119,7 +119,7 @@ Feel free to use movies of your choice, or use the following:
 
 Call the objects `movie1`, `movie2`, and `movie3`.
 
-## Hints
+## Hints {#exercise-1-hints}
 
 <details>
 	<summary>How do I create an object in JavaScript?</summary>
@@ -137,7 +137,7 @@ const movie1 = {
 
 </details>
 
-## Solution
+## Solution {#exercise-1-solution}
 
 <details>
 	<summary>Show the answer</summary>
@@ -210,7 +210,7 @@ function printTitle(movie) {
 
 After you create the function, call it three times, passing in each of the movie objects you created in the previous exercise.
 
-## Hints
+## Hints {#exercise-2-hints}
 
 <details>
 	<summary>How do I call a function in JavaScript?</summary>
@@ -225,7 +225,7 @@ printTitle(movie1)
 
 </details>
 
-## Solution
+## Solution {#exercise-2-solution}
 
 <details>
 	<summary>Show the answer</summary>
@@ -271,7 +271,7 @@ Use object destructuring to make it easier to access the properties of the movie
 
 After you create the function, call it three times, passing in each of the movie objects you created in the previous exercise.
 
-## Hints
+## Hints {#exercise-3-hints}
 
 <details>
 	<summary>What is the syntax for an arrow function?</summary>
@@ -328,7 +328,7 @@ populateMovie(document.querySelector('#movie1'), movie1)
 
 </details>
 
-## Solution
+## Solution {#exercise-3-solution}
 
 <details>
 	<summary>Show the answer</summary>

@@ -43,7 +43,7 @@ For this exercise, create a JavaScript file called `exercise1.js` and link it to
 
 In the JavaScript file, select the `<h1>` element and set its `textContent` to "Exercise 1".
 
-## Hints
+## Hints {#exercise-1-hints}
 
 <details>
 	<summary>How do I attach a JavaScript file to an HTML file?</summary>
@@ -74,7 +74,7 @@ h1.textContent = 'Exercise 1'
 
 </details>
 
-## Solution
+## Solution {#exercise-1-solution}
 
 <details>
 	<summary>Show the answer</summary>
@@ -146,7 +146,7 @@ In exercise2.js, do the following:
 
 4. Select the `<p>` element with the id `footer` and set its `textContent` to "Exercise 2 - &lt;Your Name&gt;".
 
-## Hints
+## Hints {#exercise-2-hints}
 
 <details>
 	<summary>How do I get the script to run without using `defer`?</summary>
@@ -204,7 +204,7 @@ const p = document.querySelector('#footer')
 
 </details>
 
-## Solution
+## Solution {#exercise-2-solution}
 
 <details>
 	<summary>Show the answer</summary>

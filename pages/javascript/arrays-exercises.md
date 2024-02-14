@@ -26,7 +26,7 @@ Then loop through the array and call the arrow function for each person. You can
 
 Use object destructuring to access the properties of each person.
 
-## Hints
+## Hints  {#exercise-1-hints}
 
 <details>
 	<summary>How do I create an array of objects?</summary>
@@ -71,7 +71,7 @@ for (let i = 0; i < people.length; i++) {
 
 </details>
 
-## Solution
+## Solution {#exercise-1-solution}
 
 <details>
 	<summary>Show the answer</summary>
@@ -153,7 +153,7 @@ It should generate the following HTML:
 
 When your function is created, call it for each person in your array using the `forEach` method.
 
-## Hints
+## Hints {#exercise-2-hints}
 
 <details>
 	<summary>How do I create an element?</summary>
@@ -184,7 +184,7 @@ ul.append(li)
 
 </details>
 
-## Solution
+## Solution {#exercise-2-solution}
 
 <details>
 	<summary>Show the answer</summary>
@@ -264,7 +264,7 @@ It should generate the following HTML:
 
 > [!TIP] You will have to create an unordered list and append it to the `li` element. Then you will have to loop through the hobbies array and create a list item for each hobby.
 
-## Hints
+## Hints {#exercise-3-hints}
 
 <details>
 	<summary>How do I create an unordered list?</summary>
@@ -290,7 +290,7 @@ hobbies.forEach(hobby => {
 
 </details>
 
-## Solution
+## Solution {#exercise-3-solution}
 
 <details>
 	<summary>Show the answer</summary>

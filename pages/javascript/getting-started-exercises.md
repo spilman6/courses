@@ -28,7 +28,7 @@ setTimeout(() => {
 
 After 3 seconds, the text inside the `p` element should be replaced with the text `3 seconds elapsed`.
 
-## Hint
+## Hint {#exercise-1-hint}
 
 <details>
 	<summary>How do I change the text of an element?</summary>
@@ -42,7 +42,7 @@ p.textContent = 'Hello world'
 
 </details>
 
-## Solution
+## Solution {#exercise-1-solution}
 
 <details>
 	<summary>Show the answer</summary>
