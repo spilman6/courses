@@ -1,5 +1,5 @@
 ---
-title: 'Form Validation and LocalStorage - Exercises'
+title: 'Form Validation and Local Storage - Exercises'
 subtitle: 'Modern JavaScript'
 ---
 
@@ -35,6 +35,8 @@ Create a webpage using the following HTML:
 			color: red;
 			font-weight: bold;
 		}
+		#output { width: 200px; }
+		p > button { float: right; }
 	</style>
 </head>
 <body>
@@ -307,6 +309,20 @@ Use the following code to remove an element from the dom:
 
 ```javascript
 element.remove()
+```
+
+Use the following code to get the index of a person in the `people` array:
+
+```javascript
+const index = people.findIndex(p => {
+	return p.firstName === firstName || p.lastName === lastName
+})
+```
+
+You can use the index along with the `slice` method to remove the person from the array:
+
+```javascript
+const updatedPeople = [ ...people.slice(0, index), ...people.slice(index + 1) ]
 ```
 
 ## Hints
