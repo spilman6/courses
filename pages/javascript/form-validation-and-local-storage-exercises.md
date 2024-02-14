@@ -348,7 +348,7 @@ Use the following code to get the index of a person in the `people` array:
 
 ```javascript
 const index = people.findIndex(p => {
-	return p.firstName === firstName || p.lastName === lastName
+	return p.firstName === firstName && p.lastName === lastName
 })
 ```
 
@@ -418,7 +418,7 @@ const appendPerson = ({ firstName, lastName }) => {
 
 		const people = getExistingPeople()
 		const index = people.findIndex(p => {
-			return p.firstName === firstName || p.lastName === lastName
+			return p.firstName === firstName && p.lastName === lastName
 		})
 		
 		const updatedPeople = [ ...people.slice(0, index), ...people.slice(index + 1) ]
@@ -431,6 +431,9 @@ const appendPerson = ({ firstName, lastName }) => {
 
 <details>
 	<summary>Walkthrough Video</summary>
+
+> [!WARNING] There was a small mistake in the video! The anonymous function inside of the `people.findIndex` method should have had an && instead of an ||. The correct code is shown in the solution above.
+
 		<div class="video-container">
 		<iframe src="https://www.youtube.com/embed/o8dUHYyMDIU" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
