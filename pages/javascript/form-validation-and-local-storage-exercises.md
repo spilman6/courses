@@ -430,7 +430,16 @@ const appendPerson = ({ firstName, lastName }) => {
 </details>
 
 
-> [!WARNING] There was a small mistake in the walkthrough video! The anonymous function inside of the `people.findIndex` method should have had an && instead of an ||. The correct code is shown in the solution above.
+> [!WARNING] There was a small mistake in the walkthrough video!
+
+The anonymous function inside of the people.findIndex method should have been:
+
+```javascript
+const index = people.findIndex(p => {
+	//return p.firstName === firstName || p.lastName === lastName // this is wrong
+	return p.firstName === firstName && p.lastName === lastName // this is correct
+})
+```
 
 <details>
 	<summary>Walkthrough Video</summary>
@@ -440,3 +449,5 @@ const appendPerson = ({ firstName, lastName }) => {
 		></iframe>
 	</div>
 </details>
+
+[Back to the top](#)
