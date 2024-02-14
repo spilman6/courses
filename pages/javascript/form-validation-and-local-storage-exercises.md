@@ -411,7 +411,7 @@ const appendPerson = ({ firstName, lastName }) => {
 	namesDiv.append(p)
 
 	const button = document.createElement('button')
-	button.textContent = "Remove"
+	button.textContent = 'Remove'
 	p.append(button)
 	button.addEventListener('click', () => {
 		p.remove()
