@@ -432,7 +432,7 @@ const appendPerson = ({ firstName, lastName }) => {
 
 > [!WARNING] There was a small mistake in the walkthrough video!
 
-The anonymous function inside of the people.findIndex method should have had the && operator instead of the || operator. Here is the correct code snippet:
+The anonymous function inside of the people.findIndex method should have had the `&&` operator instead of the `||` operator. Here is the correct code snippet:
 
 ```javascript
 const index = people.findIndex(p => {
