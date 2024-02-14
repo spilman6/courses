@@ -124,16 +124,49 @@ In this video, we will enable and disable the submit button based on the validit
 	</div>
 </details>
 
+Here is the JavaScript code that we used to enable and disable the submit button:
 
+```javascript
+const checkFormValidity = () => {
+	const isValid = selector => document.querySelector(`#${selector}`).checkValidity()
+	return [ 'name', 'email', 'phone', 'password' ].every(isValid)
+}
 
+const submitButton = document.querySelector('#submit')
+submitButton.disabled = true
+
+const allInputs = document.querySelectorAll('input')
+allInputs.forEach(element => {
+	if (element.type === 'submit') return
+
+	element.classList.add('invalid')
+	element.addEventListener('input', () => {
+		element.checkValidity()
+		const { valid, too } = element.validity
+		element.classList.toggle('invalid', !valid)
+
+		submitButton.disabled = !checkFormValidity()
+	})
+})
+```
+> [!NOTE] After recording the videos for this page, I thought of a better way to write the `checkFormValidity` function. There is actually a `checkValidity` method that we can use on the form element itself. Here is the updated function:
+
+```javascript
+const checkFormValidity = () => {
+	// check if the form itself is valid (rather than checking each input)
+	return document.querySelector('form').checkValidity()
+}
+```
 
 # Local Storage
 
-Bla bla bla
+Changing topics, we will now learn how to use local storage in JavaScript. Local storage is a way to store data in the browser. It is a simple key-value store that is available in all modern browsers. We can use it to store data that we want to persist between page loads.
 
 ## JSON Stringify and Parse
 
-Bla bla bla
+One thing to note is that local storage can only store strings. This means that if we want to store an object, we need to convert it to a string first. We can do this using the `JSON.stringify` method. We can then convert the string back to an object using the `JSON.parse` method.
+
+Here is a quick video that explains how to use these methods:
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
@@ -144,9 +177,29 @@ Bla bla bla
 	</div>
 </details>
 
+Here is the code that we used in the video:
+
+```javascript
+const book = {
+	"Title": "Dune",
+	"Author": "Frank Herbert",
+	"Year": 1965 // changed from video to correct year
+}
+
+const strName = "{ \"firstName\": \"Ryan\", \"lastName\": \"Appel\" }"
+
+const p = document.querySelector('p')
+p.textContent = JSON.stringify(book)
+
+const nameObj = JSON.parse(strName)
+console.log(nameObj)
+```
+
 ## Saving and Retrieving Data
 
-Bla bla bla
+In this video, we will learn how to save and retrieve data from local storage. This is a simple process that involves using the `setItem` and `getItem` methods.
+
+Take a look:
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
@@ -157,9 +210,32 @@ Bla bla bla
 	</div>
 </details>
 
+Here is the updated html:
+
+```html
+<input type="text" id="name">
+<button id="save">Save</button>
+<p></p>
+```
+
+And here is the JavaScript code that we used in the video:
+
+```javascript
+const p = document.querySelector('p')
+p.textContent = localStorage.getItem('name') || ''
+
+const button = document.querySelector('button')
+button.addEventListener('click', () => {
+	const name = document.querySelector('input').value
+	localStorage.setItem('name', name)
+})
+```
+
 ## Storing Arrays in Local Storage
 
-Bla bla bla
+We can also store arrays (or any type of object) in local storage. We just need to convert the array to a string using `JSON.stringify` before we store it. We can then convert the string back to an array using `JSON.parse` when we retrieve it.
+
+This video explains how to accomplish this:
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
@@ -170,9 +246,29 @@ Bla bla bla
 	</div>
 </details>
 
+Here is the code that we used in the video:
+
+```javascript
+const p = document.querySelector('p')
+
+/* code in video was commented out */
+
+const names = [ 'Ryan', 'Joe', 'Brian' ]
+localStorage.setItem('names', JSON.stringify(names))
+
+const storedNames = JSON.parse(localStorage.getItem('names')) || []
+storedNames.forEach(name => {
+	const span = document.createElement('span')
+	span.textContent = name
+	p.append(span)
+})
+```
+
 ## Adding Array Elements to Local Storage
 
-Bla bla bla
+The last feature to implement is the ability to add elements to the array in local storage. We will be using the spread operator to add elements to the array, and then we will update the local storage with the new array.
+
+Let's see how this is done:
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
@@ -182,6 +278,31 @@ Bla bla bla
 		</iframe>
 	</div>
 </details>
+
+Here is the updated code:
+
+```javascript
+const getStoredNames = () => JSON.parse(localStorage.getItem('names')) || []
+
+const p = document.querySelector('p')
+
+const button = document.querySelector('button')
+button.addEventListener('click', () => {
+	const newName = document.querySelector('input').value
+	const names = [ ...getStoredNames(), newName ]
+	localStorage.setItem('names', JSON.stringify(names))
+	displayName(newName)
+})
+
+const displayName = name => {
+	const span = document.createElement('span')
+	span.textContent = name
+	p.append(span)
+}
+
+getStoredNames().forEach(displayName)
+```
+
 
 # Exercises
 
