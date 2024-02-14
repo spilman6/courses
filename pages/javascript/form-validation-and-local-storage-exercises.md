@@ -154,7 +154,7 @@ const str = JSON.stringify(obj)
 
 HTML:
 
-> [!NOTE] names and ids were removed from the input fields to make the code easier to read.
+> [!NOTE] Names and ids were removed from the input fields to make the code easier to read.
 
 ```html
 <input type="text" ... placeholder="First Name" required minlength="2">
@@ -204,3 +204,145 @@ button.addEventListener('click', e => {
 </details>
 
 # Exercise 2
+
+<details>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Continuing from the previous exercise, modify the script to display the names of the people saved in `localStorage` in the `output` div.
+
+Each name should be displayed in a `p` tag, which should be appended to the `output` div.
+
+When a new person is saved, the `output` div should be updated to include the new person.
+
+## Hints
+
+<details>
+	<summary>How do I get data from localStorage?</summary>
+
+You can get data from `localStorage` by using the `getItem` method:
+
+```javascript
+const data = localStorage.getItem('key')
+```
+
+</details>
+
+<details>
+	<summary>How do I convert a string to an object?</summary>
+
+You can convert a string to an object by using the `JSON.parse` method:
+
+```javascript
+const str = '{"title":"Star Wars","year":1977}'
+const obj = JSON.parse(str)
+```
+
+</details>
+
+<details>
+	<summary>How do I create a new element?</summary>
+
+You can create a new element by using the `createElement` method:
+
+```javascript
+const p = document.createElement('p')
+```
+
+</details>
+
+<details>
+	<summary>How do I append an element to another element?</summary>
+
+You can append an element to another element using the `append` method:
+
+```javascript
+const div = document.querySelector('div')
+div.append(p)
+```
+
+</details>
+
+## Solution
+
+<details>
+	<summary>Show the answer</summary>
+
+```javascript
+// todo: add the code here
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+# Exercise 3
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Continuing from the previous exercise, add a button to each person's `p` tag that will allow the user to remove the person from `localStorage`.
+
+When the button is clicked, the person should be removed from `localStorage` and the `output` div should be updated to reflect the change.
+
+Use the following code to remove an element from the dom:
+
+```javascript
+element.remove()
+```
+
+## Hints
+
+<details>
+	<summary>How do I create a new button element?</summary>
+
+You can create a new button element by using the `createElement` method:
+
+```javascript
+const button = document.createElement('button')
+```
+
+</details>
+
+<details>
+	<summary>How do I add text to a button?</summary>
+
+You can add text to a button by using the `textContent` property:
+
+```javascript
+button.textContent = 'Remove Person'
+```
+
+</details>
+
+<details>
+	<summary>How do I add an event listener to a button?</summary>
+
+You can add an event listener to a button by using the `addEventListener` method:
+
+```javascript
+button.addEventListener('click', () => {
+	// your code here
+})
+```
+
+## Solution
+
