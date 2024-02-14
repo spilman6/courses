@@ -276,7 +276,40 @@ div.append(p)
 	<summary>Show the answer</summary>
 
 ```javascript
-// todo: add the code here
+const button = document.querySelector('button')
+const error = document.querySelector('#error')
+const namesDiv = document.querySelector("#output")
+
+const form = document.querySelector('form')
+const inputs = form.querySelectorAll('input')
+
+const getExistingPeople = () => JSON.parse(localStorage.getItem('people')) || [ ]
+
+const addPerson = person => {
+	localStorage.setItem('people', JSON.stringify([ ...getExistingPeople(), person ]))
+}
+
+button.addEventListener('click', e => {
+    e.preventDefault()
+	const isValid = form.checkValidity()
+
+	if (isValid) {
+		const firstName = inputs[0].value
+		const lastName = inputs[1].value 
+		addPerson({ firstName, lastName })
+		appendPerson({ firstName, lastName })
+	}
+
+	error.textContent = isValid ? '' : 'Please enter a first and last name'
+})
+
+const appendPerson = ({ firstName, lastName }) => {
+	const p = document.createElement('p')
+	p.textContent = `${firstName} ${lastName}`
+	namesDiv.append(p)
+}
+
+getExistingPeople().forEach(appendPerson)
 ```
 
 </details>
