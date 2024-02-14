@@ -111,7 +111,7 @@ allInputs.forEach(element => {
 })
 ```
 
-## Enabling and Disabling the Submit Button
+## Enabling/Disabling the Submit Button
 
 In this video, we will enable and disable the submit button based on the validity of the form.
 
