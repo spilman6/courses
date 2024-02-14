@@ -26,7 +26,7 @@ Then loop through the array and call the arrow function for each person. You can
 
 Use object destructuring to access the properties of each person.
 
-## Hint
+## Hints
 
 <details>
 	<summary>How do I create an array of objects?</summary>
@@ -153,7 +153,7 @@ It should generate the following HTML:
 
 When your function is created, call it for each person in your array using the `forEach` method.
 
-## Hint
+## Hints
 
 <details>
 	<summary>How do I create an element?</summary>
@@ -264,7 +264,7 @@ It should generate the following HTML:
 
 > [!TIP] You will have to create an unordered list and append it to the `li` element. Then you will have to loop through the hobbies array and create a list item for each hobby.
 
-## Hint
+## Hints
 
 <details>
 	<summary>How do I create an unordered list?</summary>
