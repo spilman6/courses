@@ -1,5 +1,5 @@
 ---
-title: 'Assignment 4 - Array Methods'
+title: 'Assignment 5 - Array Methods'
 subtitle: 'Modern JavaScript'
 ---
 
