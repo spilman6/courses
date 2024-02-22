@@ -56,6 +56,15 @@ console.log(roomNames)
 
 </details>
 
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
 # Exercise 2
 
 <details open>
@@ -98,6 +107,15 @@ console.log(roomsWithTVs)
 
 </details>
 
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
 # Exercise 3
 
 <details open>
@@ -137,6 +155,15 @@ const roomsWithFans = rooms
 console.log(roomsWithFans)
 ```
 
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
 </details>
 
 # Exercise 4
@@ -200,6 +227,15 @@ console.log(allLights)
 
 </details>
 
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
 # Exercise 5
 
 <details open>
@@ -214,3 +250,89 @@ console.log(allLights)
 Use Array.reduce() to create an object that contains the a `slug` property for each room. The `slug` should be the room name, converted to lowercase, with spaces replaced by hyphens. Call the object `roomSlugs`, and log it to the console.
 
 > [!NOTE] A slug is a URL-friendly version of a string. For example, the slug for "Living Room" would be "living-room".
+
+We have not covered how to 'replace' characters in a string. Before you look at the hint below, try to figure out how to do it on your own. If you get stuck, the hint will help you out.
+
+The result should look similar to:
+
+```javascript
+{
+	"Outside": "outside",
+	"Balcony": "balcony",
+	// ... 
+	"Main Bathroom": "main-bathroom",
+	"Family Room": "family-room",
+	"Laundry Room": "laundry-room",
+	// ...
+	"Main Office": "main-office",
+	"Upstairs Office": "upstairs-office"
+}
+```
+
+## Hints {#exercise-5-hints}
+
+<details>
+	<summary>How do I replace characters in a string?</summary>
+
+You can use the `replace` method to replace characters in a string. Here's an example:
+
+```javascript
+const sentence = 'Hey there!'
+const newSentence = sentence.replace('Hey', 'Hello')
+console.log(newSentence) // 'Hello there!'
+```
+
+This only replaces the first instance of the word. If you want to replace all instances, you can use the `replaceAll` method:
+
+```javascript
+const sentence = 'Hey there! Hey everyone!'
+const newSentence = sentence.replaceAll('Hey', 'Hello')
+console.log(newSentence) // 'Hello there! Hello everyone!'
+```
+
+</details>
+
+<details>
+	<summary>How do I create an object using reduce?</summary>
+
+You can use the `reduce` method to create an object based on the existing array. Here's an example:
+
+```javascript
+const pets = [
+	{ name: 'daisy', type: 'dog' },
+	{ name: 'buddy', type: 'dog' },
+	{ name: 'fluffy', type: 'cat' }
+]
+
+const petTypes = pets.reduce((prev, { name, type }) => {
+	prev[name] = type
+	return prev
+}, { })
+```
+
+</details>
+
+## Solution {#exercise-5-solution}
+
+<details>
+	<summary>Show the answer</summary>
+
+```javascript
+const roomSlugs = rooms.reduce((prev, ({ name })) => {
+	prev[name] = name.toLowerCase().replaceAll(' ', '-')
+	return prev
+}, { })
+
+console.log(roomSlugs)
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
