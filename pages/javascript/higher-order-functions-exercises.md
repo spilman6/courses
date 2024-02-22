@@ -284,7 +284,9 @@ const newSentence = sentence.replace('Hey', 'Hello')
 console.log(newSentence) // 'Hello there!'
 ```
 
-This only replaces the first instance of the word. If you want to replace all instances, you can use the `replaceAll` method:
+This only replaces the first instance of the word.
+
+If you want to replace all instances, you can use the `replaceAll` method:
 
 ```javascript
 const sentence = 'Hey there! Hey everyone!'
