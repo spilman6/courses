@@ -82,6 +82,8 @@ Make sure that your array contains the entire room object, not just the name of 
 
 Remember that the `?.` operator can be used to safely access nested properties. For example, `pet.owner?.name?.trim()` will not throw an error if `pet.owner` or `pet.owner.name` is `null`.
 
+There should be 3 room objects in the resulting array. Family Room, Guest Bedroom, Master Bedroom.
+
 ## Hint {#exercise-2-hint}
 
 <details>
@@ -101,7 +103,7 @@ const dogs = pets.filter(pet => pet.type === 'dog')
 	<summary>Show the answer</summary>
 
 ```javascript
-const roomsWithTVs = rooms.filter(room => room.media?.device?.includes('tv'))
+const roomsWithTVs = rooms.filter(room => room.media?.devices?.includes('tv'))
 console.log(roomsWithTVs)
 ```
 
