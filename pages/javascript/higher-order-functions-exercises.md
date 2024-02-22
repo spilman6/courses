@@ -181,7 +181,7 @@ console.log(roomsWithFans)
 
 Use Array.reduce() to create an array that contains all of the lights without any duplicates. Call the array `allLights`, and log it to the console.
 
-> [!HINT] A common way to make sure that an array doesn't contain duplicates is to convert it to a Set and then back to an array. Below is an example of how to do that:
+> [!TIP] A common way to make sure that an array doesn't contain duplicates is to convert it to a Set and then back to an array. Below is an example of how to do that:
 
 ```javascript
 const pets1 = [ 'dog', 'cat' ]
