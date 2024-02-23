@@ -34,7 +34,7 @@ Using the `rooms` array, create an array of all the room names. Call the array `
 ## Hint {#exercise-1-hint}
 
 <details>
-	<summary>How do I get an array of just the room names?</summary>
+	<summary>How do I get an array of just names?</summary>
 
 You can use the `map` method to create a new array based on the existing array. Here's an example:
 
