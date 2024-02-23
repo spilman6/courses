@@ -136,7 +136,13 @@ Using the `rooms` array, create an array that contains the names of all the room
 <details>
 	<summary>How do I sort an array?</summary>
 
-You can use the `toSortex` method to sort an array. Here's an example:
+You can use the `toSorted` method to sort an array. Here's an example:
+
+```javascript
+const sortedPets = pets.toSorted((a, b) => a.name.localeCompare(b.name))
+```
+
+If you are using an older version of node, you may need to use the `sort` method:
 
 ```javascript
 const sortedPets = pets.sort((a, b) => a.name.localeCompare(b.name))
