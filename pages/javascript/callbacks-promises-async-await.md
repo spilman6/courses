@@ -324,7 +324,7 @@ try {
 }
 ```
 
-# API Call from a Browser
+## API Call from a Browser
 
 We can also make http requests from a browser using the fetch function. This is a modern way to make http requests in the browser, and it is built on top of Promises.
 
@@ -333,7 +333,7 @@ The syntax for fetch is significantly simpler than the native https module! Take
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/18guCtZuetc" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -345,7 +345,7 @@ Here is the JavaScript code from the video:
 (async () => {
 
 	try {
-		const vehiclesDiv = document.querySelector('#vehicles')
+		const div = document.querySelector('#vehicles')
 		const response = await fetch('https://swapi.dev/api/vehicles/')
 		const data = await response.json()
 		const vehicles = data.results
@@ -357,7 +357,7 @@ Here is the JavaScript code from the video:
 			.forEach(({ name }) => {
 				const p = document.createElement('p')
 				p.textContent = name
-				vehiclesDiv.appendChild(p)
+				div.appendChild(p)
 			})
 	} catch (error) {
 		console.log(error)
