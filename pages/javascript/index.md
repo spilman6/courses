@@ -15,7 +15,7 @@ hide-nav: true
 
 [Higher Order Functions](/appel/javascript/higher-order-functions) - _Week 7_
 
-[Promises, Async/Await, and IIFEs](/appel/javascript/promises-async-await-iife) - _Week 8_
+[Promises, Async/Await, and IIFEs](/appel/javascript/callbacks-promises-async-await) - _Week 8_
 
 [Server-Side JavaScript](/appel/javascript/server-side-javascript) - _Week 10_
 
