@@ -1,5 +1,5 @@
 ---
-title: 'Callbacks, Promises and Async/Await'
+title: 'Callbacks, Promises, and Async/Await'
 subtitle: 'Modern JavaScript'
 ---
 
@@ -281,6 +281,8 @@ console.log(json.opening_crawl)
 The last thing that we need to do before moving on...
 
 ## Error Handling
+
+Asynchronous
 
 We need to handle errors when making http requests. We can do this by adding a `.on('error', ...)` event listener to the request object.
 
