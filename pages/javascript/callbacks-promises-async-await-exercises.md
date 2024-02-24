@@ -8,7 +8,7 @@ subtitle: 'Modern JavaScript'
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/5x5UWR02gtc" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -121,7 +121,7 @@ Or you can call your funcion inside of the console.log with await:
 <details>
 	<summary>Walkthrough Video</summary>
 		<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/CiWqBW8DL7I" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -132,7 +132,7 @@ Or you can call your funcion inside of the console.log with await:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/9W78ZZTw0E0" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -242,7 +242,7 @@ If you're using async/await, you can use a try/catch block to handle a rejected 
 <details>
 	<summary>Walkthrough Video</summary>
 		<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/3mULHHNcYP4" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -253,7 +253,7 @@ If you're using async/await, you can use a try/catch block to handle a rejected 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/fNUa-WQCaDQ" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -275,7 +275,7 @@ const rollD20 = rollDice(20)
 
 > [!TIP] The function that `rollDice` returns should be parameterless.
 
-## Hints {#exercise-3-hints}
+## Hint {#exercise-3-hint}
 
 <details>
 	<summary>What is a curried function?</summary>
@@ -323,7 +323,7 @@ const myFunction = parameter1 => () => {
 <details>
 	<summary>Walkthrough Video</summary>
 		<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/P-dakE1nReg" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -334,7 +334,7 @@ const myFunction = parameter1 => () => {
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/dEzhUskkJZo" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -356,7 +356,7 @@ https://www.random.org/integers/?num=1&min=1&max=20&col=1&base=10&format=plain&r
 
 > [!TIP] Don't overthink this. You're basically just replacing the `Math.random` and `setTimeout` with a call to the random.org API.
 
-## Hints {#exercise-4-hints}
+## Hint {#exercise-4-hint}
 
 <details>
 	<summary>How do I make an API request in JavaScript?</summary>
@@ -421,7 +421,7 @@ https.get('url', response => {
 <details>
 	<summary>Walkthrough Video</summary>
 		<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/VQNOkjcF4NU" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -432,7 +432,7 @@ https.get('url', response => {
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/MYPXspfqUxE" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -521,7 +521,7 @@ const rollDice = async () => {
 	const url = `https://www.random.org/integers/?num=1&min=1&max=${numSides}&col=1&base=10&format=plain&rnd=new`
 	const response = await fetch(url)
 	const data = await response.json()
-	document.getElementById('dice').textContent = data
+	document.querySelector('#dice').textContent = data
 }
 
 rollDice()
@@ -534,7 +534,7 @@ document.querySelector('button').addEventListener('click', rollDice)
 <details>
 	<summary>Walkthrough Video</summary>
 		<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/-lnzAa3hfS8" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
