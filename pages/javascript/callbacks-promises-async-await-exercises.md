@@ -433,5 +433,104 @@ https.get('url', response => {
 	</div>
 </details>
 
+# Exercise 5
 
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
 
+Switching over to the client side, create a new index.html file, using the following code:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dice Roller</title>
+	<style>
+		#dice {
+			font-size: 3em;
+			margin: 0.5em;
+			border: 2px solid black;
+			border-radius: 0.25em;
+			width: 2em;
+			height: 2em;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<div id="dice"></div>
+		<select id="numSides">
+			<option value="20">20 Sides</option>
+			<option value="12">12 Sides</option>
+			<option value="10">10 Sides</option>
+			<option value="8">8 Sides</option>
+			<option value="6">6 Sides</option>
+			<option value="4">4 Sides</option>
+		</select>
+		<button>Roll Dice</button>
+	</main>
+</body>
+<script></script>
+</html>
+```
+
+Inside the script tag, write a function called `rollDice` that makes a fetch request to the random.org API to get a random number between 1 and the number of sides selected in the dropdown.
+
+Call the `rollDice` function when right after the function definition so that the dice is rolled when the page loads.
+
+Create an event listener for the button that calls the `rollDice` function when the button is clicked.
+
+## Hints {#exercise-5-hints}
+
+<details>
+	<summary>How do I make a fetch request in JavaScript?</summary>
+
+You can use the `fetch` function like this:
+
+```javascript
+const response = await fetch(url)
+const data = await response.json()
+```
+
+</details>
+
+<details>
+	<summary>How do I get the value of a dropdown in JavaScript?</summary>
+
+You can use the `value` property of the dropdown to get the selected value. Here's an example:
+
+```javascript
+const value = document.getElementById('numSides').value
+```
+
+</details>
+
+## Solution {#exercise-5-solution}
+
+<details>
+	<summary>Show the answer</summary>
+
+```javascript
+const rollDice = async () => {
+	const numSides = document.getElementById('numSides').value
+	const url = `https://www.random.org/integers/?num=1&min=1&max=${numSides}&col=1&base=10&format=plain&rnd=new`
+	const response = await fetch(url)
+	const data = await response.json()
+	document.getElementById('dice').textContent = data
+}
+
+rollDice()
+
+document.querySelector('button').addEventListener('click', rollDice)
+```
