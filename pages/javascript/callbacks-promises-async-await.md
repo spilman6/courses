@@ -282,7 +282,7 @@ The last thing that we need to do before moving on...
 
 ## Error Handling
 
-We need to handle errors when making http requests. We can do this by adding a `response.on('error', ...)` event listener to the response object.
+We need to handle errors when making http requests. We can do this by adding a `.on('error', ...)` event listener to the request object.
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
