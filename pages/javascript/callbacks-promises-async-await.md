@@ -324,6 +324,48 @@ try {
 }
 ```
 
+# API Call from a Browser
+
+We can also make http requests from a browser using the fetch function. This is a modern way to make http requests in the browser, and it is built on top of Promises.
+
+The syntax for fetch is significantly simpler than the native https module! Take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the JavaScript code from the video:
+
+```javascript
+(async () => {
+
+	try {
+		const vehiclesDiv = document.querySelector('#vehicles')
+		const response = await fetch('https://swapi.dev/api/vehicles/')
+		const data = await response.json()
+		const vehicles = data.results
+
+		const isWalker = type => type.toLowerCase().includes('walker')
+
+		vehicles
+			.filter(({ vehicle_class }) => isWalker(vehicle_class))
+			.forEach(({ name }) => {
+				const p = document.createElement('p')
+				p.textContent = name
+				vehiclesDiv.appendChild(p)
+			})
+	} catch (error) {
+		console.log(error)
+	}
+	
+})()
+```
+
 That's it! We have covered callbacks, promises, async/await, IIFEs, and http requests. We are now ready to move on to the exercises.
 
 # Exercises
