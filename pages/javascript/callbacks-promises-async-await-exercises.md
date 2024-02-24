@@ -400,14 +400,8 @@ https.get('url', response => {
 
 				https.get(url, response => {
 					let data = ''
-
-					response.on('data', chunk => {
-						data += chunk
-					})
-
-					response.on('end', () => {
-						resolve(parseInt(data))
-					})
+					response.on('data', chunk => data += chunk)
+					response.on('end', () => resolve(data))
 				})
 			}
 		})
