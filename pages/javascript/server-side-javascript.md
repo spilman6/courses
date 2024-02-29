@@ -32,28 +32,28 @@ This video will walk you through the process:
 	</div>
 </details>
 
-Again, to run the command-line tool, you can use the `npm init` command. This will prompt you to answer a few questions about your project. You can also use the `--yes` flag to skip the questions and use the default values.
+Again, to run the command-line tool, you can use the `npm init` command. This will prompt you to answer a few questions about your project.
 
 ```bash
-npm init --yes
+npm init
 ```
 
 ## Installing Packages
 
-We're going to install a package called `chalk` to demonstrate how to install packages using NPM.
+We're going to install a package called `ansi-colors` to demonstrate how to install packages using NPM.
 
-Chalk is a package that is used to style the output in the terminal. It is often used to add color to the output. I used it in the previous unit to color the output for your exercises.
+`ansi-colors` is a package that allows you to add color to your terminal output. It is a great package to use when you want to add some color to your terminal output.
 
-To install a package, you can use the `npm install` command followed by the name of the package. For example, to install the `chalk` package, you would run the following command:
+To install a package, you can use the `npm install` command followed by the name of the package. For example, to install the `ansi-colors` package, you would run the following command:
 
 ```bash
-npm install chalk
+npm install ansi-colors
 ```
 
 You can also shorten the install command to `npm i`:
 
 ```bash
-npm i chalk
+npm i ansi-colors
 ```
 
 This video will walk you through the process:
@@ -69,9 +69,7 @@ This video will walk you through the process:
 
 Often times, npm packages will have documentation and examples on their NPM page. This is a great place to start when learning how to use a new package.
 
-Here is the link to the [chalk package](https://www.npmjs.com/package/chalk) on NPM.
-
-If you haven't already, take a minute to scan throught the documentation for the `chalk` package.
+Here is the link to the [ansi-colors](https://www.npmjs.com/package/ansi-colors) package on NPM. If you haven't already, take a minute to scan throught the documentation.
 
 ## Using Packages
 
@@ -88,11 +86,21 @@ Let's take a look:
     </div>
 </details>
 
-```javascript
-const chalk = require('chalk')
+Here is the code from the video:
 
-console.log(chalk.blue('Hello world!'))
+```javascript
+const colors = require('ansi-colors')
+
+console.log(colors.red("red text"))
+console.log(colors.green("green text"))
+console.log(colors.blue("blue text"))
+
+console.log(colors.bgRed("red background"))
+
+console.log(colors.black.bgWhite("black text, white background"))
 ```
+
+> [!NOTE] The documentation uses the variable name `c` to import the `ansi-colors` package. I chose to use the variable name `colors` instead, because I think it makes the code more readable. You can use any variable name you like.
 
 ## Node Modules and .gitignore
 
