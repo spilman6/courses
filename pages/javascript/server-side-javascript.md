@@ -123,28 +123,9 @@ This video will walk you through the process:
     </div>
 </details>
 
-## Cloning an Existing Project
-
 If you are cloning an existing project from a git repository, you will need to run the `npm install` command to install all the packages that are used in the project. This command will read the `package.json` file and install all the packages that are listed in it.
 
-This video will walk you through the process:
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        ></iframe>
-    </div>
-</details>
-
-Here is a link to the repository that I cloned in the video: [enquirer demo]()
-
-Notice how running the `npm install` command created the `node_modules` folder and installed the `enquirer` package.
-
-`enquirer` is a package that allows you to create interactive command-line prompts. It is a great package to use when you want to create a command-line interface for your project.
-
-Here is the link to the [enquirer](https://www.npmjs.com/package/enquirer) package on NPM. If you haven't already, take a minute to scan throught the documentation.
+# Enquirer
 
 Then let's take a look at how to use the `enquirer` package:
 
@@ -161,6 +142,272 @@ Here is the code from the video:
 
 ```javascript
 const { prompt } = require('enquirer')
+
+const questions = [
+	{
+		type: 'input',
+		name: 'firstName',
+		message: 'What is your first name?'
+	},
+	{
+		type: 'input',
+		name: 'lastName',
+		message: 'What is your last name?'
+	}
+]
+
+prompt(questions).then(answers => console.log(answers))
+```
+
+I also ran the following demo code: [MultiSelect](https://www.npmjs.com/package/enquirer#multiselect-prompt) and [Survey](https://www.npmjs.com/package/enquirer#multiselect-prompt)
+
+# Custom Modules
+
+In addition to using packages from NPM, you can also create your own custom modules. A module is a file that contains JavaScript code. You can import the code from a module into another file using the `require` function.
+
+This is a great way to organize your code and make it more readable.
+
+This video will walk you through the process:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+## Exporting Classes
+
+You can also export classes from a module.
+
+This video will show you how:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+Here is the code from the video:
+
+`test-class.js`:
+
+```javascript
+class Person {
+	firstName
+
+	constructor(firstName) {
+		this.firstName = firstName
+	}
+
+	greet() {
+		console.log(`${this.firstName} says hi!`)
+	}
+}
+
+module.exports = Person
+```
+
+`app.js`:
+
+```javascript
+const Person = require('./test-class')
+const ryan = new Person('Ryan')
+ryan.greet()
+```
+
+## Exporting Objects and Functions
+
+You can also export objects and functions from a module. I find doing this is easier to understand than exporting classes. 
+
+This video will show you how:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+Here is the code from the video:
+
+`test-functions.js`:
+
+```javascript
+const createPerson = firstName => {
+	return { firstName }
+}
+
+const greet = person => {
+	console.log(`${person.firstName} says hi!`)
+}
+
+module.exports = { createPerson, greet }
+```
+
+`app.js`:
+
+```javascript
+const { createPerson, greet } = require('./test-functions')
+const ryan2 = createPerson('Ryan')
+greet(ryan2)
+```
+
+Or if we just want to export a single function:
+
+`test-function.js`:
+
+```javascript
+const createPerson = firstName => {
+	return { firstName }
+}
+
+module.exports = createPerson
+```
+
+`app.js`:
+
+```javascript
+const createPerson = require('./test-function')
+const ryan3 = createPerson('Ryan')
+console.log(ryan3)
+```
+
+# Making a Survey
+
+Let's practice using the `enquirer` package by making a survey that gets the questions from a remote server.
+
+We also want to keep the code organized, so we will create a custom module to handle the survey.
+
+Let's get started:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+Here is the code from the video:
+
+`app.js`:
+
+```javascript
+(async () => {
+	const { prompt } = require('enquirer')
+	const questions = require('./questions.json')
+
+	console.log(await prompt(questions))
+})()
+```
+
+`questions.json`:
+
+```json
+[
+	{
+		"type": "input",
+		"name": "firstName",
+		"message": "What is your first name?"
+	},
+	{
+		"type": "input",
+		"name": "lastName",
+		"message": "What is your last name?"
+	},
+	{
+		"type": "input",
+		"name": "email",
+		"message": "What is your email address?"
+	}
+]
+```
+
+Next we will get the questions from github using the `axios` package.
+
+Take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+Here is the npm page for [axios](https://www.npmjs.com/package/axios).
+
+And here is the code from the video:
+
+`app.js`:
+
+```javascript
+(async () => {
+	const { prompt } = require('enquirer')
+	const axios = require('axios')
+
+	const { data } = await axios.get('https://raw.githubusercontent.com/RDAppel/survey/master/questions.json')
+	const questions = data
+
+	console.log(await prompt(questions))
+})()
+```
+
+The last step is to create a custom module to handle the survey.
+
+Take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+Here is the final code:
+
+`survey.js`:
+
+```javascript
+const { prompt } = require('enquirer')
+const axios = require('axios')
+
+let surveyUrl = ''
+
+const setUrl = url => surveyUrl = url
+
+const run = async () => {
+	const { data } = await axios.get(surveyUrl)
+	return await prompt(data)
+}
+
+module.exports = { setUrl, run }
+```
+
+`app.js`:
+
+```javascript
+(async () => {
+
+	const survey = require('./survey')
+	const url = 'https://raw.githubusercontent.com/RDAppel/survey/master/questions.json'
+	survey.setUrl(url)
+	const result = await survey.run()
+	console.log(result)
+
+})()
 ```
 
 # Exercises
