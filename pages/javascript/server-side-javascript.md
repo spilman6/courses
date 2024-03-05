@@ -195,7 +195,7 @@ This video will show you how:
 
 Here is the code from the video:
 
-`test-class.js`:
+test-class.js:
 
 ```javascript
 class Person {
@@ -213,7 +213,7 @@ class Person {
 module.exports = Person
 ```
 
-`app.js`:
+app.js:
 
 ```javascript
 const Person = require('./test-class')
@@ -238,7 +238,7 @@ This video will show you how:
 
 Here is the code from the video:
 
-`test-functions.js`:
+test-functions.js:
 
 ```javascript
 const createPerson = firstName => {
@@ -252,7 +252,7 @@ const greet = person => {
 module.exports = { createPerson, greet }
 ```
 
-`app.js`:
+app.js:
 
 ```javascript
 const { createPerson, greet } = require('./test-functions')
@@ -262,7 +262,7 @@ greet(ryan2)
 
 Or if we just want to export a single function:
 
-`test-function.js`:
+test-function.js:
 
 ```javascript
 const createPerson = firstName => {
@@ -272,7 +272,7 @@ const createPerson = firstName => {
 module.exports = createPerson
 ```
 
-`app.js`:
+app.js:
 
 ```javascript
 const createPerson = require('./test-function')
@@ -299,7 +299,7 @@ Let's get started:
 
 Here is the code from the video:
 
-`app.js`:
+app.js:
 
 ```javascript
 (async () => {
@@ -310,7 +310,7 @@ Here is the code from the video:
 })()
 ```
 
-`questions.json`:
+questions.json:
 
 ```json
 [
@@ -349,7 +349,7 @@ Here is the npm page for [axios](https://www.npmjs.com/package/axios).
 
 And here is the code from the video:
 
-`app.js`:
+app.js:
 
 ```javascript
 (async () => {
@@ -378,7 +378,7 @@ Take a look:
 
 Here is the final code:
 
-`survey.js`:
+survey.js:
 
 ```javascript
 const { prompt } = require('enquirer')
@@ -396,7 +396,7 @@ const run = async () => {
 module.exports = { setUrl, run }
 ```
 
-`app.js`:
+app.js:
 
 ```javascript
 (async () => {
