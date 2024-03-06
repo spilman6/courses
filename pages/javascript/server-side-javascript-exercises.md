@@ -74,6 +74,8 @@ Assuming the module is in the same folder, you can use `require`, and specify th
 const myModule = reuqire('./my-module') // will use `my-module.js`
 ```
 
+</details>
+
 ## Solution {#exercise-1-solution}
 
 <details>
