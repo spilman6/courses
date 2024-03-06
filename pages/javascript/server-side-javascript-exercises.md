@@ -22,7 +22,11 @@ Have the entry point be `app.js`, and add your name as the author.
 
 Create the `app.js` file, and a module called `dice-roller.js`
 
-For the exercises, we're going to use the npm module `ansi-colors`. This module was discussed in the lecture, but if you want to take another look at it, you can find it [here](https://www.npmjs.com/package/ansi-colors).
+For the exercises, we're going to use the npm module `ansi-colors`. This module was discussed in the lecture, but if you want to take another look at it, you can find it [here](https://www.npmjs.com/package/ansi-colors). Go ahead and install it using:
+
+```bash
+npm i ansi-colors
+```
 
 # Exercise 1
 
