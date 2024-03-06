@@ -222,6 +222,47 @@ const result = characters.reduce((prev, letter) => {
 }, { })
 ```
 
+### Sorting
+
+The `sort` method sorts the elements of an array in place and returns the sorted array. It's important to note that the sort method modifies the array! If you are using node.js version 20 or later, you can use `toSorted` to create a new array that is sorted.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+Here is how we would use the `sort` method to sort the pets by age:
+
+```javascript
+const sortedPets = pets.sort((a, b) => a.age - b.age)
+console.log(sortedPets)
+```
+
+If you are using node.js version 20 or later, you can use `toSorted` to create a new array that is sorted.
+
+```javascript
+const sortedPets = pets.toSorted((a, b) => a.age - b.age)
+console.log(sortedPets)
+```
+
+Otherwise you can use the spread operator to create a new array that is sorted:
+
+```javascript
+const sortedPets = [...pets].sort((a, b) => a.age - b.age)
+console.log(sortedPets)
+```
+
+Here is how we would sort the pets by name:
+
+```javascript
+const sortedPetsByName = pets.sort((a, b) => a.name.localeCompare(b.name))
+console.log(sortedPetsByName)
+```
+
 ## Function Composition
 
 We often use the previous array methods together to create more complex operations. This is called function composition.
