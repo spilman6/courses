@@ -153,6 +153,8 @@ Then you can just add one to the result to get a number between 1 and 6.
 Math.floor(Math.random() * 6) + 1
 ```
 
+</details>
+
 ## Solution {#exercise-2-solution}
 
 <details>
