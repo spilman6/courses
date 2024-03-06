@@ -177,6 +177,17 @@ diceRoller.roll()
 diceRoller.roll()
 ```
 
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
 # Exercise 3
 
 Building on the previous exercise, you're going to modify the `roll` function to allow for different sized dice to be rolled. For example, `roll(20)` would generate a random number between 1 and 20.
