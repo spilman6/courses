@@ -79,14 +79,14 @@ const myModule = reuqire('./my-module') // will use `my-module.js`
 <details>
 	<summary>Show the answer</summary>
 
-dice-roller.js
+dice-roller.js:
 
 ```javascript
 const roll = () => console.log('hi')
 module.exports = { roll }
 ```
 
-app.js
+app.js:
 
 ```javascript
 const diceRoller = require('./dice-roller')
@@ -115,11 +115,7 @@ roll()
 
 # Exercise 2
 
-Building on the previous exercise, you're going to modify the `roll` function to generate a random number between 1 and N. You'll then print the number to the console.
-
-You're also going to add some color to the output using the `ansi-colors` module.
-
-If the user rolls a 1, the number should be printed in red. If the user rolls the highest number, it should be printed in green. Otherwise, it should be printed in yellow.
+For the second exercise, you're going to modify the `roll` function to generate a random number between 1 and 6. You'll then print the number to the console.
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
@@ -130,40 +126,30 @@ If the user rolls a 1, the number should be printed in red. If the user rolls th
 	</div>
 </details>
 
-Modify the `roll` function to take a parameter `max` that represents the maximum number that can be rolled. This code will generate a random number between 1 and `max`:
+Modify the `roll` function to generate and console log a number between 1 and 6.
 
-```javascript
-Math.floor(Math.random() * max) + 1
-```
+Remember that `Math.random()` generates a random number between 0 and 1, but not including 1.
 
-Install and use the `ansi-colors` module to print the number in the appropriate color. If the number is 1, print it in red. If it's the maximum number, print it in green. Otherwise, print it in yellow.
+You can use `Math.floor()` to round the number down to the nearest whole number.
 
-In your app, call the `roll` function with a few different numbers to confirm that it's working.
+In your app, call the `roll` function a few times to confirm that it's working.
 
 ## Hint {#exercise-2-hint}
 
 <details>
-	<summary>How do I install a module?</summary>
+	<summary>How do I generate a random number between 1 and 6?</summary>
 
-You can install a module using `npm install <module-name>`. This will add the module to your `node_modules` folder.
-
-```bash
-npm install ansi-colors
-```
-
-</details>
-
-<details>
-	<summary>How do I use the ansi-colors module?</summary>
-
-You can use the module by requiring it and then calling the appropriate function. For example, to print something in red, you would use `colors.red('my string')`.
+You can generate a random number between 0 and 5 using the following code:
 
 ```javascript
-const colors = require('ansi-colors')
-console.log(colors.red('my string'))
+Math.floor(Math.random() * 6)
 ```
 
-</details>
+Then you can just add one to the result to get a number between 1 and 6.
+
+```javascript
+Math.floor(Math.random() * 6) + 1
+```
 
 ## Solution {#exercise-2-solution}
 
@@ -173,15 +159,68 @@ console.log(colors.red('my string'))
 dice-roller.js:
 
 ```javascript
-const colors = require('ansi-colors')
+const roll = () => console.log(Math.floor(Math.random() * 6) + 1)
+module.exports = { roll }
+```
 
-const roll = (max) => {
-	const number = Math.floor(Math.random() * max) + 1
+app.js:
 
-	const color = number === 1 ? colors.red
-		: number === max ? colors.green : colors.yellow
+```javascript
+const diceRoller = require('./dice-roller')
 
-	console.log(color(number))
+diceRoller.roll()
+diceRoller.roll()
+diceRoller.roll()
+```
+
+# Exercise 3
+
+Building on the previous exercise, you're going to modify the `roll` function to allow for different sized dice to be rolled. For example, `roll(20)` would generate a random number between 1 and 20.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+Modify the `roll` function to take a parameter `sides` that represents the number of sides on the dice. If no value is provided, the function should default to 6.
+
+In your app, call the `roll` function with a few different numbers to confirm that it's working.
+
+## Hint {#exercise-3-hint}
+
+<details>
+	<summary>How do I add a default value to a parameter?</summary>
+
+You can add a default value to a parameter by using the `=` operator.
+
+```javascript
+const myFunction = (param = 5) => console.log(param)
+```
+
+This will set `param` to 5 if no value is provided. For example:
+
+```javascript
+myFunction() // 5
+myFunction(10) // 10
+```
+
+</details>
+
+## Solution {#exercise-3-solution}
+
+<details>
+	<summary>Show the answer</summary>
+
+dice-roller.js:
+
+```javascript
+const roll = (max = 6) => {
+	const result = Math.floor(Math.random() * max) + 1
+	console.log(result)
 }
 
 module.exports = { roll }
@@ -191,19 +230,8 @@ app.js:
 
 ```javascript
 const diceRoller = require('./dice-roller')
-
-// testing the roll function
-console.log('Rolling four 6-sided dice:')
-diceRoller.roll(6)
-diceRoller.roll(6)
-diceRoller.roll(6)
-diceRoller.roll(6)
-
-console.log('Rolling two 10-sided dice:')
+diceRoller.roll()
 diceRoller.roll(10)
-diceRoller.roll(10)
-
-console.log('Rolling a 20-sided die:')
 diceRoller.roll(20)
 ```
 
@@ -218,4 +246,163 @@ diceRoller.roll(20)
 	</div>
 </details>
 
+# Exercise 4
+
+Next you're going to allow the user to specify a callback function that will be called with the result of the roll.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+Modify the `roll` function to take a second parameter `callback` that represents the function to be called with the result of the roll. If no value is provided, the function should default to `null`.
+
+If the `callback` parameter is null, the function should just print the result to the console. Otherwise, it should call the `callback` function with the result as the parameter.
+
+In your app, call the `roll` function with a few different numbers and a callback function to confirm that it's working.
+
+## Hint {#exercise-4-hint}
+
+<details>
+	<summary>How do add a callback parameter to a function?</summary>
+
+You can add a callback parameter to a function just like any other parameter.
+
+```javascript
+const myFunction = (callback = null) => {
+	const result = "some result"
+
+	if (callback) callback(result)
+	else console.log(result)
+}
+```
+
+</details>
+
+## Solution {#exercise-4-solution}
+
+<details>
+	<summary>Show the answer</summary>
+
+dice-roller.js:
+
+```javascript
+const roll = (max = 6, callback = null) => {
+	const result = Math.floor(Math.random() * max) + 1
+
+	if (callback) callback(result)
+	else console.log(result)
+}
+
+module.exports = { roll }
+```
+
+app.js:
+
+```javascript
+const diceRoller = require('./dice-roller')
+
+diceRoller.roll() // prints just the number
+diceRoller.roll(10, result => console.log(`You rolled a ${result}`))
+diceRoller.roll(20, result => console.log(`You rolled a ${result}`))
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+# Exercise 5
+
+For the final exercise, you're going to use the `ansi-colors` module to add some color to the output of the `roll` function.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+Modify the `roll` function to use the `ansi-colors` module to print the result in a color. For example, if the result is 1, print it in red. If the result is the maximum value, print it in green. Otherwise, print it in white.
+
+In your app, call the `roll` function with a few different numbers, making sure that you don't pass a callback function.
+
+> [!TIP] If you're not seeing the colors, pick a 4-sided dice and roll it a few times.
+
+## Hint {#exercise-5-hint}
+
+<details>
+	<summary>How do I use the ansi-colors module?</summary>
+
+You can use the `ansi-colors` module to add color to your output. For example:
+
+```javascript
+const colors = require('ansi-colors')
+
+console.log(colors.red('This is red'))
+console.log(colors.green('This is green'))
+console.log(colors.white('This is white'))
+```
+
+</details>
+
+## Solution {#exercise-5-solution}
+
+<details>
+	<summary>Show the answer</summary>
+
+dice-roller.js:
+
+```javascript
+const { red, green, white } = require('ansi-colors')
+
+const roll = (max = 6, callback = null) => {
+	const result = Math.floor(Math.random() * max) + 1
+
+	if (callback) callback(result)
+	else {
+		if (result === 1) console.log(red(result))
+		else if (result === max) console.log(green(result))
+		else console.log(white(result))
+	}
+}
+
+module.exports = { roll }
+```
+
+app.js:
+
+```javascript
+const diceRoller = require('./dice-roller')
+
+console.log('Rolling five 4-sided dice... hopefully I get some color!')
+diceRoller.roll(4)
+diceRoller.roll(4)
+diceRoller.roll(4)
+diceRoller.roll(4)
+diceRoller.roll(4)
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
 
