@@ -75,7 +75,7 @@ Simply surround it with curly-braces.
 Assuming the module is in the same folder, you can use `require`, and specify the "current folder" using `./<your-module>`.
 
 ```javascript
-const myModule = reuqire('./my-module') // will use `my-module.js`
+const myModule = require('./my-module') // will use `my-module.js`
 ```
 
 </details>
