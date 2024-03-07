@@ -229,38 +229,26 @@ The `sort` method sorts the elements of an array in place and returns the sorted
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/vAHoaRsFqHI" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
 </details>
 
-Here is how we would use the `sort` method to sort the pets by age:
+Here is how the code from the video:
 
 ```javascript
-const sortedPets = pets.sort((a, b) => a.age - b.age)
-console.log(sortedPets)
-```
+const compareAge = (a, b) => {
+	return a.age === b.age ? 0 : a.age > b.age ? 1 : -1
+}
 
-If you are using node.js version 20 or later, you can use `toSorted` to create a new array that is sorted.
+const compareName = (a, b) => a.name.localeCompare(b.name)
+const compareType = (a, b) => a.type.localeCompare(b.type)
 
-```javascript
-const sortedPets = pets.toSorted((a, b) => a.age - b.age)
-console.log(sortedPets)
-```
+//const sorted = pets.toSorted(compareAge)
+const sorted = pets.sort(compareAge) // or pets.sort(compareName) or pets.sort(compareType)
 
-Otherwise you can use the spread operator to create a new array that is sorted:
-
-```javascript
-const sortedPets = [...pets].sort((a, b) => a.age - b.age)
-console.log(sortedPets)
-```
-
-Here is how we would sort the pets by name:
-
-```javascript
-const sortedPetsByName = pets.sort((a, b) => a.name.localeCompare(b.name))
-console.log(sortedPetsByName)
+console.log(sorted)
 ```
 
 ## Function Composition
