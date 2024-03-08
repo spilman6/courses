@@ -5,7 +5,7 @@ subtitle: 'Modern JavaScript'
 
 # Server Side JavaScript
 
-In this unit we are going to continue using Node.js to write server side JavaScript. We will also be importing packages using npm.
+In this unit we are going to continue using Node.js to write server side JavaScript. We will also be importing modules (or packages) using npm. We will also be creating our own custom modules.
 
 # NPM
 
@@ -17,28 +17,15 @@ NPM comes pre-installed with Node.js. To check the version of NPM installed on y
 npm -v
 ```
 
-## Initializing a Project
+## Using NPM and Installing Packages
 
 Before we can import packages using NPM, we need to create a `package.json` file. This file contains information about the project and the packages that are used in the project.
 
-This video will walk you through the process:
-
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		></iframe>
-	</div>
-</details>
-
-Again, to run the command-line tool, you can use the `npm init` command. This will prompt you to answer a few questions about your project.
+To create a `package.json` file, you can run the following command in your terminal, then follow the prompts:
 
 ```bash
 npm init
 ```
-
-## Installing Packages
 
 We're going to install a package called `ansi-colors` to demonstrate how to install packages using NPM.
 
@@ -56,17 +43,6 @@ You can also shorten the install command to `npm i`:
 npm i ansi-colors
 ```
 
-This video will walk you through the process:
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        ></iframe>
-    </div>
-</details>
-
 Often times, npm packages will have documentation and examples on their NPM page. This is a great place to start when learning how to use a new package.
 
 Here is the link to the [ansi-colors](https://www.npmjs.com/package/ansi-colors) package on NPM. If you haven't already, take a minute to scan throught the documentation.
@@ -74,17 +50,6 @@ Here is the link to the [ansi-colors](https://www.npmjs.com/package/ansi-colors)
 ## Using Packages
 
 To use a package in your project, you need to import it into your JavaScript file. You can do this using the `require` function.
-
-Let's take a look:
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        ></iframe>
-    </div>
-</details>
 
 Here is the code from the video:
 
