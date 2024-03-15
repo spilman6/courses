@@ -1,8 +1,6 @@
 ---
 title: 'Objects and File Types'
 course: 'Data Access for Programmers'
-previous: 'Getting Started'
-next: 'Single Table Databases'
 ---
 
 # Objects and File Types
