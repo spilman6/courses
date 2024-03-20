@@ -19,6 +19,6 @@ hide-nav: true
 
 [Server-Side JavaScript](/appel/javascript/server-side-javascript) - _Week 10_
 
-[NPM and Express.js](/appel/javascript/npm-and-express) - _Week 11_
+[Web API with Express.js](/appel/javascript/web-api-with-express) - _Week 11_
 
 [Modules and Routing](/appel/javascript/modules-and-routing) - _Week 12_
