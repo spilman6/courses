@@ -197,6 +197,8 @@ const ryan = new Person('Ryan')
 ryan.greet()
 ```
 
+> [!NOTE] `module.exports` is not the only way to export code from a module. You can also use `exports` instead of `module.exports`. It works a bit differently, but it is also a valid way to export code from a module, I just choose not to use it.
+
 ## Exporting Objects and Functions
 
 You can also export objects and functions from a module. I find doing this is easier to understand than exporting classes. 
