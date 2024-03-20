@@ -23,4 +23,4 @@ hide-nav: true
 
 [Advanced Routing](/appel/javascript/advanced-routing) - _Week 12_
 
-[Databases with MongoDB](/appel/javascript/databases-with-mongodb) - _Week 13_
+[MongoDB](/appel/javascript/mongodb) - _Week 13_
