@@ -1,5 +1,6 @@
 ---
-next: 'Objects and File Types'
+title: 'Getting Started'
+course: 'Data Access for Programmers'
 ---
 
 # Welcome to the Class!

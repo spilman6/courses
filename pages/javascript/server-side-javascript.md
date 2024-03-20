@@ -5,7 +5,7 @@ subtitle: 'Modern JavaScript'
 
 # Server Side JavaScript
 
-In this unit we are going to continue using Node.js to write server side JavaScript. We will also be importing packages using npm.
+In this unit we are going to continue using Node.js to write server side JavaScript. We will also be importing modules (or packages) using npm. We will also be creating our own custom modules.
 
 # NPM
 
@@ -17,28 +17,17 @@ NPM comes pre-installed with Node.js. To check the version of NPM installed on y
 npm -v
 ```
 
-## Initializing a Project
+## Using NPM and Installing Packages
 
 Before we can import packages using NPM, we need to create a `package.json` file. This file contains information about the project and the packages that are used in the project.
 
-This video will walk you through the process:
-
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		></iframe>
-	</div>
-</details>
-
-Again, to run the command-line tool, you can use the `npm init` command. This will prompt you to answer a few questions about your project.
+To create a `package.json` file, you can run the following command in your terminal, then follow the prompts:
 
 ```bash
 npm init
 ```
 
-## Installing Packages
+Now that we have a `package.json` file, we can start install and use packages in our project.
 
 We're going to install a package called `ansi-colors` to demonstrate how to install packages using NPM.
 
@@ -56,12 +45,12 @@ You can also shorten the install command to `npm i`:
 npm i ansi-colors
 ```
 
-This video will walk you through the process:
+This video will walk you through the previous steps, and then show you how to use the `ansi-colors` package:
 
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/FXk9fcJcySw" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         ></iframe>
     </div>
@@ -71,20 +60,7 @@ Often times, npm packages will have documentation and examples on their NPM page
 
 Here is the link to the [ansi-colors](https://www.npmjs.com/package/ansi-colors) package on NPM. If you haven't already, take a minute to scan throught the documentation.
 
-## Using Packages
-
 To use a package in your project, you need to import it into your JavaScript file. You can do this using the `require` function.
-
-Let's take a look:
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        ></iframe>
-    </div>
-</details>
 
 Here is the code from the video:
 
@@ -117,7 +93,7 @@ This video will walk you through the process:
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/AvmVtyKOQMU" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         ></iframe>
     </div>
@@ -132,7 +108,7 @@ Then let's take a look at how to use the `enquirer` package:
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/AvmVtyKOQMU" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         ></iframe>
     </div>
@@ -163,7 +139,7 @@ I also ran the following demo code: [MultiSelect](https://www.npmjs.com/package/
 
 # Custom Modules
 
-In addition to using packages from NPM, you can also create your own custom modules. A module is a file that contains JavaScript code. You can import the code from a module into another file using the `require` function.
+In addition to using packages from NPM, you can also create your own custom modules. A module is a file that contains JavaScript code. You can export code from a module using the `module.exports` object. You can then import the code from a module into another file using the `require` function.
 
 This is a great way to organize your code and make it more readable.
 
@@ -172,7 +148,7 @@ This video will walk you through the process:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/St-nmFfxvpc" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -187,7 +163,7 @@ This video will show you how:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/p6MdDkfURMw" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -230,7 +206,7 @@ This video will show you how:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/fh6MxHPtTQc" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -291,7 +267,7 @@ Let's get started:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/NGqNhOFmItk" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -339,7 +315,7 @@ Take a look:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/pIfHQeG7hfE" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -370,7 +346,7 @@ Take a look:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/E3-9BY5c98o" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
