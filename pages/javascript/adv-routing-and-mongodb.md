@@ -1,5 +1,5 @@
 ---
-title: 'Advanced Routing'
+title: 'Advanced Routing and MongoDB'
 subtitle: 'Modern JavaScript'
 ---
 
