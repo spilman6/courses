@@ -316,4 +316,4 @@ And here is the `404.html` file we created:
 
 # Exercises
 
-[ Web Api with Express Exercises](/exercises/javascript/web-api-with-express-exercises)
+[ Web Api with Express Exercises](/appel/javascript/web-api-with-express-exercises)
