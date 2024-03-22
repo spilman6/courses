@@ -172,7 +172,7 @@ In the `public` directory, create a new file called `index.html` and add the fol
 </html>
 ```
 
-Use the [stylesheet found here](https://gist.github.com/RDAppel/ea0ff788b216f3bf7ed0ef687526c6b0), either by downloading it and adding it to your project or by linking the raw file to it directly in your `index.html`.
+Use the [stylesheet found here](https://gist.github.com/RDAppel/ea0ff788b216f3bf7ed0ef687526c6b0), either by downloading it or copying the contents into a new file called `site.css` in the `public` directory.
 
 Modify your `app.js` file to serve the `index.html` file when a `GET` request is made to the root endpoint (`/`).
 
