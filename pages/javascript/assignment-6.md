@@ -26,11 +26,11 @@ To get started, create a new project folder and initialize it with npm. Then, cr
 
 > [!TIP] `new Date().getHours()` will return the current hour in 24-hour format, ranging from 0 to 23.
 
-2. `isMorning` - This function should return a boolean value that indicates whether the time is in the morning. The function should accept a single parameter, `time`, which is a Date object. The function should return `true` if the time is between 4:00 AM and 11:59 AM, and `false` otherwise.
+2. `isMorning` - This function should return a boolean value that indicates whether the time is in the morning. The function should accept a single parameter, `time`, which is a number from 0-23 representing the 24 hours in a day. The function should return `true` if the time is between 4:00 AM and 11:59 AM, and `false` otherwise.
 
-3. `isAfternoon` - This function should return a boolean value that indicates whether the time is in the afternoon. The function should accept a single parameter, `time`, which is a Date object. The function should return `true` if the time is between 12:00 PM and 4:59 PM, and `false` otherwise.
+3. `isAfternoon` - This function should return a boolean value that indicates whether the time is in the afternoon. The function should accept a single parameter, `time`, similar to above. The function should return `true` if the time is between 12:00 PM and 4:59 PM, and `false` otherwise.
 
-4. `isEvening` - This function should return a boolean value that indicates whether the time is in the evening. The function should accept a single parameter, `time`, which is a Date object. The function should return `true` if the time is between 5:00 PM and 3:59 AM, and `false` otherwise.
+4. `isEvening` - This function should return a boolean value that indicates whether the time is in the evening. The function should accept a single parameter, `time`, like above. The function should return `true` if the time is between 5:00 PM and 3:59 AM, and `false` otherwise.
 
 To test if it's working, use the following code in your `app.js` file:
 
