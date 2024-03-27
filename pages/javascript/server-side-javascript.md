@@ -108,7 +108,7 @@ Then let's take a look at how to use the `enquirer` package:
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/AvmVtyKOQMU" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/XpFDX5ipGqo" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         ></iframe>
     </div>
