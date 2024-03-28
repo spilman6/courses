@@ -21,4 +21,4 @@ hide-nav: true
 
 [Web API with Express.js](/appel/javascript/web-api-with-express) - _Week 11_
 
-[Advanced Routing and MongoDB](/appel/javascript/adv-routing-and-mongodb) - _Week 12_
+[MongoDB and Advanced Routing](/appel/javascript/mongodb-and-adv-routing) - _Week 12_
