@@ -113,7 +113,28 @@ Next, we will update the other endpoints to use the MongoDB database.
 Here is the updated code for the remaining endpoints:
 
 ```javascript
-// todo: update the other endpoints
+router.get('/joke/:id', async (request, response) => {
+	const { id } = request.params
+	const collection = await getCollection('Jokes-API', 'Jokes')
+	const joke = await collection.findOne({ "_id": new ObjectId(id) })
+	response.json(joke)
+})
+
+router.get('/random/exclude/:id', async (request, response) => {
+	const { id } = request.params
+	const collection = await getCollection('Jokes-API', 'Jokes')
+	const jokes = await collection.find().toArray()
+	const filteredJokes = jokes.filter(({ _id }) => _id.toString() !== id)
+	const randomIndex = Math.floor(Math.random() * filteredJokes.length)
+	response.json(filteredJokes[randomIndex])
+})
+
+router.post('/new', async (request, response) => {
+	const { joke, punchline } = request.body
+	const collection = await getCollection('Jokes-API', 'Jokes')
+	await collection.insertOne({ joke, punchline })
+	response.json({ message: 'New joke added!' })
+})
 ```
 
 # Advanced Routing
