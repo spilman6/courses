@@ -12,7 +12,7 @@ In this assignment, you will create a simple "To Do" API using Express. The API 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/XxEFg7hnVco" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -32,7 +32,7 @@ Your task is to add the following routes to the application:
 
 2. **POST /api/todos** - This route should allow users to add a new task to the "To Do" list. The request body should contain the task item. Respond with the id of the new task as a JSON object, like this: `{ id: 4 }`.
 
-3. **PUT /api/todos/:id** - This route should allow users to mark a task as complete. The route should accept a task ID as a parameter and update the task's `complete` property to `true`. Respond with a JSON object containing the updated task, like this: `{ id: 1, complete: true }`.
+3. **PUT /api/todos/:id** - This route should allow users to mark a task as complete. The route should accept a task ID as a parameter and toggle the task's `complete` property. Respond with a JSON object containing the updated task, like this: `{ id: 1, complete: true }`.
 
 ### Additional Hints
 
