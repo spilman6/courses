@@ -69,4 +69,4 @@ To test your endpoints, you can use the REST client extension. The project inclu
 
 ## Submission
 
-Once you have completed the assignment, create a new repository on GitHub and push your code to it. Then submit the link to your repository to Blackboard.
+Once you have completed the assignment, push the changes up to GitHub and submit the link to your repository on Blackboard.
