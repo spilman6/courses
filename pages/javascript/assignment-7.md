@@ -22,7 +22,7 @@ In this assignment, you will create a simple "To Do" API using Express. The API 
 
 To get started, fork the [Assignment 7 Starter Code](https://github.com/RDAppel/js-assignment7) repository from GitHub, and then clone it to your computer. This repository contains a basic Express application with a single route that returns an index.html file.
 
-> [!Note] Remember to run `npm install` to install the required dependencies.
+> [!NOTE] Remember to run `npm install` to install the required dependencies.
 
 ## Requirements
 
