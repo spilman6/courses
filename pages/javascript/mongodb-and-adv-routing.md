@@ -173,7 +173,7 @@ You can access the [completed code here](https://github.com/RDAppel/joke-api-lec
 
 # Exercises
 
-[MongoDB and Advanced Routing Exercises](/appel/javascript/mongodb-and-advanced-routing-exercises)
+[MongoDB and Advanced Routing Exercises](/appel/javascript/mongodb-and-adv-routing-exercises)
 
 
 
