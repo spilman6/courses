@@ -36,16 +36,6 @@ Your task is to add the following routes to the application:
 
 ### Additional Hints
 
-The "To do" items will be stored in an array. Use this code to get started:
-
-```javascript
-const todos = [
-	{ id: 1, item: 'Learn JavaScript', complete: false },
-	{ id: 2, item: 'Learn Express', complete: false },
-	{ id: 3, item: 'Build a To Do App', complete: false }
-]
-```
-
 Remember that you can add to an array using the `push` method:
 
 ```javascript
