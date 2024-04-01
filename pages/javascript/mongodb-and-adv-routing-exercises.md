@@ -259,6 +259,15 @@ router.put('/movies/:id', async (request, response) => {
 
 </details>
 
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
 # Exercise 4
 
 For this exercise, you will create a route that allows users to delete a movie from the database.
@@ -299,6 +308,15 @@ router.delete('/movies/:id', async (request, response) => {
 })
 ```
 
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
 </details>
 
 # Exercise 5
