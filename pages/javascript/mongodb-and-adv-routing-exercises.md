@@ -55,7 +55,7 @@ Add the following movies to the collection, for testing:
 }
 ```
 
-[!NOTE] `The Dork Knight` is an intentional typo. You will correct it when your `update` route is working.
+> [!NOTE] `The Dork Knight` is an intentional typo. You will correct it when your `update` route is working.
 
 # Exercise 1
 
