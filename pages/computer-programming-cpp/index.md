@@ -1,26 +1,49 @@
 ---
-title: "Data Access for Programmers"
+title: "Computer Programming C++"
 hide-nav: true
 ---
 
-[Getting Started](/appel/dap/getting-started) - _Week 1_
+# Getting Started
 
-[Objects and File Types](/appel/dap/objects-and-file-types) - _Week 2_
+_Week 1_
 
-[Single Table Databases](/appel/dap/single-table-databases) - _Week 3_
+[Introduction to C++](/appel/cpp/introduction-to-cpp)
 
-[Single Table Queries](/appel/dap/single-table-queries) - _Week 4_
+[Writing to the Console](/appel/cpp/writing-to-the-console)
 
-[Group by and Having Statements](/appel/dap/group-by-and-having-statements) - _Week 5_
+[Variables and Primitive Data Types](/appel/cpp/variables-and-primitive-data-types)
 
-[One-to-Many Relationships](/appel/dap/one-to-many-relationships) - _Week 6_
+[Arithmetic Operators](/appel/cpp/arithmetic-operators)
 
-[Multi-Table Queries](/appel/dap/multi-table-queries) - _Week 7_
+[Conditional Statements](/appel/cpp/conditional-statements)
 
-[Advanced Joins, Views, and Procedures](/appel/dap/advanced-joins-views-and-procedures) - _Week 9_
+[Repetition](/appel/cpp/repetition)
 
-[Many-to-Many Relationships](/appel/dap/many-to-many-relationships) - _Week 10_
+# Functions
 
-[Database Normalization](/appel/dap/database-normalization) - _Week 11_
+_Week 2_
 
-[RESTful APIs](/appel/dap/restful-apis) - _Week 12_
+[User Defined Functions](/appel/cpp/user-defined-functions)
+
+[Passing Data to Functions](/appel/cpp/passing-data-to-functions)
+
+[Recursion](/appel/cpp/recursion)
+
+# Defining New Data Types
+
+_Week 3_
+
+[Structures](/appel/cpp/structures)
+
+[Enumerations](/appel/cpp/enumerations)
+
+# Understanding Memory
+
+_Week 4_
+
+[Pointers](/appel/cpp/pointers)
+
+[Stack and Heap Memory](/appel/cpp/stack-and-heap-memory)
+
+[Pointers as Function Parameters](/appel/cpp/pointers-as-function-parameters)
+
