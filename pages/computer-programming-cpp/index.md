@@ -5,9 +5,7 @@ hide-nav: true
 
 # Computer Programming C++
 
-## Getting Started
-
-_Week 1_
+## Getting Started - _Week 1_
 
 [Introduction to C++](/appel/cpp/introduction-to-cpp)
 
@@ -21,9 +19,7 @@ _Week 1_
 
 [Repetition](/appel/cpp/repetition)
 
-## Functions
-
-_Week 2_
+## Functions (_Week 2_)
 
 [User Defined Functions](/appel/cpp/user-defined-functions)
 
