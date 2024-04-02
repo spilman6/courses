@@ -26,7 +26,7 @@ The web application should be built using HTML, CSS, and JavaScript. Your team h
 
 Design will be graded! That being said, I'm not looking for a professional designer, but I am looking for a well-thought-out design that is easy to use and visually appealing.
 
-### Requirements
+### Requirements {#web-requirements}
 
 The web application should have the following pages:
 
@@ -44,7 +44,7 @@ The web application should have the following pages:
 
 The API should have a MongoDB database to store the menu items and events. The database should have two collections: `menu` and `events`.
 
-### Requirements
+### Requirements {#api-requirements}
 
 The API should have the following endpoints:
 
