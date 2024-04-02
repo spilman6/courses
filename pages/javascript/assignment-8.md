@@ -1,9 +1,9 @@
 ---
-title: 'Assignment 8 - To Do App (Database Integration)'
+title: 'Assignment 8 - To Do App (MongoDB)'
 subtitle: 'Modern JavaScript'
 ---
 
-# Assignment 8 - To Do App (Database Integration)
+# Assignment 8 - To Do App (MongoDB)
 
 This assignment builds on the "To Do" API that you created in Assignment 7. In this assignment, you will integrate a MongoDB database to store the tasks in the "To Do" list.
 
