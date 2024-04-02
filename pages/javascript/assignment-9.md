@@ -80,10 +80,10 @@ The API should have the following endpoints:
 
 2. **Create a New Repository** - One team member should create a new repository on GitHub and invite the other team members as collaborators. Below is a video that shows how to invite collaborators to a repository. (You will need to know your team members' GitHub usernames to invite them.)
 
-<details>
+<details style="margin-left:1.5rem;">
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/J_kV7GMfEBc" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
