@@ -61,9 +61,9 @@ const result = await collection.insertOne({ item, complete })
 And for the `PUT` route, you can use the `findOne` and `updateOne` methods:
 
 ```javascript
-	const todo = await collection.findOne({ _id: new ObjectId(id) })
-	const complete = !todo.complete
-	const result = await collection.updateOne({ _id: new ObjectId(id) }, { $set: { complete } })
+const todo = await collection.findOne({ _id: new ObjectId(id) })
+const complete = !todo.complete
+const result = await collection.updateOne({ _id: new ObjectId(id) }, { $set: { complete } })
 ```
 
 #### Router Prefix
