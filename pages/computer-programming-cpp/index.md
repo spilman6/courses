@@ -5,9 +5,7 @@ hide-nav: true
 
 # Computer Programming C++
 
-## Table of Contents
-
-### Getting Started
+## Getting Started
 
 _Week 1_
 
@@ -23,7 +21,7 @@ _Week 1_
 
 [Repetition](/appel/cpp/repetition)
 
-### Functions
+## Functions
 
 _Week 2_
 
@@ -33,7 +31,7 @@ _Week 2_
 
 [Recursion](/appel/cpp/recursion)
 
-### Defining New Data Types
+## Defining New Data Types
 
 _Week 3_
 
@@ -41,7 +39,7 @@ _Week 3_
 
 [Enumerations](/appel/cpp/enumerations)
 
-### Understanding Memory
+## Understanding Memory
 
 _Week 4_
 
