@@ -40,7 +40,7 @@ The web application should have the following pages:
 
 > [!NOTE] In a real-world application, you would need to implement user authentication to secure the admin page. For this assignment, you can leave the admin page open to the public.
 
-### API
+## API
 
 The API should have a MongoDB database to store the menu items and events. The database should have two collections: `menu` and `events`.
 
