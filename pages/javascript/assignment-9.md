@@ -66,7 +66,7 @@ The API should have the following endpoints:
 
 9. **DELETE /api/events/:id** - This route should allow the food truck owner to delete an event. The route should accept an event ID as a parameter and remove the event from the list of events.
 
-### Additional Requirements
+## Additional Requirements
 
 1. Make sure that the `node_modules` and your `secrets` folder are added to the `.gitignore` file. You should not commit these files to GitHub.
 
