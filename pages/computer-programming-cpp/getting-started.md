@@ -161,7 +161,7 @@ Let's print some more text to the console.
 Here is the code from the video, for brevity I will only show the new code:
 
 ```cpp
-std::cout << "Hello, World!" << std::endl;
+std::cout << "Hello World!" << std::endl;
 std::cout << "This is a new line.\n";
 std::cout << "This is another line." << "\n";
 ```
@@ -171,6 +171,133 @@ Notice how we can use `std::endl` to end the line, or we can use the escape sequ
 > [!NOTE] Technically `std::endl` will also flush the output buffer, but for our purposes, it is the same as using `\n`.
 
 I personally prefer to use `\n` because it is more concise. So I will be using that in the future. However, you may see `std::endl` in other people's code, so it is good to know what it is.
+
+## Escape Sequences
+
+Escape sequences are special characters that are used to represent non-printable characters. For example, the escape sequence `\n` represents a new line. Here are some common escape sequences:
+
+- `\n` - New Line
+- `\t` - Tab
+- `\\` - Backslash
+- `\"` - Double Quote
+- `\'` - Single Quote
+- `\0` - Null Character
+
+> [!NOTE] One nice thing about escape sequences is that they are (for the most part) portable across different programming languages. `\t` will produce a tab in C++, C#, JavaScript, and many other languages.
+
+In this video, we will look at how to use escape sequences.
+
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
+
+Here's the code from the video:
+
+```cpp
+std::cout << "\"Hello World!\"";
+```
+
+## The Standard Namespace
+
+The `std` namespace is a collection of classes, functions, and objects that are part of the standard library. It can become cumbersome to write `std::` before everything, so we can use the `using` directive to bring the `std` namespace into scope.
+
+In this video, we will look at how to do this.
+
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
+
+Here's the code:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Hello World!"; // note that we don't need std::
+    return 0;
+}
+```
+
+> [!CAUTION] It is often considered bad practice to use `using namespace std;` This is because it can pollute the global namespace. We will go into more detail about this in the future. For now, we can use it to make our code more concise.
+
+## Variables and Primitive Data Types
+
+You should be familiar with variables and primitive data types from previous classed. In C++, the primitive data types are similar to C#, and include: `int`, `float`, `double`, `char`, `bool`, and `void`.
+
+Note that `string` is not a primitive data type in C++. Instead, it is a class that is part of the `std` namespace. We will go into more detail later.
+
+In this video, we will look at how to declare variables and assign values to them.
+
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
+
+Here's the code from the video:
+
+```cpp
+int age = 30;
+const float pi = 3.14159f;
+const double e = 2.71828;
+char middleInitial = 'D';
+bool isInstructor = true;
+```
+
+> [!CAUTION] Notice that I added an `f` to the end of the `pi` variable. This is because `3.14159` would be a `double` by default, and I want to make it a `float`. 
+
+### Constants
+
+As explained in the previous video, you can use the `const` keyword to create a constant variable. This is a variable that cannot be changed after it is initialized.
+
+Remember that in C++, you can put the `const` keyword before or after the data type.
+
+```cpp
+const float pi = 3.14159f;
+float const pi = 3.14159f;
+```
+
+Both of these are valid and will produce the same result. Though, I prefer to put the `const` keyword before the data type.
+
+> [!TIP] The general rule of thumb with `const` is that it applies to the thing to its left. If there is nothing to the left, it applies to the thing to its right. We will see `const` used in other contexts in the future. So remember this rule!
+
+## Casting
+
+Casting is the process of converting one data type to another. In C++, there are two types of casting: implicit and explicit.
+
+### Implicit Casting
+
+Implicit casting is when the compiler automatically converts one data type to another. This is done when the conversion is safe and no data is lost. For example, converting an `int` to a `float` is safe because the `float` can hold a larger range of values.
+
+```cpp
+int age = 30;
+float ageFloat = age; // implicit cast -- ageFloat is 30.0
+```
+
+### Explicit Casting
+
+Explicit casting is when you tell the compiler to convert one data type to another. This is done when the conversion is not safe and data may be lost. For example, converting a `float` to an `int` will truncate the decimal portion of the number.
+
+```cpp
+float pi = 3.14159f;
+int piInt = (int)pi; // explicit cast -- piInt is 3
+```
 
 
 
