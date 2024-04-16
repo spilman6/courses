@@ -1,113 +1,177 @@
 ---
 title: 'Getting Started'
-description: 'Getting Started with C++'
 course: 'Computer Programming C++'
-date: '23-04-28'
-banner: 'https://cdn.discordapp.com/attachments/1065057104521597058/1113507329766342706/Ryan_Appel_Wallpaper_microchip_processor_electronics_circuit_bl_61d2a0ee-3617-47fd-81ea-3f04c3142a4b.png'
-next:
-  title: 'Variables with alt title'
-  src: 'variables'
-previous: 'Functions'
 ---
 
-## Create files and folders
+# Getting Started
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+This unit will introduce you to the basics of C++. If you are used to programming in C#, much of this unit will be review. Let's get started by creating a project.
 
-## Switch to another file
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+If you do not have "Visual C++" templates available in the New Project window, you need to [Modify your Visual Studio Installation](https://www.youtube.com/watch?v=3Z1b8Z6Q6k8).
 
-## Rename a file
+Next, we need to create a file to write our code.
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
 
-## Delete a file
+## The Main Function
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+Every program needs an entry point. The windows applications that you wrote in C# had a file called Program.cs, that contained a "Main" function. Similarly, we need to create a starting point for our appliction.
 
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
-
-
-# Synchronization
-
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
-
-There are two types of synchronization and they can complement each other:
-
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
-
-## Open a file
-
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
-
-## Save a file
-
-You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
-
-	
-## Synchronize a file
-
-Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
-
-## Manage file synchronization
-
-Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
-
-# Publication
-
-Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
-
-> Before starting to publish, you must link an account in the **Publish** sub-menu.
-
-## Publish a File
-
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
-
-- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
-
-## Update a publication
-
-After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
-
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
-
-## Manage file publication
-
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-# Markdown extensions
-
-StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
-
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
-
-> This is a test
-
-![Circuit Banner Image](https://cdn.discordapp.com/attachments/1065057104521597058/1113507329766342706/Ryan_Appel_Wallpaper_microchip_processor_electronics_circuit_bl_61d2a0ee-3617-47fd-81ea-3f04c3142a4b.png)
-
-# Code Snippits
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
 
 ```cpp
-#include <iostream>
-   int main()
-   {
-    std::cout << "Hello world!";
-   return 0;
-} 
-```
-
-```c#
-var names = new List<string>() { "John", "Tom", "Peter" };
-foreach (string name in names)
+// Getting Started Demo
+// Ryan Appel
+ 
+int main()
 {
-    Console.WriteLine(name);
+    return 0;
 }
 ```
+
+You can debug your program by pressing the "Start" button in Visual Studio, or by pressing F5, just like you did in C#.
+
+When you debug your program, you will see a console window appear with the following text:
+
+```plaintext
+C:\Users\...\RDA.GettingStartedDemo.exe (process 24460) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .
+```
+
+Watch what happens when I run the actual program (not the debugger) by opening it from the file explorer.
+
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
+
+The program runs and the console window appears, but it closes immediately. This is because Visual Studio is configured add the "Press any key to close this window . . ." line to the end of the program. This is not a part of the program itself, but rather a feature of Visual Studio.
+
+I want to control this behavior myself, so I can have the same experience when running the program from the file explorer as I do when running it from Visual Studio.
+
+Let's change the following setting.
+
+Go to: `Tools->Options->Debugging` and then uncheck `Automatically close the console when debugging stops`.
+
+Now, let's add some code to our program..
+
+To keep the console open when debugging, we will call a function named `_getch()`, which is short for "get character." In order to use it however, we need to include a header file. We will go into the details of these files in the future.
+
+This video will show you how to include the header file and use the `_getch()` function.
+
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
+
+Here is the code from the video:
+
+```cpp
+// Getting Started Demo
+// Ryan Appel
+
+#include <conio.h> // allows us to use _getch()
+
+int main()
+{
+    (void)_getch(); // wait for a key press
+    return 0;
+}
+```
+
+> [!TIP] I am casting the return value of `_getch()` which is the character that was pressed, to `void` because I am not using it. Without the cast, the compiler will give a warning.
+
+Now, when you run the program, the console window will stay open until you press a key.
+
+## Writing to the Console
+
+Let's print some text to the console. We can do this using the `cout` object, which is part of the `std` namespace. We will go into more detail about namespaces in the future.
+
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
+
+Here is the code from the video:
+
+```cpp
+// Getting Started Demo
+// Ryan Appel
+
+#include <iostream> // allows us to use cout
+#include <conio.h> // allows us to use _getch()
+
+int main()
+{
+    std::cout << "Hello, World!"; // print to the console
+    (void)_getch(); // wait for a key press
+    return 0;
+}
+```
+
+The `<<` operator is used to send data to the `cout` object. In this case, we are sending the string `"Hello, World!"`.
+
+Let's print some more text to the console.
+
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
+
+Here is the code from the video, for brevity I will only show the new code:
+
+```cpp
+std::cout << "Hello, World!" << std::endl;
+std::cout << "This is a new line.\n";
+std::cout << "This is another line." << "\n";
+```
+
+Notice how we can use `std::endl` to end the line, or we can use the escape sequence `\n`. Both will produce the same result.
+
+> [!NOTE] Technically `std::endl` will also flush the output buffer, but for our purposes, it is the same as using `\n`.
+
+I personally prefer to use `\n` because it is more concise. So I will be using that in the future. However, you may see `std::endl` in other people's code, so it is good to know what it is.
+
+
+
+
