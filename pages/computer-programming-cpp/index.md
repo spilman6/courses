@@ -5,43 +5,44 @@ hide-nav: true
 
 # Computer Programming C++
 
-## Getting Started - _Week 1_
+## Lectures
 
-[Introduction to C++](/appel/cpp/introduction-to-cpp)
+[Getting Started](/appel/javascript/getting-started) - _Week 1_
 
-[Writing to the Console](/appel/cpp/writing-to-the-console)
+[Functions](/appel/cpp/functions) - _Week 2_
 
-[Variables and Primitive Data Types](/appel/cpp/variables-and-primitive-data-types)
+[Defining New Data Types](/appel/cpp/defining-new-data-types) - _Week 3_
 
-[Arithmetic Operators](/appel/cpp/arithmetic-operators)
+[Understanding Memory](/appel/cpp/understanding-memory) - _Week 5_
 
-[Conditional Statements](/appel/cpp/conditional-statements)
+[Collections](/appel/cpp/collections) - _Week 6_
 
-[Repetition](/appel/cpp/repetition)
+[File I/O](/appel/cpp/file-io) - _Week 7_
 
-## Functions (_Week 2_)
+[Classes](/appel/cpp/classes) - _Week 9_
 
-[User Defined Functions](/appel/cpp/user-defined-functions)
+[Object-Oriented Programming](/appel/cpp/object-oriented-programming) - _Week 10_
 
-[Passing Data to Functions](/appel/cpp/passing-data-to-functions)
+[Static Members](/appel/cpp/static-members) - _Week 11_
 
-[Recursion](/appel/cpp/recursion)
+## Exercises
 
-## Defining New Data Types
+[Getting Started](/appel/javascript/exercises/getting-started) - _Week 1_
 
-_Week 3_
+[Functions](/appel/cpp/exercises/functions) - _Week 2_
 
-[Structures](/appel/cpp/structures)
+[Defining New Data Types](/appel/cpp/exercises/defining-new-data-types) - _Week 3_
 
-[Enumerations](/appel/cpp/enumerations)
+[Understanding Memory](/appel/cpp/exercises/understanding-memory) - _Week 5_
 
-## Understanding Memory
+[Collections](/appel/cpp/exercises/collections) - _Week 6_
 
-_Week 4_
+[File I/O](/appel/cpp/exercises/file-io) - _Week 7_
 
-[Pointers](/appel/cpp/pointers)
+[Classes](/appel/cpp/exercises/classes) - _Week 9_
 
-[Stack and Heap Memory](/appel/cpp/stack-and-heap-memory)
+[Object-Oriented Programming](/appel/cpp/exercises/object-oriented-programming) - _Week 10_
 
-[Pointers as Function Parameters](/appel/cpp/pointers-as-function-parameters)
+[Static Members](/appel/cpp/exercises/static-members) - _Week 11_
+
 
