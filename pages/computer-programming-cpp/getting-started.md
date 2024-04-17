@@ -582,5 +582,91 @@ In this example, if the user enters `3`, the program will output "Three French h
 
 > [!TIP] Fall through can be a useful feature, but it can also lead to bugs. Be careful when using it, and make sure it is clear what is happening in your code.
 
+# Repetition Statements
 
+Repetition statements, often called "loops," are used to execute code multiple times. Like in C#, we have the `while`, `do while`, and `for` statements.
+
+## For Loop
+
+For the most part, the `for` loop works the same way as it does in C#.
+
+It should be used when you know how many times you need to execute the loop.
+
+Here is an example:
+
+```cpp
+int input = 0;
+cout << "Enter a number between 1 and 5: ";
+cin >> input;
+
+for (int i = 1; i <= input; i++)
+{
+    cout << i << "\n";
+}
+```
+
+Just like in C#, the `for` loop has three parts:
+
+1. Initialization: `int i = 1`
+2. Condition: `i <= input`
+3. Increment: `i++`
+
+You can omit any of these parts if you want. For example, if you wanted to write an infinite loop, you could write:
+
+```cpp
+for (;;) cout << "This is an infinite loop!\n";
+```
+
+> [!NOTE] Just like with the `if` statement, you omit the curly braces if there is only one statement in the loop.
+
+## While Loop
+
+The `while` loop works the same way as it does in C#.
+
+You should use a `while` loop when you don't know how many times you need to execute the loop.
+
+Here is an example:
+
+```cpp
+int i = 0;
+
+while (i < 1 || i > 5) // not a valid number
+{
+    cout << "Please enter a number between 1 and 5: ";
+    cin >> i;
+}
+
+cout << i << ", good choice!";
+```
+
+There is one key difference between C# and C++. Like the `if` statement, you can use any data type in the condition. The loop will execute as long as the value is not `0`.
+
+Here is an example of a loop that counts down from 10 to 1:
+
+```cpp
+int i = 10;
+while (i) cout << i-- << "\n";
+```
+
+Now, I don't recommend writing code like this, but it is a good example of how the `while` loop works. When `i` reaches `0`, the loop will exit.
+
+## Do While Loop
+
+The `do while` loop works the same way as it does in C#. 
+
+The key difference between the `do while` loop and the `while` loop is that the `do while` loop will always execute at least once.
+
+The previous example could be rewritten using a `do while` loop:
+
+```cpp
+int i;
+
+do
+{
+    cout << "Please enter a number between 1 and 5: ";
+    cin >> i;
+} while (i < 1 || i > 5);
+
+cout << i << ", good choice!";
+```
 
