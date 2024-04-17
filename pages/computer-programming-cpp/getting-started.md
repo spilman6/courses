@@ -580,7 +580,18 @@ switch (dayOfChristmas)
 
 In this example, if the user enters `3`, the program will output "Three French hens, Two turtle doves, A partridge in a pear tree". This is because the code falls through to the next case.
 
-> [!TIP] Fall through can be a useful feature, but it can also lead to bugs. Be careful when using it, and make sure it is clear what is happening in your code.
+Let's run the program and see what the output:
+
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
+
+Fall through can be a useful feature, but it can also lead to bugs. Be careful when using it, and make sure it is clear what is happening in your code.
 
 # Repetition Statements
 
