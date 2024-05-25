@@ -1,5 +1,5 @@
 ---
-title: Assignment 1 - GitHub Account
+title: Test Assignment - Anti-Plagiarism
 subtitle: "Modern JavaScript"
 course: "Modern JavaScript"
 ---
