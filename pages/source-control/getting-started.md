@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started'
-subtitle: 'Just Enough Source Control'
+subtitle: 'Version Control Essentials'
 ---
 
 # Getting Started
