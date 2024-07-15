@@ -348,7 +348,7 @@ Both of these are valid and will produce the same result. Though, I prefer to pu
 
 > [!TIP] The general rule of thumb with `const` is that it applies to the thing to its left. If there is nothing to the left, it applies to the thing to its right. We will see `const` used in other contexts in the future. So remember this rule!
 
-# Casting
+## Casting
 
 Casting is the process of converting one data type to another. In C++, there are two types of casting: implicit and explicit.
 
@@ -361,7 +361,7 @@ Casting is the process of converting one data type to another. In C++, there are
     </div>
 </details>
 
-## Implicit Casting
+### Implicit Casting
 
 Implicit casting is when the compiler automatically converts one data type to another. This is done when the conversion is safe and no data is lost. For example, converting an `int` to a `float` is safe because the `float` can hold a larger range of values.
 
@@ -370,7 +370,7 @@ int age = 30;
 float ageFloat = age; // implicit cast -- ageFloat is 30.0
 ```
 
-## Explicit Casting
+### Explicit Casting
 
 Explicit casting is when you tell the compiler to convert one data type to another. This is done when the conversion is not safe and data may be lost. For example, converting a `float` to an `int` will truncate the decimal portion of the number.
 
