@@ -63,13 +63,13 @@ Watch what happens when I run the actual program (not the debugger) by opening i
     </div>
 </details>
 
-The program runs and the console window appears, but it closes immediately. This is because Visual Studio is configured add the "Press any key to close this window . . ." line to the end of the program. This is not a part of the program itself, but rather a feature of Visual Studio.
+The program runs and the console window appears, but it closes immediately. This is because Visual Studio is configured add the "Press any key to close this window..." line to the end of the program. This is not a part of the program itself, but rather a feature of Visual Studio.
 
 I want to control this behavior myself, so I can have the same experience when running the program from the file explorer as I do when running it from Visual Studio.
 
 Let's change the following setting.
 
-Go to: `Tools->Options->Debugging` and then uncheck `Automatically close the console when debugging stops`.
+Go to: `Tools->Options->Debugging` and then check `Automatically close the console when debugging stops`.
 
 ## Writing to the Console
 
