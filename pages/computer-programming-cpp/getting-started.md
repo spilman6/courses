@@ -179,12 +179,57 @@ Ryan is the best instructor ever!
 ## Hints {#exercise-1-hints}
 
 <details>
-	<summary>How to get all movies from the database?</summary>
+	<summary>What includes do I need?</summary>
 
-You can use the `find` method on the collection to get all movies:
+You will need to include the `iostream` header file to use `cout`, and the `conio.h` header file to use `_getch()`.
 
-```javascript
-const movies = collection.find().toArray()
+```cpp
+#include <iostream>
+#include <conio.h>
+```
+
+</details>
+
+<details>
+	<summary>How do I print text to the console?</summary>
+
+You can use the `cout` object to print text to the console. Here is an example:
+
+```cpp
+std::cout << "Hello World!";
+```
+
+</details>
+
+<details>
+	<summary>How do I print a new line?</summary>
+
+You can use the escape sequence `\n` to print a new line. Here is an example:
+
+```cpp
+std::cout << "Hello World!\n";
+```
+
+</details>
+
+<details>
+	<summary>How do I print a tab?</summary>
+
+You can use the escape sequence `\t` to print a tab. Here is an example:
+
+```cpp
+std::cout << "Hello\tWorld!";
+```
+
+</details>
+
+<details>
+	<summary>How do I print a double quote?</summary>
+
+You can use the escape sequence `\"` to print a double quote. Here is an example:
+
+```cpp
+std::cout << "\"Hello World!\"";
 ```
 
 </details>
