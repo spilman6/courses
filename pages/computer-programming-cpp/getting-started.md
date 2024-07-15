@@ -18,16 +18,6 @@ This unit will introduce you to the basics of C++. If you are used to programmin
 
 If you do not have "Visual C++" templates available in the New Project window, you need to [Modify your Visual Studio Installation](https://www.youtube.com/watch?v=3Z1b8Z6Q6k8).
 
-Next, we need to create a file to write our code.
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        </iframe>
-    </div>
-</details>
 
 ## The Main Function
 
@@ -81,43 +71,9 @@ Let's change the following setting.
 
 Go to: `Tools->Options->Debugging` and then uncheck `Automatically close the console when debugging stops`.
 
-Now, let's add some code to our program..
-
-To keep the console open when debugging, we will call a function named `_getch()`, which is short for "get character." In order to use it however, we need to include a header file. We will go into the details of these files in the future.
-
-This video will show you how to include the header file and use the `_getch()` function.
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        </iframe>
-    </div>
-</details>
-
-Here is the code from the video:
-
-```cpp
-// Getting Started Demo
-// Ryan Appel
-
-#include <conio.h> // allows us to use _getch()
-
-int main()
-{
-    (void)_getch(); // wait for a key press
-    return 0;
-}
-```
-
-> [!TIP] I am casting the return value of `_getch()` which is the character that was pressed, to `void` because I am not using it. Without the cast, the compiler will give a warning.
-
-Now, when you run the program, the console window will stay open until you press a key.
-
 ## Writing to the Console
 
-Let's print some text to the console. We can do this using the `cout` object, which is part of the `std` namespace. We will go into more detail about namespaces in the future.
+Let's print some text to the console. We can do this using the `cout` object, which is part of the `std` namespace.
 
 <details open>
     <summary class="video">Show/Hide Video</summary>
@@ -139,13 +95,13 @@ Here is the code from the video:
 
 int main()
 {
-    std::cout << "Hello, World!"; // print to the console
-    (void)_getch(); // wait for a key press
+    std::cout << "Hello world!"; // print to the console
+    (void)_getch(); // wait for key press
     return 0;
 }
 ```
 
-The `<<` operator is used to send data to the `cout` object. In this case, we are sending the string `"Hello, World!"`.
+The `<<` operator is used to send data to the console. In this case, we are sending the string `"Hello world!"`.
 
 Let's print some more text to the console.
 
@@ -170,7 +126,7 @@ Notice how we can use `std::endl` to end the line, or we can use the escape sequ
 
 > [!NOTE] Technically `std::endl` will also flush the output buffer, but for our purposes, it is the same as using `\n`.
 
-I personally prefer to use `\n` because it is more concise. So I will be using that in the future. However, you may see `std::endl` in other people's code, so it is good to know what it is.
+I personally prefer to use `\n` because it is more concise. So I will be using that in the future. However, you may see `std::endl` in other people's code, so it is good to know what it is.W
 
 ## Escape Sequences
 
@@ -202,7 +158,44 @@ Here's the code from the video:
 std::cout << "\"Hello World!\"";
 ```
 
-## The Standard Namespace
+# Exercise 1
+
+In this exercise, you will create a new project and write a program that prints the following text to the console:
+
+```plaintext
+Ryan is the best instructor ever!
+	- Ryan
+```
+
+<details>
+  <summary>Show the Answer</summary>
+
+```cpp
+// Exercise 1
+// Ryan Appel
+
+#include <iostream>
+
+int main()
+{
+	std::cout << "Ryan is the best instructor ever!\n\t- Ryan";
+	return 0;
+}
+```
+</details>
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe
+			src="https://www.youtube.com/embed/"
+			width="100%" height="100%" frameborder="0" allowfullscreen
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+		></iframe>
+	</div>
+</details>
+
+# The Standard Namespace
 
 The `std` namespace is a collection of classes, functions, and objects that are part of the standard library. It can become cumbersome to write `std::` before everything, so we can use the `using` directive to bring the `std` namespace into scope.
 
