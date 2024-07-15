@@ -126,7 +126,7 @@ Notice how we can use `std::endl` to end the line, or we can use the escape sequ
 
 > [!NOTE] Technically `std::endl` will also flush the output buffer, but for our purposes, it is the same as using `\n`.
 
-I personally prefer to use `\n` because it is more concise. So I will be using that in the future. However, you may see `std::endl` in other people's code, so it is good to know what it is.W
+I personally prefer to use `\n` because it is more concise. So I will be using that in the future. However, you may see `std::endl` in other people's code, so it is good to know what it is.
 
 ## Escape Sequences
 
@@ -468,6 +468,108 @@ int main()
 	return 0;
 }
 ```
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+# Exercise 2
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+In this exercise, you will create a new project and write a program that asks the user for their age and then prints the following text to the console:
+
+```plaintext
+You are `N` years old.
+In 10 years, you will be `X` years old.
+```
+
+Where `N` is the age that the user entered, and `X` is the age that the user will be in 10 years.
+
+Store the user's age in a variable called `age`, and store the age in 10 years in a variable called `ageIn10Years`.
+
+## Hints {#exercise-2-hints}
+
+<details>
+	<summary>How do I get input from the user?</summary>
+
+You can use the `cin` object to get input from the user. Here is an example:
+
+```cpp
+int age = 0;
+std::cout << "Enter your age: ";
+std::cin >> age;
+```
+
+</details>
+
+<details>
+	<summary>How do I print a variable to the console?</summary>
+
+You can use the `<<` operator to print a variable to the console. Here is an example:
+
+```cpp
+int age = 30;
+std::cout << "You are " << age << " years old.";
+```
+
+</details>
+
+<details>
+	<summary>How do I perform arithmetic in C++?</summary>
+
+You can use the standard arithmetic operators in C++. Here is an example:
+
+```cpp
+int age = 30;
+int ageIn10Years = age + 10;
+```
+
+</details>
+
+## Solution {#exercise-2-solution}
+
+<details>
+  <summary>Show the Answer</summary>
+
+```cpp
+// Exercise 2
+// Ryan Appel
+
+#include <iostream>
+
+int main()
+{
+	int age = 0;
+	int ageIn10Years = 0;
+
+	std::cout << "Enter your age: ";
+	std::cin >> age;
+
+	ageIn10Years = age + 10;
+
+	std::cout << "You are " << age << " years old.\n";
+	std::cout << "In 10 years, you will be " << ageIn10Years << " years old.";
+
+	(void)_getch();
+	return 0;
+}
+
+```
+
 </details>
 
 <details>
