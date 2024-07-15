@@ -392,3 +392,90 @@ int main()
 The `cin` object is used to get input from the user. The `>>` operator is used to send the input to a variable. In this case, we are sending the input to the `age` variable.
 
 > [!TIP] Sometimes students confuse the `>>` operator with the `<<` operator. I find it helpful to think about which way the data is moving. For example `cout << "hi";` is sending "hi" to the console, and `cin >> age;` is sending an age from the console (user input) to the `age` variable.
+
+## Hints {#exercise-1-hints}
+
+<details>
+	<summary>What includes do I need?</summary>
+
+You will need to include the `iostream` header file to use `cout`, and the `conio.h` header file to use `_getch()`.
+
+```cpp
+#include <iostream>
+#include <conio.h>
+```
+
+</details>
+
+<details>
+	<summary>How do I print text to the console?</summary>
+
+You can use the `cout` object to print text to the console. Here is an example:
+
+```cpp
+std::cout << "Hello World!";
+```
+
+</details>
+
+<details>
+	<summary>How do I print a new line?</summary>
+
+You can use the escape sequence `\n` to print a new line. Here is an example:
+
+```cpp
+std::cout << "Hello World!\n";
+```
+
+</details>
+
+<details>
+	<summary>How do I print a tab?</summary>
+
+You can use the escape sequence `\t` to print a tab. Here is an example:
+
+```cpp
+std::cout << "Hello\tWorld!";
+```
+
+</details>
+
+<details>
+	<summary>How do I print a double quote?</summary>
+
+You can use the escape sequence `\"` to print a double quote. Here is an example:
+
+```cpp
+std::cout << "\"Hello World!\"";
+```
+
+</details>
+
+## Solution {#exercise-1-solution}
+
+<details>
+  <summary>Show the Answer</summary>
+
+```cpp
+// Exercise 1
+// Ryan Appel
+
+#include <iostream>
+
+int main()
+{
+	std::cout << "Ryan is the best instructor ever!\n\t- Ryan";
+	return 0;
+}
+```
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+

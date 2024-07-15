@@ -7,6 +7,8 @@ hide-nav: true
 
 [Getting Started](/appel/cpp/getting-started) - _Week 1_
 
+[Conditionals and Repetition](/appel/cpp/conditionals-and-repetition)
+
 [Functions](/appel/cpp/functions) - _Week 2_
 
 [Defining New Data Types](/appel/cpp/defining-new-data-types) - _Week 3_
