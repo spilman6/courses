@@ -172,7 +172,7 @@ std::cout << "\"Hello World!\"";
 In this exercise, you will create a new project and write a program that prints the following text to the console:
 
 ```plaintext
-Ryan is the best instructor ever!
+"Ryan is the best instructor ever!"
 	- Ryan
 ```
 
@@ -244,13 +244,24 @@ std::cout << "\"Hello World!\"";
 // Ryan Appel
 
 #include <iostream>
+#include <conio.h>
 
 int main()
 {
-	std::cout << "Ryan is the best instructor ever!\n\t- Ryan";
+	std::cout << "\"Ryan is the best instructor ever!\"\n";
+	std::cout << "\t- Ryan";
+
+	(void)_getch();
 	return 0;
 }
 ```
+
+Alternatively, you could have kept the statement on one line:
+
+```cpp
+std::cout << "\"Ryan is the best instructor ever!\"\n\t- Ryan";
+```
+
 </details>
 
 <details>
