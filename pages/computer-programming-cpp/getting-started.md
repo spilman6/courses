@@ -304,7 +304,7 @@ int main()
 
 > [!CAUTION] It is often considered bad practice to use `using namespace std;` This is because it can pollute the global namespace. We will go into more detail about this in the future. For now, we can use it to make our code more concise.
 
-## Variables and Primitive Data Types
+# Variables and Primitive Data Types
 
 You should be familiar with variables and primitive data types from previous classed. In C++, the primitive data types are similar to C#, and include: `int`, `float`, `double`, `char`, `bool`, and `void`.
 
@@ -333,7 +333,7 @@ bool isInstructor = true;
 
 > [!NOTE] Notice that I added an `f` to the end of the `pi` variable. This is because `3.14159` would be a `double` by default, and I want to make it a `float`. 
 
-### Constants
+## Constants
 
 As explained in the previous video, you can use the `const` keyword to create a constant variable. This is a variable that cannot be changed after it is initialized.
 
@@ -348,7 +348,7 @@ Both of these are valid and will produce the same result. Though, I prefer to pu
 
 > [!TIP] The general rule of thumb with `const` is that it applies to the thing to its left. If there is nothing to the left, it applies to the thing to its right. We will see `const` used in other contexts in the future. So remember this rule!
 
-## Casting
+# Casting
 
 Casting is the process of converting one data type to another. In C++, there are two types of casting: implicit and explicit.
 
@@ -361,7 +361,7 @@ Casting is the process of converting one data type to another. In C++, there are
     </div>
 </details>
 
-### Implicit Casting
+## Implicit Casting
 
 Implicit casting is when the compiler automatically converts one data type to another. This is done when the conversion is safe and no data is lost. For example, converting an `int` to a `float` is safe because the `float` can hold a larger range of values.
 
@@ -370,7 +370,7 @@ int age = 30;
 float ageFloat = age; // implicit cast -- ageFloat is 30.0
 ```
 
-### Explicit Casting
+## Explicit Casting
 
 Explicit casting is when you tell the compiler to convert one data type to another. This is done when the conversion is not safe and data may be lost. For example, converting a `float` to an `int` will truncate the decimal portion of the number.
 
