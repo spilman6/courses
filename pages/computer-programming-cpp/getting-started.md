@@ -484,19 +484,22 @@ int ageIn10Years = age + 10;
 // Ryan Appel
 
 #include <iostream>
+#include <conio.h>
+
+using namespace std;
 
 int main()
 {
 	int age = 0;
 	int ageIn10Years = 0;
 
-	std::cout << "Enter your age: ";
-	std::cin >> age;
+	cout << "Enter your age: ";
+	cin >> age;
 
 	ageIn10Years = age + 10;
 
-	std::cout << "You are " << age << " years old.\n";
-	std::cout << "In 10 years, you will be " << ageIn10Years << " years old.";
+	cout << "You are " << age << " years old.\n";
+	cout << "In 10 years, you will be " << ageIn10Years << " years old.";
 
 	(void)_getch();
 	return 0;
