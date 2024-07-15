@@ -5,24 +5,24 @@ hide-nav: true
 
 # Computer Programming C++
 
-[Getting Started](/appel/cpp/getting-started) - _Week 1_
+[Getting Started](/appel/computer-programming-cpp/getting-started) - _Week 1_
 
-[Conditionals and Repetition](/appel/cpp/conditionals-and-repetition)
+[Conditionals and Repetition](/appel/computer-programming-cpp/conditionals-and-repetition)
 
-[Functions](/appel/cpp/functions) - _Week 2_
+[Functions](/appel/computer-programming-cpp/functions) - _Week 2_
 
-[Defining New Data Types](/appel/cpp/defining-new-data-types) - _Week 3_
+[Defining New Data Types](/appel/computer-programming-cpp/defining-new-data-types) - _Week 3_
 
 Exam 1 - _Week 4_
 
-[Understanding Memory](/appel/cpp/understanding-memory) - _Week 5_
+[Understanding Memory](/appel/computer-programming-cpp/understanding-memory) - _Week 5_
 
-[Collections](/appel/cpp/collections) - _Week 6_
+[Collections](/appel/computer-programming-cpp/collections) - _Week 6_
 
-[File I/O](/appel/cpp/file-io) - _Week 7_
+[File I/O](/appel/computer-programming-cpp/file-io) - _Week 7_
 
-[Classes](/appel/cpp/classes) - _Week 9_
+[Classes](/appel/computer-programming-cpp/classes) - _Week 9_
 
-[Object-Oriented Programming](/appel/cpp/object-oriented-programming) - _Week 10_
+[Object-Oriented Programming](/appel/computer-programming-cpp/object-oriented-programming) - _Week 10_
 
-[Static Members](/appel/cpp/static-members) - _Week 11_
+[Static Members](/appel/computer-programming-cpp/static-members) - _Week 11_
