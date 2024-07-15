@@ -160,12 +160,36 @@ std::cout << "\"Hello World!\"";
 
 # Exercise 1
 
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
 In this exercise, you will create a new project and write a program that prints the following text to the console:
 
 ```plaintext
 Ryan is the best instructor ever!
 	- Ryan
 ```
+
+## Hints {#exercise-1-hints}
+
+<details>
+	<summary>How to get all movies from the database?</summary>
+
+You can use the `find` method on the collection to get all movies:
+
+```javascript
+const movies = collection.find().toArray()
+```
+
+</details>
+
+## Solution {#exercise-1-solution}
 
 <details>
   <summary>Show the Answer</summary>
@@ -184,13 +208,11 @@ int main()
 ```
 </details>
 
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe
-			src="https://www.youtube.com/embed/"
-			width="100%" height="100%" frameborder="0" allowfullscreen
-			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
 </details>

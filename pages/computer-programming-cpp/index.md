@@ -5,7 +5,7 @@ hide-nav: true
 
 # Computer Programming C++
 
-[Getting Started](/appel/javascript/getting-started) - _Week 1_
+[Getting Started](/appel/cpp/getting-started) - _Week 1_
 
 [Functions](/appel/cpp/functions) - _Week 2_
 
