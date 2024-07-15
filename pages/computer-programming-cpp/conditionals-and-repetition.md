@@ -115,47 +115,6 @@ In this example, if the user enters `3`, the program will output "Three French h
 
 In the previous example, I used the `break` statement to exit the switch statement. If you omit the `break` statement, the code will "fall through" to the next case. This is a feature of C++ that is not present in C#. It can be used in certain situations to reduce code duplication.
 
-Here is the example with fall through:
-
-```cpp
-int dayOfChristmas = 1;
-cout << "Enter the day of Christmas (1 - 12): ";
-cin >> dayOfChristmas;
-
-switch (dayOfChristmas)
-{
-    case 12: cout << "Twelve drummers drumming.\n"; // break;
-    case 11: cout << "Eleven pipers piping.\n"; // break;
-    case 10: cout << "Ten lords a-leaping.\n"; // break;
-    case 9: cout << "Nine ladies dancing.\n"; // break;
-    case 8: cout << "Eight maids a-milking.\n"; // break;
-    case 7: cout << "Seven swans a-swimming.\n"; // break;
-    case 6: cout << "Six geese a-laying.\n"; // break;
-    case 5: cout << "Five golden rings.\n"; // break;
-    case 4: cout << "Four calling birds.\n"; // break;
-    case 3: cout << "Three French hens.\n"; // break;
-    case 2: cout << "Two turtle doves.\n"; // break;
-    case 1: cout << "A partridge in a pear tree.\n"; break;
-    default: cout << "Invalid day of Christmas.\n";
-}
-```
-
-In this example, if the user enters `3`, the program will output "Three French hens, Two turtle doves, A partridge in a pear tree". This is because the code falls through to the next case.
-
-Let's run the program and see what the output:
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        </iframe>
-    </div>
-</details>
-
-Fall through can be a useful feature, but it can also lead to bugs. Be careful when using it, and make sure it is clear what is happening in your code.
-
-
 ## Operators
 
 For the most part, operators in C++ are the same as C#. Most of the operators you are familiar with will work the same way in C++. Here are some of the most common operators you will use in C++:
@@ -230,7 +189,6 @@ x--; // x is now 10
 
 > [!TIP] The `++` and `--` operators can be used before or after a variable. When used before, it is called the __prefix__ operator `++i`, and when used after, it is called the __postfix__ operator `i++`. The difference is subtle, and largely irrelevant for now. If you are curious, [here is an article](https://davidzych.com/whats-the-difference-between-i-and-i-in-c/#) that explains the difference.
 
-
 ### Bitwise
 
 These operators are used to manipulate individual bits in an integer. They are not used as often as the other operators. As a beginner, you can ignore them for now.
@@ -268,11 +226,89 @@ if (health > 30) std::cout << "You are healthy";
 else std::cout << "You are unhealthy";
 ```
 
-# Exercise 1
+# Exercise 3
 
-## Hints {#exercise-1-hints}
+For this exercise, you will write a program that asks the user to enter a number between 1 and 7. The program will output the day of the week that corresponds to the number. For example, if the user enters `1`, the program will output "Sunday".
 
-## Solution {#exercise-1-solution}
+If the user enters a number outside of the range 1-7, the program will output "Invalid day of the week".
+
+## Example Output
+
+```plaintext
+Enter a number between 1 and 7: 4
+Wednesday
+```
+
+## Hint {#exercise-3-hint}
+
+<details>
+	<summary>Which conditional statement should you use?</summary>
+
+For this example, you can use either an `if-else if-else` statement or a `switch` statement. The `switch` statement is more concise, but you can use whichever you are more comfortable with.
+
+</details>
+
+## Solution {#exercise-3-solution}
+
+<details>
+  <summary>Show the Answer</summary>
+
+```cpp
+// Exercise 3
+// Ryan Appel
+
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	int dayOfWeek = 0;
+	cout << "Enter a number between 1 and 7: ";
+	cin >> dayOfWeek;
+
+	switch (dayOfWeek)
+	{
+	case 1: cout << "Sunday\n"; break;
+	case 2: cout << "Monday\n"; break;
+	case 3: cout << "Tuesday\n"; break;
+	case 4: cout << "Wednesday\n"; break;
+	case 5: cout << "Thursday\n"; break;
+	case 6: cout << "Friday\n"; break;
+	case 7: cout << "Saturday\n"; break;
+	default: cout << "Invalid day of the week.\n";
+	}
+
+	(void)_getch();
+	return 0;
+}
+
+```
+
+Alternatively, you could use an `if-else if-else` statement:
+
+```cpp
+	if (dayOfWeek == 1) cout << "Sunday\n";
+	else if (dayOfWeek == 2) cout << "Monday\n";
+	else if (dayOfWeek == 3) cout << "Tuesday\n";
+	else if (dayOfWeek == 4) cout << "Wednesday\n";
+	else if (dayOfWeek == 5) cout << "Thursday\n";
+	else if (dayOfWeek == 6) cout << "Friday\n";
+	else if (dayOfWeek == 7) cout << "Saturday\n";
+	else cout << "Invalid day of the week.\n";
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
 
 # Repetition Statements
 
@@ -360,16 +396,142 @@ do
 cout << i << ", good choice!";
 ```
 
-# Exercise 2
+# Exercise 4
 
-## Hints {#exercise-2-hints}
+For this exercise, you will write a program that asks the user to enter a number between 1 and 5. The program will output the following quote "If I'm not back in five minutes, just wait longer." as many times as the user entered, preceaded by the number of the iteration.
 
-## Solution {#exercise-2-solution}
+If the user enters a number outside of the range 1-5, the program will output "Invalid number".
 
+> [!NOTE] You will be modifying this program in the next exercise.
 
+## Example Output
 
-# Exercise 3
+```plaintext
+Enter a number between 1 and 5: 4
 
-## Hints {#exercise-3-hints}
+1. If I'm not back in five minutes, just wait longer.
+2. If I'm not back in five minutes, just wait longer.
+3. If I'm not back in five minutes, just wait longer.
+4. If I'm not back in five minutes, just wait longer.
+	- Ace Ventura
+```
 
-## Solution {#exercise-3-solution}
+## Hints {#exercise-4-hints}
+
+<details>
+	<summary>Which loop should I use?</summary>
+
+For this example, you should use a `for` loop. You know how many times you need to execute the loop.
+
+</details>
+
+<details>
+	<summary>How can I output the iteration number?</summary>
+
+Add one to the iteration variable when outputting the quote.
+
+</details>
+
+<details>
+	<summary>How can I print the author's name only once?</summary>
+
+Don't output the author's name inside the loop. Instead, output it after the loop has finished.
+
+</details>
+
+<details>
+	<summary>How can I display the error message if the user enters an invalid number?</summary>
+
+You can use an `if-else` statement to check if the user entered a valid number. Only if the number is valid should you execute the loop.
+
+</details>
+
+## Solution {#exercise-4-solution}
+
+<details>
+  <summary>Show the Answer</summary>
+
+```cpp
+// Exercise 4
+
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	int input = 0;
+	cout << "Enter a number between 1 and 5: ";
+	cin >> input;
+
+	if (input < 1 || input > 5)
+	{
+		cout << "Invalid number.\n";
+	}
+	else
+	{
+		for (int i = 1; i <= input; i++)
+		{
+			cout << i << ". If I'm not back in five minutes, just wait longer.\n";
+		}
+
+		cout << "\t- Ace Ventura\n";
+	}
+```
+
+# Exercise 5
+
+For this exercise, you will modify the program from the previous exercise. If the user enters an invalid number, the program will output the error message and ask the user to enter a number again, until the user enters a valid number.
+
+## Hints {#exercise-5-hints}
+
+<details>
+	<summary>Which loop should I use?</summary>
+
+You will still use a `for` loop for printing the quote, but you'll need a second loop (either a `while` or `do while` loop) to check if the user entered a valid number.
+
+</details>
+
+## Solution {#exercise-5-solution}
+
+<details>
+  <summary>Show the Answer</summary>
+
+```cpp
+int main()
+{
+	int input = 0;
+
+	do
+	{
+		cout << "Enter a number between 1 and 5: ";
+		cin >> input;
+
+		if (input < 1 || input > 5)
+		{
+			cout << "Invalid number.\n";
+		}
+	} while (input < 1 || input > 5);
+
+	for (int i = 1; i <= input; i++)
+	{
+		cout << i << ". If I'm not back in five minutes, just wait longer.\n";
+	}
+
+	cout << "\t- Ace Ventura\n";
+
+	(void)_getch();
+	return 0;
+}
+```
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
