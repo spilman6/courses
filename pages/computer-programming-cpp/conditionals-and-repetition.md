@@ -268,6 +268,12 @@ if (health > 30) std::cout << "You are healthy";
 else std::cout << "You are unhealthy";
 ```
 
+# Exercise 1
+
+## Hints {#exercise-1-hints}
+
+## Solution {#exercise-1-solution}
+
 # Repetition Statements
 
 Repetition statements, often called "loops," are used to execute code multiple times. Like in C#, we have the `while`, `do while`, and `for` statements.
@@ -353,3 +359,17 @@ do
 
 cout << i << ", good choice!";
 ```
+
+# Exercise 2
+
+## Hints {#exercise-2-hints}
+
+## Solution {#exercise-2-solution}
+
+
+
+# Exercise 3
+
+## Hints {#exercise-3-hints}
+
+## Solution {#exercise-3-solution}
