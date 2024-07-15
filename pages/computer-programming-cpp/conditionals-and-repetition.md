@@ -160,7 +160,9 @@ Fall through can be a useful feature, but it can also lead to bugs. Be careful w
 
 For the most part, operators in C++ are the same as C#. Most of the operators you are familiar with will work the same way in C++. Here are some of the most common operators you will use in C++:
 
-### Arithmetic Operators: `+`, `-`, `*`, `/`, `%`
+### Arithmetic
+
+These operators are used to perform arithmetic operations on numbers. They include: `+`, `-`, `*`, `/`, and `%`.
 
 ```cpp
 int x = 10;
@@ -174,9 +176,9 @@ int remainder = x % y; // 1
 
 > [!NOTE] The `%` operator is the modulus operator, which returns the remainder of a division operation. It only works with integer types.
 
-### Comparison Operators: `==`, `!=`, `>`, `<`, `>=`, `<=`
+### Comparison
 
-These operators are used to compare two values and always return a `bool`. They are also known as __Relational Operators__.
+These operators are used to compare two values and always return a `bool`. They are also known as __Relational Operators__, and include: `==`, `!=`, `>`, `<`, `>=`, `<=`.
 
 ```cpp
 int x = 10;
@@ -189,9 +191,9 @@ bool isGreaterOrEqual = x >= y; // true
 bool isLessOrEqual = x <= y; // false
 ```
 
-### Logical Operators: `&&`, `||`, `!`
+### Logical
 
-These operators are used to combine multiple conditions and always return a `bool`. They are also known as __Boolean Operators__.
+These operators are used to combine multiple conditions and always return a `bool`. They are also known as __Boolean Operators__, and include: `&&`, `||`, `!`.
 
 ```cpp
 bool isStudent = true;
@@ -203,9 +205,9 @@ bool isNotStudent = !isStudent; // false
 
 > [!TIP] Get in the habit of using the `!` operator instead of `== false` or `!= true`. It is more concise and easier to read. A common sign of a beginner programmer is seeing `if (isStudent == true)` instead of `if (isStudent)`, and `if (isTeenager == false)` instead of `if (!isTeenager)`.
 
-### Assignment Operators: `=`, `+=`, `-=`, `*=`, `/=`, `%=`
+### Assignment
 
-Again, these operators are the same as C#. They are used to assign values to variables.
+Again, these operators are the same as C#. They are used to assign values to variables and include: `=`, `+=`, `-=`, `*=`, `/=`, `%=`.
 
 ```cpp
 int x = 10;
@@ -216,9 +218,9 @@ x /= 5; // x is now 10
 x %= 3; // x is now 1
 ```
 
-### Unary Operators: `++`, `--`
+### Unary
 
-These operators are used to increment or decrement a variable by one.
+These operators are used to increment or decrement a variable by one. They are: `++` and `--`.
 
 ```cpp
 int x = 10;
@@ -229,9 +231,11 @@ x--; // x is now 10
 > [!TIP] The `++` and `--` operators can be used before or after a variable. When used before, it is called the __prefix__ operator `++i`, and when used after, it is called the __postfix__ operator `i++`. The difference is subtle, and largely irrelevant for now. If you are curious, [here is an article](https://davidzych.com/whats-the-difference-between-i-and-i-in-c/#) that explains the difference.
 
 
-### Bitwise Operators: `&`, `|`, `^`, `~`, `<<`, `>>`
+### Bitwise
 
 These operators are used to manipulate individual bits in an integer. They are not used as often as the other operators. As a beginner, you can ignore them for now.
+
+The bitwise operators include: `&`, `|`, `^`, `~`, `<<`, `>>`.
 
 ```cpp
 int x =  5; // 0000 0101
@@ -247,7 +251,7 @@ int shiftRight = x >> 2; //  1 -- 0000 0001
 
 > [!NOTE] You will rarely use bitwise operators in your day-to-day programming. You will not be tested on them, but it is good to know they exist.
 
-### Ternary Operator: `? :`
+### Ternary
 
 The ternary operator is a shorthand way of writing an `if` statement. It is often used to assign a value to a variable based on a condition.
 
