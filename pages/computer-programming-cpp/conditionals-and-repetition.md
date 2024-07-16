@@ -484,17 +484,21 @@ int main()
 
 	if (input < 1 || input > 5)
 	{
-		cout << "Invalid number.\n";
+		cout << "Invalid number.\n";		
 	}
 	else
 	{
-		for (int i = 1; i <= input; i++)
+		for (int i = 0; i < input; i++)
 		{
-			cout << i << ". If I'm not back in five minutes, just wait longer.\n";
+			cout << i + 1 << ". If I'm not back in five minutes, just wait longer.\n";
 		}
 
 		cout << "\t- Ace Ventura\n";
 	}
+
+	(void)_getch();
+	return 0;
+}
 ```
 
 </details>
