@@ -64,7 +64,7 @@ else
 }
 ```
 
-### Curly Braces
+Omitting the curly braces is also allowed in C++.
 
 Just like in C#, you can omit the curly braces if there is only one statement in the `if`, `else if`, or `else` block.
 
