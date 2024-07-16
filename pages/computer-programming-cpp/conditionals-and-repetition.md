@@ -480,6 +480,8 @@ int main()
 	}
 ```
 
+</details>
+
 # Exercise 5
 
 For this exercise, you will modify the program from the previous exercise. If the user enters an invalid number, the program will output the error message and ask the user to enter a number again, until the user enters a valid number.
