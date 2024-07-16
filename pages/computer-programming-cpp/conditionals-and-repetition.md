@@ -227,6 +227,15 @@ else std::cout << "You are unhealthy";
 
 # Exercise 3
 
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
 For this exercise, you will write a program that asks the user to enter a number between 1 and 7. The program will output the day of the week that corresponds to the number. For example, if the user enters `1`, the program will output "Sunday".
 
 If the user enters a number outside of the range 1-7, the program will output "Invalid day of the week".
@@ -397,6 +406,15 @@ cout << i << ", good choice!";
 
 # Exercise 4
 
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
 For this exercise, you will write a program that asks the user to enter a number between 1 and 5. The program will output the following quote "If I'm not back in five minutes, just wait longer." as many times as the user entered, preceaded by the number of the iteration.
 
 If the user enters a number outside of the range 1-5, the program will output "Invalid number".
@@ -482,6 +500,15 @@ int main()
 </details>
 
 # Exercise 5
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 For this exercise, you will modify the program from the previous exercise. If the user enters an invalid number, the program will output the error message and ask the user to enter a number again, until the user enters a valid number.
 
