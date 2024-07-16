@@ -526,6 +526,8 @@ int main()
 }
 ```
 
+</details>
+
 <details>
 	<summary>Walkthrough Video</summary>
 		<div class="video-container">
