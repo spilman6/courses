@@ -236,7 +236,7 @@ else std::cout << "You are unhealthy";
 	</div>
 </details>
 
-For this exercise, you will write a program that asks the user to enter a number between 1 and 7. The program will output the day of the week that corresponds to the number. For example, if the user enters `1`, the program will output "Sunday".
+For this exercise, you will write a program that asks the user to enter a number between 1 and 7. The program will output the day of the week that corresponds to the number. For example, if the user enters 1, the program will output "Sunday".
 
 If the user enters a number outside of the range 1-7, the program will output "Invalid day of the week".
 
