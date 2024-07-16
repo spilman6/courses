@@ -243,7 +243,7 @@ Wednesday
 <details>
 	<summary>Which conditional statement should I use?</summary>
 
-For this example, you can use either an `if-else if-else` statement or a `switch` statement. The `switch` statement is more concise, but you can use whichever you are more comfortable with.
+For this example, you can use either an `if-else if-else` statement or a `switch` statement. The `switch` statement is more efficient, but you can use whichever you are more comfortable with.
 
 </details>
 
