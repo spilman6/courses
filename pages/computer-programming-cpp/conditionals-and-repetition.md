@@ -539,19 +539,16 @@ int main()
 	{
 		cout << "Enter a number between 1 and 5: ";
 		cin >> input;
+	}
+	while (input < 1 || input > 5);
 
-		if (input < 1 || input > 5)
-		{
-			cout << "Invalid number.\n";
-		}
-	} while (input < 1 || input > 5);
 
-	for (int i = 1; i <= input; i++)
+	for (int i = 0; i < input; i++)
 	{
-		cout << i << ". If I'm not back in five minutes, just wait longer.\n";
+		cout << i + 1 << ". If I'm not back in five minutes, just wait longer.\n";
 	}
 
-	cout << "\t- Ace Ventura\n";
+	cout << "\t- Ace Ventura";
 
 	(void)_getch();
 	return 0;

@@ -1,19 +1,28 @@
 ---
 title: "Computer Programming C++"
+subtitle: ""
 hide-nav: true
 ---
 
 # Computer Programming C++
 
-[Getting Started](/appel/computer-programming-cpp/getting-started) - _Week 1_
+## Week 1
+
+[Getting Started](/appel/computer-programming-cpp/getting-started)
 
 [Conditionals and Repetition](/appel/computer-programming-cpp/conditionals-and-repetition)
 
-[Functions](/appel/computer-programming-cpp/functions) - _Week 2_
+## Week 2
 
-[Defining New Data Types](/appel/computer-programming-cpp/defining-new-data-types) - _Week 3_
+[Functions](/appel/computer-programming-cpp/functions)
 
-Exam 1 - _Week 4_
+## Week 3
+
+[Defining New Data Types](/appel/computer-programming-cpp/defining-new-data-types)
+
+## Week 4
+
+Exam 1
 
 [Understanding Memory](/appel/computer-programming-cpp/understanding-memory) - _Week 5_
 
