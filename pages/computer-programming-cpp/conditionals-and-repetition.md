@@ -404,7 +404,7 @@ If the user enters a number outside of the range 1-5, the program will output "I
 
 > [!NOTE] You will be modifying this program in the next exercise.
 
-## Example Output
+Example Output:
 
 ```plaintext
 Enter a number between 1 and 5: 4
