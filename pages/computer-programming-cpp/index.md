@@ -1,7 +1,6 @@
 ---
 title: "Computer Programming C++"
 subtitle: ""
-hide-nav: true
 ---
 
 # Computer Programming C++
@@ -24,14 +23,36 @@ hide-nav: true
 
 Exam 1
 
-[Understanding Memory](/appel/computer-programming-cpp/understanding-memory) - _Week 5_
+## Week 5
 
-[Collections](/appel/computer-programming-cpp/collections) - _Week 6_
+[Understanding Memory](/appel/computer-programming-cpp/understanding-memory)
 
-[File I/O](/appel/computer-programming-cpp/file-io) - _Week 7_
+## Week 6
 
-[Classes](/appel/computer-programming-cpp/classes) - _Week 9_
+[Collections](/appel/computer-programming-cpp/collections)
 
-[Object-Oriented Programming](/appel/computer-programming-cpp/object-oriented-programming) - _Week 10_
+## Week 7
 
-[Static Members](/appel/computer-programming-cpp/static-members) - _Week 11_
+[File I/O](/appel/computer-programming-cpp/file-io)
+
+## Week 8
+
+Exam 2
+
+## Week 9
+
+[Classes](/appel/computer-programming-cpp/classes)
+
+## Week 10
+
+[Object-Oriented Programming](/appel/computer-programming-cpp/object-oriented-programming)
+
+## Week 11
+
+[Static Members](/appel/computer-programming-cpp/static-members)
+
+## Week 12
+
+Exam 3
+
+## Week 13
