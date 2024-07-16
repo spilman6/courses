@@ -15,7 +15,6 @@ If statements work much the same way as they do in C#, with one key difference. 
 int x = 10;
 if (x) // error
 {
-    // do something
 }
 ```
 
