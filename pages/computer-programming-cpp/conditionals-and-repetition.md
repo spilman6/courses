@@ -115,11 +115,11 @@ In this example, if the user enters `3`, the program will output "Three French h
 
 In the previous example, I used the `break` statement to exit the switch statement. If you omit the `break` statement, the code will "fall through" to the next case. This is a feature of C++ that is not present in C#. It can be used in certain situations to reduce code duplication.
 
-## Operators
+# Operators
 
 For the most part, operators in C++ are the same as C#. Most of the operators you are familiar with will work the same way in C++. Here are some of the most common operators you will use in C++:
 
-### Arithmetic
+## Arithmetic
 
 These operators are used to perform arithmetic operations on numbers. They include: `+`, `-`, `*`, `/`, and `%`.
 
@@ -135,7 +135,7 @@ int remainder = x % y; // 1
 
 > [!NOTE] The `%` operator is the modulus operator, which returns the remainder of a division operation. It only works with integer types.
 
-### Comparison
+## Comparison
 
 These operators are used to compare two values and always return a `bool`. They are also known as __Relational Operators__, and include: `==`, `!=`, `>`, `<`, `>=`, `<=`.
 
@@ -150,7 +150,7 @@ bool isGreaterOrEqual = x >= y; // true
 bool isLessOrEqual = x <= y; // false
 ```
 
-### Logical
+## Logical
 
 These operators are used to combine multiple conditions and always return a `bool`. They are also known as __Boolean Operators__, and include: `&&`, `||`, `!`.
 
@@ -164,7 +164,7 @@ bool isNotStudent = !isStudent; // false
 
 > [!TIP] Get in the habit of using the `!` operator instead of `== false` or `!= true`. It is more concise and easier to read. A common sign of a beginner programmer is seeing `if (isStudent == true)` instead of `if (isStudent)`, and `if (isTeenager == false)` instead of `if (!isTeenager)`.
 
-### Assignment
+## Assignment
 
 Again, these operators are the same as C#. They are used to assign values to variables and include: `=`, `+=`, `-=`, `*=`, `/=`, `%=`.
 
@@ -177,7 +177,7 @@ x /= 5; // x is now 10
 x %= 3; // x is now 1
 ```
 
-### Unary
+## Unary
 
 These operators are used to increment or decrement a variable by one. They are: `++` and `--`.
 
@@ -189,7 +189,7 @@ x--; // x is now 10
 
 > [!TIP] The `++` and `--` operators can be used before or after a variable. When used before, it is called the __prefix__ operator `++i`, and when used after, it is called the __postfix__ operator `i++`. The difference is subtle, and largely irrelevant for now. If you are curious, [here is an article](https://davidzych.com/whats-the-difference-between-i-and-i-in-c/#) that explains the difference.
 
-### Bitwise
+## Bitwise
 
 These operators are used to manipulate individual bits in an integer. They are not used as often as the other operators. As a beginner, you can ignore them for now.
 
@@ -209,7 +209,7 @@ int shiftRight = x >> 2; //  1 -- 0000 0001
 
 > [!NOTE] You will rarely use bitwise operators in your day-to-day programming. You will not be tested on them, but it is good to know they exist.
 
-### Ternary
+## Ternary
 
 The ternary operator is a shorthand way of writing an `if` statement. It is often used to assign a value to a variable based on a condition.
 
