@@ -134,7 +134,7 @@ if (now.includes('PM')) {
 </html>
 ```
 
-<p class="hidden-copy">This text should not be visible.</p>
+<span class="hidden-copy">This text should not be visible.</span>
 
 # Variables
 
