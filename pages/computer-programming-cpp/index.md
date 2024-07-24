@@ -1,6 +1,6 @@
 ---
 title: "Computer Programming C++"
-subtitle: ""
+subtitle: "Ryan's Courses"
 ---
 
 # Computer Programming C++
