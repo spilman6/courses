@@ -1,5 +1,6 @@
 ---
-title: 'Modern JavaScript'
+title: "Modern JavaScript"
+subtitle: "Ryan's Courses"
 hide-nav: true
 ---
 
