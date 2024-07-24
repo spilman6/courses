@@ -1,6 +1,7 @@
 ---
 title: "Computer Programming C++"
 subtitle: "Ryan's Courses"
+hide-nav: true
 ---
 
 # Computer Programming C++
@@ -10,6 +11,8 @@ subtitle: "Ryan's Courses"
 [Getting Started](/appel/computer-programming-cpp/getting-started)
 
 [Conditionals and Repetition](/appel/computer-programming-cpp/conditionals-and-repetition)
+
+[Assignment 1 - GitHub Account](/appel/computer-programming-cpp/assignment/github-account)
 
 ## Week 2
 
