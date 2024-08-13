@@ -1,6 +1,6 @@
 ---
-title: 'Getting Started'
-subtitle: 'Modern JavaScript'
+title: Getting Started
+subtitle: Modern JavaScript
 ---
 
 # Getting Started

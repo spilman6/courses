@@ -1,6 +1,6 @@
 ---
-title: "Courses"
-subtitle: "Ryan Appel"
+title: Courses
+subtitle: Ryan Appel
 hide-nav: true
 ---
 
@@ -8,7 +8,7 @@ hide-nav: true
 
 [Data Access for Programmers](/appel/data-access-for-programmers)
 
-[Modern JavaScript](/appel/javascript)
+[Modern JavaScript](/appel/modern-javascript)
 
 [Computer Programming C++](/appel/computer-programming-cpp)
 

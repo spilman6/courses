@@ -1,6 +1,6 @@
 ---
-title: "Computer Programming C++"
-subtitle: "Ryan's Courses"
+title: Computer Programming C++
+subtitle: Ryan's Courses
 hide-nav: true
 ---
 
