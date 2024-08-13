@@ -10,7 +10,7 @@ hide-nav: false
 
 [Getting Started](/appel/modern-javascript/getting-started)
 
-[Assignment 1 - GitHub Account](/appel/modern-javascript/assignment/github-account)
+[Assignment 1 - GitHub Account](/appel/modern-javascript/assignments/github-account)
 
 ## Week 2
 

@@ -12,7 +12,7 @@ hide-nav: true
 
 [Conditionals and Repetition](/appel/computer-programming-cpp/conditionals-and-repetition)
 
-[Assignment 1 - GitHub Account](/appel/computer-programming-cpp/assignment/github-account)
+[Assignment 1 - GitHub Account](/appel/computer-programming-cpp/assignments/github-account)
 
 ## Week 2
 
