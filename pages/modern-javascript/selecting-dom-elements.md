@@ -5,9 +5,7 @@ subtitle: Modern JavaScript
 
 # Selecting DOM Elements
 
-In this unit, we will learn how to select DOM elements using the `querySelector` method in JavaScript.
-
-The `querySelector` method is a powerful tool that allows you to select DOM elements using CSS selectors. It returns the first element that matches the specified selector.
+In this unit, we will learn how to select DOM elements using the `querySelector`, `querySelectorAll`, and `getElementById` methods. We will also learn how to attach a JavaScript file to an HTML page.
 
 ## Getting the Example Website
 
@@ -16,13 +14,13 @@ Before we get started, let's clone down some starter code.
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/BnYxmvaHtBQ" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
 </details>
 
-You can find the starter code [here](https://github.com/RDAppel/example-website).
+You can find the starter code [here](https://github.com/fvtc/js-ryans-webpage).
 
 # The Document Object Model (DOM)
 
@@ -31,7 +29,7 @@ The Document Object Model (DOM) is a programming interface for HTML documents. I
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/vlu4gArqiGI" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -44,7 +42,7 @@ Now that we have our starter code, let's create a JavaScript file and attach it 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/5VTGIBcW1CM" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -74,27 +72,12 @@ As you saw in the video above, we can select DOM elements using the `querySelect
 
 Let's play around with querying DOM elements by tag:
 
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/ypYqrbL6fwA" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		</iframe>
-	</div>
-</details>
 
 ## Selecting by ID and Class
 
 Let's take a look at how we can select DOM elements by ID and class:
 
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/6vQzdEs3xtM" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		</iframe>
-	</div>
-</details>
+
 
 ### Selecting by ID
 
