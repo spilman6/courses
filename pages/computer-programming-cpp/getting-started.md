@@ -44,6 +44,8 @@ int main()
 }
 ```
 
+> [!NOTE] Comments work the same way in C++ as they do in C#. You can use `//` to create a single-line comment, or `/* */` to create a multi-line comment. 
+
 You can debug your program by pressing the "Start" button in Visual Studio, or by pressing F5, just like you did in C#.
 
 When you debug your program, you will see a console window appear with the following text:
