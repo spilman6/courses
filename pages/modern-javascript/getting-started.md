@@ -327,7 +327,3 @@ let x = 5
 let y = x > 0 ? "positive" : "negative"
 console.log(y) // "positive"
 ```
-
-# Exercises
-
-[Getting Started Exercises](/appel/javascript/getting-started-exercises)
