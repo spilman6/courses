@@ -1,5 +1,6 @@
 {
 	"Embed YouTube Video with Details Toggle": {
+		"scope": "markdown",
 		"prefix": "yt",
 		"body": [
 			"<details open>",
@@ -15,7 +16,8 @@
 	},
 
 	"Add a Note, Tip, Important, Warning, Caution Blockquote": {
-		"prefix": ">!",
+		"scope": "markdown",
+		"prefix": ">",
 		"body": "> [!${1|NOTE,TIP,IMPORTANT,WARNING,CAUTION|}] $0",
 		"description": "Emphasize critical information using a Note, Tip, Important, Warning, or Caution Blockquote"
 	}

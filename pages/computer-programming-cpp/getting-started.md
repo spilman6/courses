@@ -32,6 +32,8 @@ Every program needs an entry point. The windows applications that you wrote in C
     </div>
 </details>
 
+Here is the code from the video:
+
 ```cpp
 // Getting Started Demo
 // Ryan Appel
@@ -70,6 +72,8 @@ I want to control this behavior myself, so I can have the same experience when r
 Let's change the following setting.
 
 Go to: `Tools->Options->Debugging` and then check `Automatically close the console when debugging stops`.
+
+> [!IMPORTANT] Your code must have exactly one `main()` function. If you have more than one, you will get a linker error.
 
 ## Writing to the Console
 
