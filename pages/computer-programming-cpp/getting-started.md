@@ -1,6 +1,6 @@
 ---
-title: 'Getting Started'
-course: 'Computer Programming C++'
+title: Getting Started
+subtitle: Computer Programming C++
 ---
 
 # Getting Started
