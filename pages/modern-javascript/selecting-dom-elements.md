@@ -20,7 +20,7 @@ Before we get started, let's clone down some starter code.
 	</div>
 </details>
 
-You can find the starter code [here](https://github.com/fvtc/js-ryans-webpage).
+You can find the starter code [here](https://github.com/fvtc/js-ryans-webpage). Remember to fork the repository before cloning it down to your local machine.
 
 # The Document Object Model (DOM)
 
@@ -206,7 +206,6 @@ Here is the code from the video:
 ```javascript
 const activeElements = document.querySelectorAll('.active')
 
-// add border
 //activeElements.forEach(el => el.style.border = '1px solid red')
 
 for (let i = 0; i < activeElements.length; i++)
@@ -232,25 +231,56 @@ for (let i = 0; i < activeElements.length; i++)
 ## Hints {#exercise-2-hints}
 
 <details>
-	<summary>How do I?</summary>
+	<summary>How do I get select the link without using a class or id?</summary>
 
-S
+If you notice that it's the only link (anchor tag) in the footer, you can use the `querySelector` method to get it.
 
 ```javascript
+const link = document.querySelector('footer a')
+```
 
+</details>
+
+<details>
+	<summary>How do I select the link using an id (or class)?</summary>
+
+You will need to add an id (or class) to the link in the HTML file and then use the `querySelector` method to get it.
+
+Here I added an id to the link:
+
+```html
+<a id="fork" href="https://github.com/fvtc/js-ryans-webpage">Fork this project on GitHub.</a>
+```
+
+```javascript
+const link = document.querySelector('#fork')
+```
+
+</details>
+
+<details>
+	<summary>How do I add an underline to the link?</summary>
+
+You can use the `style` property of the element to change the text decoration.
+
+```javascript
+link.style.textDecoration = 'underline'
 ```
 
 </details>
 
 
-## Solution {#exercise-1-solution}
+## Solution {#exercise-2-solution}
 
 <details>
   <summary>Show the Answer</summary>
 
 
 ```javascript
+//const link = document.querySelector('footer a')
 
+const link = document.querySelector('#fork')
+link.style.textDecoration = 'underline'
 ```
 
 </details>
@@ -263,3 +293,23 @@ S
 		></iframe>
 	</div>
 </details>
+
+# Selecting the Body and Title Elements
+
+In addition to selecting elements within the body of the page, we can also select the body and title elements themselves. Take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code from the video:
+
+```javascript
+document.body.style.backgroundColor = 'lightgray'
+document.title = "Ryan's website"
+```
