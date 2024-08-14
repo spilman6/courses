@@ -181,13 +181,6 @@ We can also combine selectors to get more specific elements. Take a look:
 	</div>
 </details>
 
-As you saw, the following code will selecto the active element inside of a `section` tag:
-
-```javascript
-const active = section.querySelector('section .active')
-active.style.color = 'blue'
-```
-
 # Selecting Multiple Elements
 
 In addition to selecting a single element, we can also select multiple elements using the `querySelectorAll` method. This method takes a CSS selector as an argument and returns a NodeList of elements that match the selector.
