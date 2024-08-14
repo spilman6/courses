@@ -313,3 +313,29 @@ Here is the code from the video:
 document.body.style.backgroundColor = 'lightgray'
 document.title = "Ryan's website"
 ```
+
+# Selecting Parent and Ancestor Elements
+
+Sometimes we have access to an element and we want to select its parent element, or an ancestor element. We can do this using the `parentElement` property, and the `closest` method.
+
+A common use case for this is when the user interacts with an element and we want to change the style of the parent element. Take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code from the video:
+
+```javascript
+const contact = document.querySelector('#contact')
+
+contact.addEventListener('mouseover', () => {
+	//contact.parentElement.style.backgroundColor = 'lightblue'
+	contact.closest('nav').style.backgroundColor = 'lightblue'
+})
+```
