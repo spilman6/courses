@@ -339,3 +339,17 @@ contact.addEventListener('mouseover', () => {
 	contact.closest('nav').style.backgroundColor = 'lightblue'
 })
 ```
+
+# Pushing Changes to GitHub
+
+If you're not sure how to push your changes to GitHub, check out the video below:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+

@@ -15,3 +15,5 @@ hide-nav: false
 ## Week 2
 
 [Selecting Dom Elements](/appel/modern-javascript/selecting-dom-elements)
+
+[Assignment 2 - Homepage](/appel/modern-javascript/assignments/homepage)
