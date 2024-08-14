@@ -342,7 +342,7 @@ contact.addEventListener('mouseover', () => {
 
 # Pushing Changes to GitHub
 
-If you're not sure how to push your changes to GitHub, check out the video below:
+We can run git commands in the terminal to push our changes to GitHub. If you're not sure how to push your changes to GitHub, check out the video below:
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
@@ -352,4 +352,6 @@ If you're not sure how to push your changes to GitHub, check out the video below
 		</iframe>
 	</div>
 </details>
+
+Remember, you can always refer back to the [Getting Started with Version Control](/appel/source-control/getting-started) unit if you need a refresher.
 
