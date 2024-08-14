@@ -59,431 +59,79 @@ The `defer` attribute tells the browser to wait until the HTML has been parsed b
 Here is the code that we ended up with in our JavaScript file:
 
 ```javascript
-console.log(document.querySelector('nav'))
+console.log(document.querySelector('h1'))
 ```
 
-# Selecting DOM Elements
-
-Now that we have our JavaScript file attached to our HTML page, let's learn how to select DOM elements.
-
-## Selecting by Tag
+# Selecting Elements by Tag
 
 As you saw in the video above, we can select DOM elements using the `querySelector` method. This method takes a CSS selector as an argument and returns the first element that matches the selector.
 
-Let's play around with querying DOM elements by tag:
-
-
-## Selecting by ID and Class
-
-Let's take a look at how we can select DOM elements by ID and class:
-
-
-
-### Selecting by ID
-
-As shown above, `querySelector` searches the document for the first occurance of that tag. Often we don't want the first, but instead a specific element.
-
-Take a look at this html:
-
-```html
-<div>
-    <p>This is an example paragraph.</p>
-    <p id="target">This is another paragraph.</p>
-</div>
-```
-
-There are two paragraphs. Using `querySelector('p')`, will access the first, but what if I want the second paragraph? Well, you probably noticed the id. The actual value of the id, in this case I chose `target`, makes no difference, as long as it matches in the query. Take a look:
-
-```javascript
-const secondP = document.querySelector('#target')
-```
-
-The `#` specifies that we're looking for an element with an id of `target`. Which is exactly what we have. 
-
-We could also have specified the element type, as follows:
-
-```javascript
-const secondP = document.querySelector('p#target')
-```
-
-This would then look specifically for a `p` tag with the id of `target`.
-
-> [!NOTE] I don't usually do this because if I decide to later change the element in the html, I would have to update the JavaScript to match.
-
-### Selecting by Class
-
-We can also select elements by class. Take a look at this html:
-
-```html
-<div>
-	<p>This is an example paragraph.</p>
-	<p class="target">This is another paragraph.</p>
-</div>
-```
-
-In this case, since our target is a class, we use a `.` instead of a `#`:
-
-```javascript
-const secondP = document.querySelector('.target')
-```
-
-We can also specify the element type:
-
-```javascript
-const secondP = document.querySelector('p.target')
-```
-
-### Combining Selectors
-
-We can also combine selectors. Take a look:
-
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/YKc7_t-28OU" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
 </details>
-
-Here is the first example from the video:
-
-
-```html
-<nav>
-	<a href="#">Home</a>
-	<a href="#">About</a>
-	<a class="copyright" href="#">Contact</a>
-</nav>
-
-<footer>
-	<p class="copyright">Copyright</p>
-</footer>
-```
-
-This accesses the `a` tag in the `nav`:
-
-```javascript
-const temp = document.querySelector('nav .copyright')
-```
-
-This accesses the `p` tag in the `footer`:
-
-```javascript
-const temp = document.querySelector('footer .copyright')
-```
-
-## Selecting Multiple Elements
-
-So far, we've only looked at selecting a single element. But what if we want to select multiple elements? Well, we can use the `querySelectorAll` method. This method takes a CSS selector as an argument and returns a NodeList of all the elements that match the selector.
-
-Let's take a look at how we can use `querySelectorAll`:
-
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/dEFfEhTtNS0" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		</iframe>
-	</div>
-</details>
-
-Again, using the example from the video:
-
-```html
-<nav>
-	<a href="#">Home</a>
-	<a href="#">About</a>
-	<a href="#">Contact</a>
-</nav>
-```
-
-This accesses all the `a` tags:
-
-```javascript
-const links = document.querySelectorAll('nav a')
-
-links.forEach(link => { console.log(link) }) // loop over the NodeList and log each element
-```
-
-We can also use `querySelectorAll` to select all elements with a specific class:
-
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/4XIUv-KNal8" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		</iframe>
-	</div>
-</details>
-
-```javascript
-// get all elements with class="copyright"
-const copyrights = document.querySelectorAll('.copyright')
-```
-
-# Pushing Code Changes to GitHub
-
-Now that we have our JavaScript file attached to our HTML page, let's push our code changes to GitHub.
-
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/pPiASlEwCVk" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		</iframe>
-	</div>
-</details>
-
-The commands shown in the video are:
-
-```bash
-git add .
-```
-
-```bash
-git commit -m "your commit message"
-```
-
-> [!NOTE] Make sure to use a descriptive commit message, and not just "your commit message".
-
-```bash
-git push
-```
-
 
 # Exercise 1
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/vtSEJdJqzM8" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
 </details>
 
-For this exercise, create a JavaScript file called `exercise1.js` and link it to the HTML file using a `<script>` tag.
+In this exercise, you will modify the example that we've been working on, to change the text "Main Content Section" color to red.
 
-In the JavaScript file, select the `<h1>` element and set its `textContent` to "Exercise 1".
+I want you to store the element in a variable called `mainContentSection` and then use that variable to change the color.
 
 ## Hints {#exercise-1-hints}
 
 <details>
-	<summary>How do I attach a JavaScript file to an HTML file?</summary>
+	<summary>How do I get the element and store it into a variable?</summary>
 
-```html
-<script src="exercise1.js" defer></script>
-```
+Since the element is the first `h2` tag on the page, you can use the `querySelector` method to get it and store it in a variable.
 
-> [!NOTE] Remember to use the `defer` attribute on the `<script>` tag to ensure that the JavaScript file is loaded after the HTML file has been parsed.
-
-</details>
-
-<details>
-	<summary>How do I select the `&lt;h1&gt;` element?</summary>
-
-```js
-const h1 = document.querySelector('h1')
+```javascript
+const mainContentSection = document.querySelector('h2')
 ```
 
 </details>
 
 <details>
-	<summary>How do I set the `textContent` of an element?</summary>
+	<summary>How do I change the color of the text to red?</summary>
 
-```js
-h1.textContent = 'Exercise 1'
+You can use the `style` property of the element to change the color.
+
+```javascript
+mainContentSection.style.color = 'red'
 ```
+
+Or using the HEX value:
+
+```javascript
+mainContentSection.style.color = '#ff0000'
+```
+
 
 </details>
 
 ## Solution {#exercise-1-solution}
 
 <details>
-	<summary>Show the answer</summary>
+  <summary>Show the Answer</summary>
 
-HTML:
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Week 2 Exercises</title>
-	<style>.underlined { text-decoration: underline; }</style>
-	<script src="exercise1.js" defer></script>
-</head>
-<body>
-	<h1></h1>
-	<p></p>
-	<div>
-		<p></p>
-		<p class="underlined"></p>
-	</div>
-	<p id="footer"></p>
-</body>
-</html>
-```
-
-JavaScript (exercise1.js):
-
-```js
-const h1 = document.querySelector('h1')
-h1.textContent = 'Exercise '1
-```
-
-</details>
-
-<details>
-	<summary>Walkthrough Video</summary>
-    	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/9PwpcvcGLZc" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		></iframe>
-	</div>
-</details>
-
-# Exercise 2
-
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/gCTPMQfB0jE" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		></iframe>
-	</div>
-</details>
-
-For this exercise, create another JavaScript file called `exercise2.js` and link it to the HTML file using a `<script>` tag.
-
-**Do not add the defer tag!**
-
-In exercise2.js, do the following:
-
-1. Select the first `<p>` element (the one before the div) and set its `textContent` to "Exercise 2 - Step 1".
-
-2. Select the `<p>` element with the class `underlined` and set its `textContent` to "Exercise 2 - Step 2".
-
-3. Select the `<p>` element inside the `<div>` and set its `textContent` to "Exercise 2 - Step 3".
-
-4. Select the `<p>` element with the id `footer` and set its `textContent` to "Exercise 2 - &lt;Your Name&gt;".
-
-## Hints {#exercise-2-hints}
-
-<details>
-	<summary>How do I get the script to run without using `defer`?</summary>
-
-Place the `<script>` tag at the bottom of the `<body>` tag.
-
-```html
-</body>
-<script src="exercise2.js"></script>
-```
-
-Or, use the `DOMContentLoaded` event inside of the JavaScript file.
-
-```js
-document.addEventListener('DOMContentLoaded', () => {
-	// Your code here
-})
-```
-	
-</details>
-
-<details>
-	<summary>How do I select the first `&lt;p&gt;` element?</summary>
-
-```js
-const p = document.querySelector('p')
-```
-
-</details>
-
-<details>
-	<summary>How do I select the `&lt;p&gt;` element with the class `underlined`?</summary>
-
-```js
-const p = document.querySelector('.underlined')
-```
-
-</details>
-
-<details>
-	<summary>How do I select the `&lt;p&gt;` element inside the `&lt;div&gt;`?</summary>
-
-```js
-const p = document.querySelector('div p')
-```
-
-</details>
-
-<details>
-	<summary>How do I select the `&lt;p&gt;` element with the id `footer`?</summary>
-
-```js
-const p = document.querySelector('#footer')
-```
-
-</details>
-
-## Solution {#exercise-2-solution}
-
-<details>
-	<summary>Show the answer</summary>
-
-HTML:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 2 Exercises</title>
-    <style>.underlined { text-decoration: underline; }</style>
-    <script src="exercise1.js" defer></script>
-</head>
-<body>
-    <h1></h1>
-    <p></p>
-    <div>
-        <p></p>
-        <p class="underlined"></p>
-    </div>
-    <p id="footer"></p>
-</body>
-<script src="exercise2.js"></script>
-</html>
-```
-
-JavaScript (exercise2.js):
-
-```js
-const p1 = document.querySelector('p')
-p1.textContent = 'Exercise 2 - Step 1'
-
-const p2 = document.querySelector('.underlined')
-p2.textContent = 'Exercise 2 - Step 2'
-
-const p3 = document.querySelector('div p')
-p3.textContent = 'Exercise 2 - Step 3'
-
-const p4 = document.querySelector('#footer')
-p4.textContent = 'Exercise 2 - <Your Name>'
-```
-
-Alternatively, you could skip the `const` declarations and do it all in one line:
-
-```js
-document.querySelector('p').textContent = 'Exercise 2 - Step 1'
-
-document.querySelector('.underlined').textContent = 'Exercise 2 - Step 2'
-
-document.querySelector('div p').textContent = 'Exercise 2 - Step 3'
-
-document.querySelector('#footer').textContent = 'Exercise 2 - <Your Name>'
+```javascript
+const mainContentSection = document.querySelector('h2')
+mainContentSection.style.color = 'red'
+// or
+// mainContentSection.style.color = '#ff0000'
 ```
 
 </details>
@@ -491,7 +139,126 @@ document.querySelector('#footer').textContent = 'Exercise 2 - <Your Name>'
 <details>
 	<summary>Walkthrough Video</summary>
 		<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/lLzL3BmRqSw" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+# Selecting Elements by ID and Class
+
+In addition to selecting elements by tag, we can also select elements by ID and class. Take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code from the video:
+
+```javascript
+const about = document.querySelector('#about') // id="about"
+about.style.color = 'orange'
+
+const active = document.querySelector('.active') // class="active"
+active.style.color = 'blue'
+```
+
+# Combining Selectors
+
+We can also combine selectors to get more specific elements. Take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+As you saw, the following code will selecto the active element inside of a `section` tag:
+
+```javascript
+const active = section.querySelector('section .active')
+active.style.color = 'blue'
+```
+
+# Selecting Multiple Elements
+
+In addition to selecting a single element, we can also select multiple elements using the `querySelectorAll` method. This method takes a CSS selector as an argument and returns a NodeList of elements that match the selector.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code from the video:
+
+```javascript
+const activeElements = document.querySelectorAll('.active')
+
+// add border
+//activeElements.forEach(el => el.style.border = '1px solid red')
+
+for (let i = 0; i < activeElements.length; i++)
+{
+	activeElements[i].style.border = '1px solid red'
+}
+```
+
+# Exercise 2
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+
+
+
+## Hints {#exercise-2-hints}
+
+<details>
+	<summary>How do I?</summary>
+
+S
+
+```javascript
+
+```
+
+</details>
+
+
+## Solution {#exercise-1-solution}
+
+<details>
+  <summary>Show the Answer</summary>
+
+
+```javascript
+
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
