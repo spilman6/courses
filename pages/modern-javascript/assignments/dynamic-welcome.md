@@ -1,62 +1,54 @@
 ---
-title: Assignment 2 - Homepage
-subtitle: Modern JavaScript
+title: 'Assignment 3 - Dynamic Welcome'
+subtitle: 'Modern JavaScript'
 ---
 
-# Assignment 2 - Homepage
+# Assignment 3 - Dynamic Welcome
 
-In this assignment, you will create a homepage for yourself. The homepage will contain your name, a photograph of you, a short bio, and a list of your favorite movies or books. You will then push your homepage to GitHub Pages.
+In this assignment, you will modify your homepage from Assignment 2. You will use JavaScript to dynamically add content to the page.
+
+It will show a welcome message to the user. The message will be different, based on the time of day that the page is loaded.
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/xPRQ2G38NII" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/IwuzbKSF52E" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
 </details>
+
+Here is some code to help you determine the time of day:
+
+```js
+const hours = new Date().getHours() // get the current hour
+
+const isMorning = hours >= 4 && hours < 12 // is it morning?
+const isAfternoon = hours >= 12 && hours < 17 // is it afternoon?
+const isEvening = hours >= 17 || hours < 4 // is it evening?
+```
+
+You can use these variables to determine what message to display to the user.
 
 ## Specifications
 
-Your website should have the following:
-
-1. Create an index.html page that contains:
-	- Your name
-	- A photograph of yourself (This is to help me learn your name. After a few weeks, you can replace this with a photo of something else if you like.)
-	- A short bio about yourself
-	- A list of your favorite movies or books
-
-2. Style the page using CSS. You can use an external stylesheet or style the page using `<style>` tags in the `<head>` section of the page. You can be as creative as you want with the design, but at a minimum, you should:
-	- Change the background color of the page
-	- Change the font family and color of the text
-
-3. Create a JavaScript file called `site.js` and link it to your page.
-	- You can write an alert or a console message to test that the file is linked correctly, but otherwise the file should be empty.
+Add a `<div>` element to your page with an id of `welcome`. Use the code shown above, in combination with your own code, to add a welcome message to the page. The message should be different, based on the time of day that the page is loaded.
 
 ## Submission
 
-### Pushing to GitHub Pages
+### Pushing to GitHub
 
-You're going to push your website to GitHub Pages. To do this, you will need to create a new repository on GitHub and push your files to it.
+You're going to push your changes to your github.io repository. Remember that you are adding to an existing repository, so you don't need to use `git init`.
 
-> [!IMPORTANT] Even if you have used GitHub before, you should follow the instructions below! There are some important steps when creating a GitHub Pages site that you may not be familiar with!
+Once your changes are working on your computer, run the following git commands:
 
-Things to remember when creating your repository:
+```bash
+git add .
 
-1. Make sure your index page is named `index.html`. index.htm will not work! 
+git commit -m "Added welcome div"
 
-2. The name of the repository must be `<your GitHub username>.github.io`. For example, if your GitHub username is `johndoe`, the name of the repository must be `johndoe.github.io`.
-
-3. Make sure you select "Public" when creating the repository.
-
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/wrqY4VC6GZY" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		></iframe>
-	</div>
-</details>
+git push
+```
 
 ### Submitting to Blackboard
 
