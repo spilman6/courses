@@ -279,7 +279,34 @@ deleteButton.addEventListener('click', () => {
 	<summary>Show Solution</summary>
 
 ```javascript
+const key = 'user'
+const welcome = document.querySelector('#welcome')
+const firstInput = document.querySelector('#first')
+const lastInput = document.querySelector('#last')
+const saveButton = document.querySelector('#save-button')
+const deleteButton = document.querySelector('#delete-button')
 
+saveButton.addEventListener('click', () => {
+	const first = firstInput.value
+	const last = firstInput.value
+
+	const user = { first, last }
+	localStorage.setItem(key, JSON.stringify(user))
+})
+
+deleteButton.addEventListener('click', () => {
+	localStorage.removeItem(key)
+	welcome.textContent = 'Welcome'
+})
+
+const data = localStorage.getItem(key)
+try {
+	const { first, last } = JSON.parse(data)
+	welcome.textContent = `Welcome back, ${first} ${last}!`
+}
+catch {
+	welcome.textContent = 'Welcome'
+}
 ```
 
 </details>
