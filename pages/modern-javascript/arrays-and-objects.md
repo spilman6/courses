@@ -406,6 +406,8 @@ genres.forEach(genre => {
 	<summary>Show Solution</summary>
 
 ```javascript
+const booksList = document.querySelector('#books')
+
 books.forEach(book => {
 	const li = document.createElement('li')
 	booksList.append(li)
