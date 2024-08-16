@@ -412,14 +412,12 @@ books.forEach(book => {
 
 	const { title, author, released, genres } = book
 
-	const html = `
+	li.innerHTML = `
 		<span class="title">${title}</span>
 		<span class="author">${author}</span>
 		<span class="released">${released}</span>
 		<ul class="genres"></ul>
 	`
-
-	li.innerHTML = html
 
 	const ul = li.querySelector('ul')
 	genres.forEach(genre => {
