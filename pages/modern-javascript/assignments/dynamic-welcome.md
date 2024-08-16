@@ -20,7 +20,7 @@ It will show a welcome message to the user. The message will be different, based
 
 Here is some code to help you determine the time of day:
 
-```js
+```javascript
 const hours = new Date().getHours() // get the current hour
 
 const isMorning = hours >= 4 && hours < 12 // is it morning?
