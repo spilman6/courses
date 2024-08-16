@@ -273,7 +273,7 @@ books.forEach(book => {
 
 In this exercise, I want you to modify the project that we have been working on. You will add a 'genres' property to each book. Each book must have at least two genres. You don't need to use the "real" genres, just make them up.
 
-Additionally, you can use [this stylesheet](https://gist.githubusercontent.com/rdappel/7) to make your page look better. 
+Additionally, you can use [this stylesheet](https://gist.githubusercontent.com/rdappel/4d8361c008d10b7fcc0cd966f4538d76/raw/ee16e1c6398fee450b4653692ac3c4f4549c0062/style.css) to make your page look better. 
 
 Here are some common book genres to get you started:
 
