@@ -1,6 +1,6 @@
 ---
-title: 'Assignment 3 - Dynamic Welcome'
-subtitle: 'Modern JavaScript'
+title: Assignment 3 - Dynamic Welcome
+subtitle: Modern JavaScript
 ---
 
 # Assignment 3 - Dynamic Welcome
