@@ -350,7 +350,7 @@ You will need to add a `ul` element to each `li` element that will contain the g
 <li>
 	<span class="title">Atomic Habits</span>
 	<span class="author">James Clear</span>
-	<span class="released">${released}</span>
+	<span class="released">10/16/2018</span>
 	<ul>
 		<li>Self-Help</li>
 		<li>Non-Fiction</li>
