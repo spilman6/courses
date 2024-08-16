@@ -17,3 +17,13 @@ hide-nav: false
 [Selecting Dom Elements](/appel/modern-javascript/selecting-dom-elements)
 
 [Assignment 2 - Homepage](/appel/modern-javascript/assignments/homepage)
+
+## Week 3
+
+[Arrays and Objects](/appel/modern-javascript/arrays-and-objects)
+
+[Assignment 3 - QQQQQQQ](/appel/modern-javascript/assignments/qqqqqqq)
+
+## Week 4
+
+[Functions](/appel/modern-javascript/functions)
