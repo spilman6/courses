@@ -457,7 +457,9 @@ for (let i = 0; i < 10; i++) {
 
 There are a couple of additional ways to write a `for` loop in JavaScript. Namely the `for-of`, and `for-in` loops. They are used to iterate over arrays and object properties, respectively. We won't be covering these because there are more concise ways to do this in JavaScript.
 
-## While Loop
+## While and Do-While Loops
+
+Again, since these are so similar to C#, we won't be spending much time on them. Here are a couple of examples:
 
 ```javascript
 let i = 0
@@ -467,8 +469,6 @@ while (i < 10) {
 	i++
 }
 ```
-
-## Do While Loop
 
 ```javascript
 let i = 0
