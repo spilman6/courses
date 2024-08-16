@@ -1,6 +1,6 @@
 ---
-title: Selecting DOM Elements
-subtitle: Arrays and Objects
+title: Arrays and Objects
+subtitle: Modern JavaScript
 ---
 
 # JavaScript Arrays
