@@ -320,7 +320,7 @@ catch {
 	</div>
 </details>
 
-> [!NOTE] There is an error with the code, inside of the `saveButton.addEventListener` function!
+> [!NOTE] There is an error with the code in the solution video. Specifically inside of the `saveButton.addEventListener` function.
 
 ```javascript
 const last = firstInput.value // incorrect
