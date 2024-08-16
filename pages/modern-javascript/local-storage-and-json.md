@@ -243,7 +243,7 @@ catch {
 }
 ```
 
-<details>
+</details>
 
 <details>
 	<summary>How do I display the first and last name on the page?</summary>
