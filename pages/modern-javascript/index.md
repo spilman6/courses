@@ -22,8 +22,60 @@ hide-nav: false
 
 [Arrays and Objects](/appel/modern-javascript/arrays-and-objects)
 
-[Assignment 3 - QQQQQQQ](/appel/modern-javascript/assignments/qqqqqqq)
+[Assignment 3 - Dynamic Welcome](/appel/modern-javascript/assignments/dynamic-welcome)
 
 ## Week 4
 
-[Functions](/appel/modern-javascript/functions)
+[Local Storage](/appel/modern-javascript/local-storage)
+
+[Assignment 4 - Secret Message](/appel/modern-javascript/assignments/secert-message)
+
+## Week 5
+
+Exam 1
+
+## Week 6
+
+[Functions and Events](/appel/modern-javascript/functions-and-events)
+
+[Assignment 5 - ](/appel/modern-javascript/assignments/)
+
+## Week 7
+
+[Higher order functions](/appel/modern-javascript/higher-order-functions)
+
+[Assignment 6 - ](/appel/modern-javascript/assignments/)
+
+## Week 8
+
+[Promises, Async/Await, and IIFEs](/appel/modern-javascript/promises-async-await-iifes)
+
+## Week 9
+
+Exam 2
+
+## Week 10
+
+[Server-Side JavaScript](/appel/modern-javascript/server-side-javascript)
+
+[Assignment 7 - ](/appel/modern-javascript/assignments/)
+
+## Week 11
+
+[NPM and Express](/appel/modern-javascript/npm-and-express)
+
+[Assignment 8 - ](/appel/modern-javascript/assignments/)
+
+## Week 12
+
+[Modules and Routing](/appel/modern-javascript/modules-and-routing)
+
+[Assignment 9 - ](/appel/modern-javascript/assignments/)
+
+## Week 13
+
+Exam 3
+
+## Weeks 14-16
+
+Final Project
