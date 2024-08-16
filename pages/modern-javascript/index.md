@@ -26,9 +26,9 @@ hide-nav: false
 
 ## Week 4
 
-[Local Storage](/appel/modern-javascript/local-storage)
+[Local Storage and JSON](/appel/modern-javascript/local-storage-and-json)
 
-[Assignment 4 - Secret Message](/appel/modern-javascript/assignments/secert-message)
+[Assignment 4 - Secret Message](/appel/modern-javascript/assignments/secret-message)
 
 ## Week 5
 
