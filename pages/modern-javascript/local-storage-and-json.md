@@ -288,7 +288,7 @@ const deleteButton = document.querySelector('#delete-button')
 
 saveButton.addEventListener('click', () => {
 	const first = firstInput.value
-	const last = firstInput.value
+	const last = lastInput.value
 
 	const user = { first, last }
 	localStorage.setItem(key, JSON.stringify(user))
@@ -319,3 +319,10 @@ catch {
 		></iframe>
 	</div>
 </details>
+
+> [!NOTE] There is an error with the code, inside of the `saveButton.addEventListener` function!
+
+```javascript
+const last = firstInput.value // incorrect
+const last = lastInput.value // correct
+```
