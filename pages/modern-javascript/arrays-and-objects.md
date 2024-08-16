@@ -450,7 +450,7 @@ books.forEach(book => {
 	</div>
 </details>
 
-## Object Entries, Values, and Keys
+# Object Entries, Values, and Keys
 
 Sometimes when we have an object, we want to get an array of its properties, values, or keys. There are three methods that we can use to do this:
 
