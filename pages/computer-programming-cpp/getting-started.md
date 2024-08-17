@@ -243,7 +243,7 @@ std::cout << "\"Hello World!\"";
 ## Solution {#exercise-1-solution}
 
 <details>
-  <summary>Show the Answer</summary>
+	<summary>Show the Answer</summary>
 
 ```cpp
 // Exercise 1
@@ -486,7 +486,7 @@ int ageIn10Years = age + 10;
 ## Solution {#exercise-2-solution}
 
 <details>
-  <summary>Show the Answer</summary>
+	<summary>Show the Answer</summary>
 
 ```cpp
 // Exercise 2

@@ -124,7 +124,7 @@ mainContentSection.style.color = '#ff0000'
 ## Solution {#exercise-1-solution}
 
 <details>
-  <summary>Show the Answer</summary>
+	<summary>Show the Answer</summary>
 
 
 ```javascript
@@ -266,7 +266,7 @@ link.style.textDecoration = 'underline'
 ## Solution {#exercise-2-solution}
 
 <details>
-  <summary>Show the Answer</summary>
+	<summary>Show the Answer</summary>
 
 
 ```javascript

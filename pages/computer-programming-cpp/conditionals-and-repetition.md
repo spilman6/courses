@@ -259,7 +259,7 @@ For this example, you can use either an `if-else if-else` statement or a `switch
 ## Solution {#exercise-3-solution}
 
 <details>
-  <summary>Show the Answer</summary>
+	<summary>Show the Answer</summary>
 
 ```cpp
 // Exercise 3
@@ -466,8 +466,8 @@ You can use an `if-else` statement to check if the user entered a valid number. 
 ## Solution {#exercise-4-solution}
 
 <details>
-  <summary>Show the Answer</summary>
-
+	<summary>Show the Answer</summary>
+	
 ```cpp
 // Exercise 4
 
@@ -537,7 +537,7 @@ You will still use a `for` loop for printing the quote, but you'll need a second
 ## Solution {#exercise-5-solution}
 
 <details>
-  <summary>Show the Answer</summary>
+	<summary>Show the Answer</summary>
 
 ```cpp
 int main()

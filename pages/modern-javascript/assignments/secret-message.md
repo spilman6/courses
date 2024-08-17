@@ -1,6 +1,6 @@
 ---
-title: 'Assignment 4 - Secret Message'
-subtitle: 'Modern JavaScript'
+title: Assignment 4 - Secret Message
+subtitle: Modern JavaScript
 ---
 
 # Assignment 4 - Secret Message
