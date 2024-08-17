@@ -197,31 +197,30 @@ Often when we execute a function, we want to get a value back. Similar to C#, we
 	</div>
 </details>
 
-Here is the (relevant) code from the video:
+Here is the code from the video:
 
 ```cpp
-int GetUserNumber(int max);
+// function prototypes
+int GetUserNumber(int max = 10);
 
 int main()
 {
-	int userNumber = 0;
-
-	userNumber = GetUserNumber(5);
-	cout << "You picked: " << userNumber << "\n";
+	int number = GetUserNumber(50);
+	cout << "Your number is " << number << ".\n";
 
 	(void)_getch();
 	return 0;
 }
 
-int GetUserNumber(int max = 10)
+int GetUserNumber(int max)
 {
 	int value = 0;
 	while (value < 1 || value > max)
 	{
-		cout << "Pick a number between 1 and " << max << ": ";
+		cout << "Enter a number between 1 and " << max << ": ";
 		cin >> value;
 	}
-	
+
 	return value;
 }
 ```
