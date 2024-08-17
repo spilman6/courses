@@ -245,14 +245,23 @@ Test the function by calling it with:
 ```cpp
 int userNumber1 = GetUserNumber(5, 10);
 int userNumber2 = GetUserNumber(10, 5);
+
+cout << "User number 1: " << userNumber1 << endl;
+cout << "User number 2: " << userNumber2 << endl;
 ```
 
-## Hints {#exercise-1-hints}
+## Hint {#exercise-1-hints}
 
 <details>
-	<summary>How do I ?</summary>
+	<summary>How do I swap two values?</summary>
 
-Answer
+You will probably need to use a temporary variable to swap the values, like this:
+
+```cpp
+int t = min;
+min = max;
+max = t;
+```
 
 </details>
 
@@ -261,7 +270,41 @@ Answer
 <details>
 	<summary>Show the Answer</summary>
 
+```cpp
+// function prototypes
+int GetUserNumber(int max = 10, int min = 1);
 
+int main()
+{
+	//int number = GetUserNumber();
+	//cout << "Your number is " << number << ".\n";
+
+	int userNumber1 = GetUserNumber(5, 10);
+	int userNumber2 = GetUserNumber(10);
+
+	(void)_getch();
+	return 0;
+}
+
+int GetUserNumber(int max, int min)
+{
+	if (min > max)
+	{
+		int t = min;
+		min = max;
+		max = t;
+	}
+
+	int value = 0;
+	while (value < min || value > max)
+	{
+		cout << "Enter a number between " << min << " and " << max << ": ";
+		cin >> value;
+	}
+
+	return value;
+}
+```
 
 </details>
 
