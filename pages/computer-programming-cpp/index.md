@@ -1,7 +1,7 @@
 ---
 title: Computer Programming C++
 subtitle: Ryan's Courses
-hide-nav: true
+hide-nav: false
 ---
 
 # Computer Programming C++

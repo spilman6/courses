@@ -1,6 +1,6 @@
 ---
-title: 'Conditionals and Repetition'
-course: 'Computer Programming C++'
+title: Conditionals and Repetition
+course: Computer Programming C++
 ---
 
 # Conditional Statements
