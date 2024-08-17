@@ -250,7 +250,7 @@ cout << "User number 1: " << userNumber1 << endl;
 cout << "User number 2: " << userNumber2 << endl;
 ```
 
-## Hint {#exercise-1-hints}
+## Hint {#exercise-1-hint}
 
 <details>
 	<summary>How do I swap two values?</summary>
@@ -335,7 +335,23 @@ Let's look at an example:
 Here is the example from the video:
 
 ```cpp
+void CountDownFrom(int starting)
+{
+	cout << starting << "\n";
+	if (starting > 0) CountDownFrom(starting - 1);
+}
+
+int main()
+{
+	CountDownFrom(10);
+
+	(void)_getch();
+	return 0;
+}
 ```
+
+> [!WARNING] The `main` function should never be called manually! Calling `main` manually will cause all of the local variables to be duplicated and will not be able to be freed. This is called a "stack overflow" and will crash your program.
+
 
 # The Call Stack
 
@@ -352,7 +368,9 @@ We can monitor the call stack by using the `callstack` window in Visual Studio. 
 	</div>
 </details>
 
-> [!WARNING] The `main` function should never be called manually! Calling `main` manually will cause all of the local variables to be duplicated (on the new stack frame), and the variables on the previous frame will not be deleted!
+If your Call Stack window is not visible, you can find it by going to `Debug > Windows > Call Stack`.
+
+> [!NOTE] The Call Stack window is only available when you are debugging your program.
 
 # Exercise 2
 
@@ -365,14 +383,29 @@ We can monitor the call stack by using the `callstack` window in Visual Studio. 
 	</div>
 </details>
 
+For this exercise, create a *recursive* function called `FactorialOf` that will calculate the factorial of a number. The factorial of a number is the product of all positive integers less than or equal to that number.
 
+For example, the factorial of 5 is `5 * 4 * 3 * 2 * 1 = 120`. The factorial of 1 is just 1.
+
+Then in the `main` function, ask the user for a number between 1 and 12. Then, output the factorial of their number.
+
+> [!NOTE] Factorials grow very quickly! The factorial of 12 is 479,001,600. So don't be surprised if the program doesn't work for numbers larger than about 12.
 
 ## Hints {#exercise-2-hints}
 
 <details>
-	<summary>How do I ?</summary>
+	<summary>How do I get started?</summary>
 
-Answer
+You will need to create a function called `Factorial` that accepts an integer and returns an integer.
+
+```cpp
+int Factorial(int number)
+{
+	// code
+}
+```
+
+If you're struggling with the code inside of the function, start by handling the base case. What is the factorial of 1?
 
 </details>
 
@@ -381,7 +414,29 @@ Answer
 <details>
 	<summary>Show the Answer</summary>
 
+```cpp
+int FactorialOf(int number)
+{
+	if (number > 1) return number * FactorialOf(number - 1);
+	return 1;
+}
 
+int main()
+{
+	int input = 0;
+	while (input < 1 || input > 12)
+	{
+		cout << "Enter a number between 1 and 12: ";
+		cin >> input;
+	}
+
+	int answer = FactorialOf(input);
+	cout << input << "! = " << answer;
+
+	(void)_getch();
+	return 0;
+}
+```
 
 </details>
 
