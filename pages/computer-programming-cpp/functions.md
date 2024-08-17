@@ -274,3 +274,81 @@ Answer
 		</iframe>
 	</div>
 </details>
+
+# Recursion
+
+Recursion is a technique in programming where a function calls itself. In order to prevent infinite loops, you must have a base case that will stop the recursion.
+
+Let's look at an example:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the example from the video:
+
+```cpp
+```
+
+# The Call Stack
+
+When a function is called, the computer creates a new stack frame. This stack frame contains the local variables for that function. When the function returns, the stack frame is removed.
+
+We can monitor the call stack by using the `callstack` window in Visual Studio. This is useful for debugging because it allows you to see where a function was called from.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+> [!WARNING] The `main` function should never be called manually! Calling `main` manually will cause all of the local variables to be duplicated (on the new stack frame), and the variables on the previous frame will not be deleted!
+
+# Exercise 2
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+
+
+## Hints {#exercise-2-hints}
+
+<details>
+	<summary>How do I ?</summary>
+
+Answer
+
+</details>
+
+## Solution {#exercise-2-solution}
+
+<details>
+	<summary>Show the Answer</summary>
+
+
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
