@@ -1,0 +1,62 @@
+---
+title: Assignment 2 - Rectangle Area
+subtitle: Computer Programming C++
+---
+
+# Assignment 2 - Rectangle Area
+
+This assignment is designed to help you practice creating and using functions in C++ that return values. You will write a program that calculates the area of a rectangle using functions for input and calculation.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Your program should contain the following functions:
+
+1. `getLengthFromUser` - This function should prompt the user to enter the length of the rectangle and return the value entered.
+
+2. `getWidthFromUser` - This function should prompt the user to enter the width of the rectangle and return the value entered.
+
+3. `calculateArea` - This function should take the length and width of the rectangle.
+
+> [!NOTE] Remember that functions should do one thing and do it well. The `calculateArea` function should not prompt the user for input or display output. It should only calculate the area of the rectangle.
+
+Make sure to use appropriate data types for the length, width, and area. You can assume that the length and width will be positive integers.
+
+Choose appropriate parameters and return types for each function.
+
+## Submission
+
+For submission, you will need to create a new repository on GitHub and push your code to it. You will then submit the link to your repository on Blackboard.
+
+### Pushing to GitHub
+
+Once you have created your repository on GitHub, you will need to push your code to it. Here are the commands you will need to run:
+
+```bash
+git init
+
+git add .
+
+git commit -m "Initial Commit"
+
+# Get the following lines from your repository on GitHub.
+
+git remote add origin <your-repository-url>
+
+git push -u origin master
+```
+
+> [!TIP] Remember that in Bash, `Ctrl` + `V` will not paste! Use `Shift` + `Insert` instead, or right-click and select "Paste".
+
+Verify that your code was pushed to GitHub by refreshing the page for your repository.
+
+### Submitting to Blackboard
+
+Once you have your website pushed to GitHub, submit the link to your repository to Blackboard.
+

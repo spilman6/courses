@@ -17,6 +17,8 @@ subtitle: Ryan's Courses
 
 [Functions](/appel/computer-programming-cpp/functions)
 
+[Assignment 2 - Rectangle Area](/appel/computer-programming-cpp/assignments/rectangle-area)
+
 ## Week 3
 
 [Defining New Data Types](/appel/computer-programming-cpp/defining-new-data-types)
