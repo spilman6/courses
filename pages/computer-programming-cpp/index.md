@@ -21,7 +21,8 @@ subtitle: Ryan's Courses
 
 ## Week 3
 
-[Defining New Data Types](/appel/computer-programming-cpp/defining-new-data-types)
+[Structs and Arrays](/appel/computer-programming-cpp/structs-and-arrays)
+
 
 ## Week 4
 
@@ -29,11 +30,9 @@ Exam 1
 
 ## Week 5
 
-[Understanding Memory](/appel/computer-programming-cpp/understanding-memory)
 
 ## Week 6
 
-[Collections](/appel/computer-programming-cpp/collections)
 
 ## Week 7
 
