@@ -54,7 +54,6 @@ Make sure to use appropriate data types for each attribute in the struct. You ca
 When completed, your output should look similar to:
 
 ```plaintext
-
 1. The Great Gatsby
 Author: F. Scott Fitzgerald
 Year Published: 1925
