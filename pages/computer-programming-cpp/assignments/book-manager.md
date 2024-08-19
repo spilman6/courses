@@ -73,6 +73,7 @@ Number of Pages: 328
 4. The Catcher in the Rye
 Author: J.D. Salinger
 Year Published: 1951
+Number of Pages: 277
 
 Enter the ID of the book you would like to update (1-4): 2
 2. To Kill a Mockingbird
@@ -87,6 +88,8 @@ Year Published: 1960
 Number of Pages: 281
 
 ```
+
+> [!NOTE] `cin` will stop reading input at the first whitespace character. Notice how the author's name is cut off in the example above. This is expected behavior. We will learn how to read entire lines of input in a future lesson.
 
 # Submission
 
