@@ -1,3 +1,8 @@
+---
+title: Assignment 3 - Library Book Manager
+subtitle: Computer Programming C++
+---
+
 # Assignment 3 - Library Book Manager
 
 This assignment is designed to help you practice working with arrays and structs in C++. You will write a program that manages a collection of books in a library, allowing you to display and update book information.
