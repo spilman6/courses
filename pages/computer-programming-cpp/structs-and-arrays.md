@@ -14,7 +14,7 @@ A struct is a user-defined data type that allows you to group together multiple 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/zI8nJMOZIFc" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -45,7 +45,7 @@ An array is a data structure that allows you to store multiple values of the sam
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/XmyFWGoVxhw" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -73,7 +73,7 @@ Take a look:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/93EAka-_JPw" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -100,7 +100,7 @@ Using index 0 to represent the first element in the array is a common convention
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/ch4H1X6ACxE" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -131,7 +131,7 @@ for (int i = 0; i < SIZE; i++)
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/XloEG8nqjT0" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -227,7 +227,7 @@ cout << "You selected: " << suits[choice - 1] << "\n";
 <details>
 	<summary>Walkthrough Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/CNd9oZhgLmw" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -241,7 +241,7 @@ We can create an array of any data type, including structs. This allows us to st
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/MReCLrbuZtQ" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -269,7 +269,7 @@ We can also create a struct that contains an array as one of its members. This a
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/lyQfKZcx5ng" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -299,7 +299,7 @@ for (int i = 0; i < 3; i++)
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/rPWqDiVuFGk" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -312,7 +312,7 @@ For this exercise, create a struct called "Course" that contains the name of the
 - "Algorithms" - 4 credits
 - "Intermediate Programming" - 3 credits
 
-Then, print out the name and number of credits for each course in the array.
+Then, print out the name and number of credits for each course in the array using a loop.
 
 The output should look something like this:
 
@@ -391,7 +391,8 @@ Struct Course
 int main()
 {
 	const int NUM_COURSES = 4;
-	Course courses[NUM_COURSES] = {
+
+	Course courses[NUM_COURSES] = { // This is marked "const" in the walkthrough video, but doesn't need to be.
 		{ "Intro to Programming", 3 },
 		{ "Data Structures", 4 },
 		{ "Algorithms", 4 },
@@ -404,6 +405,7 @@ int main()
 		cout << "Credits: " << courses[i].Credits << "\n\n";
 	}
 
+	(void)_getch();
 	return 0;
 }
 ```
@@ -413,8 +415,31 @@ int main()
 <details>
 	<summary>Walkthrough Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/OK71vcgd1Ho" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
 </details>
+
+# Character Arrays
+
+Character arrays are a special type of array that can be used to store strings. Specifically, there is a special way to create and initialize character arrays that makes them behave like strings.
+
+This video will explain how character arrays work and how to use them to store strings:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/17UA29GUnfA" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code from the video:
+
+```cpp
+//char name[5] = { 'R', 'y', 'a', 'n', '\0' };
+char name[] = "Ryan";
+cout << name;
+```
