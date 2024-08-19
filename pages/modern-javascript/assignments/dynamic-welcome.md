@@ -34,9 +34,9 @@ You can use these variables to determine what message to display to the user.
 
 Add a `<div>` element to your page with an id of `welcome`. Use the code shown above, in combination with your own code, to add a welcome message to the page. The message should be different, based on the time of day that the page is loaded.
 
-## Submission
+# Submission
 
-### Pushing to GitHub
+## Pushing to GitHub
 
 You're going to push your changes to your github.io repository. Remember that you are adding to an existing repository, so you don't need to use `git init`.
 
@@ -50,6 +50,6 @@ git commit -m "Added welcome div"
 git push
 ```
 
-### Submitting to Blackboard
+## Submitting to Blackboard
 
-Once you have your website pushed to GitHub, submit the link to your GitHub Pages site to Blackboard.
+Once you have your project pushed to GitHub, submit the link to your GitHub Pages site to Blackboard.

@@ -34,11 +34,11 @@ Make sure to use appropriate data types for the length, width, and area. You can
 
 Choose appropriate parameters and return types for each function.
 
-## Submission
+# Submission
 
 For submission, you will need to create a new repository on GitHub and push your code to it. You will then submit the link to your repository on Blackboard.
 
-### Pushing to GitHub
+## Pushing to GitHub
 
 Once you have created your repository on GitHub, you will need to push your code to it. Here are the commands you will need to run:
 
@@ -60,7 +60,7 @@ git push -u origin master
 
 Verify that your code was pushed to GitHub by refreshing the page for your repository.
 
-### Submitting to Blackboard
+## Submitting to Blackboard
 
 Once you have your project pushed to GitHub, submit the link to your repository to Blackboard.
 

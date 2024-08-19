@@ -26,7 +26,7 @@ You must use the key `It's a secret to everybody.`. It must be spelled exactly l
 
 > [!NOTE] Just because something is a "secret" doesn't mean it's secure. This is just a fun exercise to practice using localStorage. Don't use localStorage for anything that needs to be secure. Using localStorage for secure data is like writing your password on a sticky note and putting it under your keyboard.
 
-## Submission
+# Submission
 
 Push your changes to your github.io repository. Remember that you are adding to an existing repository, so you don't need to use `git init`. The three commands you need to run are:
 
@@ -38,6 +38,6 @@ git commit -m "Added secret message"
 git push
 ```
 
-### Submitting to Blackboard
+## Submitting to Blackboard
 
-Once you have your website pushed to GitHub, submit the link to your GitHub Pages site to Blackboard.
+Once you have your project pushed to GitHub, submit the link to your GitHub Pages site to Blackboard.

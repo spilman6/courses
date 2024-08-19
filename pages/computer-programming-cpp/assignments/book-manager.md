@@ -47,6 +47,8 @@ Your program should include the following tasks:
 
 Make sure to use appropriate data types for each attribute in the struct. You can assume that all attributes will be entered correctly by the user.
 
+# Example Output
+
 When completed, your output should look similar to:
 
 ```plaintext
@@ -84,11 +86,11 @@ Number of Pages: 281
 
 ```
 
-## Submission
+# Submission
 
 For submission, you will need to create a new repository on GitHub and push your code to it. You will then submit the link to your repository on Blackboard.
 
-### Pushing to GitHub
+## Pushing to GitHub
 
 Once you have created your repository on GitHub, push your code up using `git init`, `git add .`, `git commit -m "Initial Commit"`, followed by the lines from GitHub.
 
@@ -96,7 +98,7 @@ Once you have created your repository on GitHub, push your code up using `git in
 
 Verify that your code was pushed to GitHub by refreshing the page for your repository.
 
-### Submitting to Blackboard
+## Submitting to Blackboard
 
 Once you have your project pushed to GitHub, submit the link to your repository to Blackboard.
 

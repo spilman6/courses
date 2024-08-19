@@ -20,6 +20,6 @@ For this assignment you are going to create a [GitHub](https://github.com) accou
 
 - If you are creating an account for the first time, take care when choosing a username. There's a good chance that you'll want to use this after you graduate. [Join GitHub · GitHub](https://github.com/signup)
 
-## Submitting
+# Submission
 
 Once you have your GitHub account, submit the link (example: github.com/your-username) to Blackboard.

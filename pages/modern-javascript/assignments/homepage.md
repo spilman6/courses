@@ -33,9 +33,9 @@ Your website should have the following:
 3. Create a JavaScript file called `site.js` and link it to your page.
 	- You can write an alert or a console message to test that the file is linked correctly, but otherwise the file should be empty.
 
-## Submission
+# Submission
 
-### Pushing to GitHub Pages
+## Pushing to GitHub Pages
 
 You're going to push your website to GitHub Pages. To do this, you will need to create a new repository on GitHub and push your files to it.
 
@@ -58,6 +58,6 @@ Things to remember when creating your repository:
 	</div>
 </details>
 
-### Submitting to Blackboard
+## Submitting to Blackboard
 
-Once you have your website pushed to GitHub, submit the link to your GitHub Pages site to Blackboard.
+Once you have your project pushed to GitHub, submit the link to your GitHub Pages site to Blackboard.
