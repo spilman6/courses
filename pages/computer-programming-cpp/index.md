@@ -23,6 +23,7 @@ subtitle: Ryan's Courses
 
 [Structs and Arrays](/appel/computer-programming-cpp/structs-and-arrays)
 
+[Assignment 3 - Student Grades](/appel/computer-programming-cpp/assignments/student-grades)
 
 ## Week 4
 
