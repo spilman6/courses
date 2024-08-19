@@ -72,7 +72,7 @@ Year Published: 1951
 
 Enter the ID of the book you would like to update (1-4): 2
 2. To Kill a Mockingbird
-Enter the Author (Unknown): 
+Enter the Author (Unknown): Harper Lee
 Enter the Year Published (2021): 1960
 Enter the Number of Pages (1): 281
 Save these changes? (Y/N): Y
