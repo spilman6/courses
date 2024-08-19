@@ -72,7 +72,7 @@ Year Published: 1951
 
 Enter the ID of the book you would like to update (1-4): 2
 2. To Kill a Mockingbird
-Enter the Author (Unknown): Harper Lee
+Enter the Author (Unknown): 
 Enter the Year Published (2021): 1960
 Enter the Number of Pages (1): 281
 Save these changes? (Y/N): Y
@@ -98,5 +98,5 @@ Verify that your code was pushed to GitHub by refreshing the page for your repos
 
 ### Submitting to Blackboard
 
-Once you have your website pushed to GitHub, submit the link to your repository to Blackboard.
+Once you have your project pushed to GitHub, submit the link to your repository to Blackboard.
 
