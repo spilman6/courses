@@ -396,7 +396,7 @@ Then in the `main` function, ask the user for a number between 1 and 12. Then, o
 <details>
 	<summary>How do I get started?</summary>
 
-You will need to create a function called `Factorial` that accepts an integer and returns an integer.
+You will need to create a function called `FactorialOf` that accepts an integer and returns an integer.
 
 ```cpp
 int Factorial(int number)
@@ -406,6 +406,8 @@ int Factorial(int number)
 ```
 
 If you're struggling with the code inside of the function, start by handling the base case. What is the factorial of 1?
+
+Then think about how you can call the function again, with a different value.
 
 </details>
 
