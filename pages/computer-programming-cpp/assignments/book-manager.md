@@ -16,6 +16,8 @@ This assignment is designed to help you practice working with arrays and structs
 	</div>
 </details>
 
+## Specifications
+
 Your program should include the following tasks:
 
 1. **Define a Struct:**
@@ -47,7 +49,7 @@ Your program should include the following tasks:
 
 Make sure to use appropriate data types for each attribute in the struct. You can assume that all attributes will be entered correctly by the user.
 
-# Example Output
+## Example Output
 
 When completed, your output should look similar to:
 
