@@ -78,7 +78,7 @@ Enter the Number of Pages (1): 281
 Save these changes? (Y/N): Y
 
 2. To Kill a Mockingbird
-Author: Harper Lee
+Author: Harper
 Year Published: 1960
 Number of Pages: 281
 
