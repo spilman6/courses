@@ -198,6 +198,8 @@ cin >> choice;
 cout << "You selected: " << suits[choice - 1] << "\n";
 ```
 
+</details>
+
 ## Solution {#exercise-1-solution}
 
 <details>
