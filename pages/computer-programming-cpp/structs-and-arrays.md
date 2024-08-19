@@ -33,9 +33,9 @@ struct Student
 And then in our main function, we can create a variable of type `Student` like this:
 
 ```cpp
-	Student jim;
-	jim.Name = "Jim";
-	jim.GPA = 4.0;
+Student jim;
+jim.Name = "Jim";
+jim.GPA = 4.0;
 ```
 
 # Arrays
@@ -155,6 +155,82 @@ You selected: Diamonds
 Remember that the index of the array will be from 0 to 3, (not 1 to 4).
 
 You can do this right in the demo code, but keep the "Student" struct because we will use it in upcoming demos.
+
+## Hints {#exercise-1-hints}
+
+<details>
+	<summary>How do you create an array of strings?</summary>
+
+You can create an array of strings like this:
+
+```cpp
+const int NUM_SUITS = 4;
+string suits[NUM_SUITS] = { "Hearts", "Diamonds", "Clubs", "Spades" };
+```
+
+</details>
+
+<details>
+	<summary>How do you print the list of suits to the user?</summary>
+
+You can use a loop to print out the list of suits like this:
+
+```cpp
+cout << "Select a suit from the list below:\n";
+for (int i = 0; i < NUM_SUITS; i++)
+{
+	cout << (i + 1) << ". " << suits[i] << "\n";
+}
+```
+
+</details>
+
+<details>
+	<summary>How do you print the correct suit based on user input?</summary>
+
+You have to subtract 1 from the user input to get the correct index in the array. Like this:
+
+```cpp
+int choice;
+cout << "Enter a number between 1 and 4: ";
+cin >> choice;
+
+cout << "You selected: " << suits[choice - 1] << "\n";
+```
+
+## Solution {#exercise-1-solution}
+
+<details>
+	<summary>Show the Answer</summary>
+
+```cpp
+const int NUM_SUITS = 4;
+string suits[NUM_SUITS] = { "Hearts", "Diamonds", "Clubs", "Spades" };
+
+int choice;
+cout << "Select a suit from the list below:\n";
+for (int i = 0; i < NUM_SUITS; i++)
+{
+	cout << (i + 1) << ". " << suits[i] << "\n";
+}
+
+cout << "\nEnter a number between 1 and 4: ";
+cin >> choice;
+
+cout << "You selected: " << suits[choice - 1] << "\n";
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
 
 # Arrays of Structs
 
@@ -295,6 +371,8 @@ You can access the members of a struct in an array like this:
 cout << "Course: " << courses[i].Name << "\n";
 cout << "Credits: " << courses[i].Credits << "\n\n";
 ```
+
+</details>
 
 ## Solution {#exercise-2-solution}
 
