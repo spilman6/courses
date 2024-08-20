@@ -455,6 +455,15 @@ int main()
 
 When working with primitive types in C++, you generally have one variable that holds one value. Sometimes however, it's useful to have two variables that refer to the same value in memory. This is called a reference variable.
 
+To create a reference variable, you use the `&` symbol after the type. For example:
+
+```cpp
+int a = 5;
+int &b = a;
+```
+
+Now `b` and `a` refer to the same value in memory. Changing either variable will change the other.
+
 This video will illustrate the differenc between a reference variable and a normal variable:
 
 <details open>
@@ -468,9 +477,49 @@ This video will illustrate the differenc between a reference variable and a norm
 
 # Reference Parameters
 
-Reference parameters are a way to pass a variable by reference to a function. This allows the function to modify the value of the original variable.
+Reference parameters are a way to pass a variable by reference to a function. This allows the function to modify the value of the original variable. Take a look:
 
-Here is an example:
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/1J1Q2bJ1gjY" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code from the video:
+
+```cpp
+void PassByValue(int b)
+{
+	cout << "b: " << b << "\n";
+	b++;
+	cout << "b is now: " << b << "\n";
+}
+
+void PassByReference(int &c)
+{
+	cout << "c: " << c << "\n";
+	c++;
+	cout << "c is now: " << c << "\n";
+}
+
+int main()
+{
+	int a = 6;
+	PassByValue(a);
+	cout << "a (first time): " << a << "\n"; // a is still 6!
+
+	PassByReference(a);
+	cout << "a (second time): " << a << "\n"; // a is now 7!
+
+	(void)_getch();
+	return 0;
+}
+```
+
+Let's look at a more practical example:
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
