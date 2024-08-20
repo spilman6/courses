@@ -406,6 +406,8 @@ You need to call the function from within itself. You should also have a conditi
 
 You can set the default value in the function prototype. For example, `void PrintHi(int count = 1);`, or in the function definition itself, if you create your function above `main`.
 
+</details>
+
 ## Solution {#exercise-2-solution}
 
 <details>
