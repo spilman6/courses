@@ -14,7 +14,8 @@ In this lesson, we will learn about functions in C++. Functions are a way to org
 Here is the basic syntax for a function in C++:
 
 ```cpp
-return_type function_name(parameters) {
+return_type function_name(parameters)
+{
 	// code
 }
 ```
