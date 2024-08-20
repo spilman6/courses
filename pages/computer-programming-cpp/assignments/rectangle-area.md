@@ -22,7 +22,7 @@ Your program should contain the following functions:
 
 2. `GetWidthFromUser` - This function should prompt the user to enter the width of the rectangle and return the value entered.
 
-3. `CalculateArea` - This function should take the length and width of the rectangle.
+3. `CalculateArea` - This function should take the length and width of the rectangle as parameters and return the calculated area.
 
 4. `DisplayArea` - This function should display the area of the rectangle.
 
