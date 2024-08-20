@@ -42,6 +42,8 @@ For submission, you will need to create a new repository on GitHub and push your
 
 Once you have created your repository on GitHub, you will need to push your code to it. Here are the commands you will need to run:
 
+<div class="no-copy">
+
 ```bash
 git init
 
@@ -55,6 +57,8 @@ git remote add origin <your-repository-url>
 
 git push -u origin master
 ```
+
+</div>
 
 > [!TIP] Remember that in Bash, `Ctrl` + `V` will not paste! Use `Shift` + `Insert` instead, or right-click and select "Paste".
 
