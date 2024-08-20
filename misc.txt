@@ -1,0 +1,17 @@
+
+# Global Variables
+
+Global variables are variables that are declared outside of any function. They can be accessed by any function in the program. Because of this, I don't want you to use them. They make your code harder to read and understand.
+
+Exceptions to this rule are constants! Though they should be used sparingly, constants can be declared globally.
+
+This video will explain further:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/hzRcRNeX-AU" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>

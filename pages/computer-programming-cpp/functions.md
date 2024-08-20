@@ -451,20 +451,63 @@ int main()
 	</div>
 </details>
 
-# Global Variables
+# Reference Variables
 
-Global variables are variables that are declared outside of any function. They can be accessed by any function in the program. Because of this, I don't want you to use them. They make your code harder to read and understand.
+When working with primitive types in C++, you generally have one variable that holds one value. Sometimes however, it's useful to have two variables that refer to the same value in memory. This is called a reference variable.
 
-Exceptions to this rule are constants! Though they should be used sparingly, constants can be declared globally.
-
-This video will explain further:
+This video will illustrate the differenc between a reference variable and a normal variable:
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/hzRcRNeX-AU" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		<iframe src="https://www.youtube.com/embed/1J1Q2bJ1gjY" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
 </details>
 
+# Reference Parameters
+
+Reference parameters are a way to pass a variable by reference to a function. This allows the function to modify the value of the original variable.
+
+Here is an example:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/1J1Q2bJ1gjY" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the (cleaned up) code from the video:
+
+```cpp
+float Add(float n1, float n2) { return n1 + n2; }
+float Subtract(float n1, float n2) { return n1 - n2; }
+float Multiply(float n1, float n2) { return n1 * n2; }
+
+// division can fail, so we use a reference param for the result!
+bool Divide(float numerator, float denominator, float &answer)
+{
+	if (numerator == 0) return false; // can't divide by zero!
+	answer = numerator / denominator; // modify the original variable ("result" in main())
+	return true; // success!
+}
+
+int main()
+{
+	cout << "Addition: " << Add(3, 0) << "\n";
+	cout << "Subtraction: " << Subtract(3, 0) << "\n";
+	cout << "Multiplication: " << Multiply(3, 0) << "\n";
+
+	// handle division by zero! (Replace the denominator to test)
+	float result;
+	if (Divide(3, 5, result)) cout << "Division: " << result;
+	else cout << "Can't divide by zero!";
+
+	(void)_getch();
+	return 0;
+}
+```
