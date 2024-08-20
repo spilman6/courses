@@ -352,7 +352,7 @@ int main()
 }
 ```
 
-> [!WARNING] The `main` function should never be called manually! Calling `main` manually will cause all of the local variables to be duplicated and will not be able to be freed. This is called a "stack overflow" and will crash your program.
+> [!WARNING] The `main` function should never be called manually! Calling `main` manually will cause all of the local variables to be duplicated and will not be able to be freed.
 
 
 # The Call Stack
