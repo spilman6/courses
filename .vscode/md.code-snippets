@@ -1,4 +1,21 @@
 {
+	"Initialize a Unit": {
+		"scope": "markdown",
+		"prefix": "init",
+		"body": [
+			"---",
+			"title: $1",
+			"subtitle: $2",
+			"hideNav: ${3|true,false|}",
+			"---",
+			"",
+			"# $1$4",
+			"",
+			"$0"
+		],
+		"description": "Initialize a unit"
+	},
+
 	"Embed YouTube Video with Details Toggle": {
 		"scope": "markdown",
 		"prefix": "yt",
@@ -24,9 +41,9 @@
 		"description": "Emphasize critical information using a Note, Tip, Important, Warning, or Caution Blockquote"
 	},
 
-	"Exercise": {
+	"Exercise Template": {
 		"scope": "markdown",
-		"prefix": "exer",
+		"prefix": "ex",
 		"body": [
 			"# Exercise $1",
 			"",
