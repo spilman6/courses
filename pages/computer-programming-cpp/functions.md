@@ -464,6 +464,8 @@ int &b = a;
 
 Now `b` and `a` refer to the same value in memory. Changing either variable will change the other.
 
+> [!NOTE] Reference variables cannot be set to a literal value. They must be set to a variable. For example, this code will not compile: `int &b = 5;`.
+
 This video will illustrate the differenc between a reference variable and a normal variable:
 
 <details open>
