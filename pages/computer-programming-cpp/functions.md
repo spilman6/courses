@@ -380,39 +380,31 @@ If your Call Stack window is not visible, you can find it by going to `Debug > W
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/RLvT-8AAE6E" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
 </details>
 
-For this exercise, create a *recursive* function called `FactorialOf` that will calculate the factorial of a number. The factorial of a number is the product of all positive integers less than or equal to that number.
+For this exercise, I want you to create a function called `PrintHi` that will print "Hi" to the console. This should sound familiar (hint: it was the first two functions that we created). This time though, I want you to make the function recursive.
 
-For example, the factorial of 5 is `5 * 4 * 3 * 2 * 1 = 120`. The factorial of 1 is just 1.
+The function should accept an integer parameter that will determine how many times "Hi" is printed. Make the parameter default to 1.
 
-Then in the `main` function, ask the user for a number between 1 and 12. Then, output the factorial of their number.
-
-> [!NOTE] Factorials grow very quickly! The factorial of 12 is 479,001,600. So don't be surprised if the program doesn't work for numbers larger than about 12.
+Call the function from `main` with a value of 5, and again with no value.
 
 ## Hints {#exercise-2-hints}
 
 <details>
-	<summary>How do I get started?</summary>
+	<summary>How do I make a function recursive?</summary>
 
-You will need to create a function called `FactorialOf` that accepts an integer and returns an integer.
-
-```cpp
-int Factorial(int number)
-{
-	// code
-}
-```
-
-If you're struggling with the code inside of the function, start by handling the base case. What is the factorial of 1?
-
-Then think about how you can call the function again, with a different value.
+You need to call the function from within itself. You should also have a condition that will stop the recursion.
 
 </details>
+
+<details>
+	<summary>How do I make a parameter default to 1?</summary>
+
+You can set the default value in the function prototype. For example, `void PrintHi(int count = 1);`, or in the function definition itself, if you create your function above `main`.
 
 ## Solution {#exercise-2-solution}
 
@@ -420,23 +412,17 @@ Then think about how you can call the function again, with a different value.
 	<summary>Show the Answer</summary>
 
 ```cpp
-int FactorialOf(int number)
+void PrintHi(int count = 1)
 {
-	if (number > 1) return number * FactorialOf(number - 1);
-	return 1;
+	cout << "Hi\n";
+	if (count > 1) PrintHi(count - 1);
 }
 
 int main()
 {
-	int input = 0;
-	while (input < 1 || input > 12)
-	{
-		cout << "Enter a number between 1 and 12: ";
-		cin >> input;
-	}
-
-	int answer = FactorialOf(input);
-	cout << input << "! = " << answer;
+	PrintHi(5); // should print "Hi" 5 times
+	cout << "\n";
+	PrintHi(); // should print "Hi" once
 
 	(void)_getch();
 	return 0;
@@ -448,7 +434,7 @@ int main()
 <details>
 	<summary>Walkthrough Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/lJ9t3WT_YFQ" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
