@@ -82,6 +82,8 @@ int main()
 }
 ```
 
+> [!NOTE] You can use `const` to make a parameter a const value. For example, `void PrintHi(const int count)` will prevent the function from modifying the value of `count`. This isn't particularly useful now, but it will be later when we learn about structs and classes. 
+
 ## Optional Parameters
 
 In C++, you can provide default values for parameters. This allows you to call the function without providing a value for that parameter. This is referred to as an "optional parameter", and is also sometimes called a "default parameter."
@@ -471,7 +473,7 @@ This video will illustrate the differenc between a reference variable and a norm
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/1J1Q2bJ1gjY" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/7nDfT2cX1p0" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -484,7 +486,7 @@ Reference parameters are a way to pass a variable by reference to a function. Th
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/1J1Q2bJ1gjY" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/09yu8iM0hf8" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -526,7 +528,7 @@ Let's look at a more practical example:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/1J1Q2bJ1gjY" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/ThKhBevd4-k" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
