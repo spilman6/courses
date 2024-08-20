@@ -1,8 +1,4 @@
 ---
-title: 'Getting Started'
-course: 'C# Introduction to Programming'
-date: '23-04-28'
-header: 'test.jpg'
+title: Getting Started
+subtitle: C# Introduction to Programming
 ---
-
-C# intro!
