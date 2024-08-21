@@ -55,6 +55,8 @@ Exam 2
 
 [Inheritance and Polymorphism](/appel/computer-programming-cpp/inheritance-and-polymorphism)
 
+[Assignment 7 - Tic Tac Toe](/appel/computer-programming-cpp/assignments/tic-tac-toe)
+
 ## Week 10
 
 [Abstract Classes](/appel/computer-programming-cpp/abstract-classes)
