@@ -31,6 +31,10 @@ Exam 1
 
 ## Week 5
 
+[ Pointers and Heap Memory ](/appel/computer-programming-cpp/pointers-and-heap-memory)
+
+[Assignment 4 - Salary Report](/appel/computer-programming-cpp/assignments/salary-report)
+
 
 ## Week 6
 
