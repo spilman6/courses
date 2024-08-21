@@ -14,7 +14,7 @@ A struct is a user-defined data type that allows you to group together multiple 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/zI8nJMOZIFc" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -36,6 +36,47 @@ And then in our main function, we can create a variable of type `Student` like t
 Student jim;
 jim.Name = "Jim";
 jim.GPA = 4.0;
+```
+
+## Passing Structs to Functions
+
+You can also pass structs to functions as arguments. This allows you to group together related data and pass it around your program more easily.
+
+One problem with passing structs to functions is that the entire struct is copied when it is passed to the function. This can be inefficient if the struct is large. One way to avoid this is to pass the struct by reference, which allows the function to modify the original struct.
+
+This video will explain in more detail:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code from the video:
+
+```cpp
+struct Student
+{
+	string Name;
+	float GPA = 0;
+};
+
+void PrintStudent(const Student& student)
+{
+	cout << student.Name << " has a GPA of " << student.GPA << "\n";
+}
+
+int main()
+{
+	Student jim = { "Jim", 4.0 };
+	PrintStudent(jim);
+
+	(void)_getch();
+	return 0;
+}
 ```
 
 # Arrays

@@ -31,17 +31,21 @@ Exam 1
 
 ## Week 5
 
-[ Pointers and Heap Memory ](/appel/computer-programming-cpp/pointers-and-heap-memory)
+[Pointers and Heap Memory](/appel/computer-programming-cpp/pointers-and-heap-memory)
 
-[Assignment 4 - Salary Report](/appel/computer-programming-cpp/assignments/salary-report)
-
+[Assignment 4 - Pay Report](/appel/computer-programming-cpp/assignments/pay-report)
 
 ## Week 6
 
+[Vectors, Strings and File I/O](/appel/computer-programming-cpp/vectors-strings-file-io)
+
+[Assignment 5 - Math Quiz](/appel/computer-programming-cpp/assignments/math-quiz)
 
 ## Week 7
 
-[File I/O](/appel/computer-programming-cpp/file-io)
+[Classes, Accessors and Mutators](/appel/computer-programming-cpp/classes)
+
+[Assignment 6 - Student Gradebook](/appel/computer-programming-cpp/assignments/student-gradebook)
 
 ## Week 8
 
@@ -49,11 +53,11 @@ Exam 2
 
 ## Week 9
 
-[Classes](/appel/computer-programming-cpp/classes)
+[Inheritance and Polymorphism](/appel/computer-programming-cpp/inheritance-and-polymorphism)
 
 ## Week 10
 
-[Object-Oriented Programming](/appel/computer-programming-cpp/object-oriented-programming)
+[Abstract Classes](/appel/computer-programming-cpp/abstract-classes)
 
 ## Week 11
 
@@ -63,8 +67,6 @@ Exam 2
 
 Exam 3
 
-## Week 13
+## Weeks 13-16
 
-## Weeks 14-16
-
-Final Project
+[Final Project](/appel/computer-programming-cpp/final-project)
