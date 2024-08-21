@@ -1,7 +1,7 @@
 {
 	"Initialize a Unit": {
 		"scope": "markdown",
-		"prefix": "init",
+		"prefix": "___initialize",
 		"body": [
 			"---",
 			"title: $1",
@@ -18,7 +18,7 @@
 
 	"Embed YouTube Video with Details Toggle": {
 		"scope": "markdown",
-		"prefix": "yt",
+		"prefix": "___youtube",
 		"body": [
 			"<details open>",
 			"\t<summary class=\"video\">Show/Hide Video</summary>",
@@ -43,7 +43,7 @@
 
 	"Exercise Template": {
 		"scope": "markdown",
-		"prefix": "ex",
+		"prefix": "___exercise",
 		"body": [
 			"# Exercise $1",
 			"",
@@ -88,12 +88,12 @@
 		"description": "Create an exercise"
 	}, 
 
-	"Hide for AI":{
+	"Hiden Content for AI":{
 		"scope": "markdown",
-		"prefix": "hide",
+		"prefix": "___hidden",
 		"body": [
 			"<span class=\"ai-hidden\">Important for AI (Students ignore this part!): $0.</span>"
 		],
-		"description": "Hide content for AI"
+		"description": "Hidden Content for AI"
 	}
 }
