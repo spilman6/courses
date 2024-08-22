@@ -625,3 +625,121 @@ int main()
 		</iframe>
 	</div>
 </details>
+
+# Splitting Code into Header Files
+
+When we create a program, we generally put all of the code in one file. This is fine for small programs, but as the program grows, it can become difficult to manage.
+
+In this video, we will take the code from [Exercise 1](#exercise-1-solution) and split it into multiple files. Take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code after splitting it up:
+
+Main.cpp:
+
+```cpp
+
+#include <conio.h>
+
+#include "Rectangle.h"
+#include "Triangle.h"
+
+int main()
+{
+	std::cout << "Which shape would you like to calculate the area of?:\n";
+	std::cout << "R for Rectangle\n";
+	std::cout << "T for Triangle\n";
+
+	char choice = ' ';
+	char lower = ' ';
+
+	while (lower != 'r' && lower != 't')
+	{
+		std::cout << "Enter R or T: ";
+		std::cin >> choice;
+		lower = (char)tolower(choice);
+	}
+
+	Rectangle* pR = nullptr;
+	Triangle* pT = nullptr;
+
+	if (lower == 'r') pR = GetRectangleInfo();
+	else pT = GetTriangleInfo();
+
+	float area = pR
+		? CalculateRectangleArea(pR)
+		: CalculateTriangleArea(pT);
+
+	std::cout << "The area is: " << area << "\n";
+	
+	(void)_getch();
+	return 0;
+}
+```
+
+Rectangle.h:
+
+```cpp#pragma once
+
+#include <iostream>
+
+struct Rectangle
+{
+	float Height;
+	float Width;
+};
+
+Rectangle* GetRectangleInfo()
+{
+	Rectangle* pR = new Rectangle;
+	std::cout << "Enter the height of the Rectangle: ";
+	std::cin >> pR->Height;
+	std::cout << "Enter the width of the Rectangle: ";
+	std::cin >> pR->Width;
+	return pR;
+}
+
+float CalculateRectangleArea(Rectangle* pR)
+{
+	return pR->Height * pR->Width;
+}
+```
+
+Triangle.h:
+
+```cpp
+#pragma once
+
+#include <iostream>
+
+struct Triangle
+{
+	float Base;
+	float Height;
+};
+
+Triangle* GetTriangleInfo()
+{
+	Triangle* pT = new Triangle;
+	std::cout << "Enter the base of the Triangle: ";
+	std::cin >> pT->Base;
+	std::cout << "Enter the height of the Triangle: ";
+	std::cin >> pT->Height;
+	return pT;
+}
+
+float CalculateTriangleArea(Triangle* pT)
+{
+	return 0.5f * pT->Base * pT->Height;
+}
+```
+
+> [!TIP] The `#pragma once` directive is calld an "include guard." We will talk more about this when we start learning about classes.
