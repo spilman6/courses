@@ -60,13 +60,13 @@ Exam 2
 
 [Server-Side JavaScript](/appel/modern-javascript/server-side-javascript)
 
-[Assignment 7 - Custom Module](/appel/modern-javascript/assignments/)
+[Assignment 8 - Custom Module](/appel/modern-javascript/assignments/)
 
 ## Week 11
 
 [NPM and Express](/appel/modern-javascript/npm-and-express)
 
-[Assignment 8 - Joke API](/appel/modern-javascript/assignments/joke-api)
+[Assignment 9 - Joke API](/appel/modern-javascript/assignments/joke-api)
 
 ## Week 12
 
@@ -78,5 +78,5 @@ Exam 3
 
 ## Weeks 14-16
 
-[Assignment 9 - Final Project](/appel/modern-javascript/assignments/final-project)
+[Assignment 10 - Final Project](/appel/modern-javascript/assignments/final-project)
 ```
