@@ -79,4 +79,3 @@ Exam 3
 ## Weeks 14-16
 
 [Assignment 10 - Final Project](/appel/modern-javascript/assignments/final-project)
-```
