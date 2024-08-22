@@ -42,7 +42,7 @@ Exam 1
 
 ## Week 7
 
-[Higher order functions](/appel/modern-javascript/higher-order-functions)
+[Higher-Order Functions](/appel/modern-javascript/higher-order-functions)
 
 [Assignment 6 - To Do List](/appel/modern-javascript/assignments/to-do-list)
 
