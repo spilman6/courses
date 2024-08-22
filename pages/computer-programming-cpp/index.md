@@ -65,10 +65,16 @@ Exam 2
 
 [Static Members](/appel/computer-programming-cpp/static-members)
 
+[Assignment 8 - Peer Review](/appel/computer-programming-cpp/assignments/peer-review)
+
 ## Week 12
 
 Exam 3
 
 ## Weeks 13-16
 
-[Final Project](/appel/computer-programming-cpp/final-project)
+[Assignment 9 - Game Analysis](/appel/computer-programming-cpp/assignments/game-analysis)
+
+[Assignment 10 - Game Modification Proposal](/appel/computer-programming-cpp/assignments/modification-proposal)
+
+[Assignment 11 - Final Project](/appel/computer-programming-cpp/final-project)
