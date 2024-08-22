@@ -38,7 +38,7 @@ Exam 1
 
 [Functions and Events](/appel/modern-javascript/functions-and-events)
 
-[Assignment 5 - ](/appel/modern-javascript/assignments/)
+[Assignment 5 - Tic Tac Toe](/appel/modern-javascript/assignments/tic-tac-toe)
 
 ## Week 7
 
