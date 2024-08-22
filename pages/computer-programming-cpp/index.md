@@ -37,13 +37,13 @@ Exam 1
 
 ## Week 6
 
-[Vectors, Strings and File I/O](/appel/computer-programming-cpp/vectors-strings-file-io)
+[Vectors, Strings, and File I/O](/appel/computer-programming-cpp/vectors-strings-file-io)
 
 [Assignment 5 - Math Quiz](/appel/computer-programming-cpp/assignments/math-quiz)
 
 ## Week 7
 
-[Classes, Accessors and Mutators](/appel/computer-programming-cpp/classes)
+[Classes, Accessors, and Mutators](/appel/computer-programming-cpp/classes)
 
 [Assignment 6 - Student Gradebook](/appel/computer-programming-cpp/assignments/student-gradebook)
 
