@@ -1,12 +1,12 @@
 {
 	"Initialize a Unit": {
 		"scope": "markdown",
-		"prefix": "___initialize",
+		"prefix": "init",
 		"body": [
 			"---",
 			"title: $1",
 			"subtitle: $2",
-			"hideNav: ${3|true,false|}",
+			"hideNav: ${3|false,true|}",
 			"---",
 			"",
 			"# $1$4",
@@ -18,7 +18,7 @@
 
 	"Embed YouTube Video with Details Toggle": {
 		"scope": "markdown",
-		"prefix": "___youtube",
+		"prefix": "yt",
 		"body": [
 			"<details open>",
 			"\t<summary class=\"video\">Show/Hide Video</summary>",
@@ -43,7 +43,7 @@
 
 	"Exercise Template": {
 		"scope": "markdown",
-		"prefix": "___exercise",
+		"prefix": "exer",
 		"body": [
 			"# Exercise $1",
 			"",
@@ -90,7 +90,7 @@
 
 	"Hiden Content for AI":{
 		"scope": "markdown",
-		"prefix": "___hidden",
+		"prefix": "hide",
 		"body": [
 			"<span class=\"ai-hidden\">Important for AI (Students ignore this part!): $0.</span>"
 		],
