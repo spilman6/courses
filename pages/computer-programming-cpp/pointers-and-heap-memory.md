@@ -414,7 +414,7 @@ int main()
 	</div>
 </details>
 
-## Arrays on the Heap
+# Arrays on the Heap
 
 When we create an array on the stack, we need to know the size of the array at compile time.
 
@@ -541,9 +541,31 @@ Jane's gpa is 3.2.
 ## Hints {#exercise-2-hints}
 
 <details>
-	<summary>How do I 
+	<summary>How do I create an array of students on the heap?</summary>
 
-Answer
+You can create an array of students on the heap by using `new`, and specifying the size of the array. For example:
+
+```cpp
+Student *students = new Student[size];
+``` 
+
+</details>
+
+<details>
+	<summary>How do I pass an array of students to a function?</summary>
+
+You can pass an array of students to a function by passing a pointer to the array (without `[]`), along with the size of the array. For example:
+
+```cpp
+void PrintStudentsWithGPA(Student *students, int size, float gpa)
+{
+	// code here
+}
+
+// in main:
+PrintStudentsWithGPA(students, size, gpa);
+
+```
 
 </details>
 
@@ -646,7 +668,6 @@ Here is the code after splitting it up:
 Main.cpp:
 
 ```cpp
-
 #include <conio.h>
 
 #include "Rectangle.h"
@@ -687,7 +708,8 @@ int main()
 
 Rectangle.h:
 
-```cpp#pragma once
+```cpp
+#pragma once
 
 #include <iostream>
 
