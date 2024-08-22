@@ -38,13 +38,13 @@ Exam 1
 
 [Functions and Events](/appel/modern-javascript/functions-and-events)
 
-[Assignment 5 - Tic Tac Toe](/appel/modern-javascript/assignments/tic-tac-toe)
+[Assignment 5 - Carousel](/appel/modern-javascript/assignments/carousel)
 
 ## Week 7
 
 [Higher order functions](/appel/modern-javascript/higher-order-functions)
 
-[Assignment 6 - ](/appel/modern-javascript/assignments/)
+[Assignment 6 - To Do List](/appel/modern-javascript/assignments/to-do-list)
 
 ## Week 8
 
@@ -69,8 +69,6 @@ Exam 2
 ## Week 12
 
 [Modules and Routing](/appel/modern-javascript/modules-and-routing)
-
-[Assignment 9 - ](/appel/modern-javascript/assignments/)
 
 ## Week 13
 
