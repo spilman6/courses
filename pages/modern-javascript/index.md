@@ -50,6 +50,8 @@ Exam 1
 
 [Promises, Async/Await, and IIFEs](/appel/modern-javascript/promises-async-await-iifes)
 
+[Assignment 7 - API Fetch](/appel/modern-javascript/assignments/api-fetch) 
+
 ## Week 9
 
 Exam 2
@@ -58,17 +60,17 @@ Exam 2
 
 [Server-Side JavaScript](/appel/modern-javascript/server-side-javascript)
 
-[Assignment 7 - ](/appel/modern-javascript/assignments/)
+[Assignment 7 - Custom Module](/appel/modern-javascript/assignments/)
 
 ## Week 11
 
 [NPM and Express](/appel/modern-javascript/npm-and-express)
 
-[Assignment 8 - ](/appel/modern-javascript/assignments/)
+[Assignment 8 - Joke API](/appel/modern-javascript/assignments/joke-api)
 
 ## Week 12
 
-[Modules and Routing](/appel/modern-javascript/modules-and-routing)
+[Advance Routing and MongoDB](/appel/modern-javascript/modules-and-routing)
 
 ## Week 13
 
@@ -76,4 +78,5 @@ Exam 3
 
 ## Weeks 14-16
 
-[Final Project](/appel/modern-javascript/assignments/final-project)
+[Assignment 9 - Final Project](/appel/modern-javascript/assignments/final-project)
+```
