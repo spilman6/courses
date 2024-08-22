@@ -228,3 +228,400 @@ int main()
 	Student *pRyan = CreateRyan();
 	PrintStudent(pRyan);
 }
+```
+
+# Exercise 1
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+For this exercise, you will calculate the area of a shape. Your program will ask the user which shape they would like to calculate the area of. The user can choose between a rectangle and a triangle. The program will then ask the user for the dimensions of the shape and calculate the area.
+
+Use the following structs:
+
+```cpp
+struct Rectangle
+{
+	float Height;
+	float Width;
+};
+
+struct Tringle
+{
+	float Base;
+	float Height;
+};
+```
+
+You will need to create the following functions:
+
+1. `GetRectangleInfo` - This function will ask the user for the height and width of the rectangle and return a pointer to a `Rectangle`.
+
+2. `GetTriangleInfo` - This function will ask the user for the base and height of the triangle and return a pointer to a `Triangle`.
+
+3. `CalculateRectangleArea` - This function will take a pointer to a `Rectangle` and return the area.
+
+4. `CalculateTriangleArea` - This function will take a pointer to a `Triangle` and return the area.
+
+For the first two functions, you can use cin/cout to get the dimensions from the user. For the last two functions, you shouldn't use cin/cout.
+
+In the `main` function, you will ask the user which shape they would like to calculate the area of. 'R' for Rectangle, or 'T' for Triangle. 
+
+> [!TIP] You can use `(char)toLower(choice)` to convert the user's choice to lowercase.
+
+You will then call the appropriate function to get the dimensions of the shape. Finally, you will call the appropriate function to calculate the area of the shape and print the result.
+
+Make sure that you only create the shape that the user wants to calculate... i.e. If the user wants to calculate the area of a rectangle, you should not create a triangle!
+
+Here are the formulas for the area of a rectangle and a triangle:
+
+- Rectangle: `Area = Height * Width`
+
+- Triangle: `Area = 0.5 * Base * Height`
+
+## Hints {#exercise-1-hints}
+
+<details>
+	<summary>How do I return a pointer from a function?</summary>
+
+You can return a pointer from a function by creating a variable on the heap and returning the memory address of that variable. For example:
+
+```cpp
+Rectangle* GetRectangleInfo()
+{
+	Rectangle *pR = new Rectangle;
+	// set the height and width
+	return pR;
+}
+```
+
+</details>
+
+<details>
+	<summary>How do I pass a pointer to a function?</summary>
+
+You can pass a pointer to a function by using a pointer as a parameter. For example:
+
+```cpp
+void PrintRectangleArea(Rectangle *pR)
+{
+	float area = CalculateRectangleArea(pR);
+	cout << "The area of the rectangle is: " << area << "\n";
+}
+```
+
+</details>
+
+## Solution {#exercise-1-solution}
+
+<details>
+	<summary>Show the Answer</summary>
+
+```cpp
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+struct Rectangle
+{
+	float Height;
+	float Width;
+};
+
+struct Triangle
+{
+	float Base;
+	float Height;
+};
+
+Rectangle* GetRectangleInfo()
+{
+	Rectangle* pR = new Rectangle;
+	cout << "Enter the height of the rectangle: ";
+	cin >> pR->Height;
+	cout << "Enter the width of the rectangle: ";
+	cin >> pR->Width;
+	return pR;
+}
+
+Triangle* GetTriangleInfo()
+{
+	Triangle* pT = new Triangle;
+	cout << "Enter the base of the triangle: ";
+	cin >> pT->Base;
+	cout << "Enter the height of the triangle: ";
+	cin >> pT->Height;
+	return pT;
+}
+
+float CalculateRectangleArea(Rectangle* pR)
+{
+	return pR->Height * pR->Width;
+}
+
+float CalculateTriangleArea(Triangle* pT)
+{
+	return 0.5f * pT->Base * pT->Height;
+}
+
+int main()
+{
+	cout << "Which shape would you like to calculate the area of?\n";
+	cout << "R for Rectangle\n";
+	cout << "T for Triangle\n";
+
+	char choice = ' ';
+	char lower = ' ';
+
+	while (lower != 'r' && lower != 't')
+	{
+		cout << "Enter R or T: ";
+		cin >> choice;
+		lower = (char)tolower(choice);
+	}
+
+	Rectangle* pR = nullptr;
+	Triangle* pT = nullptr;
+
+	if (lower == 'r') pR = GetRectangleInfo();
+	else pT = GetTriangleInfo();
+
+	float area = pR
+		? CalculateRectangleArea(pR)
+		: CalculateTriangleArea(pT);
+
+	cout << "The area: " << area << "\n";
+
+	(void)_getch();
+	return 0;
+}
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+## Arrays on the Heap
+
+When we create an array on the stack, we need to know the size of the array at compile time.
+
+When we create an array on the heap, we can allocate the memory at runtime. This means that we can create an array of any size dynamically.
+
+Take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code that was added in the video:
+
+```cpp
+cout << "How many numbers?: ";
+int size = 0;
+cin >> size;
+
+int *numbers = new int[size];
+
+for (int i = 0; i < size; i++)
+{
+	cout << (i + 1) << ": ";
+	cin >> numbers[i];
+}
+
+for (int i = 0; i < size; i++)
+{
+	cout << numbers[i];
+	if (i < size - 1) cout << ", ";
+}
+
+delete[] numbers; // delete the array
+```
+
+> [!IMPORTANT] The video doesn't show the `delete[] numbers;` line. Deleting an array on the heap needs a `[]` after the `delete` keyword.
+
+# Passing Arrays to Functions
+
+When we pass an array to a function, we are passing the memory address of the first element of the array. The problem is that we don't know the size of the array. We need to pass the size of the array as well.
+
+This video will explain further:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code that was added in the video:
+
+```cpp
+void PrintNumbers(int *numbers, int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		cout << numbers[i];
+		if (i < size - 1) cout << ", ";
+	}
+}
+
+// in main:
+PrintNumbers(numbers, size);
+```
+
+# Exercise 2
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+For this exercise, you will create a program that will ask the user to enter the number of students in a class. The program will then ask the user to enter the names of the students, along with their GPAs. The program will then print the names of the students with a GPA that are greater than a specified value.
+
+Use the following struct:
+
+```cpp
+struct Student
+{
+	string Name;
+	float GPA;
+};
+```
+
+And create the following functions:
+
+1. `GetStudentInfo` - This function will ask the user for the name and GPA of a student and return a pointer to a `Student`. You will need to use the `new` keyword to create the `Student` on the heap.
+
+2. `PrintStudent` - This function will take a pointer to a `Student` and print the name and GPA of that student.
+
+3. `PrintStudentsWithGPA` - This function will take an array of students, the size of the array, and the minimum GPA to display. The function will print the names of the students with a GPA that is greater than the specified value.
+
+Example output:
+
+```plaintext
+How many students?: 3
+
+Enter the student's name: John
+Enter the student's GPA: 3.5
+
+Enter the student's name: Jane
+Enter the student's GPA: 3.2
+
+Enter the student's name: Jack
+Enter the student's GPA: 2.9
+
+Enter the minimum GPA: 3.2
+John's gpa is 3.5.
+Jane's gpa is 3.2.
+```
+
+## Hints {#exercise-2-hints}
+
+<details>
+	<summary>How do I 
+
+Answer
+
+</details>
+
+## Solution {#exercise-2-solution}
+
+<details>
+	<summary>Show the Answer</summary>
+
+```cpp
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+struct Student
+{
+	string Name;
+	float GPA = 0;
+};
+
+void PrintStudent(Student *pStudent)
+{
+	cout << pStudent->Name << "'s gpa is " << pStudent->GPA << ".\n";
+}
+
+void PrintStudentsWithGPA(Student *students, int size, float gpa)
+{
+	for (int i = 0; i < size; i++)
+	{
+		if (students[i].GPA >= gpa) PrintStudent(&students[i]);
+	}
+}
+
+Student* GetStudentInfo()
+{
+	Student *pS = new Student;
+	cout << "Enter the student's name: ";
+	cin >> pS->Name;
+	cout << "Enter the student's GPA: ";
+	cin >> pS->GPA;
+	cout << "\n";
+	return pS;
+}
+
+int main()
+{
+	cout << "How many students?: ";
+	int size = 0;
+	cin >> size;
+	cout << "\n";
+
+	Student *students = new Student[size];
+
+	for (int i = 0; i < size; i++)
+	{
+		students[i] = *GetStudentInfo();
+	}
+
+	float gpa = 0.0f;
+	cout << "Enter the minimum GPA: ";
+	cin >> gpa;
+
+	PrintStudentsWithGPA(students, size, gpa);
+
+	delete[] students;
+	
+	(void)_getch();
+	return 0;
+}
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
