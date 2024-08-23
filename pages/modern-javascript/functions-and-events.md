@@ -38,7 +38,7 @@ printHello()
 
 In JavaScript however, functions generally start with a lowercase letter, and use camelCase for multi-word names. This is a convention, not a rule, but it is a good idea to follow it.
 
-## Function Parameters
+# Function Parameters
 
 Parameters are the values that are passed into a function when it is called. They are used to pass data into the function, just like arguments in C# methods.
 
@@ -64,7 +64,7 @@ function printMessage(message, element) {
 }
 ```
 
-### Default Parameters
+## Default Parameters
 
 In JavaScript, you can also specify default values for parameters. This means that if a parameter is not passed to the function, it will use the default value instead.
 
@@ -100,7 +100,7 @@ function printMessage(message, element) {
 
 Here the `element` parameter is assigned the value of `document.body` if it is falsy. This is a common pattern in JavaScript, but it can be confusing to beginners.
 
-### Rest Parameters
+## Rest Parameters
 
 In JavaScript, you can also use rest parameters to pass an arbitrary number of arguments to a function. This is useful when you don't know how many arguments will be passed to the function.
 
@@ -121,7 +121,7 @@ function printMessages(...messages) {
 }
 ```
 
-### Undefined and Null Parameters
+## Undefined and Null Parameters
 
 In JavaScript, if you don't pass a value for a parameter, it will be `undefined`. This is different from C#, where you would get a compiler error if you didn't pass a value for a parameter.
 
@@ -140,7 +140,7 @@ function printMessage(message) {
 }
 ```
 
-## Return Values
+# Return Values
 
 Just like in C#, functions in JavaScript can return a value. This is done using the `return` keyword.
 
