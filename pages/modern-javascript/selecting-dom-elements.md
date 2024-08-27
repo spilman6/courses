@@ -20,7 +20,7 @@ Before we get started, let's clone down some starter code.
 	</div>
 </details>
 
-Here is the link to fork the [starter code repo](https://github.com/fvtc/js-ryans-webpage/fork). Feel free to change the name of the repo. Once you have forked the repo, you can clone it down to your local machine using `git clone <repo-url-from-github>`.
+Here is the link to fork the [starter code repo](https://github.com/fvtc/js-ryans-webpage). Feel free to change the name of the repo. Once you have forked the repo, you can clone it down to your local machine using `git clone <repo-url-from-github>`.
 
 # The Document Object Model (DOM)
 
