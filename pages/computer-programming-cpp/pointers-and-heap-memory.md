@@ -652,7 +652,7 @@ int main()
 
 When we create a program, we generally put all of the code in one file. This is fine for small programs, but as the program grows, it can become difficult to manage.
 
-In this video, we will take the code from [Exercise 1](#exercise-1-solution) and split it into multiple files. Take a look:
+In this video, we will take the code from [Exercise 1 Solution](#exercise-1-solution) and split it into multiple files. Take a look:
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>

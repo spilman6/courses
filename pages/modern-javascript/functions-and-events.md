@@ -29,11 +29,11 @@ Like with methods in C#, the parameters are optional. We'll look at parameters i
 Here is the code from the video:
 
 ```javascript
-function printHello() {
-	console.log("Hello world!")
+function printMessage() {
+	console.log('Hello world')
 }
 
-printHello()
+printMessage()
 ```
 
 In JavaScript however, functions generally start with a lowercase letter, and use camelCase for multi-word names. This is a convention, not a rule, but it is a good idea to follow it.
@@ -59,9 +59,10 @@ Here is the code:
 
 ```javascript
 function printMessage(message, element) {
-	//console.log(message)
-	element.innerText = message
+	if (element) element.textContent = message
 }
+
+printMessage('Ryan', document.querySelector('p'))
 ```
 
 ## Default Parameters
@@ -82,9 +83,11 @@ As you saw in the video, you can specify default values for parameters in two wa
 1. Assigning a value to the parameter in the function definition:
 
 ```javascript
-function printMessage(message, element = document.body) {
-	element.textContent = message
+function printMessage(message = 'Hello world', element = document.body) {
+	if (element) element.textContent = message
 }
+
+printMessage('Ryan', document.querySelector('p'))
 ```
 
 Here the `element` parameter is assigned a default value of `document.body`. If no value is passed for `element`, it will use `document.body`.
@@ -93,52 +96,38 @@ Here the `element` parameter is assigned a default value of `document.body`. If 
 
 ```javascript
 function printMessage(message, element) {
+	message = message || 'Hello world'
 	element = element || document.body
-	element.textContent = message
+	if (element) element.textContent = message
 }
+
+//printMessage('Ryan', document.querySelector('p'))
+printMessage('Ryan')
 ```
 
 Here the `element` parameter is assigned the value of `document.body` if it is falsy. This is a common pattern in JavaScript, but it can be confusing to beginners.
 
-## Rest Parameters
 
-In JavaScript, you can also use rest parameters to pass an arbitrary number of arguments to a function. This is useful when you don't know how many arguments will be passed to the function.
+## Functions as Arguements
 
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		</iframe>
-	</div>
-</details>
+```cpp
+const button = document.querySelector('button')
 
-Here is the code from the video:
-
-```javascript
-function printMessages(...messages) {
-	messages.forEach(message => console.log(message))
+function printMessage(message, element) {
+	if (element) element.textContent = message
 }
+
+function onClick() {
+	printMessage('Ryan', document.querySelector('p'))
+}
+
+//button.addEventListener('click', onClick)
+
+setTimeout(onClick, 3000)
 ```
 
-## Undefined and Null Parameters
 
-In JavaScript, if you don't pass a value for a parameter, it will be `undefined`. This is different from C#, where you would get a compiler error if you didn't pass a value for a parameter.
 
-Additionally in JavaScript, you can pass `null` as a parameter, which is a special value that represents the absence of a value.
-
-It's a good idea to check for `undefined` and `null` values in your functions, to avoid errors. A simple way to do this is to use the `!` operator, which will convert `undefined` and `null` to `true`.For example:
-
-```javascript
-function printMessage(message) {
-	if (!message) {
-		console.log("No message provided")
-		return
-	}
-
-	console.log(message)
-}
-```
 
 # Return Values
 
@@ -156,6 +145,40 @@ Just like in C#, functions in JavaScript can return a value. This is done using 
 Here is the code from the video:
 
 ```javascript
-function add(a, b) {
-	return a + b
+const books = [
+    {
+        "title": "The Name of the Wind",
+        "author": "Patrick Rothfuss",
+        "page_count": 662
+    },
+    {
+        "title": "Mistborn: The Final Empire",
+        "author": "Brandon Sanderson",
+        "page_count": 541
+    },
+    {
+        "title": "The Way of Kings",
+        "author": "Brandon Sanderson",
+        "page_count": 1007
+    }
+]
+
+function getLastTitle() {
+	if (books.length < 1) return null
+	return books[books.length - 1].title
 }
+
+console.log(getLastTitle() || 'No books found...')
+```
+
+# Exercise 1
+
+# Exercise 2
+
+# Anonymous Functions
+
+```cpp
+(function() {
+	console.log('hi')
+})()
+```
