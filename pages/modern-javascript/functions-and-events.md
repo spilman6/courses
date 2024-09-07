@@ -188,8 +188,8 @@ function displayValue(value) {
 	document.querySelector('p').textContent = value
 }
 
-//displaySum(2, 3, logValue)
-displaySum(2, 3, displayValue)
+//displaySum(3, 4, logValue)
+displaySum(3, 4, displayValue)
 ```
 
 > [!IMPORTANT] In the code above, we are passing the `displayValue` function as an argument. We are not invoking it with `displayValue()`. This is because we want to pass the function itself, not the result of calling the function.
@@ -215,11 +215,11 @@ function displaySum(n1, n2, callback) {
 	if (callback) callback(sum)
 }
 
-//displaySum(2, 3, function(value) {
+//displaySum(3, 4, function(value) {
 //	console.log(value)
 //})
 
-displaySum(2, 3, function(value) {
+displaySum(3, 4, function(value) {
 	document.querySelector('p').textContent = value
 })
 ```
@@ -247,27 +247,27 @@ const displaySum = (n1, n2, callback) => {
 	if (callback) callback(sum)
 }
 
-//displaySum(2, 3, value => console.log(value))
-displaySum(2, 3, value => {
+const logValue = (value) => {
+	console.log(value)
+}
+
+displaySum(3, 4, (value) => {
 	document.querySelector('p').textContent = value
 })
 ```
 
-## Returning Values
+# Shorter Arrow Functions
 
-Arrow functions can also return values. If the function body is a single expression, you can omit the curly braces and the `return` keyword. The value of the expression will be returned automatically. For example:
+Arrow functions can be shortened in a few ways to make them even more concise. Let's look at a few of these shortcuts:
 
-```javascript
-const addNumbers = (n1, n2) => {
-	return n1 + n2
-}
-```
-
-Can be written more concisely as:
-
-```javascript
-const addNumbers = (n1, n2) => n1 + n2
-```
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 ## Removing Parentheses
 
@@ -285,6 +285,22 @@ const logValue = value => console.log(value)
 
 > [!NOTE] If your function does not take any parameters, or has more than one parameter, you must include the parentheses.
 
+
+## Returning Values
+
+Arrow functions can also return values. If the function body is a single expression, you can omit the curly braces and the `return` keyword. The value of the expression will be returned automatically. For example:
+
+```javascript
+const addNumbers = (n1, n2) => {
+	return n1 + n2
+}
+```
+
+Can be written more concisely as:
+
+```javascript
+const addNumbers = (n1, n2) => n1 + n2
+```
 # Exercise 1
 
 <details open>
@@ -350,6 +366,8 @@ You can make a parameter optional by assigning a default value to it.
 ```javascript
 const displayMessage = (message, element = document.body) => { }
 ```
+
+</details>
 
 ## Solution {#exercise-1-solution}
 
