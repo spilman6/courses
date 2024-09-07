@@ -458,3 +458,86 @@ input.addEventListener('keydown', event => {
 ```
 
 > [!NOTE] It is extremely common to see the event object passed as `e` or `ev` instead of `event`. This is just a shorthand, and you can use any name you like.
+
+# Exercise 2
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+For this exercise, I want you to create an event listener that listens for the `click` event on the button. When the button is clicked, I want you to change the text of the paragraph to 'Button clicked!'. When the button is clicked again, I want you to change the text back to 'Hello world'.
+
+The body of your HTML file should look like this:
+
+```html
+<body>
+	<p>Hello world</p>
+	<button>Change</button>
+</body>
+```
+
+## Hints {#exercise-2-hints}
+
+<details>
+	<summary>How do I add a click event listener to a button?</summary>
+
+You can add a click event listener to a button by selecting the button element and calling `addEventListener` with the `click` event and a function.
+
+```javascript
+const button = document.querySelector('button')
+button.addEventListener('click', () => { })
+```
+
+</details>
+
+<details>
+	<summary>How do I change the text back and forth?</summary>
+
+You can change the text of the paragraph back and forth by checking the current text and changing it to the opposite.
+
+```javascript
+const p = document.querySelector('p')
+if (p.textContent === 'Hello world') {
+	p.textContent = 'Button clicked!'
+} else {
+	p.textContent = 'Hello world'
+}
+```
+
+You can also use a ternary operator to make it more concise:
+
+```javascript
+p.textContent = p.textContent === 'Hello world' ? 'Button clicked!' : 'Hello world'
+```
+
+</details>
+
+## Solution {#exercise-2-solution}
+
+<details>
+	<summary>Show the Answer</summary>
+
+```javascript
+const button = document.querySelector('button')
+const p = document.querySelector('p')
+
+button.addEventListener('click', () => {
+	p.textContent = p.textContent === 'Hello world' ? 'Button clicked!' : 'Hello world'
+})
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
