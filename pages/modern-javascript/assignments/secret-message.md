@@ -30,6 +30,8 @@ You must use the key `It's a secret to everybody.`. It must be spelled exactly l
 
 Push your changes to your github.io repository. Remember that you are adding to an existing repository, so you don't need to use `git init`. The three commands you need to run are:
 
+<div class="no-copy">
+
 ```bash
 git add .
 
@@ -37,6 +39,8 @@ git commit -m "Added secret message"
 
 git push
 ```
+
+</div>
 
 ## Submitting to Blackboard
 

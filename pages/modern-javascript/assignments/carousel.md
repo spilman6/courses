@@ -97,6 +97,8 @@ Note that the first three images in the `urls` array are the images that should 
 
 Use JavaScript's built-in `setInterval` function to automatically change the images every 5 seconds. It works just like `setTimeout`, but it repeats the function every time the interval is reached. Here is an example:
 
+<div class="no-copy">
+
 ```javascript
 setTimeout(() => {
 	// code to run ONCE after 5 seconds
@@ -107,6 +109,8 @@ setInterval(() => {
 }, 5000)
 ```
 
+</div>
+
 # Submission
 
 ## Pushing to GitHub
@@ -115,6 +119,8 @@ You're going to push your changes to your github.io repository. Remember that yo
 
 Once your changes are working on your computer, run the following git commands:
 
+<div class="no-copy">
+
 ```bash
 git add .
 
@@ -122,6 +128,8 @@ git commit -m "Added carousel"
 
 git push
 ```
+
+</div>
 
 ## Submitting to Blackboard
 

@@ -42,6 +42,8 @@ You're going to push your changes to your github.io repository. Remember that yo
 
 Once your changes are working on your computer, run the following git commands:
 
+<div class="no-copy">
+
 ```bash
 git add .
 
@@ -49,6 +51,8 @@ git commit -m "Added welcome div"
 
 git push
 ```
+
+</div>
 
 ## Submitting to Blackboard
 
