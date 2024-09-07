@@ -87,11 +87,25 @@ showImages()
 
 ## Specifications
 
-Add code to the JavaScript file to make the carousel work as described above.
+Add code to the JavaScript file to make the carousel work as described above. Use `addEventListener` to listen for clicks on the previous and next buttons. When the previous button is clicked, the carousel should shift the images to the left. When the next button is clicked, the carousel should shift the images to the right.
+
+To shift the images to the left, you can increment the `currentImage` variable. To shift the images to the right, you can decrement the `currentImage` variable. Then, call the `showImages` function to update the images displayed in the carousel.
+
+Use (anonymous) arrow functions to handle the click events.
 
 Note that the first three images in the `urls` array are the images that should be displayed in the carousel. You can add or modify the images in the array to display different images.
 
-To shift the images to the left, you can increment the `currentImage` variable. To shift the images to the right, you can decrement the `currentImage` variable. Then, call the `showImages` function to update the images displayed in the carousel.
+Use JavaScript's built-in `setInterval` function to automatically change the images every 5 seconds. It works just like `setTimeout`, but it repeats the function every time the interval is reached. Here is an example:
+
+```javascript
+setTimeout(() => {
+	// code to run ONCE after 5 seconds
+}, 5000)
+
+setInterval(() => {
+	// code to run EVERY 5 seconds
+}, 5000)
+```
 
 # Submission
 
