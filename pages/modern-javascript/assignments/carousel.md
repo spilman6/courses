@@ -118,7 +118,7 @@ Once your changes are working on your computer, run the following git commands:
 ```bash
 git add .
 
-git commit -m "Added welcome div"
+git commit -m "Added carousel"
 
 git push
 ```
