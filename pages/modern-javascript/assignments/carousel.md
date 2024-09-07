@@ -87,7 +87,7 @@ showImages()
 
 ## Specifications
 
-Add code to the JavaScript file to make the carousel work as described above. Use `addEventListener` to listen for clicks on the previous and next buttons. When the previous button is clicked, the carousel should shift the images to the left. When the next button is clicked, the carousel should shift the images to the right.
+Add code to the JavaScript file to make the carousel work as described above. Use `addEventListener` to listen for clicks on the previous and next buttons.
 
 To shift the images to the left, you can increment the `currentImage` variable. To shift the images to the right, you can decrement the `currentImage` variable. Then, call the `showImages` function to update the images displayed in the carousel.
 
