@@ -1,6 +1,7 @@
 ---
 title: Assignment 2 - Rectangle Area
 subtitle: Computer Programming C++
+hideNav: false
 ---
 
 # Assignment 2 - Rectangle Area

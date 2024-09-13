@@ -1,6 +1,7 @@
 ---
 title: Structs and Arrays
 subtitle: Computer Programming C++
+hideNav: false
 ---
 
 # Structs and Arrays

@@ -1,6 +1,7 @@
 ---
 title: Assignment 3 - Mad Lib
 subtitle: Computer Programming C++
+hideNav: false
 ---
 
 # Assignment 3 - Mad Lib

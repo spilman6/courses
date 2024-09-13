@@ -1,6 +1,7 @@
 ---
 title: Functions
 subtitle: Computer Programming C++
+hideNav: false
 ---
 
 # Functions in C++
