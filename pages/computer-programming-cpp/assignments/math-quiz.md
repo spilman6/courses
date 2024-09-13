@@ -19,22 +19,18 @@ For this assignment, you will create a math quiz program in C++. The program wil
 
 You can use the following text file as a template for your questions:
 
-<div class="no-copy">
-
 ```plaintext
-1 + 1 = 
-2 * 3 = 
-4 / 2 = 
-5 - 3 = 
-6 + 4 =
-8 * 2 =
-10 / 5 =
-7 - 2 =
-9 + 1 =
-3 * 5 =
+1 + 1
+2 * 3
+4 / 2
+5 - 3
+6 + 4
+8 * 2
+10 / 5
+7 - 2
+9 + 1
+3 * 5
 ```
-
-</div>
 
 ## Specifications
 
