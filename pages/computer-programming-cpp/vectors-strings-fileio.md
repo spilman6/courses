@@ -223,9 +223,33 @@ int num = stoi(number);
 ## Hints {#exercise-1-hints}
 
 <details>
-	<summary>How do I ?</summary>
+	<summary>How do I read from a file?</summary>
 
-Answer
+You can use the `ifstream` class to read from a file. Here is an example:
+
+```cpp
+string filepath = "C:\\Temp\\Test.txt";
+ifstream ifs(filepath);
+while (getline(ifs, line))
+{
+	cout << line << "\n";
+}
+ifs.close();
+```
+
+</details>
+
+<details>
+	<summary>How do I write to a file?</summary>
+
+You can use the `ofstream` class to write to a file. Here is an example:
+
+```cpp
+string filepath = "C:\\Temp\\Test.txt";
+ofstream ofs(filepath);
+ofs << input << "\n";
+ofs.close();
+```
 
 </details>
 
@@ -234,7 +258,39 @@ Answer
 <details>
 	<summary>Show the Answer</summary>
 
+```cpp
+#include <iostream>
+#include <conio.h>
+#include <fstream>
+#include <string>
 
+using namespace std;
+
+int main()
+{
+	string numbersPath = "C:\\Temp\\Numbers.txt";
+	string sumPath = "C:\\Temp\\Sum.txt";
+
+	int sum = 0;
+	string number;
+	ifstream ifs(numbersPath);
+	while (getline(ifs, number))
+	{
+		int n = stoi(number);
+		sum += n;
+	}
+	ifs.close();
+
+	cout << sum;
+
+	ofstream ofs(sumPath);
+	ofs << sum;
+	ofs.close();
+
+	(void)_getch();
+	return 0;
+}
+```
 
 </details>
 
