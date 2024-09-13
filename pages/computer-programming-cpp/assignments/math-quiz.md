@@ -98,6 +98,4 @@ The `QuizResults.txt` file should contain the questions and the user's answers:
 
 # Submission
 
-# Submission
-
 Create a new repository on GitHub and push your code to it. Then submit the link to your repository on Blackboard.
