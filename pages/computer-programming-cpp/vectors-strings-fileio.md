@@ -198,7 +198,7 @@ ifs.close();
 	</div>
 </details>
 
-For this exercise, you will create a program that reads a list of numbers from a file, and then writes the sum of those numbers to another file.
+For this exercise, you will create a program that reads a list of integers from a file, and then writes the sum of those numbers to another file.
 
 The numbers will be separated by a newline character, and will be located in a file called `numbers.txt`. The sum of the numbers will be written to a file called `sum.txt`.
 
@@ -207,7 +207,7 @@ Here is an example of the `numbers.txt` file:
 ```
 10
 20
--5
+6
 30
 ```
 
