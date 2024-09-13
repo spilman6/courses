@@ -65,7 +65,6 @@ struct Employee {
 <div class="no-copy">
 
 ```plaintext
-
 Enter the number of employees: 2
 
 Enter the ID for Employee 1: 123
