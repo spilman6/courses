@@ -90,11 +90,15 @@ Results saved to QuizResults.txt
 
 The `QuizResults.txt` file should contain the questions and the user's answers:
 
+<div class="no-copy">
+
 ```plaintext
 1 + 1 = 2
 2 * 3 = 6
 4 / 2 = 2
 ```
+
+</div>
 
 # Submission
 
