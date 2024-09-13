@@ -73,6 +73,8 @@ int randomNumber = rand() % 10 + 1;
 
 ## Example Output
 
+<div class="no-copy">
+
 ```plaintext
 Welcome to the Math Quiz!
 
@@ -87,6 +89,8 @@ Enter your answer: 2
 
 Results saved to QuizResults.txt
 ```
+
+</div>
 
 The `QuizResults.txt` file should contain the questions and the user's answers:
 
