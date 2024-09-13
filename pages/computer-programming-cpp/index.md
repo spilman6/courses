@@ -38,7 +38,7 @@ Exam 1
 
 ## Week 6
 
-[Vectors, Strings, and File I/O](/appel/computer-programming-cpp/vectors-strings-filio)
+[Vectors, Strings, and File I/O](/appel/computer-programming-cpp/vectors-strings-fileio)
 
 [Assignment 5 - Math Quiz](/appel/computer-programming-cpp/assignments/math-quiz)
 
