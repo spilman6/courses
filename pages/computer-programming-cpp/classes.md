@@ -234,6 +234,8 @@ public:
 
 > [!IMPORTANT] Remember to include the header file in your Main.cpp.
 
+> [!TIP] You can use the shortcut `Ctrl + K, Ctrl + O` to toggle between the header and source files in Visual Studio.
+
 # Exercise 1
 
 <details open>
@@ -500,3 +502,198 @@ Person(const std::string name) { m_name = name; }
 </details>
 
 # Header Guards
+
+Header guards are used to prevent a header file from being included more than once. This can happen if a header file is included in multiple source files.
+
+Visual Studio uses `#pragma once` to achieve the same effect, but header guards are still commonly used in C++.
+
+Let's take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+# Object Members
+
+Object members are data members that are objects of another class. They can be used to model relationships between classes.
+
+In this video we will give our `Animal` class an owner (a `Person` object):
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code that we added to our `Animal` class:
+
+```cpp
+#include "Person.h"
+
+// next to the other fields
+Person* m_pOwner;
+
+// new mutator method
+void SetOwner(Person* pOwner) { m_pOwner = pOwner; }
+
+// new accessor method
+Person* GetOwner() const { return m_pOwner; }
+
+//updated Display method
+void Display() const
+{
+	std::cout << GetName() << " is " << GetAge() << " years old!\n";
+	if (!m_pOwner) return;
+	std::cout << GetName() << " is owned by " << m_pOwner->GetName() << ".\n";
+}
+```
+
+In main, we set the owner of our `Animal` object:
+
+```cpp
+pAnimal->SetOwner(&bob); // we need to use the address-of operator here
+```
+
+# Forward Declarations
+
+Forward declarations are used to declare a class before it is defined. This is useful when you have circular dependencies between classes.
+
+In this video we will use a forward declaration to avoid including the `Animal` header file inside of the `Person` header file:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+And here is the code that we added to the `Person.h` file:
+
+```cpp
+// forward declaration
+class Animal;
+
+// new field
+Animal* m_pPet = nullptr;
+
+// added new setter for the pet
+void SetPet(Animal* pPet) { m_pPet = pPet; }
+
+// moved the Display method to the cpp file, here is the declaration
+void Display() const;
+```
+
+The `Person.cpp` file contains the implementation of the `Display` method:
+
+```cpp
+#include "Person.h"
+#include "Animal.h"
+
+void Person::Display() const
+{
+	std::cout << GetName() << "\n";
+	if (!m_pPet) return;
+	std::cout << m_pPet->GetName() << " is owned by: " << GetName() << ".\n";
+}
+```
+
+# Exercise 3
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+For this exercise, you will create an `Animal.cpp` file, and move any constructors/methods that are more than a single line of code to the cpp file.
+
+> [!IMPORTANT] Remember to add `Animal::` before the method names in the cpp file.
+
+## Hints {#exercise-3-hints}
+
+<details>
+	<summary>What do I need to do to move a method to the cpp file?</summary>
+
+If you already have the method created in the header file, you can copy the whole method to the cpp file, and add `Animal::` before the method name. Here is an example:
+
+```cpp
+void Test() const
+{
+	std::cout << "Hello\n";
+}
+```
+
+Would become:
+
+```cpp
+// in the header file:
+void Test() const;
+
+// in the cpp file:
+void Animal::Test() const
+{
+	std::cout << "Hello\n";
+}
+```
+
+</details>
+
+## Solution {#exercise-3-solution}
+
+<details>
+	<summary>Show the Answer</summary>
+
+The updates to `Animal.h` should look like this:
+
+```cpp
+// updated constructor:
+Animal(const std::string name, const int age);
+
+// updated Display method:
+void Display() const;
+```
+
+Your `Animal.cpp` file should look like this:
+
+```cpp
+#include "Animal.h"
+
+Animal::Animal(const std::string name, const int age)
+{
+	SetName(name);
+	SetAge(age);
+}
+
+void Animal::Display() const
+{
+	std::cout << GetName() << " is " << GetAge() << " years old!\n";
+	if (!m_pOwner) return;
+	std::cout << GetName() << " is owned by " << m_pOwner->GetName() << ".\n";
+}
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+
