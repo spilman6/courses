@@ -13,7 +13,7 @@ Let's take a look at how to create a class in C++:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/Mmhd42rw6bI" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -53,7 +53,7 @@ Let's start with the mutator methods:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/7bN-jvj-GBI" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -92,7 +92,7 @@ fluffykins.SetAge(3);
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/HY9hTyLNrP4" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -119,7 +119,7 @@ In addition to mutator and accessor methods, classes can have other member funct
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/oLK4EuvAIoA" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -163,7 +163,7 @@ Take a look:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/qLYTZ0soRSY" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -193,7 +193,7 @@ As you can see, our Animal class is getting a bit long. It's a good idea to sepa
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/2-VUt3m8vzU" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -241,7 +241,7 @@ public:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/Q_W-ixBdu5c" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -350,7 +350,7 @@ public:
 <details>
 	<summary>Walkthrough Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/khFZ2Pbg4ao" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -373,7 +373,7 @@ Let's take a look at how to create a couple of constructors for our Animal class
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/RlbooLHQUmQ" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -411,7 +411,7 @@ Let's take a look at how to create a destructor for our Animal class:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/bmxVsJyEAQU" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -428,7 +428,7 @@ Here is the code for our destructor:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/RQ4z1wPPpTg" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -495,7 +495,7 @@ Person(const std::string name) { m_name = name; }
 <details>
 	<summary>Walkthrough Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/CZq7TyT2U20" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -512,7 +512,7 @@ Let's take a look:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/urMCpmEXkuM" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -527,7 +527,7 @@ In this video we will give our `Animal` class an owner (a `Person` object):
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/SnYiuVf-RRM" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -571,7 +571,7 @@ In this video we will use a forward declaration to avoid including the `Animal` 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/Qg-ZqXXORoI" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -612,7 +612,7 @@ void Person::Display() const
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/j0VKVpfDYZk" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -690,7 +690,7 @@ void Animal::Display() const
 <details>
 	<summary>Walkthrough Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/VECEE8kr_so" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
