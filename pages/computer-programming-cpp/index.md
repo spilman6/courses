@@ -54,7 +54,7 @@ Exam 2
 
 [Inheritance and Polymorphism](/appel/computer-programming-cpp/inheritance-and-polymorphism)
 
-[Assignment 7 - Tic Tac Toe](/appel/computer-programming-cpp/assignments/tic-tac-toe)
+[Assignment 6 - Tic Tac Toe](/appel/computer-programming-cpp/assignments/tic-tac-toe)
 
 ## Week 10
 
@@ -64,7 +64,7 @@ Exam 2
 
 [Static Members](/appel/computer-programming-cpp/static-members)
 
-[Assignment 8 - Peer Review](/appel/computer-programming-cpp/assignments/peer-review)
+[Assignment 7 - Peer Review](/appel/computer-programming-cpp/assignments/peer-review)
 
 ## Week 12
 
@@ -72,8 +72,8 @@ Exam 3
 
 ## Weeks 13-16
 
-[Assignment 9 - Game Analysis](/appel/computer-programming-cpp/assignments/game-analysis)
+[Assignment 8 - Game Analysis](/appel/computer-programming-cpp/assignments/game-analysis)
 
-[Assignment 10 - Game Modification Proposal](/appel/computer-programming-cpp/assignments/modification-proposal)
+[Assignment 9 - Game Modification Proposal](/appel/computer-programming-cpp/assignments/modification-proposal)
 
-[Assignment 11 - Final Project](/appel/computer-programming-cpp/final-project)
+[Assignment 10 - Final Project](/appel/computer-programming-cpp/final-project)
