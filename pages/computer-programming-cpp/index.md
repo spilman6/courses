@@ -44,9 +44,7 @@ Exam 1
 
 ## Week 7
 
-[Classes, Accessors, and Mutators](/appel/computer-programming-cpp/classes)
-
-[Assignment 6 - Student Gradebook](/appel/computer-programming-cpp/assignments/student-gradebook)
+[Classes](/appel/computer-programming-cpp/classes)
 
 ## Week 8
 
