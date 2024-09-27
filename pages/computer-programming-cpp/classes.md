@@ -2,6 +2,8 @@
 title: Classes
 subtitle: Computer Programming C++
 hideNav: false
+
+live: https://fvtc.software/appel/computer-programming-cpp/classes
 ---
 
 # Classes

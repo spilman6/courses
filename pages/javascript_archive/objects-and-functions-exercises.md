@@ -1,6 +1,9 @@
 ---
-title: 'Objects and Functions - Exercises'
-subtitle: 'Modern JavaScript'
+title: Objects and Functions - Exercises
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/objects-and-functions-exercises
 ---
 
 # Setup HTML

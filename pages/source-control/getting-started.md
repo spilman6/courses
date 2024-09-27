@@ -1,6 +1,9 @@
 ---
-title: 'Getting Started'
-subtitle: 'Version Control Essentials'
+title: Getting Started
+subtitle: Version Control Essentials
+hideNav: false
+
+live: https://fvtc.software/appel/version-control/getting-started
 ---
 
 # Getting Started

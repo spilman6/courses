@@ -1,6 +1,9 @@
 ---
-title: 'Web API with Express.js - Exercises'
-subtitle: 'Modern JavaScript'
+title: Web API with Express.js - Exercises
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/web-api-with-express-exercises
 ---
 
 # Getting Started

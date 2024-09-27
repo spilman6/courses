@@ -2,6 +2,8 @@
 title: Assignment 1 - GitHub Account
 subtitle: Computer Programming C++
 hideNav: false
+
+live: https://fvtc.software/appel/computer-programming-cpp/assignments/github-account
 ---
 
 # Assignment 1 - GitHub Account

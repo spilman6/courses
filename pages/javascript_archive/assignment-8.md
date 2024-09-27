@@ -1,6 +1,9 @@
 ---
-title: 'Assignment 8 - To Do App (MongoDB)'
-subtitle: 'Modern JavaScript'
+title: Assignment 8 - To Do App (MongoDB)
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/assignment-8
 ---
 
 # Assignment 8 - To Do App (MongoDB)

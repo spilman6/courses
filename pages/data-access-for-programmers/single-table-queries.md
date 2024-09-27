@@ -1,6 +1,9 @@
 ---
-title: 'Single Table Queries'
-course: 'Data Access for Programmers'
+title: Single Table Queries
+subtitle: Data Access for Programmers
+hideNav: false
+
+live: https://fvtc.software/appel/data-access-for-programmers/single-table-queries
 ---
 
 # Single Table Queries

@@ -1,6 +1,9 @@
 ---
-title: 'Getting Started - Exercises'
-subtitle: 'Modern JavaScript'
+title: Getting Started - Exercises
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/getting-started-exercises
 ---
 
 # Exercise 1

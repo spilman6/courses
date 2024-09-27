@@ -1,6 +1,9 @@
 ---
-title: 'One-to-Many Relationships'
-course: 'Data Access for Programmers'
+title: One-to-Many Relationships
+subtitle: Data Access for Programmers
+hideNav: false
+
+live: https://fvtc.software/appel/data-access-for-programmers/one-to-many-relationships
 ---
 
 # One-to-Many Relationships

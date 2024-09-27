@@ -1,6 +1,9 @@
 ---
-title: 'Callbacks, Promises, and Async/Await'
-subtitle: 'Modern JavaScript'
+title: Callbacks, Promises, and Async/Await
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascript_archive/callbacks-promises-async-await
 ---
 
 # Callbacks

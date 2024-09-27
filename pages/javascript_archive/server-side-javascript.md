@@ -1,6 +1,9 @@
 ---
-title: 'Server Side JavaScript'
-subtitle: 'Modern JavaScript'
+title: Server Side JavaScript
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/server-side-javascript
 ---
 
 # Server Side JavaScript

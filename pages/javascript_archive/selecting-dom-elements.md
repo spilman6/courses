@@ -1,6 +1,9 @@
 ---
-title: 'Selecting DOM Elements'
-subtitle: 'Modern JavaScript'
+title: Selecting DOM Elements
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/selecting-dom-elements
 ---
 
 # Selecting DOM Elements

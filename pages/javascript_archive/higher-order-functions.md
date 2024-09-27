@@ -1,6 +1,9 @@
 ---
-title: 'Higher Order Functions'
-subtitle: 'Modern JavaScript'
+title: Higher Order Functions
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/higher-order-functions
 ---
 
 # Higher Order Functions

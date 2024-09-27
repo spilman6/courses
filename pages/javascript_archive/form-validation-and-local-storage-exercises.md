@@ -1,6 +1,9 @@
 ---
-title: 'Form Validation and Local Storage - Exercises'
-subtitle: 'Modern JavaScript'
+title: Form Validation and Local Storage - Exercises
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/form-validation-and-local-storage-exercises
 ---
 
 # Exercise 1
@@ -143,7 +146,7 @@ localStorage.setItem('key', 'value')
 You can convert an object to a string by using the `JSON.stringify` method:
 
 ```javascript
-const obj = { title: 'Star Wars', year: 1977 }
+const obj = { title: Star Wars', year: 1977 }
 const str = JSON.stringify(obj)
 ```
 

@@ -1,6 +1,9 @@
 ---
 title: Getting Started
 subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/modern-javascript/getting-started
 ---
 
 # Getting Started

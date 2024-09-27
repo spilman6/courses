@@ -1,6 +1,9 @@
 ---
-title: 'Deployment'
-subtitle: 'Modern JavaScript'
+title: Deployment
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/deployment
 ---
 
 # Deployment

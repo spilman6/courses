@@ -1,6 +1,9 @@
 ---
-title: 'Form Validation and Local Storage'
-subtitle: 'Modern JavaScript'
+title: Form Validation and Local Storage
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/form-validation-and-local-storage
 ---
 
 # Form Validation

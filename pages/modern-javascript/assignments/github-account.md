@@ -1,6 +1,9 @@
 ---
 title: Assignment 1 - GitHub Account
 subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/modern-javascript/assignments/github-account
 ---
 
 # Assignment 1 - GitHub Account

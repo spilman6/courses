@@ -1,6 +1,9 @@
 ---
-title: 'Arrays'
-subtitle: 'Modern JavaScript'
+title: Arrays
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/arrays
 ---
 
 # Arrays

@@ -2,6 +2,8 @@
 title: Modern JavaScript
 subtitle: Ryan's Courses
 hide-nav: false
+
+live: https://fvtc.software/appel/modern-javascript
 ---
 
 # Modern JavaScript

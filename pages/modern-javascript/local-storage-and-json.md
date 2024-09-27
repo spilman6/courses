@@ -1,6 +1,9 @@
 ---
 title: Local Storage and JSON
 subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/modern-javascript/local-storage-and-json
 ---
 
 # Local Storage

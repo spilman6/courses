@@ -1,7 +1,9 @@
 ---
 title: Conditionals and Repetition
-course: Computer Programming C++
+subtitle: Computer Programming C++
 hideNav: false
+
+live: https://fvtc.software/appel/computer-programming-cpp/conditionals-and-repetition
 ---
 
 # Conditional Statements

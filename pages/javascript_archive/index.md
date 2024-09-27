@@ -1,7 +1,9 @@
 ---
-title: "Modern JavaScript"
-subtitle: "Ryan's Courses"
+title: Modern JavaScript
+subtitle: Ryan's Courses
 hide-nav: true
+
+live: https://fvtc.software/appel/javascirpt_archive
 ---
 
 [Getting Started](/appel/javascript/getting-started) - _Week 1_

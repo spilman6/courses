@@ -1,6 +1,9 @@
 ---
-title: 'Assignment 3 - Dynamic Welcome'
-subtitle: 'Modern JavaScript'
+title: Assignment 3 - Dynamic Welcome
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/assignment-3
 ---
 
 # Assignment 3 - Dynamic Welcome

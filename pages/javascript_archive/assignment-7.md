@@ -1,6 +1,9 @@
 ---
-title: 'Assignment 7 - To Do App'
-subtitle: 'Modern JavaScript'
+title: Assignment 7 - To Do App
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/assignment-7
 ---
 
 # Assignment 7 - To Do App

@@ -1,6 +1,9 @@
 ---
-title: 'Server-Side JavaScript - Exercises'
-subtitle: 'Modern JavaScript'
+title: Server-Side JavaScript - Exercises
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/server-side-javascript-exercises
 ---
 
 # Getting Started

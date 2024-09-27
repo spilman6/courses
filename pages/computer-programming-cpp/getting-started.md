@@ -2,6 +2,8 @@
 title: Getting Started
 subtitle: Computer Programming C++
 hideNav: false
+
+live: https://fvtc.software/appel/computer-programming-cpp/getting-started
 ---
 
 # Getting Started

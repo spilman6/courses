@@ -2,6 +2,8 @@
 title: Computer Programming C++
 subtitle: Ryan's Courses
 hideNav: false
+
+live: https://fvtc.software/appel/computer-programming-cpp
 ---
 
 # Computer Programming C++

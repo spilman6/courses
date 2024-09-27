@@ -1,6 +1,9 @@
 ---
 title: Selecting DOM Elements
 subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/modern-javascript/selecting-dom-elements
 ---
 
 # Selecting DOM Elements

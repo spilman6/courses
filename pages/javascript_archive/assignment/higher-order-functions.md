@@ -1,6 +1,9 @@
 ---
-title: 'Assignment 5 - Array Methods'
-subtitle: 'Modern JavaScript'
+title: Assignment 5 - Array Methods
+subtitle: Modern JavaScript'exercises
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/assignment/higher-order-functions
 ---
 
 # Assignment 5 - Array Methods

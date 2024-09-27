@@ -1,6 +1,9 @@
 ---
-title: 'Assignment 9 - Final Project'
-subtitle: 'Modern JavaScript'
+title: Assignment 9 - Final Project
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/assignment-9
 ---
 
 # Assignment 9 - Final Project

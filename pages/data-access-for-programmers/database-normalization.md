@@ -1,6 +1,9 @@
 ---
-title: 'Database Normalization'
-course: 'Data Access for Programmers'
+title: Database Normalization
+subtitle: Data Access for Programmers
+hideNav: false
+
+live: https://fvtc.software/appel/data-access-for-programmers/database-normalization
 ---
 
 # Database Normalization

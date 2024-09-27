@@ -2,6 +2,8 @@
 title: Assignment 2 - Rectangle Area
 subtitle: Computer Programming C++
 hideNav: false
+
+live: https://fvtc.software/appel/computer-programming-cpp/assignments/rectangle-area
 ---
 
 # Assignment 2 - Rectangle Area

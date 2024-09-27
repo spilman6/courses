@@ -2,6 +2,8 @@
 title: Assignment 5 - Math Quiz
 subtitle: Computer Programming C++
 hideNav: false
+
+live: https://fvtc.software/appel/computer-programming-cpp/assignments/math-quiz
 ---
 
 # Assignment 5 - Math Quiz

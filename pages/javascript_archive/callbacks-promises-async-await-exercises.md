@@ -1,6 +1,9 @@
 ---
-title: 'Callbacks, Promises, and Async/Await - Exercises'
-subtitle: 'Modern JavaScript'
+title: Callbacks, Promises, and Async/Await - Exercises
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/callbacks-promises-async-await-exercises
 ---
 
 # Exercise 1

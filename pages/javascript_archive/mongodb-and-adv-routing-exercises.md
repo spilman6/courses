@@ -1,6 +1,8 @@
 ---
-title: 'MongoDB and Advanced Routing - Exercises'
-subtitle: 'Modern JavaScript'
+title: MongoDB and Advanced Routing - Exercises
+subtitle: Modern JavaScript
+
+live: https://fvtc.software/appel/javascirpt_archive/mongodb-and-adv-routing-exercises
 ---
 
 # Getting Started

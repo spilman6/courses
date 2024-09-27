@@ -1,6 +1,9 @@
 ---
 title: Arrays and Objects
 subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/modern-javascript/arrays-and-objects
 ---
 
 # JavaScript Arrays

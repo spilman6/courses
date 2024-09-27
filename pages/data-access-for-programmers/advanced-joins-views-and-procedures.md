@@ -1,6 +1,9 @@
 ---
-title: 'Advanced Joins, Views, and Procedures'
-course: 'Data Access for Programmers'
+title: Advanced Joins, Views, and Procedures
+subtitle: Data Access for Programmers
+hideNav: false
+
+live: https://fvtc.software/appel/data-access-for-programmers/advanced-joins-views-and-procedures
 ---
 
 # Advanced Joins, Views, and Procedures

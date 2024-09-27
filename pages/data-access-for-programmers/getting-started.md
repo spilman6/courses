@@ -1,6 +1,9 @@
 ---
-title: 'Getting Started'
-course: 'Data Access for Programmers'
+title: Getting Started
+subtitle: Data Access for Programmers
+hideNav: false
+
+live: https://fvtc.software/appel/data-access-for-programmers/getting-started
 ---
 
 # Welcome to the Class!

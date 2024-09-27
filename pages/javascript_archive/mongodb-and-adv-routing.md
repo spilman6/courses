@@ -1,6 +1,9 @@
 ---
-title: 'MongoDB and Advanced Routing'
-subtitle: 'Modern JavaScript'
+title: MongoDB and Advanced Routing
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/mongodb-and-adv-routing
 ---
 
 # MongoDB and Advanced Routing

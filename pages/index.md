@@ -2,6 +2,8 @@
 title: Courses
 subtitle: Ryan Appel
 hide-nav: true
+
+live: https://fvtc.software/appel
 ---
 
 # Ryan Appel's Courses

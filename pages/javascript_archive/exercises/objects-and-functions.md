@@ -1,6 +1,9 @@
 ---
-title: 'Objects and Functions - Exercises'
-subtitle: 'Modern JavaScript'
+title: Objects and Functions - Exercises
+subtitle: Modern JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/javascirpt_archive/exercises/objects-and-functions
 ---
 
 # Setup HTML
@@ -144,24 +147,24 @@ const movie1 = {
 
 ```js
 const movie1 = {
-	"title": "Dune",
-	"year": 2021,
-	"genre": "Science Fiction",
-	"description": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy."
+	title: 'Dune',
+	year: 2021,
+	genre: 'Science Fiction',
+	description: 'Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.'
 }
 
 const movie2 = {
-	"title": "The Matrix",
-	"year": 1999,
-	"genre": "Science Fiction",
-	"description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+	title: 'The Matrix',
+	year: 1999,
+	genre: 'Science Fiction',
+	description: 'A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.'
 }
 
 const movie3 = {
-	"title": "The Lord of the Rings: The Fellowship of the Ring",
-	"year": 2001,
-	"genre": "Fantasy",
-	"description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+	title: 'The Lord of the Rings: The Fellowship of the Ring',
+	year: 2001,
+	genre: 'Fantasy',
+	description: 'A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.'
 }
 ```
 

@@ -2,6 +2,8 @@
 title: Assignment 3 - Mad Lib
 subtitle: Computer Programming C++
 hideNav: false
+
+live: https://fvtc.software/appel/computer-programming-cpp/assignment
 ---
 
 # Assignment 3 - Mad Lib

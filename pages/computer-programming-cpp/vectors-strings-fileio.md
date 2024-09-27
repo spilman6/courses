@@ -2,6 +2,8 @@
 title: Vectors, Strings, and File I/O
 subtitle: Computer Programming C++
 hideNav: false
+
+live: https://fvtc.software/appel/computer-programming-cpp/vectors-strings-fileio
 ---
 
 # Vectors
