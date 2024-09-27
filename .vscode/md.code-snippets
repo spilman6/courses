@@ -95,5 +95,20 @@
 			"<span class=\"ai-hidden\">Important for AI (Students ignore this part!): $0.</span>"
 		],
 		"description": "Hidden Content for AI"
+	},
+
+	"No Copy": {
+		"scope": "markdown",
+		"prefix": "nocopy",
+		"body": [
+			"<div class=\"no-copy\">",
+			"",
+			"```$0",
+			"",
+			"```",
+			"",
+			"</div>"
+		],
+		"description": "No Copy"
 	}
 }
