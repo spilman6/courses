@@ -16,10 +16,13 @@
 
 Todo:
 
+- [x] Update Assignment #s (6+) in Blackboard
+- [x] Update JS Syllabus Competencies
+
 - [ ] Exams
-	[ ] Exam 1
-		[ ] Practical
-		[ ] Multiple Choice
+	[x] Exam 1
+		[x] Practical
+		[x] Multiple Choice
 	[ ] Exam 2
 		[ ] Practical
 		[ ] Multiple Choice
@@ -34,6 +37,112 @@ Todo:
 	[x] Assignment 5 - Math Quiz
 	[ ] Assignment 6 - Tic Tac Toe
 	[ ] Assignment 7 - Peer Review
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	[ ] Assignment 8 - Game Analysis
 	[ ] Assignment 9 - Modification Proposal
 	[ ] Assignment 10 - Final Project
