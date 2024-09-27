@@ -328,6 +328,8 @@ Use the `filter` method to create an array of cats, like so:
 const cats = pets.filter(({ type }) => type === 'cat')
 ```
 
+</details>
+
 <details>
 	<summary>How do I get an array of names?</summary>
 
