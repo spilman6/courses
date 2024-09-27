@@ -1,6 +1,7 @@
 ---
 title: Getting Started
 subtitle: Computer Programming C++
+hideNav: false
 ---
 
 # Getting Started

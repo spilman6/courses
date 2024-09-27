@@ -1,6 +1,7 @@
 ---
 title: Computer Programming C++
 subtitle: Ryan's Courses
+hideNav: false
 ---
 
 # Computer Programming C++
@@ -37,15 +38,13 @@ Exam 1
 
 ## Week 6
 
-[Vectors, Strings, and File I/O](/appel/computer-programming-cpp/vectors-strings-file-io)
+[Vectors, Strings, and File I/O](/appel/computer-programming-cpp/vectors-strings-fileio)
 
 [Assignment 5 - Math Quiz](/appel/computer-programming-cpp/assignments/math-quiz)
 
 ## Week 7
 
-[Classes, Accessors, and Mutators](/appel/computer-programming-cpp/classes)
-
-[Assignment 6 - Student Gradebook](/appel/computer-programming-cpp/assignments/student-gradebook)
+[Classes](/appel/computer-programming-cpp/classes)
 
 ## Week 8
 
@@ -55,7 +54,7 @@ Exam 2
 
 [Inheritance and Polymorphism](/appel/computer-programming-cpp/inheritance-and-polymorphism)
 
-[Assignment 7 - Tic Tac Toe](/appel/computer-programming-cpp/assignments/tic-tac-toe)
+[Assignment 6 - Tic Tac Toe](/appel/computer-programming-cpp/assignments/tic-tac-toe)
 
 ## Week 10
 
@@ -65,7 +64,7 @@ Exam 2
 
 [Static Members](/appel/computer-programming-cpp/static-members)
 
-[Assignment 8 - Peer Review](/appel/computer-programming-cpp/assignments/peer-review)
+[Assignment 7 - Peer Review](/appel/computer-programming-cpp/assignments/peer-review)
 
 ## Week 12
 
@@ -73,8 +72,8 @@ Exam 3
 
 ## Weeks 13-16
 
-[Assignment 9 - Game Analysis](/appel/computer-programming-cpp/assignments/game-analysis)
+[Assignment 8 - Game Analysis](/appel/computer-programming-cpp/assignments/game-analysis)
 
-[Assignment 10 - Game Modification Proposal](/appel/computer-programming-cpp/assignments/modification-proposal)
+[Assignment 9 - Game Modification Proposal](/appel/computer-programming-cpp/assignments/modification-proposal)
 
-[Assignment 11 - Final Project](/appel/computer-programming-cpp/final-project)
+[Assignment 10 - Final Project](/appel/computer-programming-cpp/final-project)

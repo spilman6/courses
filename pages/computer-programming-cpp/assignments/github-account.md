@@ -1,6 +1,7 @@
 ---
 title: Assignment 1 - GitHub Account
 subtitle: Computer Programming C++
+hideNav: false
 ---
 
 # Assignment 1 - GitHub Account
