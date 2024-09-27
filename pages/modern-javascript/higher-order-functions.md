@@ -10,7 +10,7 @@ live: https://fvtc.software/appel/modern-javascript/higher-order-functions
 
 Higher order functions are functions that take other functions as arguments or return functions as their results. This is a powerful feature of JavaScript that allows us to write more modular and reusable code.
 
-## setTimeout and setInterval
+# setTimeout and setInterval
 
 Two common higher order functions are setTimeout and setInterval. Both of these functions take a function as an argument and execute it after a certain amount of time.
 
@@ -242,7 +242,7 @@ console.log(olderKids)
 	</div>
 </details>
 
-## Find and Some
+# Find and Some
 
 Sometimes we just want to find the first element in an array that meets a certain condition. This is where the `find` method comes in.
 
