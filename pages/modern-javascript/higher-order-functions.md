@@ -72,7 +72,7 @@ const kids = [
 ]
 ```
 
-## forEach
+# ForEach
 
 The `forEach` method is used to iterate over an array and execute a function for each element in the array.
 
@@ -97,7 +97,7 @@ Here is the code from the video:
 pets.forEach(pet => console.log(pet.name))
 ```
 
-### Using Object Destructuring
+## Using Object Destructuring
 
 Another advantage of using the `forEach` method is that it is more reusable. Take a look at the following example:
 
@@ -122,7 +122,7 @@ In the future, we are going to see a bunch of ways that we can write small reusa
 
 > [!Important] The `forEach` method does not return anything, and it does not modify the original array.
 
-## Filter
+# Filter
 
 Next, let's look at the `filter` method. The `filter` method is used to create a new array with all elements that pass the test implemented by the provided function.
 
@@ -146,11 +146,11 @@ Imagine for a moment that we wanted to use `for` loops to achieve the same resul
 
 > [!Important] The `filter` method always returns a new array, with the same or fewer number of elements as the original array.
 
-### Chaining Methods
+## Chaining Methods
 
 As you saw in the previous example, we can chain methods together. This is a common practice in JavaScript and is a great way to write clean and readable code.
 
-## Map
+# Map
 
 The `map` method, like the `filter` method, returns a new array. The difference is that the `map` method transforms each element in the array using the provided function. Let's take a look:
 
@@ -272,7 +272,7 @@ if (hasFish) console.log('We have fish!')
 > [!Important] The `find` method returns the first element that meets the condition, or `undefined` if no element meets the condition. The `some` method returns a boolean value.
 
 
-## Sort
+# Sort
 
 The `sort` method sorts the elements of an array in place and returns the sorted array. It's important to note that the sort method modifies the array! If you are using node.js version 20 or later, you can use `toSorted` to create a new array that is sorted.
 
@@ -379,7 +379,7 @@ console.log(sortedCatNames2)
 	</div>
 </details>
 
-## Reduce
+# Reduce
 
 The `reduce` method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value. This is a very powerful method that can be used in many different ways.
 
