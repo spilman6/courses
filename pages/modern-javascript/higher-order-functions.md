@@ -120,7 +120,7 @@ kids.forEach(({ name }) => console.log(name))
 ```
 In the future, we are going to see a bunch of ways that we can write small reusable functions like this.
 
-> [!Important] The `forEach` method does not return anything, and it does not modify the original array.
+> [!NOTE] The `forEach` method does not return anything, and it does not modify the original array.
 
 # Filter
 
@@ -144,7 +144,7 @@ pets.filter(({type}) => type === 'cat')
 
 Imagine for a moment that we wanted to use `for` loops to achieve the same result. It would be a lot more code and a lot harder to read!
 
-> [!Important] The `filter` method always returns a new array, with the same or fewer number of elements as the original array.
+> [!NOTE] The `filter` method always returns a new array, with the same or fewer number of elements as the original array.
 
 ## Chaining Methods
 
@@ -176,7 +176,7 @@ const olderPets = pets.map(({ name, age, type }) => {
 console.log(olderPets)
 ```
 
-> [!Important] The `map` method always returns a new array, with the same number of elements as the original array.
+> [!NOTE] The `map` method always returns a new array, with the same number of elements as the original array.
 
 # Exercise 1
 
@@ -269,7 +269,7 @@ const hasFish = pets.some(({ type }) => type === 'fish')
 if (hasFish) console.log('We have fish!')
 ```
 
-> [!Important] The `find` method returns the first element that meets the condition, or `undefined` if no element meets the condition. The `some` method returns a boolean value.
+> [!NOTE] The `find` method returns the first element that meets the condition, or `undefined` if no element meets the condition. The `some` method returns a boolean value.
 
 
 # Sort
@@ -402,7 +402,7 @@ const petNames = pets.reduce((acc, { name }) => `${acc} ${name}`, '')
 console.log(petNames)
 ```
 
-> [!Important] The `reduce` method always returns a single value. This value can be a number, string, object, or array.
+> [!NOTE] The `reduce` method always returns a single value. This value can be a number, string, object, or array.
 
 Let's continue working with Reduce. In this video we will use the `reduce` method to mimic the `map`, and `filter` methods.
 
