@@ -382,7 +382,7 @@ That's it! We have covered callbacks, promises, async/await, IIFEs, and http req
 	</div>
 </details>
 
-For this exercise you're going to write and call an async function called `getPokemonStats` that takes a pokemon name as an argument and returns an object with it's name, height, and weight.
+For this exercise you're going to write and call an async function called `getPokemonStats` that takes a pokemon name as an argument and returns an object with it's id, name, height, and weight.
 
 Use the [PokeAPI](https://pokeapi.co/) to get the information. The URL for the pokemon's information is `https://pokeapi.co/api/v2/pokemon/{pokemon-name}`.
 
@@ -411,14 +411,15 @@ const json = await getJsonFrom('https://pokeapi.co/api/v2/pokemon/charizard')
 	<summary>Show the Answer</summary>
 
 ```javascript
-const getPokemonStats = async pokemonName => {
-	const url = `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
+const getPokemonStats = async pokemon => {
+	const url = `https://pokeapi.co/api/v2/pokemon/${pokemon}`
 	const json = await getJsonFrom(url)
-	const { name, height, weight } = json
-	return { name, height, weight }
+	const { id, name, height, weight } = json
+	return { id, name, height, weight }
 }
 
-const charizard = await getPokemonStats('charizard')
+//const charizard = await getPokemonStats(charizard)
+const charizard = await getPokemonStats(6) // the api also lets us use the id
 console.log(charizard)
 ```
 
