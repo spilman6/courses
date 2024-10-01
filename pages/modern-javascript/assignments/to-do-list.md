@@ -1,12 +1,12 @@
 ---
-title: Assignment 5 - To Do List
+title: Assignment 6 - To Do List
 subtitle: Modern JavaScript
 hideNav: false
 
 live: https://fvtc.software/appel/modern-javascript/assignments/to-do-list
 ---
 
-# Assignment 5 - To Do List
+# Assignment 6 - To Do List
 
 In this assignment, you will start building a to-do list for your homepage. It will not be a full-featured to-do list, but it will allow the user to add items.
 
