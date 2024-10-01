@@ -50,7 +50,7 @@ Exam 1
 
 ## Week 8
 
-[Promises, Async/Await, and IIFEs](/appel/modern-javascript/callbacks-promises-async-await)
+[Callbacks, Promises, Async/Await](/appel/modern-javascript/callbacks-promises-async-await)
 
 [Assignment 7 - API Fetch](/appel/modern-javascript/assignments/api-fetch) 
 
