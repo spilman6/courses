@@ -64,6 +64,10 @@ Your program should include the following tasks:
 To generate random numbers in C++, you can use the `rand()` function. Here is an example of how to generate a random number between 1 and 10:
 
 ```cpp
+// call this once before you call rand()
+srand(time(NULL)); // initialize the random number generator
+
+// get a random number between 1 & 10
 int randomNumber = rand() % 10 + 1;
 ```
 
