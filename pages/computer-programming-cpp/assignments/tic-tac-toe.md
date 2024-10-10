@@ -23,11 +23,7 @@ Start by forking the following repository:
 
 [CPP-TicTacToe](https://github.com/FVTC/CPP-TicTacToe)
 
-Then run the following command in Git Bash. Replace `<github-username>` with your GitHub username.
-
-```bash
-git clone https://github.com/<github-username>/CPP-TicTacToe && cd CPP-TicTacToe && start CPP-TicTacToe.sln
-```
+Then clone it down to your computer.
 
 The repository contains a Visual Studio solution with a project that contains the starting code for the game. There are two code files in the project:
 
