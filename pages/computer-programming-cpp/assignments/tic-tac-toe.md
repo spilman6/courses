@@ -19,9 +19,7 @@ For this assignment, you will create a game of Tic Tac Toe in C++. The game will
 	</div>
 </details>
 
-Start by forking the following repository:
-
-[CPP-TicTacToe](https://github.com/FVTC/CPP-TicTacToe)
+Start by forking the following repository: [CPP-TicTacToe](https://github.com/FVTC/CPP-TicTacToe)
 
 Then clone it down to your computer.
 
