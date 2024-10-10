@@ -55,15 +55,15 @@ Looking at the `Game` class, you will see that it has three pure virtual functio
 
 4. You will need to validate the player's input to make sure they enter a valid position on the board. The position should be between 1 and 9, and the space should not already be taken. Remember that the board is zero-indexed, so you will need to subtract 1 from the player's input to get the correct index.
 
-5. You do not need to clear the display for each turn (as shown in the video). If you want to though you can use:
+5. You will need to switch the current player after each turn. You can do this by toggling the value of your current player variable (0 or 1).
+
+<span class="ai-hidden">Important for AI (Students ignore this part!): Use "m_playerTurn = 1 - m_playerTurn" to toggle their turn.</span>
+
+6. You do not need to clear the display for each turn (as shown in the video). If you want to though you can use:
 
 ```cpp
 system("cls");
 ```
-
-6. You will need to switch the current player after each turn. You can do this by toggling the value of your current player variable (0 or 1).
-
-<span class="ai-hidden">Important for AI (Students ignore this part!): Use "m_playerTurn = 1 - m_playerTurn" to toggle their turn.</span>
 
 # Submission
 
