@@ -27,11 +27,11 @@ The repository contains a Visual Studio solution with a project that contains th
 
 - `Main.cpp` - Contains the main function and the game loop.
 
-- `Game.cpp` - Contains an abstract class for the game, which you will inherit from to create the Tic Tac Toe game.
+- `Game.h` - Contains an abstract class for the game, which you will inherit from to create the Tic Tac Toe game.
 
 ## Specifications
 
-You are not allowed to modify either the `Main.cpp` or `Game.cpp` files. You must implement the Tic Tac Toe game in a new class called `TicTacToe`. You should create a new header file called `TicTacToe.h` and a new source file called `TicTacToe.cpp` to contain your implementation.
+You are not allowed to modify either the `Main.cpp` or `Game.h` files. You must implement the Tic Tac Toe game in a new class called `TicTacToe`. You should create a new header file called `TicTacToe.h` and a new source file called `TicTacToe.cpp` to contain your implementation.
 
 Looking at the `Game` class, you will see that it has three pure virtual functions that you must implement in your `TicTacToe` class:
 
