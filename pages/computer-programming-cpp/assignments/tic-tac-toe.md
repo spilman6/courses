@@ -65,3 +65,4 @@ Looking at the `Game` class, you will see that it has three pure virtual functio
 
 When you have completed the assignment, push your changes to the repository and submit the URL of your repository in Blackboard.
 
+> [!NOTE] This assignment will likely not be graded until you have completed Assignment 7 - Peer Review. After you complete Assignment 7, you can make any necessary changes to this assignment and resubmit it for grading.
