@@ -155,7 +155,7 @@ public:
 	</div>
 </details>
 
-## Constructors
+# Constructors
 
 When we create a derived class, we can also define constructors for the derived class. These constructors can initialize the properties of the derived class and call the constructor of the base class to initialize the properties of the base class.
 
