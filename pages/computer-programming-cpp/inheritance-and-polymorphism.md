@@ -23,13 +23,13 @@ Before we get started with inheritance and polymorphism, let's go over the Pilla
 	</div>
 </details>
 
-1. **Encapsulation** - The bundling of data with the methods that operate on that data.
+1. **Encapsulation** - The bundling of data and the methods that operate on that data into a single unit.
 
-2. **Inheritance** - The ability to create new classes based on existing classes.
+2. **Inheritance** - Extend the functionality of a class by using a relationship.
 
-3. **Polymorphism** - The ability to treat objects of different classes as instances of a common base class.
+3. **Polymorphism** - Allows objects to be treated as instances of their base type.
 
-4. **Abstraction** - The process of hiding the implementation details of a class and only showing the necessary features of the class.
+4. **Abstraction** - Hiding the implementation details of a class from the user.
 
 
 # Inheritance
