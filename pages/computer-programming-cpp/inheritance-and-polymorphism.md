@@ -102,7 +102,7 @@ daisy.Speak();
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/O4a6mQm6CP8" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -263,7 +263,7 @@ virtual void Move() const = 0;
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/7HDF_ryag9U" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -289,6 +289,8 @@ void Speak() const { std::cout << GetName() << " says beep boop meow!\n"; }
 <details>
 	<summary>Show the Answer</summary>
 
+RoboCat.h:
+
 ```cpp
 #pragma once
 
@@ -304,12 +306,20 @@ public:
 };
 ```
 
+Main.cpp:
+
+```cpp
+RobotCat rc;
+rc.SetName("Buster");
+rc.Speak();
+```
+
 </details>
 
 <details>
 	<summary>Walkthrough Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/vQRnkpvwpGk" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
