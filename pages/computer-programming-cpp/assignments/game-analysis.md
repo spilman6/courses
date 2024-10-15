@@ -133,7 +133,7 @@ The game uses resources, sometimes called assets, such as images, sounds, fonts,
 
 In the next unit, there will be more videos that cover additional concepts in the code. You will not be required to watch all of the videos, but you may find them helpful as you work on your final project. For example, if your group decides to add power-ups to the game, you may want to watch the video on how collisions work.
 
-# Assignment
+# Assignment Instructions
 
 For this assignment, you will make some minor changes to your fork of the game. You will need to make the following changes:
 
