@@ -159,6 +159,8 @@ public:
 };
 ```
 
+</details>
+
 ## Solution {#exercise-1-solution}
 
 <details>
