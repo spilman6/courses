@@ -96,7 +96,7 @@ This video will walk you through the process:
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/E4vcyRrbIgo" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         ></iframe>
     </div>
@@ -113,7 +113,7 @@ We are going to be using a specific version of the node-fetch package. This vers
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/OpkTsQChW1s" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -148,7 +148,7 @@ And here is the code from the video:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/IqmcFo2VEJE" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -231,7 +231,7 @@ pokemon_species.forEach(pokemon => {
 <details>
 	<summary>Walkthrough Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/65YOKz2pMbo" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -363,7 +363,7 @@ console.log(ryan3)
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/cDrLBTOkLNM" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		></iframe>
 	</div>
@@ -425,16 +425,15 @@ const fetch = require('node-fetch')
 
 const getRandomPokemon = async () => {
 
-	const url = `https://pokeapi.co/api/v2/pokemon/${Math.floor(Math.random() * 150)}`
-
+	const url = `https://pokeapi.co/api/v2/pokemon/${Math.floor(Math.random() * 807) + 1}`
 	const response = await fetch(url)
 	const json = await response.json()
 
-	const { name, id, height, weight } = json
+	const { name, id, height, weight } = json;
 	return { name, id, height, weight }
 }
 
-module.exports = { getRandomPokemon }
+module.exports = getRandomPokemon
 ```
 
 app.js:
@@ -455,7 +454,7 @@ app.js:
 <details>
 	<summary>Walkthrough Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/nbtkldr0Fvo" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
