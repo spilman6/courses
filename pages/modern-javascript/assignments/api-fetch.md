@@ -54,4 +54,4 @@ const url = 'https://pokeapi.co/api/v2/pokemon/' + Math.floor(Math.random() * 15
 
 # Submission
 
-Push up your changes to GitHub and submit the URL to your repository on Blackboard.
+Push up your changes to GitHub and submit the URL to your repository to Blackboard.

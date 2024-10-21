@@ -6,6 +6,6 @@
 - [x] Demonstrate the use of asynchronous code in JavaScript.
 - [x] Create scripts that store data in the browser's local storage.
 - [ ] Create and debug JavaScript code that runs on the NodeJS runtime.
-- [ ] Create custom modules, and demonstrate use of common NPM modules.
+- [x] Create custom modules, and demonstrate use of common NPM modules.
 - [ ] Create a server-side application using JavaScript.
 - [ ] Create an API that uses data from a database.

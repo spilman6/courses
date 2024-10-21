@@ -100,7 +100,7 @@ Yesterday, I went to McDonald's and saw a smelly doughnut. I asked Obama if he w
 
 # Submission
 
-For submission, you will need to create a new repository on GitHub and push your code to it. You will then submit the link to your repository on Blackboard.
+For submission, you will need to create a new repository on GitHub and push your code to it. You will then submit the link to your repository to Blackboard.
 
 ## Pushing to GitHub
 
