@@ -134,8 +134,8 @@ And here is the code from the video:
 
 	const url = 'https://pokeapi.co/api/v2/pokemon/ditto'
 
-	const response = await fetch(url);
-	const json = await response.json();
+	const response = await fetch(url)
+	const json = await response.json()
 
 	const { name, id, height, weight } = json
 	console.log({ name, id, height, weight })
@@ -209,8 +209,8 @@ pokemon_species.forEach(pokemon => {
 ```javascript
 (async () => {
 
-	const fetch = require('node-fetch')
 	const colors = require('ansi-colors')
+	const fetch = require('node-fetch')
 
 	const color = 'red'
 
@@ -369,7 +369,7 @@ console.log(ryan3)
 	</div>
 </details>
 
-For this exercise, I want you to create a custom module that will contain a function that will return a random pokemon from the pokeAPI. You will then import this module into your app.js file and use the function to get a random pokemon.
+For this exercise, I want you to create a custom module called `pokemon.js` that export a function. This function will return a random pokemon from the pokeAPI. You will then import this module into your app.js file and use the function to get a random pokemon.
 
 ## Hints {#exercise-2-hints}
 
@@ -379,11 +379,19 @@ For this exercise, I want you to create a custom module that will contain a func
 To create a custom module, you can create a new JavaScript file and export the code using the `module.exports` object. For example:
 
 ```javascript
-const getRandomPokemon = () => {
+const getRandomPokemon = async () => {
 	return 'random pokemon'
 }
 
 module.exports = getRandomPokemon
+```
+
+Or you could do:
+
+```javascript
+module.exports = () => {
+	return 'random pokemon'
+}
 ```
 
 </details>
@@ -394,12 +402,13 @@ module.exports = getRandomPokemon
 To import a custom module into your app.js file, you can use the `require` function. For example:
 
 ```javascript
+(async () => {
 
-const getRandomPokemon = require('./random-pokemon')
+	const getRandomPokemon = require('./random-pokemon')
+	const pokemon = getRandomPokemon()
+	console.log(pokemon)
 
-const randomPokemon = getRandomPokemon()
-
-console.log(randomPokemon)
+})()
 ```
 
 </details>
@@ -408,6 +417,8 @@ console.log(randomPokemon)
 
 <details>
 	<summary>Show the Answer</summary>
+
+pokemon.js:
 
 ```javascript
 const fetch = require('node-fetch')
@@ -423,8 +434,30 @@ const getRandomPokemon = async () => {
 	return { name, id, height, weight }
 }
 
-module.exports = getRandomPokemon
+module.exports = { getRandomPokemon }
 ```
 
+app.js:
+
+```javascript
+
+(async () => {
+
+	const getRandomPokemon = require('./pokemon')
+	const randomPokemon = await getRandomPokemon()
+	console.log(randomPokemon)
+
+})()
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
 </details>
 
