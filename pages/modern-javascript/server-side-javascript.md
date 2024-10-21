@@ -162,7 +162,7 @@ For this exercise, I want you to make a variable called "color" that will contai
 
 The url for the pokemon-species is:
 
-```plaintext
+```javascript
 const url = `https://pokeapi.co/api/v2/pokemon-color/${color}`
 ```
 
