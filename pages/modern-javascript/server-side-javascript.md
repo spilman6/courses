@@ -429,7 +429,7 @@ const getRandomPokemon = async () => {
 	const response = await fetch(url)
 	const json = await response.json()
 
-	const { name, id, height, weight } = json;
+	const { name, id, height, weight } = json
 	return { name, id, height, weight }
 }
 
