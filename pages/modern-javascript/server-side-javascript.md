@@ -199,6 +199,8 @@ pokemon_species.forEach(pokemon => {
 })
 ```
 
+</details>
+
 # Custom Modules
 
 In addition to using packages from NPM, you can also create your own custom modules. A module is a file that contains JavaScript code. You can export code from a module using the `module.exports` object. You can then import the code from a module into another file using the `require` function.
