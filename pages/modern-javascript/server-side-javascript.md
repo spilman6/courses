@@ -201,6 +201,42 @@ pokemon_species.forEach(pokemon => {
 
 </details>
 
+## Solution {#exercise-1-solution}
+
+<details>
+	<summary>Show the Answer</summary>
+
+```javascript
+(async () => {
+
+	const fetch = require('node-fetch')
+	const colors = require('ansi-colors')
+
+	const color = 'red'
+
+	const url = `https://pokeapi.co/api/v2/pokemon-color/${color}`
+	const response = await fetch(url)
+	const json = await response.json()
+
+	const { pokemon_species } = json
+	pokemon_species.forEach(pokemon => {
+		console.log(colors[color](pokemon.name))
+	})
+
+})()
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
 # Custom Modules
 
 In addition to using packages from NPM, you can also create your own custom modules. A module is a file that contains JavaScript code. You can export code from a module using the `module.exports` object. You can then import the code from a module into another file using the `require` function.
