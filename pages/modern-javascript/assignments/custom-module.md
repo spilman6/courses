@@ -1,6 +1,6 @@
 ---
 title: Assignment 8 - Custom Module
-subtitle: 
+subtitle: Modern JavaScript
 hideNav: false
 
 live: https://fvtc.software/appel/modern-javascript/assignments/custom-module
