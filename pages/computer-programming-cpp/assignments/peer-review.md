@@ -19,29 +19,29 @@ For this assignment, you will review and discuss the code of one of your classma
 	</div>
 </details>
 
-## Peer Review Guidelines
+# Peer Review Guidelines
 
 Read through the "Peer Review Guidelines" found [here](https://github.com/rdappel/courses/raw/refs/heads/master/support-files/cpp/Peer%20Review%20Guidelines.docx).
 
-## Classroom Students
+# Classroom Students
 
 You will be completing this assignment in class. I will assign you a partner to review (probably a classmate that sits neer you). You will have time in class to review their code and provide feedback.
 
-## Online Students
+# Online Students
 
-### Finding a Partner
+## Finding a Partner
 
 After you have completed [Assignment 6 - Tic Tac Toe](https://fvtc.software/appel/computer-programming-cpp/assignments/tic-tac-toe), you will need to find a partner to review. I have setup a [Teams Channel](https://teams.microsoft.com/l/channel/19%3A22361d30392b4302bc18d9579cd626ee%40thread.tacv2/Peer%20Review%20-%20Online?groupId=ee1b6d24-5c8f-42ad-b178-cfe8ad4f69fe&tenantId=ae888c53-4d60-47da-a75a-c8a10f1d47b0) for this purpose.
 
-### Explaining Your Code
+## Explaining Your Code
 
 You will need to record a 5-10 minute video explaining your code to your partner. You should walk through your implementation of the Tic Tac Toe game, explaining how you structured your code, and how you handled the game logic. You should also discuss any challenges you faced, and how you overcame them.
 
-### Reviewing Your Partner's Code
+## Reviewing Your Partner's Code
 
 After you have recorded your video, you will need to exchange videos with your partner. Watch their video, and take notes on their implementation. You should look for areas where they did well, and also provide suggestions for how they could possibly improve their code.
 
-## Submission
+# Submission
 
 Submit a half-page review of your partner's code. Include what you thought they did well, and what suggestions you have for improvement. Also include a link to your video explaining your code (online students only). The review should include:
 
