@@ -21,7 +21,7 @@ For this assignment, you will review and discuss the code of one of your classma
 
 ## Peer Review Guidelines
 
-Read through the "Peer Review Guidelines" found [here]().
+Read through the "Peer Review Guidelines" found [here](https://github.com/rdappel/courses/raw/refs/heads/master/support-files/cpp/Peer%20Review%20Guidelines.docx).
 
 ## Classroom Students
 
