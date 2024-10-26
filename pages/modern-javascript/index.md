@@ -62,17 +62,17 @@ Exam 2
 
 [Server-Side JavaScript](/appel/modern-javascript/server-side-javascript)
 
-[Assignment 8 - Custom Module](/appel/modern-javascript/assignments/)
+[Assignment 8 - Custom Module](/appel/modern-javascript/assignments/custom-module)
 
 ## Week 11
 
-[NPM and Express](/appel/modern-javascript/npm-and-express)
+[ExpressJS Webserver](/appel/modern-javascript/expressjs-webserver)
 
 [Assignment 9 - Joke API](/appel/modern-javascript/assignments/joke-api)
 
 ## Week 12
 
-[Advance Routing and MongoDB](/appel/modern-javascript/modules-and-routing)
+[Advanced Routing and MongoDB](/appel/modern-javascript/routing-and-mongodb)
 
 ## Week 13
 
