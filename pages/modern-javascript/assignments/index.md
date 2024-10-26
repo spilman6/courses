@@ -24,10 +24,6 @@ live: https://fvtc.software/appel/modern-javascript/assignments
 
 [Assignment 4 - Secret Message](/appel/modern-javascript/assignments/secret-message)
 
-## Week 5
-
-Exam 1
-
 ## Week 6
 
 [Assignment 5 - Carousel](/appel/modern-javascript/assignments/carousel)
@@ -40,17 +36,10 @@ Exam 1
 
 [Assignment 7 - API Fetch](/appel/modern-javascript/assignments/api-fetch)
 
-## Week 9
-
-Exam 2
-
 ## Week 10
 
 [Assignment 8 - Custom Module](/appel/modern-javascript/assignments/custom-module)
 
-## Week 11
+## Week 14
 
 [Assignment 10 - Final Project](/appel/modern-javascript/assignments/final-project)
-
-## Week 12
-
