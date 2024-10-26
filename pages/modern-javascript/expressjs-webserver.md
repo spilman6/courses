@@ -335,3 +335,41 @@ GET {{url}}/pokemon/5
 ### Random with type
 GET {{url}}/random-pokemon/{{type}}
 ```
+
+# Post Requests
+
+Finally, we will add a new endpoint that allows us to add a new pokemon to our list of pokemon. We'll use REST Client to test our new endpoint.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code we added to our `app.js` file:
+
+```javascript
+app.post('/api/v1/add', (request, response) => {
+	const { id, name, type } = request.body
+	const found = pokemon.find(p => p.id.toString() === id.toString())
+	if (found) response.send({ error: { message: `Pokemon with id: ${id}, already exists`} })
+	else pokemon.push({ id, name, type })
+})
+```
+
+And here is the REST Client code we used to test our new endpoint:
+
+```http
+### Add new pokemon
+POST {{url}}/add
+Content-Type: application/json
+
+{ 
+	"id": 10,
+	"name": "Caterpie",
+	"type": "Bug"
+}
+```
