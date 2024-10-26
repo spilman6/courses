@@ -302,3 +302,36 @@ And here is the front-end code for the new route:
 		</iframe>
 	</div>
 </details>
+
+# Rest Client
+
+I want to show you a tool that I use to test my back-end routes. It's called REST Client. You can install it in Visual Studio Code. Here is a video that shows you how to use it:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Here is the code that we used in the video:
+
+```http
+### Variables
+@url = http://localhost:3010/api/v1
+@type = water
+
+
+### Random Pokemon
+GET {{url}}/random-pokemon
+
+
+### Specific Pokemon
+GET {{url}}/pokemon/5
+
+
+### Random with type
+GET {{url}}/random-pokemon/{{type}}
+```
