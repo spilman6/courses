@@ -29,7 +29,7 @@ const port = 3000
 app.listen(port, () => console.log(`Listening on port: ${port}`))
 ```
 
-## Handling Requests
+# Handling Requests
 
 Express allows us to handle different types of requests. We can use the `app.get()` method to handle GET requests. Take a look:
 
@@ -130,7 +130,7 @@ app.get('/', (request, response) => {
 })
 ```
 
-## Front-Back End Communication
+# Front & Back End Communication
 
 Next, we will look at how to communicate between the front-end and back-end of our application. We will use the `fetch` API to make requests from the front-end to the back-end.
 
