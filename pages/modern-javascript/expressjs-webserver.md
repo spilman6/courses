@@ -210,7 +210,7 @@ And here is our front-end code:
 	</div>
 </details>
 
-For this exercise, create a new back end route that will return a random pokemon based on the type. You should be able to pass the type as a parameter in the URL. For example, `/api/v1/random-pokemon/grass` should return a random grass type pokemon.
+For this exercise, create a new back end route that will return a random pokemon based on the type. You should be able to pass the type as a parameter in the URL. For example, `/api/v1/random-pokemon/type/grass` should return a random grass type pokemon.
 
 Then create a new front end route that will display the name and type of the random pokemon that is returned. The route should be `/type/:type`.
 
@@ -235,7 +235,7 @@ One way to do this is to add a new condition to the ternary operator that checks
 const url = searchType === 'pokemon'
 	? `/api/v1/pokemon/${id}`
 	: searchType === 'type'
-		? `/api/v1/type/${id}`
+		? `/api/v1/random-pokemon/type/${id}`
 		: '/api/v1/random-pokemon'
 ```
 
@@ -244,7 +244,7 @@ That's pretty hard to read! So you might want to move it into a separate functio
 ```javascript
 const getUrl = (searchType, id) => {
 	if (searchType === 'pokemon') return `/api/v1/pokemon/${id}`
-	if (searchType === 'type') return `/api/v1/type/${id}`
+	if (searchType === 'type') return `/api/v1/random-pokemon/type/${id}`
 	return '/api/v1/random-pokemon'
 }
 ```
@@ -259,7 +259,7 @@ const getUrl = (searchType, id) => {
 Here is the back-end code for the new route:
 
 ```javascript
-app.get('/api/v1/type/:type', (request, response) => {
+app.get('/api/v1/random-pokemon/type/:type', (request, response) => {
 	const { type } = request.params
 	const found = pokemon.filter(p => p.type.toLowerCase() === type.toLowerCase())
 	const r = Math.floor(Math.random() * found.length)
