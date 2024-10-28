@@ -19,6 +19,8 @@ In this assignment, you are going to create a custom module that will allow you 
     </div>
 </details>
 
+> [!NOTE] We are done with our github.io homepage. From here on out, you will want to create a new project folder for each assignment.
+
 ## Specifications
 
 1. When your application is run (from the console), it should display a random fortune cookie message.
@@ -50,4 +52,4 @@ const fortunes = require('./fortunes.json')
 
 # Submission
 
-Push your project to GitHub and submit the URL to your repository to Blackboard.
+Create a new repository on GitHub called `fortune-cookie`. Push your project to GitHub and submit the URL to your repository to Blackboard.
