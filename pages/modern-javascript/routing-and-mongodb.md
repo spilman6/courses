@@ -175,7 +175,7 @@ In this video, we will register for a free MongoDB Atlas account and create a ne
 	</div>
 </details>
 
-## Adding Data and Setting up our Connection
+## Adding Data and Connection Setup
 
 Next we will add a few pokemon to our database, and then install the `mongodb` package using npm.
 
