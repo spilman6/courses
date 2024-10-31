@@ -33,7 +33,7 @@ In this video we will move our static (front-end) routes to a separate file and 
 
 Here is our new folder structure:
 
-```
+```plaintext
 .
 ├── public
 |   ├── scripts
@@ -93,7 +93,7 @@ In this video we will move our API routes to a separate file and folder.
 
 Here is our new folder structure for the routes:
 
-```
+```plaintext
 └── routes
 	├── api
 	│   └── v1
