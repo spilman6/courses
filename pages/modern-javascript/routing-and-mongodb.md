@@ -25,7 +25,7 @@ In this video we will move our static (front-end) routes to a separate file and 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/_-sNlNgtTR0" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -85,7 +85,7 @@ In this video we will move our API routes to a separate file and folder.
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/_M6wy5aeivE" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -169,7 +169,7 @@ In this video, we will register for a free MongoDB Atlas account and create a ne
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/QmvpMH24Xoo" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -182,7 +182,7 @@ Next we will add a few pokemon to our database, and then install the `mongodb` p
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/eMKvLPl1P9M" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -211,12 +211,20 @@ In this video, we will retrieve data from our MongoDB database and display it in
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/ot8pR2TFSRc" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
 </details>
 
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/U8ynFmU2EwQ" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 Here is the updated `dbconnect.js` file:
 
 ```javascript
@@ -252,7 +260,7 @@ In this video, we will update our GET endpoints to retrieve data from our MongoD
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/uKQbrd-coL4" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -297,7 +305,7 @@ In this video, we will update our POST endpoint to add data to our MongoDB datab
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/S6jEhjbExo8" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -324,14 +332,14 @@ router.post('/add', async (request, response) => {
 })
 ```
 
-## Getting an item by ID
+## Getting an Item by ID
 
 In this video, we will update our GET endpoint to retrieve data from our MongoDB database by ID.
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/hHr4HnPLW-g" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -354,7 +362,7 @@ router.get('/byId/:id', async (request, response) => {
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/rKa_VDQoNLY" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -432,7 +440,7 @@ GET {{url}}/pokemon/byName/ivysaur
 <details>
 	<summary>Walkthrough Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/x-SD0EDfpFw" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
