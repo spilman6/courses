@@ -299,11 +299,13 @@ router.get('/random/:type', async (request, response) => {
 	const foundOfType = await collection.find({ "type": type }).toArray()
 	const count = foundOfType.length
 	if (count === 0) response.send({ error: { message: `Could not find pokemon with type: ${type}` }})
-	const number = Math.floor(Math.random() * count) + 1
-	console.log(number, foundOfType)
+	const number = Math.floor(Math.random() * count)// + 1 <-- error in the video
+	//console.log(number, foundOfType)
 	response.send(foundOfType[number])
 })
 ```
+
+> [!NOTE] There was a small error in the video regarding the calculation for the random number. The "+ 1" should be removed from the calculation.
 
 ## Updating our POST endpoint
 
