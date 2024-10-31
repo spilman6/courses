@@ -175,14 +175,16 @@ In this video, we will register for a free MongoDB Atlas account and create a ne
 	</div>
 </details>
 
-## Adding Data and Connection Setup
+Here is the link to [Register for MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register).
+
+## Adding Data to the Database
 
 Next we will add a few pokemon to our database, and then install the `mongodb` package using npm.
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/eMKvLPl1P9M" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/U8ynFmU2EwQ" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -193,6 +195,19 @@ To install the `mongodb` package, run the following command:
 ```bash
 npm install mongodb@6.3.0
 ```
+
+## Connection Setup
+
+Next let's setup our project to connect to our MongoDB database.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/eMKvLPl1P9M" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
 
 Here is the code for the `dbconnect.js` file:
 
@@ -217,14 +232,6 @@ In this video, we will retrieve data from our MongoDB database and display it in
 	</div>
 </details>
 
-<details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/U8ynFmU2EwQ" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		</iframe>
-	</div>
-</details>
 Here is the updated `dbconnect.js` file:
 
 ```javascript
