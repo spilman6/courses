@@ -369,7 +369,7 @@ For this exercise, you will create and test two new endpoints:
 2. `GET /api/v1/pokemon/byName/:name` - This endpoint should retrieve a pokemon from the database by name. Additionally, I want you to use the following query parameters, to make the search case-insensitive:
 
 ```javascript
-const regexp = new RegExp(`^${name}$`, 'i')
+const regexp = new RegExp(`^${name}`, 'i')
 const found = await collection.findOne({ name: regexp })
 ```
 
