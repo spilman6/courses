@@ -394,7 +394,38 @@ const found = await collection.find().toArray()
 <details>
 	<summary>Show the Answer</summary>
 
+The "GET /api/v1/pokemon/" endpoint should look like this:
 
+```javascript
+router.get('/', async (_, response) => {
+	const collection = await getPokemon()
+	const found = await collection.find().toArray()
+	response.send(found)
+})
+```
+
+The "GET /api/v1/pokemon/byName/:name" endpoint should look like this:
+
+```javascript
+router.get('/byName/:name', async (request, response) => {
+	const { name } = request.params
+	const collection = await getPokemon()
+	const regexp = new RegExp(`^${name}`, 'i')
+	const found = await collection.findOne({ name: regexp })
+	if (found) response.send(found)
+	else response.send({ error: { message: `Could not find pokemon with name: ${name}` }})
+})
+```
+
+Here are the tests that you can use in the `endpoints.rest` file:
+
+```plaintext
+### Get all pokemon
+GET {{url}}/pokemon/
+
+### Get pokemon by name
+GET {{url}}/pokemon/byName/ivysaur
+```
 
 </details>
 
