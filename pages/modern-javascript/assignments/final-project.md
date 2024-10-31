@@ -53,7 +53,7 @@ We will be working on this project in class. You will choose (or I will) groups 
 
 ## Finding a Partner/Group
 
-You will need to find a partner (or two) to work on this project with. I have setup a [Teams Channel]() for this purpose.
+You will need to find a partner (or two) to work on this project with. I have setup a [Teams Channel](https://teams.microsoft.com/l/channel/19%3Af0fa3b79a6e34198ac1e73ec5754173e%40thread.tacv2/Final%20Project%20-%20Online?groupId=2348ea0d-6e05-4e3f-a9a8-1ccb343f71c5&tenantId=ae888c53-4d60-47da-a75a-c8a10f1d47b0) for this purpose.
 
 ## Working Collaboratively
 
