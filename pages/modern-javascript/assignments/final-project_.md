@@ -47,7 +47,7 @@ You and your group can choose the name of the food truck, type of food served, a
 
 # Classroom Students
 
-We will be working on this project in class. You will choose/create groups of 2-3 students to work on the project together. You will have time in class to work on the project.
+We will be working on this project in class. You will choose (or I will) groups of 2-3 students to work on the project together. You will have time in class to work on the project, but you will also need to work on it outside of class.
 
 # Online Students
 
