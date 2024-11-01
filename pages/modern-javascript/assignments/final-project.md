@@ -27,9 +27,17 @@ You and your group can choose the name of the food truck, type of food served, a
 
 2. Create API routes for the following:
 
-    - `/api/v1/menu` - This route should return a JSON object that contains the menu items for the food truck. The menu should contain at least 5 items, and each item should have a name, description, price, and url for an image.
+    - `GET /api/v1/menu` - This route should return a JSON object that contains the menu items for the food truck. The menu should contain at least 5 items, and each item should have a name, description, price, and url for an image.
 
-    - `/api/v1/events` - This route should return a JSON object that contains the events for the food truck. The events should contain at least 5 items, and each item should have a name, location, date, and time.
+    - `GET /api/v1/events` - This route should return a JSON object that contains the events for the food truck. The events should contain at least 5 items, and each item should have a name, location, date, and time.
+
+	- `GET api/v1/menu/:id` - This route should return a JSON object that contains the menu item with the specified id.
+
+	- `GET /api/v1/events/:id` - This route should return a JSON object that contains the event with the specified id.
+
+	- `POST /api/v1/menu` - This route should add a new menu item to the database. The request body should contain the name, description, price, and image URL for the new menu item.
+
+	- `POST /api/v1/events` - This route should add a new event to the database. The request body should contain the name, location, date, and time for the new event.
 
 3. For the front-end, create routes for the following pages:
     
