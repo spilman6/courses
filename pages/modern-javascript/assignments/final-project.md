@@ -15,7 +15,7 @@ You and your group can choose the name of the food truck, type of food served, a
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/1Z9Q6s3Q9ZU" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/LXIPyG3vfgc" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
