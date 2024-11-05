@@ -277,9 +277,9 @@ Here are the updated endpoints in our `pokemon.js` file:
 
 ```javascript
 router.get('/random', async (_, response) => {
+	const collection = await getCollection('PokemonAPI', 'Pokemon')
 	const count = await collection.countDocuments()
 	const number = Math.floor(Math.random() * count) + 1
-	const collection = await getCollection('PokemonAPI', 'Pokemon')
 	const found = await collection.findOne({ "number": parseInt(number) })
 	if (found) response.send(found)
 	else response.send({ error: { message: `Could not find pokemon with number: ${number}` }})
