@@ -80,4 +80,6 @@ Exam 3
 
 ## Weeks 14-16
 
+[Static Site Generation](/appel/modern-javascript/static-site-generation)
+
 [Assignment 10 - Final Project](/appel/modern-javascript/assignments/final-project)
