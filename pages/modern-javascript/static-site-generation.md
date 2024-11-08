@@ -21,15 +21,11 @@ One common problem we face with dynamic websites is that they can't be indexed b
 	</div>
 </details>
 
-We unfortunately do not have time to cover static site generation in class, but it is a concept that you should know about.
-
-There are many tools available for static site generation, including:
+We unfortunately do not have time to cover static site generation in class, but it is a concept that you should know about. If you're interested in learning more, I recommend checking out the following resources:
 
 - [Astro](https://astro.build/)
 
 - [Eleventy](https://www.11ty.dev/)
-
-In addition, many popular frameworks have support for static site generation, including:
 
 - [Gatsby](https://www.gatsbyjs.com/)
 
