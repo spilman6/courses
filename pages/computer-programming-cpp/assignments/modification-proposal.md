@@ -21,7 +21,7 @@ For this assignment and the final project, you will be modifying the shoot-em-up
 
 You will need to find a partner (or two) to work with on this project. You will be working together to make changes to the game, and you will need to coordinate your efforts.
 
-I have setup a [Channel in Teams]() for you to use to find a partner. You can also use this channel to ask questions and get help with the project.
+I have setup a [Channel in Teams](https://teams.microsoft.com/l/channel/19%3Ac5d3e121022943528ef8e2fbb2577e3e%40thread.tacv2/Final%20Project%20-%20Online?groupId=ee1b6d24-5c8f-42ad-b178-cfe8ad4f69fe&tenantId=ae888c53-4d60-47da-a75a-c8a10f1d47b0) for you to use to find a partner. You can also use this channel to ask questions and get help with the project.
 
 > [!NOTE] Remember that I don't monitor Teams channels, so if you need help from me, you should tag me in your message.
 
