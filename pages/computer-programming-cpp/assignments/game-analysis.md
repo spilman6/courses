@@ -89,7 +89,7 @@ Classes covered in the video:
 
 - `SpriteBatch`
 
-- `GameplayScreen`
+- `Level`
 
 ## Screens and Screen Manager
 
@@ -118,16 +118,24 @@ Classes covered in the video:
 
 The game uses resources, sometimes called assets, such as images, sounds, fonts, and text files. The resource manager is responsible for loading and managing these resources.
 
-> [!NOTE] The resouces are stored in the `Content` folder of the `SpaceFighter` project.
-
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/jaRT6prlx_g" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
 </details>
+
+Classes covered in the video:
+
+- `ResourceManager`
+
+- `Level01`
+
+- `Level`
+
+> [!NOTE] The resouces are stored in the `Content` folder of the `SpaceFighter` project.
 
 # Additional Concepts
 
