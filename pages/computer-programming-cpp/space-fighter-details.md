@@ -17,7 +17,7 @@ In mathematics, a vector is a quantity that has both magnitude and direction. In
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/v1_wKN-8rJY" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -28,6 +28,16 @@ Vectors are assumed to be relative to the origin (0,0) of the game world. The or
 ## Position
 
 The position of an object is represented by a vector. The position vector is the location of the object in the game world. The position vector is used to draw the object on the screen and to check for collisions with other objects.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/wXeEsBLtPaE" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
 
 In the code that we looked at in the video, the enemy ship positions were calculated when the level content was loaded.
 
@@ -125,10 +135,133 @@ void GameObject::TranslatePosition(const float x, const float y)
 
 # Collision Detection
 
+There are two phases to collision detection: broad phase and narrow phase. The broad phase is used to quickly determine which objects might be colliding. The narrow phase is used to determine if the objects are actually colliding.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/NxdDF3AAW-4" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+## Broad Phase
+
+As you saw, the broad phase of collision detection is handled in the `Level` class. The levels are broken up into multiple sectors. Each frame, the game objects are placed into the sectors based on their position. This allows us to quickly determine which objects are close to each other and might be colliding.
+
+I'm not going to post the code here because it is spread out over multiple methods. If you are interested in how this works, run a search for `m_pSectors`.
+
+## Narrow Phase
+
+The narrow phase of collision detection is, for the most part, handled by the `CollisionManager` class. This class keeps track of which types of objects can collide with each other (or shouldn't collide). When two objects are close to each other, the `CollisionManager` checks if they are colliding, and then calls the corresponding callback functions associated with the objects types.
+
 # Game Object Activation
 
-# Object Pooling and Recycling
+As you're probably aware, our game runs at 60 fps (frames per second). That means that we need to handle the user input, calculate the game logic, and render the game to the screen 60 times per second. Meaning that each frame has 0.0167 seconds to calculate. If the calculations take longer than that, the game will start to slow down, or 'drop frames'.
+
+One way to help ensure that we dont drop frames is to avoid instantiating and destroying objects during the game loop. "Newing up" objects actually takes a lot of time, and can cause the game to slow down. Instead, we create all of the objects we need when the level loads, and then activate and deactivate them as needed. If you saw the videos that cover Vectors, Position, and Movement, you saw how the enemy ships are created. Lets take a look at how they are activated and deactivated.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/_iVXlcgg0cU" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+## Object Pooling and Recycling
+
+Since we don't want to instantiate and destroy objects during the game loop, we use a technique called object pooling. Object pooling is a way to reuse objects instead of creating new ones. When an object is deactivated, it is added to a pool of objects. When a new object is needed, it is taken from the pool and activated.
+
+In our game, the projectiles are pooled. When the player fires a projectile, it is taken from the pool and activated. When the projectile goes off the screen or hits an enemy, it is deactivated and returned to the pool.
+
+Let's take a look:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/LIpBa4RKCN8" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+As you saw in the video, we create the projectiles when the level loads, and give the blaster a reference to the pool.
+
+Private field in `Level.h`:
+
+```cpp
+std::vector<Projectile*> m_projectiles;
+```
+
+In the `LoadContent` method of the `Level` class:
+
+```cpp
+	m_pPlayerShip = new PlayerShip(); // create the player ship
+	Blaster *pBlaster = new Blaster("Main Blaster"); // create the blaster
+	pBlaster->SetProjectilePool(&m_projectiles); // set the projectile pool
+	m_pPlayerShip->AttachItem(pBlaster, Vector2::UNIT_Y * -20); // attach the blaster to the player ship
+
+	// create the projectiles
+	for (int i = 0; i < 100; i++)
+	{
+		Projectile *pProjectile = new Projectile();
+		m_projectiles.push_back(pProjectile);
+		AddGameObject(pProjectile);
+	}
+```
 
 # Boolean Methods (Flags)
 
+`Flags` are a programming term that refers to a boolean value that is used to control the flow of a program. In our game, we use flags to determine if an object is active, if it is collidable, if it is visible, etc.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/1rfkiNfBgTc" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+Some examples in the game include:
+
+- (GameObject) `IsActive` - determines if the object is active
+
+- (Level) `IsScreenTransitioning` - determines if the screen is transitioning from one screen to another
+
+- (Weapon) `IsAttachedToPlayer` - determines if the weapon is attached to the player
+
+- (Projectile) `WasShotByPlayer` - determines if the projectile was shot by the player
+
+- (Main Menu Screen) `IsQuittingGame` - determines if the player is trying to quit the game
+
 # Game Timing and Frame Rate
+
+When the game is updated, the `GameTime` class is passed to the `Update` method of each game object. The `GameTime` class contains information about the current time, the time since the last frame, and the total time the game has been running.
+
+If you look at the update methods for various classes, you may find that moving objects often use the `GetElapsedTime` method of the `GameTime` class to determine how far to move in each frame.
+
+This takes into account the movement for dropped frames. If the game is running at 60 fps, and the frame rate drops to 30 fps, the movement will be halved to compensate.
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/80J9UrdniSc" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+One of the examples shown in the video (In `Projectile::Update`):
+
+```cpp
+	Vector2 translation = m_direction * m_speed * gameTime.GetElapsedTime();
+	TranslatePosition(translation);
+```
+
+# Additional Topics
+
+If you would like me to cover any additional topics, please let me know. I can create videos and add examples as requested! All of the previous videos were requests from students that took the course before you.
