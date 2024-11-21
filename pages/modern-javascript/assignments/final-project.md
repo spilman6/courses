@@ -15,7 +15,7 @@ You and your group can choose the name of the food truck, type of food served, a
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/1Z9Q6s3Q9ZU" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/LXIPyG3vfgc" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -27,9 +27,17 @@ You and your group can choose the name of the food truck, type of food served, a
 
 2. Create API routes for the following:
 
-    - `/api/v1/menu` - This route should return a JSON object that contains the menu items for the food truck. The menu should contain at least 5 items, and each item should have a name, description, price, and url for an image.
+    - `GET /api/v1/menu` - This route should return a JSON object that contains the menu items for the food truck. The menu should contain at least 5 items, and each item should have a name, description, price, and url for an image.
 
-    - `/api/v1/events` - This route should return a JSON object that contains the events for the food truck. The events should contain at least 5 items, and each item should have a name, location, date, and time.
+    - `GET /api/v1/events` - This route should return a JSON object that contains the events for the food truck. The events should contain at least 5 items, and each item should have a name, location, date, and time.
+
+    - `GET api/v1/menu/:id` - This route should return a JSON object that contains the menu item with the specified id.
+
+    - `GET /api/v1/events/:id` - This route should return a JSON object that contains the event with the specified id.
+
+    - `POST /api/v1/menu` - This route should add a new menu item to the database. The request body should contain the name, description, price, and image URL for the new menu item.
+
+    - `POST /api/v1/events` - This route should add a new event to the database. The request body should contain the name, location, date, and time for the new event.
 
 3. For the front-end, create routes for the following pages:
     
@@ -53,7 +61,7 @@ We will be working on this project in class. You will choose (or I will) groups 
 
 ## Finding a Partner/Group
 
-You will need to find a partner (or two) to work on this project with. I have setup a [Teams Channel]() for this purpose.
+You will need to find a partner (or two) to work on this project with. I have setup a [Teams Channel](https://teams.microsoft.com/l/channel/19%3Af0fa3b79a6e34198ac1e73ec5754173e%40thread.tacv2/Final%20Project%20-%20Online?groupId=2348ea0d-6e05-4e3f-a9a8-1ccb343f71c5&tenantId=ae888c53-4d60-47da-a75a-c8a10f1d47b0) for this purpose.
 
 ## Working Collaboratively
 
