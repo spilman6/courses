@@ -6,7 +6,7 @@ hideNav: false
 live: https://fvtc.software/appel/computer-programming-cpp/assignments/final-project
 ---
 
-# Assignment 10 - Game Modification (Final Project)
+# Assignment 10 - Game Modification
 
 For this project, you and your group will be completing a modification of the Space Fighter game. You will be adding new features to the game, such as new enemies, power-ups, or other gameplay elements.
 
