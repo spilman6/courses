@@ -6,7 +6,7 @@ hideNav: false
 live: https://fvtc.software/appel/modern-javascript/conditionals-and-loops
 ---
 
-# Conditionals Statements
+# Conditional Statements
 
 For the most part, conditional statements in JavaScript are similar to C#, so I won't go into much detail here. However, there are a few differences that you should be aware of.
 
