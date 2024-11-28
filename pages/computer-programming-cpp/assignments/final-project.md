@@ -4,6 +4,7 @@ subtitle: Computer Programming C++
 hideNav: false
 
 live: https://fvtc.software/appel/computer-programming-cpp/assignments/final-project
+repository: https://github.com/fvtc/cpp-space-fighter-2
 ---
 
 # Assignment 10 - Game Modification
@@ -24,7 +25,7 @@ For this project, you and your group will be completing a modification of the Sp
 
 ## Contributing to the Project
 
-1. **Fork the Repository**: Have one of your group members fork the [cpp-space-fighter](https://github.com/fvtc/cpp-space-fighter) and then add the additional members to the repository. Settings > Collaborators & Teams > Add Collaborators.
+1. **Fork the Repository**: Have one of your group members fork the [cpp-space-fighter-2](https://github.com/fvtc/cpp-space-fighter-2) and then add the additional members to the repository. Settings > Collaborators & Teams > Add Collaborators. cpp-space-fighter-2 is a copy of cpp-space-fighter, this is necessary because GitHub won't let you create multiple forks of a repository.
 
 2. **Clone the Repository**: Each group member should clone the repository to their computer.
 
