@@ -58,6 +58,8 @@ Your project will be graded based on the following criteria:
 
 - **Functionality**: Does your feature work correctly? Does it add to the gameplay experience?
 
+> [!NOTE] I will not grade broken builds. If your project does not compile or run, you will receive a 0, and I will leave a comment for you to fix it. This may mean that you need to comment out parts of your code to get it to compile and run.
+
 - **Documentation**: Did you provide clear documentation of your work? Did you explain your contribution to the project?
 
 - **Collaboration**: Did you work well with your group members to complete the project?
