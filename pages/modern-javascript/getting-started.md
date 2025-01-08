@@ -50,6 +50,8 @@ In the early days of JavaScript, it was used primarily for simple tasks like for
 
 > [!NOTE] The video above mentions a VS Code extension called "Live Server". If you had any difficulty installing it, there is an installation link here: [https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
+> [!CAUTION] New students often confuse JavaScript with Java. They are two completely different languages. JavaScript was created by Netscape in 1995, while Java was created by Sun Microsystems in 1991. The only thing they have in common is the word "Java" in their names.
+
 # Writing JavaScript Code
 
 Let's start by creating a simple webpage and writing some JavaScript code.

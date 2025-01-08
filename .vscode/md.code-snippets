@@ -7,9 +7,11 @@
 			"title: $1",
 			"subtitle: $2",
 			"hideNav: ${3|false,true|}",
+			"",
+			"live: https://fvtc.software$4",
 			"---",
 			"",
-			"# $1$4",
+			"# $1$5",
 			"",
 			"$0"
 		],

@@ -10,7 +10,9 @@ live: https://fvtc.software/appel/modern-javascript
 
 ## Week 1
 
-[Getting Started](/appel/modern-javascript/getting-started)
+[Getting Started](/appel/ultra-modern-javascript/getting-started)
+
+[Variables and Operators](appel/ultra-modern-javascript/variables-and-operators)
 
 [Assignment 1 - GitHub Account](/appel/modern-javascript/assignments/github-account)
 

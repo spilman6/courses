@@ -95,4 +95,4 @@ The endpoints from the `endpoints.rest` file should still work with the new data
 
 ## Submission
 
-Once you have completed the assignment, push the changes up to GitHub and submit the link to your repository on Blackboard.
+Once you have completed the assignment, push the changes up to GitHub and submit the link to your repository to Blackboard.
