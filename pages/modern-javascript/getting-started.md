@@ -29,7 +29,7 @@ The software we will be using is:
 
 2. **Node.js**, which is a JavaScript runtime environment. Node.js allows us to run JavaScript code outside of a web browser. You can download it here: [https://nodejs.org/en/](https://nodejs.org/en/). I would recommend downloading the LTS version, which is the most stable version.
 
-3. **Git**, which is a version control system. Git allows us to keep track of changes to our code. Some of you have probably used Git before, but if you haven't, I have a series of videos that will walk you through installing Git, and get you started with the basics. You can watch them here: [https://fvtc.software/appel/source-control/getting-started](https://fvtc.software/appel/source-control/getting-started)
+3. **Git**, which is a version control system. Git allows us to keep track of changes to our code. Some of you have probably used Git before, but if you haven't, I have a series of videos that will walk you through installing Git, and get you started with the basics. You can watch them here: [https://fvtc.software/appel/version-control-essentials/getting-started](https://fvtc.software/appel/version-control-essentials/getting-started)
 
 4. **A web browser**. Any modern web browser will work, but I recommend using Google Chrome: [https://www.google.com/chrome/](https://www.google.com/chrome/). This is the browser that will be used in the videos.
 

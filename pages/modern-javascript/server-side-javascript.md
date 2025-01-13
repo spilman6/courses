@@ -8,7 +8,7 @@ live: https://fvtc.software/appel/modern-javascript/server-side-javascript
 
 # Server Side JavaScript
 
-In this unit we are going to continue using Node.js to write server side JavaScript. We will also be importing modules (or packages) using npm. We will also be creating our own custom modules.
+In this unit we are going to continue using Node.js to write server side JavaScript. We will also be importing modules (or packages) using npm. Finally, we will create our own custom modules.
 
 # NPM
 
