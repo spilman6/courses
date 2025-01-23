@@ -1,6 +1,9 @@
 ---
-title: 'Getting Started'
-course: 'Data Access for Programmers'
+title: Getting Started
+subtitle: Data Access for Programmers
+hideNav: false
+
+live: https://fvtc.software/appel/data-access-for-programmers/getting-started
 ---
 
 # Welcome to the Class!
@@ -111,7 +114,7 @@ Salary: $9,000,000
 ```
 
 <details>
-  <summary>Show the Answer</summary>
+	<summary>Show the Answer</summary>
 
 ```ebnf
 Name: Kirill Kaprizov - String
@@ -165,7 +168,7 @@ Shoots: Right
 ```
 
 <details>
-  <summary>Show the Answer</summary>
+	<summary>Show the Answer</summary>
 
 ```ebnf
 Name: Alex Goligoski - String

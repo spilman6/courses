@@ -1,48 +1,81 @@
 ---
-title: "Computer Programming C++"
-hide-nav: true
+title: Computer Programming C++
+subtitle: Ryan's Courses
+hideNav: false
+
+live: https://fvtc.software/appel/computer-programming-cpp
 ---
 
 # Computer Programming C++
 
-## Lectures
+## Week 1
 
-[Getting Started](/appel/javascript/getting-started) - _Week 1_
+[Getting Started](/appel/computer-programming-cpp/getting-started)
 
-[Functions](/appel/cpp/functions) - _Week 2_
+[Conditionals and Repetition](/appel/computer-programming-cpp/conditionals-and-repetition)
 
-[Defining New Data Types](/appel/cpp/defining-new-data-types) - _Week 3_
+[Assignment 1 - GitHub Account](/appel/computer-programming-cpp/assignments/github-account)
 
-[Understanding Memory](/appel/cpp/understanding-memory) - _Week 5_
+## Week 2
 
-[Collections](/appel/cpp/collections) - _Week 6_
+[Functions](/appel/computer-programming-cpp/functions)
 
-[File I/O](/appel/cpp/file-io) - _Week 7_
+[Assignment 2 - Rectangle Area](/appel/computer-programming-cpp/assignments/rectangle-area)
 
-[Classes](/appel/cpp/classes) - _Week 9_
+## Week 3
 
-[Object-Oriented Programming](/appel/cpp/object-oriented-programming) - _Week 10_
+[Structs and Arrays](/appel/computer-programming-cpp/structs-and-arrays)
 
-[Static Members](/appel/cpp/static-members) - _Week 11_
+[Assignment 3 - Library Book Manager](/appel/computer-programming-cpp/assignments/book-manager)
 
-## Exercises
+## Week 4
 
-[Getting Started](/appel/javascript/exercises/getting-started) - _Week 1_
+Exam 1
 
-[Functions](/appel/cpp/exercises/functions) - _Week 2_
+## Week 5
 
-[Defining New Data Types](/appel/cpp/exercises/defining-new-data-types) - _Week 3_
+[Pointers and Heap Memory](/appel/computer-programming-cpp/pointers-and-heap-memory)
 
-[Understanding Memory](/appel/cpp/exercises/understanding-memory) - _Week 5_
+[Assignment 4 - Pay Report](/appel/computer-programming-cpp/assignments/pay-report)
 
-[Collections](/appel/cpp/exercises/collections) - _Week 6_
+## Week 6
 
-[File I/O](/appel/cpp/exercises/file-io) - _Week 7_
+[Vectors, Strings, and File I/O](/appel/computer-programming-cpp/vectors-strings-fileio)
 
-[Classes](/appel/cpp/exercises/classes) - _Week 9_
+[Assignment 5 - Math Quiz](/appel/computer-programming-cpp/assignments/math-quiz)
 
-[Object-Oriented Programming](/appel/cpp/exercises/object-oriented-programming) - _Week 10_
+## Week 7
 
-[Static Members](/appel/cpp/exercises/static-members) - _Week 11_
+[Classes](/appel/computer-programming-cpp/classes)
 
+## Week 8
 
+Exam 2
+
+## Week 9
+
+[Inheritance and Polymorphism](/appel/computer-programming-cpp/inheritance-and-polymorphism)
+
+[Assignment 6 - Tic Tac Toe](/appel/computer-programming-cpp/assignments/tic-tac-toe)
+
+## Week 10
+
+[Abstract Classes](/appel/computer-programming-cpp/abstract-classes)
+
+## Week 11
+
+[Static Members](/appel/computer-programming-cpp/static-members)
+
+[Assignment 7 - Peer Review](/appel/computer-programming-cpp/assignments/peer-review)
+
+## Week 12
+
+Exam 3
+
+## Weeks 13-16
+
+[Assignment 8 - Game Analysis](/appel/computer-programming-cpp/assignments/game-analysis)
+
+[Assignment 9 - Game Modification Proposal](/appel/computer-programming-cpp/assignments/modification-proposal)
+
+[Assignment 10 - Final Project](/appel/computer-programming-cpp/final-project)

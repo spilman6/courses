@@ -1,8 +1,7 @@
 ---
-title: 'Getting Started'
-course: 'C# Introduction to Programming'
-date: '23-04-28'
-header: 'test.jpg'
----
+title: Getting Started
+subtitle: C# Introduction to Programming
+hideNav: false
 
-C# intro!
+live: https://fvtc.software/appel/csharp-introduction-to-programming/getting-started
+---

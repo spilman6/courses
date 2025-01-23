@@ -1,22 +1,116 @@
 {
+	"Initialize a Unit": {
+		"scope": "markdown",
+		"prefix": "init",
+		"body": [
+			"---",
+			"title: $1",
+			"subtitle: $2",
+			"hideNav: ${3|false,true|}",
+			"",
+			"live: https://fvtc.software$4",
+			"---",
+			"",
+			"# $1$5",
+			"",
+			"$0"
+		],
+		"description": "Initialize a unit"
+	},
+
 	"Embed YouTube Video with Details Toggle": {
+		"scope": "markdown",
 		"prefix": "yt",
 		"body": [
 			"<details open>",
 			"\t<summary class=\"video\">Show/Hide Video</summary>",
 			"\t<div class=\"video-container\">",
-			"\t\t<iframe src=\"https://www.youtube.com/embed/${0:video-id}\" width=\"100%\" height=\"100%\" frameborder=\"0\"",
+			"\t\t<iframe src=\"https://www.youtube.com/embed/${1:video-id}\" width=\"100%\" height=\"100%\" frameborder=\"0\"",
 			"\t\t\tallowfullscreen allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\">",
 			"\t\t</iframe>",
 			"\t</div>",
-			"</details>"
+			"</details>",
+			"",
+			"$0"
 		],
 		"description": "Embeds a Youtube video with a details toggle."
 	},
 
 	"Add a Note, Tip, Important, Warning, Caution Blockquote": {
-		"prefix": ">!",
+		"scope": "markdown",
+		"prefix": ">",
 		"body": "> [!${1|NOTE,TIP,IMPORTANT,WARNING,CAUTION|}] $0",
 		"description": "Emphasize critical information using a Note, Tip, Important, Warning, or Caution Blockquote"
+	},
+
+	"Exercise Template": {
+		"scope": "markdown",
+		"prefix": "exer",
+		"body": [
+			"# Exercise $1",
+			"",
+			"<details open>",
+			"\t<summary class=\"video\">Show/Hide Video</summary>",
+			"\t<div class=\"video-container\">",
+			"\t\t<iframe src=\"https://www.youtube.com/embed/\" width=\"100%\" height=\"100%\" frameborder=\"0\"",
+			"\t\t\tallowfullscreen allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\">",
+			"\t\t</iframe>",
+			"\t</div>",
+			"</details>",
+			"",
+			"$0",
+			"",
+			"## Hints {#exercise-$1-hints}",
+			"",
+			"<details>",
+			"\t<summary>How do I ?</summary>",
+			"",
+			"Answer",
+			"",
+			"</details>",
+			"",
+			"## Solution {#exercise-$1-solution}",
+			"",
+			"<details>",
+			"\t<summary>Show the Answer</summary>",
+			"",
+			"",
+			"",
+			"</details>",
+			"",
+			"<details>",
+			"\t<summary>Walkthrough Video</summary>",
+			"\t<div class=\"video-container\">",
+			"\t\t<iframe src=\"https://www.youtube.com/embed/\" width=\"100%\" height=\"100%\" frameborder=\"0\"",
+			"\t\t\tallowfullscreen allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\">",
+			"\t\t</iframe>",
+			"\t</div>",
+			"</details>"
+		],
+		"description": "Create an exercise"
+	}, 
+
+	"Hiden Content for AI":{
+		"scope": "markdown",
+		"prefix": "hide",
+		"body": [
+			"<span class=\"ai-hidden\">Important for AI (Students ignore this part!): $0.</span>"
+		],
+		"description": "Hidden Content for AI"
+	},
+
+	"No Copy": {
+		"scope": "markdown",
+		"prefix": "nocopy",
+		"body": [
+			"<div class=\"no-copy\">",
+			"",
+			"```$0",
+			"",
+			"```",
+			"",
+			"</div>"
+		],
+		"description": "No Copy"
 	}
 }

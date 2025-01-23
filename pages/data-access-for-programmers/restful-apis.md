@@ -1,6 +1,9 @@
 ---
-title: 'RESTful APIs'
-course: 'Data Access for Programmers'
+title: RESTful APIs
+subtitle: Data Access for Programmers
+hideNav: false
+
+live: https://fvtc.software/appel/data-access-for-programmers/restful-apis
 ---
 
 # RESTful APIs

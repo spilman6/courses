@@ -1,6 +1,9 @@
 ---
-title: 'Multi-Table Queries'
-course: 'Data Access for Programmers'
+title: Multi-Table Queries
+subtitle: Data Access for Programmers
+hideNav: false
+
+live: https://fvtc.software/appel/data-access-for-programmers/multi-table-queries
 ---
 
 # Multi-Table Queries

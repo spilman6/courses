@@ -1,6 +1,9 @@
 ---
-title: 'Joining a Team'
-subtitle: 'Microsoft Teams'
+title: Joining a Team
+subtitle: Microsoft Teams
+hideNav: false
+
+live: https://fvtc.software/appel/general/joining-a-team
 ---
 
 # Joining a Team

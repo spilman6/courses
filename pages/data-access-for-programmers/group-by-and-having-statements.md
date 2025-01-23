@@ -1,6 +1,9 @@
 ---
-title: 'Group By and Having Statements'
-course: 'Data Access for Programmers'
+title: Group By and Having Statements
+subtitle: Data Access for Programmers
+hideNav: false
+
+live: https://fvtc.software/appel/data-access-for-programmers/group-by-and-having-statements
 ---
 
 # Group By and Having Statements
@@ -35,7 +38,7 @@ SELECT CITY, count(*) FROM customer GROUP BY CITY;
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/229n2VPb8PI" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/_HDpzM4imZM" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>

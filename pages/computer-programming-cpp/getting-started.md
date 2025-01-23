@@ -1,6 +1,9 @@
 ---
-title: 'Getting Started'
-course: 'Computer Programming C++'
+title: Getting Started
+subtitle: Computer Programming C++
+hideNav: false
+
+live: https://fvtc.software/appel/computer-programming-cpp/getting-started
 ---
 
 # Getting Started
@@ -10,7 +13,7 @@ This unit will introduce you to the basics of C++. If you are used to programmin
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/IwvrOJ9HjUE" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -18,16 +21,6 @@ This unit will introduce you to the basics of C++. If you are used to programmin
 
 If you do not have "Visual C++" templates available in the New Project window, you need to [Modify your Visual Studio Installation](https://www.youtube.com/watch?v=3Z1b8Z6Q6k8).
 
-Next, we need to create a file to write our code.
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        </iframe>
-    </div>
-</details>
 
 ## The Main Function
 
@@ -36,11 +29,13 @@ Every program needs an entry point. The windows applications that you wrote in C
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/PfGWzyj-0fc" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
 </details>
+
+Here is the code from the video:
 
 ```cpp
 // Getting Started Demo
@@ -51,6 +46,8 @@ int main()
     return 0;
 }
 ```
+
+> [!NOTE] Comments work the same way in C++ as they do in C#. You can use `//` to create a single-line comment, or `/* */` to create a multi-line comment. 
 
 You can debug your program by pressing the "Start" button in Visual Studio, or by pressing F5, just like you did in C#.
 
@@ -67,62 +64,30 @@ Watch what happens when I run the actual program (not the debugger) by opening i
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/cDVWPq9dpME" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
 </details>
 
-The program runs and the console window appears, but it closes immediately. This is because Visual Studio is configured add the "Press any key to close this window . . ." line to the end of the program. This is not a part of the program itself, but rather a feature of Visual Studio.
+The program runs and the console window appears, but it closes immediately. This is because Visual Studio is configured add the "Press any key to close this window..." line to the end of the program. This is not a part of the program itself, but rather a feature of Visual Studio.
 
 I want to control this behavior myself, so I can have the same experience when running the program from the file explorer as I do when running it from Visual Studio.
 
 Let's change the following setting.
 
-Go to: `Tools->Options->Debugging` and then uncheck `Automatically close the console when debugging stops`.
+Go to: `Tools->Options->Debugging` and then check `Automatically close the console when debugging stops`.
 
-Now, let's add some code to our program..
-
-To keep the console open when debugging, we will call a function named `_getch()`, which is short for "get character." In order to use it however, we need to include a header file. We will go into the details of these files in the future.
-
-This video will show you how to include the header file and use the `_getch()` function.
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        </iframe>
-    </div>
-</details>
-
-Here is the code from the video:
-
-```cpp
-// Getting Started Demo
-// Ryan Appel
-
-#include <conio.h> // allows us to use _getch()
-
-int main()
-{
-    (void)_getch(); // wait for a key press
-    return 0;
-}
-```
-
-> [!TIP] I am casting the return value of `_getch()` which is the character that was pressed, to `void` because I am not using it. Without the cast, the compiler will give a warning.
-
-Now, when you run the program, the console window will stay open until you press a key.
+> [!IMPORTANT] Your code must have exactly one `main()` function. If you have more than one, you will get a linker error.
 
 ## Writing to the Console
 
-Let's print some text to the console. We can do this using the `cout` object, which is part of the `std` namespace. We will go into more detail about namespaces in the future.
+Let's print some text to the console. We can do this using the `cout` object, which is part of the `std` namespace.
 
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/6AD7VgmpbEs" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -139,20 +104,20 @@ Here is the code from the video:
 
 int main()
 {
-    std::cout << "Hello, World!"; // print to the console
-    (void)_getch(); // wait for a key press
+    std::cout << "Hello world!"; // print to the console
+    (void)_getch(); // wait for key press
     return 0;
 }
 ```
 
-The `<<` operator is used to send data to the `cout` object. In this case, we are sending the string `"Hello, World!"`.
+The `<<` operator is used to send data to the console. In this case, we are sending the string `"Hello world!"`.
 
 Let's print some more text to the console.
 
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/QMdpaC-CJRs" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -190,7 +155,7 @@ In this video, we will look at how to use escape sequences.
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/OW142Bqc3hg" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -202,7 +167,122 @@ Here's the code from the video:
 std::cout << "\"Hello World!\"";
 ```
 
-## The Standard Namespace
+# Exercise 1
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/2FsDCG-IVkg" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+In this exercise, you will create a new project and write a program that prints the following text to the console:
+
+```plaintext
+"Ryan is the best instructor ever!"
+	- Ryan
+```
+
+## Hints {#exercise-1-hints}
+
+<details>
+	<summary>What includes do I need?</summary>
+
+You will need to include the `iostream` header file to use `cout`, and the `conio.h` header file to use `_getch()`.
+
+```cpp
+#include <iostream>
+#include <conio.h>
+```
+
+</details>
+
+<details>
+	<summary>How do I print text to the console?</summary>
+
+You can use the `cout` object to print text to the console. Here is an example:
+
+```cpp
+std::cout << "Hello World!";
+```
+
+</details>
+
+<details>
+	<summary>How do I print a new line?</summary>
+
+You can use the escape sequence `\n` to print a new line. Here is an example:
+
+```cpp
+std::cout << "Hello World!\n";
+```
+
+</details>
+
+<details>
+	<summary>How do I print a tab?</summary>
+
+You can use the escape sequence `\t` to print a tab. Here is an example:
+
+```cpp
+std::cout << "Hello\tWorld!";
+```
+
+</details>
+
+<details>
+	<summary>How do I print a double quote?</summary>
+
+You can use the escape sequence `\"` to print a double quote. Here is an example:
+
+```cpp
+std::cout << "\"Hello World!\"";
+```
+
+</details>
+
+## Solution {#exercise-1-solution}
+
+<details>
+	<summary>Show the Answer</summary>
+
+```cpp
+// Exercise 1
+// Ryan Appel
+
+#include <iostream>
+#include <conio.h>
+
+int main()
+{
+	std::cout << "\"Ryan is the best instructor ever!\"\n";
+	std::cout << "\t- Ryan";
+
+	(void)_getch();
+	return 0;
+}
+```
+
+Alternatively, you could have kept the statement on one line:
+
+```cpp
+std::cout << "\"Ryan is the best instructor ever!\"\n\t- Ryan";
+```
+
+</details>
+
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/e3XMy0J7ivw" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
+
+# The Standard Namespace
 
 The `std` namespace is a collection of classes, functions, and objects that are part of the standard library. It can become cumbersome to write `std::` before everything, so we can use the `using` directive to bring the `std` namespace into scope.
 
@@ -211,7 +291,7 @@ In this video, we will look at how to do this.
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/q_TfXTGwImU" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -221,19 +301,22 @@ Here's the code:
 
 ```cpp
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
 int main()
 {
     cout << "Hello World!"; // note that we don't need std::
+
+	(void)_getch();
     return 0;
 }
 ```
 
 > [!CAUTION] It is often considered bad practice to use `using namespace std;` This is because it can pollute the global namespace. We will go into more detail about this in the future. For now, we can use it to make our code more concise.
 
-## Variables and Primitive Data Types
+# Variables and Primitive Data Types
 
 You should be familiar with variables and primitive data types from previous classed. In C++, the primitive data types are similar to C#, and include: `int`, `float`, `double`, `char`, `bool`, and `void`.
 
@@ -244,7 +327,7 @@ In this video, we will look at how to declare variables and assign values to the
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/8KTbN2ib-yw" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -262,7 +345,7 @@ bool isInstructor = true;
 
 > [!NOTE] Notice that I added an `f` to the end of the `pi` variable. This is because `3.14159` would be a `double` by default, and I want to make it a `float`. 
 
-### Constants
+## Constants
 
 As explained in the previous video, you can use the `const` keyword to create a constant variable. This is a variable that cannot be changed after it is initialized.
 
@@ -280,6 +363,15 @@ Both of these are valid and will produce the same result. Though, I prefer to pu
 ## Casting
 
 Casting is the process of converting one data type to another. In C++, there are two types of casting: implicit and explicit.
+
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/cxUwAXPuXqo" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
 
 ### Implicit Casting
 
@@ -306,7 +398,7 @@ In this video, we will look at how to get input from the user. We will use the `
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/EVmcnk9Hnvo" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -333,350 +425,108 @@ The `cin` object is used to get input from the user. The `>>` operator is used t
 
 > [!TIP] Sometimes students confuse the `>>` operator with the `<<` operator. I find it helpful to think about which way the data is moving. For example `cout << "hi";` is sending "hi" to the console, and `cin >> age;` is sending an age from the console (user input) to the `age` variable.
 
-# Operators
-
-For the most part, operators in C++ are the same as C#. Most of the operators you are familiar with will work the same way in C++. Here are some of the most common operators you will use in C++:
-
-### Arithmetic Operators: `+`, `-`, `*`, `/`, `%`
-
-```cpp
-int x = 10;
-int y = 3;
-int sum = x + y; // 13
-int difference = x - y; // 7
-int product = x * y; // 30
-int quotient = x / y; // 3
-int remainder = x % y; // 1
-```
-
-> [!NOTE] The `%` operator is the modulus operator, which returns the remainder of a division operation. It only works with integer types.
-
-### Comparison Operators: `==`, `!=`, `>`, `<`, `>=`, `<=`
-
-These operators are used to compare two values and always return a `bool`. They are also known as __Relational Operators__.
-
-```cpp
-int x = 10;
-int y = 3;
-bool isEqual = x == y; // false
-bool isNotEqual = x != y; // true
-bool isGreater = x > y; // true
-bool isLess = x < y; // false
-bool isGreaterOrEqual = x >= y; // true
-bool isLessOrEqual = x <= y; // false
-```
-
-### Logical Operators: `&&`, `||`, `!`
-
-These operators are used to combine multiple conditions and always return a `bool`. They are also known as __Boolean Operators__.
-
-```cpp
-bool isStudent = true;
-bool isTeenager = false;
-bool isStudentAndTeenager = isStudent && isTeenager; // false
-bool isStudentOrTeenager = isStudent || isTeenager; // true
-bool isNotStudent = !isStudent; // false
-```
-
-> [!TIP] Get in the habit of using the `!` operator instead of `== false` or `!= true`. It is more concise and easier to read. A common sign of a beginner programmer is seeing `if (isStudent == true)` instead of `if (isStudent)`, and `if (isTeenager == false)` instead of `if (!isTeenager)`.
-
-### Assignment Operators: `=`, `+=`, `-=`, `*=`, `/=`, `%=`
-
-Again, these operators are the same as C#. They are used to assign values to variables.
-
-```cpp
-int x = 10;
-x += 5; // x is now 15
-x -= 5; // x is now 10
-x *= 5; // x is now 50
-x /= 5; // x is now 10
-x %= 3; // x is now 1
-```
-
-### Unary Operators: `++`, `--`
-
-These operators are used to increment or decrement a variable by one.
-
-```cpp
-int x = 10;
-x++; // x is now 11
-x--; // x is now 10
-```
-
-> [!TIP] The `++` and `--` operators can be used before or after a variable. When used before, it is called the __prefix__ operator `++i`, and when used after, it is called the __postfix__ operator `i++`. The difference is subtle, and largely irrelevant for now. If you are curious, [here is an article](https://davidzych.com/whats-the-difference-between-i-and-i-in-c/#) that explains the difference.
-
-
-### Bitwise Operators: `&`, `|`, `^`, `~`, `<<`, `>>`
-
-These operators are used to manipulate individual bits in an integer. They are not used as often as the other operators. As a beginner, you can ignore them for now.
-
-```cpp
-int x =  5; // 0000 0101
-int y = 36; // 0010 0100
-
-int and = x & y; //  4 -- 0000 0100
-int or  = x | y; // 37 -- 0010 0101
-int xor = x ^ y; // 33 -- 0010 0001
-int not = ~x;    // -6 -- 1111 1010
-int shiftLeft  = x << 2; // 20 -- 0001 0100
-int shiftRight = x >> 2; //  1 -- 0000 0001
-```
-
-> [!NOTE] You will rarely use bitwise operators in your day-to-day programming. You will not be tested on them, but it is good to know they exist.
-
-### Ternary Operator: `? :`
-
-The ternary operator is a shorthand way of writing an `if` statement. It is often used to assign a value to a variable based on a condition.
-
-```cpp
-int health = 90;
-std::cout << "You are " << (health > 30 ? "healthy" : "unhealthy");
-```
-
-This code is equivalent to:
-
-```cpp
-int health = 90;
-if (health > 30) std::cout << "You are healthy";
-else std::cout << "You are unhealthy";
-```
-
-# Conditional Statements
-
-Conditional statements are used to execute code based on a condition. Like in C#, we have the `if`, `else if`, and `else` statements, as well as the `switch` statement.
-
-## If Statements
-
-If statements work much the same way as they do in C#, with one key difference. In C#, you can only use a `bool` condition. For example, this code will not compile in C#:
-
-```csharp
-int x = 10;
-if (x) // error
-{
-    // do something
-}
-```
-
-In C++, you can use any data type in an `if` statement. The condition is considered `true` if the value is not `0`, and `false` if the value is `0`.
-
-Let's look at an example:
+# Exercise 2
 
 <details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        </iframe>
-    </div>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/oc9D3fFu4L4" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
 </details>
 
-Here is the code from the video:
+In this exercise, you will create a new project and write a program that asks the user for their age and then prints the following text to the console:
 
-```cpp
-int livesRemaining = 3;
-if (livesRemaining)
-{
-    std::cout << "You are still alive!";
-}
+```plaintext
+You are `N` years old.
+In 10 years, you will be `X` years old.
 ```
 
-In this example, the `if` statement will execute because `livesRemaining` is not `0`. In C#, you would have to write `if (livesRemaining > 0)`.
+Where `N` is the age that the user entered, and `X` is the age that the user will be in 10 years.
 
-## Else If and Else Statements
+Store the user's age in a variable called `age`, and store the age in 10 years in a variable called `ageIn10Years`.
 
-Else if and else statements work the same way as they do in C#. Here is an example:
+## Hints {#exercise-2-hints}
 
-```cpp
-int health = 90;
-if (health > 80)
-{
-    std::cout << "You are healthy.";
-}
-else if (health > 50)
-{
-    std::cout << "You are okay.";
-}
-else
-{
-    std::cout << "You are unhealthy.";
-}
-```
+<details>
+	<summary>How do I get input from the user?</summary>
 
-### Curly Braces
-
-Just like in C#, you can omit the curly braces if there is only one statement in the `if`, `else if`, or `else` block.
-
-In your intro to programming class, you were taught to always use curly braces. This is good practice while you are learning, but in the real world, you will see them omitted in certain situations.
-
-The previous example, I would consider a good candidate for omitting the curly braces:
+You can use the `cin` object to get input from the user. Here is an example:
 
 ```cpp
-if (health > 80) std::cout << "You are healthy.";
-else if (health > 50) std::cout << "You are okay.";
-else std::cout << "You are unhealthy.";
+int age = 0;
+std::cout << "Enter your age: ";
+std::cin >> age;
 ```
 
-It is still clear what is happening, and the code takes up less space.
-
-## Switch Statement
-
-The switch statement works much the same way as it does in C#. Here is an example:
-
-```cpp
-int dayOfChristmas = 1;
-cout << "Enter the day of Christmas (1 - 12): ";
-cin >> dayOfChristmas;
-
-switch (dayOfChristmas)
-{
-    case 12: cout << "Twelve drummers drumming.\n"; break;
-    case 11: cout << "Eleven pipers piping.\n"; break;
-    case 10: cout << "Ten lords a-leaping.\n"; break;
-    case 9: cout << "Nine ladies dancing.\n"; break;
-    case 8: cout << "Eight maids a-milking.\n"; break;
-    case 7: cout << "Seven swans a-swimming.\n"; break;
-    case 6: cout << "Six geese a-laying.\n"; break;
-    case 5: cout << "Five golden rings.\n"; break;
-    case 4: cout << "Four calling birds.\n"; break;
-    case 3: cout << "Three French hens.\n"; break;
-    case 2: cout << "Two turtle doves.\n"; break;
-    case 1: cout << "A partridge in a pear tree.\n"; break;
-    default: cout << "Invalid day of Christmas.\n";
-}
-```
-
-In this example, if the user enters `3`, the program will output "Three French hens". If the user enters any invalid number, the program will output "Invalid day of Christmas".
-
-> [!NOTE] I purposely omitted the `break` statement on the `default` case. This is because the `default` case is the last case in the switch statement, and the program will exit the switch statement after it is executed. You can add a `break` statement if you want, but it is not necessary.
-
-### Case Fall Through
-
-In the previous example, I used the `break` statement to exit the switch statement. If you omit the `break` statement, the code will "fall through" to the next case. This is a feature of C++ that is not present in C#. It can be used in certain situations to reduce code duplication.
-
-Here is the example with fall through:
-
-```cpp
-int dayOfChristmas = 1;
-cout << "Enter the day of Christmas (1 - 12): ";
-cin >> dayOfChristmas;
-
-switch (dayOfChristmas)
-{
-    case 12: cout << "Twelve drummers drumming.\n"; // break;
-    case 11: cout << "Eleven pipers piping.\n"; // break;
-    case 10: cout << "Ten lords a-leaping.\n"; // break;
-    case 9: cout << "Nine ladies dancing.\n"; // break;
-    case 8: cout << "Eight maids a-milking.\n"; // break;
-    case 7: cout << "Seven swans a-swimming.\n"; // break;
-    case 6: cout << "Six geese a-laying.\n"; // break;
-    case 5: cout << "Five golden rings.\n"; // break;
-    case 4: cout << "Four calling birds.\n"; // break;
-    case 3: cout << "Three French hens.\n"; // break;
-    case 2: cout << "Two turtle doves.\n"; // break;
-    case 1: cout << "A partridge in a pear tree.\n"; break;
-    default: cout << "Invalid day of Christmas.\n";
-}
-```
-
-In this example, if the user enters `3`, the program will output "Three French hens, Two turtle doves, A partridge in a pear tree". This is because the code falls through to the next case.
-
-Let's run the program and see what the output:
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        </iframe>
-    </div>
 </details>
 
-Fall through can be a useful feature, but it can also lead to bugs. Be careful when using it, and make sure it is clear what is happening in your code.
+<details>
+	<summary>How do I print a variable to the console?</summary>
 
-# Repetition Statements
-
-Repetition statements, often called "loops," are used to execute code multiple times. Like in C#, we have the `while`, `do while`, and `for` statements.
-
-## For Loop
-
-For the most part, the `for` loop works the same way as it does in C#.
-
-It should be used when you know how many times you need to execute the loop.
-
-Here is an example:
+You can use the `<<` operator to print a variable to the console. Here is an example:
 
 ```cpp
-int input = 0;
-cout << "Enter a number between 1 and 5: ";
-cin >> input;
+int age = 30;
+std::cout << "You are " << age << " years old.";
+```
 
-for (int i = 1; i <= input; i++)
+</details>
+
+<details>
+	<summary>How do I perform arithmetic in C++?</summary>
+
+You can use the standard arithmetic operators in C++. Here is an example:
+
+```cpp
+int age = 30;
+int ageIn10Years = age + 10;
+```
+
+</details>
+
+## Solution {#exercise-2-solution}
+
+<details>
+	<summary>Show the Answer</summary>
+
+```cpp
+// Exercise 2
+// Ryan Appel
+
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
 {
-    cout << i << "\n";
+	int age = 0;
+	int ageIn10Years = 0;
+
+	cout << "Enter your age: ";
+	cin >> age;
+
+	ageIn10Years = age + 10;
+
+	cout << "You are " << age << " years old.\n";
+	cout << "In 10 years, you will be " << ageIn10Years << " years old.";
+
+	(void)_getch();
+	return 0;
 }
+
 ```
 
-Just like in C#, the `for` loop has three parts:
+</details>
 
-1. Initialization: `int i = 1`
-2. Condition: `i <= input`
-3. Increment: `i++`
+<details>
+	<summary>Walkthrough Video</summary>
+		<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/DIMpJ_2mDIc" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		></iframe>
+	</div>
+</details>
 
-You can omit any of these parts if you want. For example, if you wanted to write an infinite loop, you could write:
-
-```cpp
-for (;;) cout << "This is an infinite loop!\n";
-```
-
-> [!NOTE] Just like with the `if` statement, you omit the curly braces if there is only one statement in the loop.
-
-## While Loop
-
-The `while` loop works the same way as it does in C#.
-
-You should use a `while` loop when you don't know how many times you need to execute the loop.
-
-Here is an example:
-
-```cpp
-int i = 0;
-
-while (i < 1 || i > 5) // not a valid number
-{
-    cout << "Please enter a number between 1 and 5: ";
-    cin >> i;
-}
-
-cout << i << ", good choice!";
-```
-
-There is one key difference between C# and C++. Like the `if` statement, you can use any data type in the condition. The loop will execute as long as the value is not `0`.
-
-Here is an example of a loop that counts down from 10 to 1:
-
-```cpp
-int i = 10;
-while (i) cout << i-- << "\n";
-```
-
-Now, I don't recommend writing code like this, but it is a good example of how the `while` loop works. When `i` reaches `0`, the loop will exit.
-
-## Do While Loop
-
-The `do while` loop works the same way as it does in C#. 
-
-The key difference between the `do while` loop and the `while` loop is that the `do while` loop will always execute at least once.
-
-The previous example could be rewritten using a `do while` loop:
-
-```cpp
-int i;
-
-do
-{
-    cout << "Please enter a number between 1 and 5: ";
-    cin >> i;
-} while (i < 1 || i > 5);
-
-cout << i << ", good choice!";
-```

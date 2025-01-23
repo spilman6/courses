@@ -1,6 +1,9 @@
 ---
-title: 'Single Table Databases'
-course: 'Data Access for Programmers'
+title: Single Table Databases
+subtitle: Data Access for Programmers
+hideNav: false
+
+live: https://fvtc.software/appel/data-access-for-programmers/single-table-databases
 ---
 
 # Single Table Databases
