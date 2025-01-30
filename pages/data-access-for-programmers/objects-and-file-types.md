@@ -255,7 +255,7 @@ Time to create your first object! Create a CSV, XML, and JSON file that contains
 ```ebnf
 Course ID: 10-152-168
 Course Name: Data Access for Programmers
-Instuctor Name: Ryan Appel
+Instructor Name: Ryan Appel
 Credits: 3
 ```
 
