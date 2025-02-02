@@ -8,7 +8,7 @@ dev: http://localhost:3006/appel/version-control-essentials
 repo: https://github.com/rappel/courses
 ---
 
-# Computer Programming C++
+# Version Control Essentials
 
 ## Week 1
 
