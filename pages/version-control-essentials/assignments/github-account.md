@@ -4,6 +4,8 @@ subtitle: Version Control Essentials
 hideNav: false
 
 live: https://fvtc.software/appel/version-control-essentials/assignments/github-account
+dev: http://localhost:3006/appel/version-control-essentials/assignments/github-account
+github-original: https://github.com/rdappel/courses
 ---
 
 # Assignment 1 - GitHub Account
