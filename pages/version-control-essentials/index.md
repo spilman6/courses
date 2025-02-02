@@ -53,29 +53,3 @@ Exam 1
 Exam 2
 
 ## Week 9
-
-[Inheritance and Polymorphism](/appel/version-control-essentials/inheritance-and-polymorphism)
-
-[Assignment 6 - Tic Tac Toe](/appel/version-control-essentials/assignments/tic-tac-toe)
-
-## Week 10
-
-[Abstract Classes](/appel/version-control-essentials/abstract-classes)
-
-## Week 11
-
-[Static Members](/appel/version-control-essentials/static-members)
-
-[Assignment 7 - Peer Review](/appel/version-control-essentials/assignments/peer-review)
-
-## Week 12
-
-Exam 3
-
-## Weeks 13-16
-
-[Assignment 8 - Game Analysis](/appel/version-control-essentials/assignments/game-analysis)
-
-[Assignment 9 - Game Modification Proposal](/appel/version-control-essentials/assignments/modification-proposal)
-
-[Assignment 10 - Final Project](/appel/version-control-essentials/final-project)
