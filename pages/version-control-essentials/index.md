@@ -14,13 +14,13 @@ repo: https://github.com/rappel/courses
 
 [Getting Started and Installation](/appel/version-control-essentials/getting-started-and-install)
 
-[Creating Local Repos](/appel/version-control-essentials/create-local-repos)
+[Creating Local Repos](/appel/version-control-essentials/creating-local-repos)
 
 [Assignment 1 - GitHub Account](/appel/version-control-essentials/assignments/github-account)
 
 ## Week 2
 
-[Functions](/appel/version-control-essentials/functions)
+[Remote Repositories](/appel/version-control-essentials/remote-repos)
 
 [Assignment 2 - Rectangle Area](/appel/version-control-essentials/assignments/rectangle-area)
 
