@@ -7,7 +7,7 @@ next:
   title: Creating Local Repos
   url: /appel/version-control-essentials/create-local-repos
 
-prev:
+previous:
   title: Home
   url: /appel/version-control-essentials
 
