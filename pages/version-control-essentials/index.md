@@ -3,14 +3,6 @@ title: Version Control Essentials
 subtitle: Ryan's Courses
 hideNav: false
 
-next:
-  title: Creating Local Repos
-  url: /appel/version-control-essentials/create-local-repos
-
-prev:
-  title: Home
-  url: /appel/version-control-essentials
-
 live: https://fvtc.software/appel/version-control-essentials
 dev: http://localhost:3006/appel/version-control-essentials
 repo: https://github.com/rappel/courses

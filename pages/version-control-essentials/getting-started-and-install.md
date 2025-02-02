@@ -3,7 +3,17 @@ title: Getting Started and Installation
 subtitle: Version Control Essentials
 hideNav: false
 
+next:
+  title: Creating Local Repos
+  url: /appel/version-control-essentials/create-local-repos
+
+prev:
+  title: Home
+  url: /appel/version-control-essentials
+
 live: https://fvtc.software/appel/version-control-essentials/getting-started-and-install
+dev: http://localhost:3006/appel/version-control-essentials/getting-started-and-install
+repo: https://github.com/rdappel/courses
 ---
 
 # Getting Started
