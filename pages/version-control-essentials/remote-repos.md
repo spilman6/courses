@@ -12,7 +12,7 @@ live: https://fvtc.software/appel/version-control-essentials/remote-repos
 
 A remote repository is a version of your project that is hosted on the internet or another network. This allows you to share your code with others and collaborate on projects. Remote repositories are often used in conjunction with local repositories, allowing you to work on your code locally and then push your changes to the remote repository.
 
-### Why Use a Remote Repository?
+## Why Use a Remote Repository?
 
 Remote repositories are useful for several reasons:
 
@@ -22,7 +22,7 @@ Remote repositories are useful for several reasons:
 
 - **Code Access**: Remote repositories allow you to access your code from anywhere. This is especially useful if you work on multiple machines or need to access your code while traveling.
 
-### Popular Repository Hosts
+## Popular Repository Hosts
 
 - **[GitHub](https://github.com)**: GitHub is one of the most popular remote repository hosting services. It offers a user-friendly interface and a wide range of features for collaboration.
 
@@ -34,7 +34,7 @@ Remote repositories are useful for several reasons:
 
 At FVTC, we will be using [GitHub](https://github.com) and [Azure DevOps](https://dev.azure.com) for our remote repositories.
 
-## Creating a Remote Repository
+# Creating a Remote Repository
 
 Creating a remote repository is different depending on the hosting service and the Environment you are using. For example, if you're using Git Bash to push a repository to GitHub the process is very different than if you're pusing a Visual Studio project to Azure DevOps.
 
@@ -53,7 +53,7 @@ For now, let's take a look at how to create a remote repository on GitHub:
 
 > [!TIP] Remember to keep the repository page open in your browser. We will be using a couple of the commands that it provides for pushing up a project.
 
-## Pushing to a Remote Repository
+# Pushing to a Remote Repository
 
 Once you have created a remote repository, you can push your local changes to the remote repository. This allows you to share your code with others and collaborate on projects.
 
