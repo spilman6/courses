@@ -47,7 +47,7 @@ For now, let's take a look at how to create a remote repository on GitHub:
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/Edk4CBZzr0" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/8clSztIQFXU" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -64,7 +64,7 @@ This video will show you how to push your local repo to GitHub:
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/1uthnj32j80" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -91,7 +91,7 @@ This video will show you how to push changes to GitHub:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/PJ8lR4ixvlQ" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
