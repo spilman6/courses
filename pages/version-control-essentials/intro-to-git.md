@@ -58,4 +58,4 @@ Let's go over some of the terminology used in Git:
 
 - **Repository**: A (local) repository is a collection of files and folders that make up your project. It is stored on your computer and contains all of the information about your project, including the history of changes to your code.
 
-- **Remote Repository**: A remote repository is a repository that is stored on a server. This allows you to collaborate with others and share your code with them. In this course, we will be using GitHub and Azure DevOps to host our remote repositories. These are the two most popular platforms for hosting Git repositories, though there are many others.
+- **Remote Repository**: A remote repository is a repository that is stored on a server. This allows you to collaborate with others and share your code with them. In this course, we will be using [Github](https://github.com) and [Azure DevOps](https://dev.azure.com) to host our remote repositories. These are the two most popular platforms for hosting Git repositories, though there are many others.
