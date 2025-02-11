@@ -33,7 +33,7 @@ This video will show you how to create a local repository in Windows 10. The pro
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/UHdadGCPc64" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -50,7 +50,7 @@ This video will show you how to stage changes:
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/z2GBW0rBhKI" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -86,27 +86,34 @@ git commit -m "Added main menu"
 
 > [!WARNING] If you forget the -m flag, Git will open a text editor for you to enter your commit message. By default, this will be Vim, which can be confusing for new users. If this happens to you, my recommendation (for now) is to exit out of your terminal and run the command again with the -m flag.
 
-## Pro-Tips:
+In the video we also showed `git status` to see the status of your repository, and `git log` to see the history of your commits. We will cover these commands in more detail in a later section.
 
-- Initialize once. You only need to run `git init` once per project. After that, you can just stage and commit changes as needed.
+# Fixing Common Mistakes
+
+It's not uncommon to make mistakes when using Git. Here are a few common mistakes and how to fix them:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/H5UkrhsbFZg" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+## Unhooking a Repository
+
+If you want to unhook a repository, you can delete the `.git` folder. This will remove all of the version control information from your project, but it will not delete any of your files.
+
+## Forgetting the -m Flag
+
+If you forget the -m flag when committing changes, Git will open a text editor for you to enter your commit message. By default, this will be Vim, which can be confusing for new users. If this happens to you, my recommendation (for now) is to exit out of your terminal and run the command again with the -m flag.
+
+
+# Pro-Tips
+
+- Initialize once. Remember that you only need to run `git init` once per project. After that, you can just stage and commit changes as needed.
 
 - Commit often! It is better to have many small commits than a few large ones. This makes it easier to track changes and revert back if necessary.
 
 - Write clear commit messages. This will help you (and others) understand what changes were made and why.
-
-# Unhooking a Repository
-
-If you want to unhook a repository, you can delete the `.git` folder. This will remove all of the version control information from your project, but it will not delete any of your files.
-
-You may need to do this if you accidentally initialized a repository in the wrong folder or if you want to start over with a new repository.
-
-This video will explain further:
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        </iframe>
-    </div>
-</details>
