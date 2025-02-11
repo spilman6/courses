@@ -117,6 +117,8 @@ git commit -m "Finished Exercise 1"
 git push
 ```
 
+</details>
+
 ## Solution {#exercise-1-solution}
 
 <details>
