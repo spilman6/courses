@@ -24,7 +24,9 @@ repo: https://github.com/rappel/courses
 
 [Remote Repositories](/appel/version-control-essentials/remote-repos)
 
-[Assignment 2 - Rectangle Area](/appel/version-control-essentials/assignments/rectangle-area)
+[Cloning and Forking Repositories](/appel/version-control-essentials/cloning-and-forking)
+
+[Assignment 2 - Webpage Update](/appel/version-control-essentials/assignments/webpage-update)
 
 ## Week 3
 
