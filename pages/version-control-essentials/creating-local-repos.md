@@ -39,8 +39,6 @@ This video will show you how to create a local repository in Windows 10. The pro
     </div>
 </details>
 
-> [!CAUTION] For windows users, you're probably used to using `Ctrl` + `V` to paste text. In Git Bash, this will probably lead to an error. Instead, right-click in the terminal and select "Paste" from the context menu. You can also use the `Shift` + `Insert` shortcut. However, on many laptops, you'll also need to press the `Fn` key at the same time, or it may not work at all.
-
 ## Staging Changes
 
 Before you can commit changes to your repository, you need to stage them. This tells Git which files you want to commit. 
@@ -83,8 +81,6 @@ The commit message should be a short description of the changes you are committi
 ```bash
 git commit -m "Added main menu"
 ```
-
-> [!WARNING] If you forget the -m flag, Git will open a text editor for you to enter your commit message. By default, this will be Vim, which can be confusing for new users. If this happens to you, my recommendation (for now) is to exit out of your terminal and run the command again with the -m flag.
 
 In the video we also showed `git status` to see the status of your repository, and `git log` to see the history of your commits. We will cover these commands in more detail in a later section.
 
