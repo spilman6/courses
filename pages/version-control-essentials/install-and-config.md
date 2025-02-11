@@ -16,7 +16,7 @@ dev: http://localhost:3006/appel/version-control-essentials/install-and-config
 repo: https://github.com/rdappel/courses
 ---
 
-# Installing Git
+# Downloading and Installing Git
 
 ## Is Git Already Installed?
 
@@ -26,20 +26,7 @@ You can quickly check to see if git is installed on your computer, and which ver
 git --version
 ```
 
-If you see a version number, then Git is already installed on your computer. If you see an error message or if your version is less than 2.30, you will need to install Git.
-
-If you haven't run commands from a terminal before, you can watch this video to learn how:
-
-<details open>
-    <summary class="video">Show/Hide Video</summary>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        </iframe>
-    </div>
-</details>
-
-## Downloading and Installation
+If you see a version number, then Git is already installed on your computer. If you see an error message or if your version is less than 2.40, you will need to install Git.
 
 To install Git, go to [https://git-scm.com/downloads](https://git-scm.com/downloads) and download the version for your operating system.
 
