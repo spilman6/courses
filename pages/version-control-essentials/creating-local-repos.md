@@ -10,11 +10,7 @@ repo: https://github.com/rdappel/courses
 
 # Creating Local Repositories
 
-In the last section, a lot of emphesis was placed on using Git as a colaboration tool, but Git is also a great tool for working on your own. In this section, we will cover how to create a local repository, stage changes, commit changes.
-
-## What is a Local Repository?
-
-A local repository is a repository that is stored on your computer. This allows you to keep track of changes to your code.
+When introducing Git lot of emphesis was placed on using Git as a colaboration tool, but Git is also a great tool for working on your own. In this section, we will cover how to create a local repository, then learn how to stage and commit changes.
 
 ## Initializing a Repository
 
@@ -72,16 +68,7 @@ To stage all of the files in your repository, run:
 git add .
 ```
 
-As you saw in the video, you may need to update your user settings in Git. You can do this by running the following commands:
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-```
-
-Make sure to run these commands separately.
-
-You will only need to run these commands once. After that, Git will remember your settings.
+> [!WARNING] As you saw in the video, you may need to update your user settings in Git. If you see an error message like "Please tell me who you are", please refer to the previous section on [User Configuration](/appel/version-control-essentials/install-and-config#user-configuration). Make sure to run these commands separately.
 
 ## Committing Changes
 
