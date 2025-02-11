@@ -61,13 +61,13 @@ This video will walk you through the process of configuring Git:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/cuo-Gl98Ewc" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/ugbnTik03B8" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
 </details>
 
-> [!NOTE] You can use your school email address, or your personal email if you prefer
+> [!NOTE] You can use your school email address, or your personal email if you prefer.
 
 Here is the command to set your user name:
 
