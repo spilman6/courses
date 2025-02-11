@@ -28,6 +28,8 @@ git --version
 
 If you see a version number, then Git is already installed on your computer. If you see an error message or if your version is less than 2.40, you will need to install Git.
 
+## Installation
+
 To install Git, go to [https://git-scm.com/downloads](https://git-scm.com/downloads) and download the version for your operating system.
 
 The following videos will walk you through the installation process. Choose the corresponding video for your operating system:
