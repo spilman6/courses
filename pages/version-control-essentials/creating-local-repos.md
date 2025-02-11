@@ -43,7 +43,7 @@ This video will show you how to create a local repository in Windows 10. The pro
 
 Before you can commit changes to your repository, you need to stage them. This tells Git which files you want to commit. 
 
-This video will show you how to stage changes:
+This video will show you how to stage changes and commit them:
 
 <details open>
     <summary class="video">Show/Hide Video</summary>
@@ -65,8 +65,6 @@ To stage all of the files in your repository, run:
 ```bash
 git add .
 ```
-
-> [!WARNING] As you saw in the video, you may need to update your user settings in Git. If you see an error message like "Please tell me who you are", please refer to the previous section on [User Configuration](/appel/version-control-essentials/install-and-config#user-configuration). Make sure to run these commands separately.
 
 ## Committing Changes
 
@@ -104,12 +102,3 @@ If you want to unhook a repository, you can delete the `.git` folder. This will 
 ## Forgetting the -m Flag
 
 If you forget the -m flag when committing changes, Git will open a text editor for you to enter your commit message. By default, this will be Vim, which can be confusing for new users. If this happens to you, my recommendation (for now) is to exit out of your terminal and run the command again with the -m flag.
-
-
-# Pro-Tips
-
-- Initialize once. Remember that you only need to run `git init` once per project. After that, you can just stage and commit changes as needed.
-
-- Commit often! It is better to have many small commits than a few large ones. This makes it easier to track changes and revert back if necessary.
-
-- Write clear commit messages. This will help you (and others) understand what changes were made and why.

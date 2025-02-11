@@ -1,0 +1,6 @@
+
+Create local and remote repositories.
+Demonstrate how to stage and commit changes.
+Demonstrate how to utilize a remote repository for collaboration.
+Create branches to work on new features.
+Demonstrate Git usage from the command line and an IDE.
