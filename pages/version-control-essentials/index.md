@@ -14,7 +14,7 @@ repo: https://github.com/rappel/courses
 
 [Introduction to Git](/appel/version-control-essentials/intro-to-git)
 
-[Installation and Setup](/appel/version-control-essentials/installation-and-setup)
+[Installation and Configuration](/appel/version-control-essentials/install-and-config)
 
 [Creating Local Repos](/appel/version-control-essentials/creating-local-repos)
 
