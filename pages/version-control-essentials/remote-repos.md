@@ -72,8 +72,35 @@ The commands we ran were:
 
 ```bash
 git remote add origin <url>
+
 git push -u origin master
 ```
 
 > [!NOTE] You don't need to memorize these commands, because you can always copy them from the remote repository page. Remember that `Ctrl` + `V` will not work in Git Bash. Instead, right-click in the terminal and select "Paste" from the context menu.
 
+# Pushing Changes to a Repository
+
+Once you have pushed your local repository to a remote repository, you can push changes to the remote repository as you make them. This allows you to share your code with others and collaborate on projects.
+
+The process is different than your initial push because your local repo is already connected to the remote repo.
+
+This video will show you how to push changes to GitHub:
+
+<details open>
+	<summary class="video">Show/Hide Video</summary>
+	<div class="video-container">
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+		</iframe>
+	</div>
+</details>
+
+The commands we ran were:
+
+```bash
+git add .
+
+git commit -m "Your message here"
+
+git push
+```
