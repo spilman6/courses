@@ -12,7 +12,7 @@ live: https://fvtc.software/appel/version-control-essentials/remote-repos
 
 A remote repository is a version of your project that is hosted on the internet or another network. This allows you to share your code with others and collaborate on projects. Remote repositories are often used in conjunction with local repositories, allowing you to work on your code locally and then push your changes to the remote repository.
 
-## Why Use a Remote Repository?
+### Why Use a Remote Repository?
 
 Remote repositories are useful for several reasons:
 
@@ -22,44 +22,30 @@ Remote repositories are useful for several reasons:
 
 - **Code Access**: Remote repositories allow you to access your code from anywhere. This is especially useful if you work on multiple machines or need to access your code while traveling.
 
-## Popular Remote Repository Hosting Services
+### Popular Repository Hosts
 
-- **GitHub**: GitHub is one of the most popular remote repository hosting services. It offers a user-friendly interface and a wide range of features for collaboration.
+- **[GitHub](https://github.com)**: GitHub is one of the most popular remote repository hosting services. It offers a user-friendly interface and a wide range of features for collaboration.
 
-- **Microsoft Azure DevOps**: Azure DevOps is a cloud-based service that provides a range of tools for software development, including remote repository hosting.
+- **[Azure DevOps](https://dev.azure.com)**: Azure DevOps is a cloud-based service that provides a range of tools for software development, including remote repository hosting.
 
-- **GitLab**: GitLab is another popular remote repository hosting service that offers a wide range of features for collaboration and project management.
+- **[GitLab](https://gitlab.com)**: GitLab is another popular remote repository hosting service that offers a wide range of features for collaboration and project management.
 
-- **Bitbucket**: Bitbucket is a remote repository hosting service that is particularly popular among teams using Atlassian products like Jira and Confluence.
+- **[Bitbucket](https://bitbucket.org)**: Bitbucket is a remote repository hosting service that is particularly popular among teams using Atlassian products like Jira and Confluence.
 
-At FVTC, we will be using GitHub and Azure DevOps for our remote repositories.
-
-The following courses currently use GitHub: 
-
-- Computer Programming C++
-- Modern JavaScript
-- Advanced JavaScript
-- PHP
-
-The following courses currently use Azure DevOps:
-
-- C# Introduction to Programming
-- C# Intermediate Programming
-- ASP.NET
-- Advanced Programming
+At FVTC, we will be using [GitHub](https://github.com) and [Azure DevOps](https://dev.azure.com) for our remote repositories.
 
 ## Creating a Remote Repository
 
 Creating a remote repository is different depending on the hosting service and the Environment you are using. For example, if you're using Git Bash to push a repository to GitHub the process is very different than if you're pusing a Visual Studio project to Azure DevOps.
 
-We will cover both of these processes (and more) in upcoming sections. For now, let's take a look at how to create a remote repository on GitHub.
+We will cover both of these processes (and more) in upcoming sections.
 
-This video will show you how to create a remote repository on GitHub:
+For now, let's take a look at how to create a remote repository on GitHub:
 
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/Edk4rCBZzr0" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/Edk4CBZzr0" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -76,7 +62,7 @@ This video will show you how to push your local repo to GitHub:
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/Edk4rCBZzr0" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
