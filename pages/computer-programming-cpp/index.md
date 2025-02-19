@@ -26,7 +26,7 @@ live: https://fvtc.software/appel/computer-programming-cpp
 
 [Structs and Arrays](/appel/computer-programming-cpp/structs-and-arrays)
 
-[Assignment 3 - Library Book Manager](/appel/computer-programming-cpp/assignments/book-manager)
+[Assignment 3 - Mad Lib](/appel/computer-programming-cpp/assignments/mad-lib)
 
 ## Week 4
 
