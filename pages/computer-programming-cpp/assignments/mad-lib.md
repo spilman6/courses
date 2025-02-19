@@ -32,7 +32,7 @@ struct Entry {
 };
 ```
 
-The struct `Entries` has two attributes:
+The struct `Entry` has two attributes:
 
 - `type` (string): The type of word to be entered (e.g., noun, adjective, place, sport).
 - `input` (string): The word entered by the user.
