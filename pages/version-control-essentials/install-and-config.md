@@ -44,7 +44,7 @@ The following videos will walk you through the installation process. Choose the 
 </details>
 
 <details>
-    <summary class="video">macOS</summary>
+    <summary class="video">Mac</summary>
     <div class="video-container">
         <iframe src="https://www.youtube.com/embed/BYK5qa-LT38" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
