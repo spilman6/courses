@@ -76,7 +76,7 @@ For this exercise, you will need to fork and clone the following repository:
 
 Once you have forked and cloned the repository, open the `index.html` file in your browser. You should see a message that says "Version Control".
 
-Next, open the `index.html` file in your text editor and change where it says "Version Control" to your name (it should be on line 13).
+Next, open the `index.html` file in your text editor and change where it says "Version Control" to your name (it should be on line 14).
 
 Save the file and go back to your browser. Refresh the page and you should see your name displayed on the page.
 
