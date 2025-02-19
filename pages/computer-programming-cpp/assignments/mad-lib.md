@@ -26,7 +26,7 @@ Your program should include the following tasks:
 1. Use the following Struct:
 
 ```cpp
-struct Entries {
+struct Entry {
 	string type;
 	string input;
 };
@@ -44,7 +44,7 @@ The struct `Entries` has two attributes:
    - You can hard-code the Initial state of the array. For example:
 
 ```cpp
-Entries entries[] = {
+Entry entries[] = {
 	{"place", ""},
 	{"adjective", ""},
 	{"noun", ""},
