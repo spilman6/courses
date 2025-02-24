@@ -1,3 +1,13 @@
+---
+title: Assignment 8 - Advanced JS Research Project
+subtitle: Advanced JavaScript
+hideNav: false
+
+live: https://fvtc.software/appel/advanced-javascript/assignments/research-project
+dev: http://localhost:3006/appel/advanced-javascript/assignments/research-project
+repo: https://github.com/rappel/courses
+---
+
 # Advanced JavaScript Research Project
 
 For this project, you will research a JavaScript technology beyond what we covered in class, preferably related to React. You will follow tutorials, build a working demo application, and present your findings to the class.

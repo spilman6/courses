@@ -4,6 +4,8 @@ subtitle: Computer Programming C++
 hideNav: false
 
 live: https://fvtc.software/appel/computer-programming-cpp/assignments/game-analysis
+dev: http://localhost:3006/appel/computer-programming-cpp/assignments/game-analysis
+repository: https://github.com/rdappel/courses
 ---
 
 # Assignment 8 - Game Analysis

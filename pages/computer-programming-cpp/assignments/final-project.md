@@ -4,7 +4,8 @@ subtitle: Computer Programming C++
 hideNav: false
 
 live: https://fvtc.software/appel/computer-programming-cpp/assignments/final-project
-repository: https://github.com/fvtc/cpp-space-fighter-2
+dev: http://localhost:3006/appel/computer-programming-cpp/assignments/final-project
+repository: https://github.com/rdappel/courses
 ---
 
 # Assignment 10 - Game Modification
