@@ -73,12 +73,22 @@ This video will show you how to push your local repo to GitHub:
 The commands we ran were:
 
 ```bash
+git init
+
+git add .
+
+git commit -m "first commit"
+```
+
+The commands that were copy/pasted from GitHub:
+
+```bash
 git remote add origin <url>
 
 git push -u origin master
 ```
 
-> [!NOTE] You don't need to memorize these commands, because you can always copy them from the remote repository page. Remember that `Ctrl` + `V` will not work in Git Bash. Instead, right-click in the terminal and select "Paste" from the context menu.
+> [!NOTE] You don't need to memorize these last two commands, because you can always copy them from the remote repository page. Remember that `Ctrl` + `V` will not work in Git Bash. Instead, right-click in the terminal and select "Paste" from the context menu.
 
 ## Pushing Changes to a Repository
 
