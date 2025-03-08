@@ -8,7 +8,7 @@ live: https://fvtc.software/appel/data-access-for-programmers/one-to-many-relati
 
 # One-to-Many Relationships
 
-In this unit, we're going to look at how to work with multi-valued data. It would be really convenient if entity attributes werealways one-to-one, but that's not the case. For example, a customer can have multiple orders, and an order can have multiple items. In this unit, we'll look at how to work with these types of relationships.
+In this unit, we're going to look at how to work with multi-valued data. It would be really convenient if entity attributes were always one-to-one, but that's not the case. For example, a customer can have multiple orders, and an order can have multiple items. In this unit, we'll look at how to work with these types of relationships.
 
 ## Single vs. Multi-Valued Attributes
 
