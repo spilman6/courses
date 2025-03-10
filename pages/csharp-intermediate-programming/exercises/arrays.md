@@ -30,7 +30,7 @@ In the `Program.cs` file, you will need to add the following:
 
 3. Create a method called `SumArray` that calculates the sum of all the elements in the array and returns the result.
 
-4. Create a method called `AverageArray` that calculates the average of all the elements in the array and returns the result.
+4. Create a method called `AverageArray` that calculates the average of all the elements in the array and returns the result. Remember that the average might not be an integer!
 
 5. In the `Main` method, call the `ArrayToString`, `SumArray`, and `AverageArray` methods and print the results to the console. The results should look like this:
 
