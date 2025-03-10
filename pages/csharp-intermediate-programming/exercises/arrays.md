@@ -12,6 +12,10 @@ repo: https://github.com/rappel/courses
 
 In this exercise, you will practice working with arrays in C#. You will create a console application that uses arrays to store and manipulate data.
 
+## Submissions
+
+- None
+
 ## Instructions
 
 Open Visual Studio and from the command palette, run `FVTC: Connect to Live Exercise`, then specify a location for your project. The starter code should automatically download.
