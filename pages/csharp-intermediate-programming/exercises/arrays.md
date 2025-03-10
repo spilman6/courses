@@ -16,7 +16,7 @@ In this exercise, you will practice working with arrays in C#. You will create a
 
 Open Visual Studio and from the command palette, run `FVTC: Connect to Live Exercise`, then specify a location for your project. The starter code should automatically download.
 
-> [!NOTE] If you haven't installed the FVTC Live Exercise Extension, you can [download it here](api.fvtc.software/downloads).
+> [!NOTE] If you haven't installed the FVTC Live Exercise Extension, you can [download it here](https://api.fvtc.software/downloads).
 
 In the `Program.cs` file, you will need to add the following:
 
