@@ -91,7 +91,7 @@ console.log('Hello World')
 </html>
 ```
 
-> [!TIP] Even thouhg I will give you the code in the video, you should be following along and typing it out yourself. I am posting the code here incase your copy doesn't work for some reason. Again, make sure that you are typing the code yourself, and completing the exercises as they come up.
+> [!TIP] Even though I will give you the code in the video, you should be following along and typing it out yourself. I am posting the code here incase your copy doesn't work for some reason. Again, make sure that you are typing the code yourself, and completing the exercises as they come up.
 
 ## Playing around with our Webpage
 

@@ -30,8 +30,6 @@ If you see a version number, then Git is already installed on your computer. If 
 
 ## Installation
 
-To install Git, go to [https://git-scm.com/downloads](https://git-scm.com/downloads) and download the version for your operating system.
-
 The following videos will walk you through the installation process. Choose the corresponding video for your operating system:
 
 <details>
@@ -51,6 +49,8 @@ The following videos will walk you through the installation process. Choose the 
         </iframe>
     </div>
 </details>
+
+To install Git, go to [https://git-scm.com/downloads](https://git-scm.com/downloads) and download the version for your operating system.
 
 # User Configuration
 
