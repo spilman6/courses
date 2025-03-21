@@ -1,6 +1,6 @@
 {
 	"Initialize a Unit": {
-		"scope": "markdown",
+		"scope": "markdown, md",
 		"prefix": "init",
 		"body": [
 			"---",
@@ -21,7 +21,7 @@
 	},
 
 	"Embed YouTube Video with Details Toggle": {
-		"scope": "markdown",
+		"scope": "markdown, md, mdx",
 		"prefix": "yt",
 		"body": [
 			"<details open>",
@@ -40,7 +40,7 @@
 
 	"Add a Note, Tip, Important, Warning, Caution Blockquote": {
 		"scope": "markdown",
-		"prefix": ">",
+		"prefix": "> [",
 		"body": "> [!${1|NOTE,TIP,IMPORTANT,WARNING,CAUTION|}] $0",
 		"description": "Emphasize critical information using a Note, Tip, Important, Warning, or Caution Blockquote"
 	},
