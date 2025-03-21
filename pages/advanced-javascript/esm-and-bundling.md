@@ -154,17 +154,37 @@ Answer
 
 ## Submission {#exercise-1-submission}
 
-Once you have completed the exercise, paste your rectangle.js code here, then click the "Submit" button to submit your code.
+Once you have completed the exercise, paste your rectangle.js code here. Make sure to include the `calculateArea` function and any necessary imports. Then, click the "Submit" button to submit your code for grading.
 
-<textarea rows="10" cols="50" placeholder="Paste your code here..."></textarea>
-<button type="button" class="submit-button">Submit</button>
+<div class="exercise-submission">
+    <label for="code-input">Your Code:</label>
+    <textarea rows="10" cols="50" placeholder="Paste your code here..."></textarea>
+    <button type="button" class="submit-button">Submit</button>
+</div>
+
 
 ## Solution {#exercise-1-solution}
+
+> [!NOTE] Your instructor can see if you look at the answer before you finish the exercise. Please try to solve it on your own first.
 
 <details>
     <summary>Show the Answer</summary>
 
+Here is the code for the `rectangle.js` file:
 
+```javascript
+export const calculateArea = (width, height) => {
+    return width * height
+}
+```
+
+And here is how you would import and use this module in `main.js`:
+
+```javascript
+import { calculateArea } from './rectangle.js'
+
+console.log(calculateArea(5, 10)) // 50
+```
 
 </details>
 
