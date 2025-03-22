@@ -90,7 +90,24 @@
 			"</details>"
 		],
 		"description": "Create an exercise"
-	}, 
+	},
+
+	"Submission Template": {
+		"scope": "markdown",
+		"prefix": "sub",
+		"body": [
+			"## Submission {#exercise-$1-submission}",
+			"",
+			"Once you have completed the exercise, paste your $0",
+			"",
+			"<div class=\"exercise-submission\">",
+			"\t<textarea placeholder=\"Paste your code here...\"></textarea>",
+			"\t<button type=\"button\" class=\"submit-button\">Submit</button>",
+			"</div>",
+			""
+		],
+		"description": "Create a submission template"
+	},
 
 	"Hiden Content for AI":{
 		"scope": "markdown",

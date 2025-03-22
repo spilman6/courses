@@ -146,21 +146,42 @@ Call the module `rectangle.js` and create a function called `calculateArea` that
 ## Hints {#exercise-1-hints}
 
 <details>
-    <summary>How do I ?</summary>
+    <summary>How do I create a module?</summary>
 
-Answer
+You can create a module by creating a new JavaScript file (e.g., `rectangle.js`) and using the `export` keyword to export your function.
+
+</details>
+
+<details>
+    <summary>How do I export a function from a module?</summary>
+You can export a function from a module by using the `export` keyword before the function declaration. For example:
+
+```javascript
+export const myFunction = () => {
+    // your code here
+}
+```
+</details>
+
+<details>
+    <summary>How do I import a module?</summary>
+
+You can import a module by using the `import` keyword followed by the name of the function you want to import and the path to the module. For example:
+    
+```javascript
+import { myFunction } from './myModule.js'
+```
 
 </details>
 
 ## Submission {#exercise-1-submission}
 
-Once you have completed the exercise, paste your rectangle.js code here. Make sure to include the `calculateArea` function and any necessary imports. Then, click the "Submit" button to submit your code for grading.
+Once you have completed the exercise, paste your `rectangle.js` code into the text area below and click the "Submit" button.
 
 <div class="exercise-submission">
-    <textarea rows="10" cols="50" placeholder="Paste your code here..."></textarea>
+    <textarea placeholder="Paste your code here..."></textarea>
     <button type="button" class="submit-button">Submit</button>
 </div>
-
 
 ## Solution {#exercise-1-solution}
 
