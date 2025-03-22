@@ -178,7 +178,7 @@ import { myFunction } from './myModule.js'
 
 Once you have completed the exercise, paste your `rectangle.js` code into the text area below and click the "Submit" button.
 
-<div class="exercise-submission">
+<div class="exercise-submission" data-language="javascript">
     <textarea placeholder="Paste your code here..."></textarea>
     <button type="button" class="submit-button">Submit</button>
 </div>
