@@ -157,7 +157,6 @@ Answer
 Once you have completed the exercise, paste your rectangle.js code here. Make sure to include the `calculateArea` function and any necessary imports. Then, click the "Submit" button to submit your code for grading.
 
 <div class="exercise-submission">
-    <label for="code-input">Your Code:</label>
     <textarea rows="10" cols="50" placeholder="Paste your code here..."></textarea>
     <button type="button" class="submit-button">Submit</button>
 </div>
