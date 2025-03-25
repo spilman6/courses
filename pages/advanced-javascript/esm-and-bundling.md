@@ -34,7 +34,6 @@ CommonJS modules are synchronous and load dependencies on demand. This pattern w
 In 2015, ECMAScript 6 introduced a new module system called ECMAScript Modules (ESM). This system is asynchronous and allows for static analysis of dependencies. You can recognize ESM modules by the `import` and `export` keywords:
 
 ```javascript
-
 // import a module
 import express from 'express'
 
