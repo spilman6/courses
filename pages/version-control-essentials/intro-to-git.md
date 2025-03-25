@@ -71,7 +71,7 @@ Here are some basic commands you will need to know:
 
 - `ls`: List the files and folders in the current directory (folder).
 
-- `cd`: Change directories. For example, `cd MyProject` will take you to the myProject folder, assuming it exists in the current directory. You can also use `cd ..` to go up to the parent directory, or `cd ~` to go to your home directory.
+- `cd`: Change directories. For example, `cd MyProject` will take you to the myProject folder, assuming it exists in the current directory. You can also use `cd ..` to go up to the parent directory, or `cd ~` to go to your home directory. You can also combine them with slashes to navigate to a specific directory, such as `cd ~/../Joe/Desktop`, which will take you to the Desktop folder for the user Joe (assuming that user exists).
 
 - `mkdir`: Make a new directory. For example, `mkdir MyProject` will create a new folder called MyProject in the current directory.
 
