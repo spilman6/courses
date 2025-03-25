@@ -65,6 +65,8 @@ Before we start using Git, let's take a moment to look at some basic commands yo
 
 If you are using MacOS or Linux, use the Terminal. If you are using Windows, use PowerShell, not the Command Prompt. The Command Prompt does not support some of the commands we will be using.
 
+> [!NOTE] If you have experience using command line tools, specifically `ls`, `cd`, and `mkdir`, you can skip directly to [Exercise 1](#exercise-1).
+
 Here are some basic commands you will need to know:
 
 - `ls`: List the files and folders in the current directory (folder).
