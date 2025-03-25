@@ -59,7 +59,7 @@ Let's go over some of the terminology you will encounter when using Git:
 - **Others**: We will be covering more concepts in upcoming lessons, such as branches, pull requests, and merging. These are more advanced concepts that you will need to know as you become more comfortable with Git.
 
 
-## Navigating the Command Line
+# Navigating the Command Line
 
 Before we start using Git, let's take a moment to look at some basic commands you will need to know to navigate the command line. The command line is a text-based interface that allows you to interact with your computer using commands.
 
