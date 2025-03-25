@@ -100,9 +100,9 @@
 			"",
 			"Once you have completed the exercise, paste your $0",
 			"",
-			"<div class=\"exercise-submission\">",
+			"<div data-language=\"$2\" class=\"exercise-submission\">",
 			"\t<textarea placeholder=\"Paste your code here...\"></textarea>",
-			"\t<button type=\"button\" class=\"submit-button\">Submit</button>",
+			"\t<button type=\"button\" class=\"submit-button\">Submit Exercise</button>",
 			"</div>",
 			""
 		],
