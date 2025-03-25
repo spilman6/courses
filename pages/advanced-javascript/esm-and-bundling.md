@@ -8,7 +8,7 @@ dev: http://localhost:3006/appel/advanced-javascript/esm-and-bundling
 repo: https://github.com/rappel/courses
 ---
 
-# ESM Modules
+# ESM Modules and Bundling
 
 ## CommonJS Modules
 
