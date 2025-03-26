@@ -16,7 +16,9 @@ Before we start using Git, let's take a moment to understand what it is, and why
 
 Git allows you to keep track of changes to your code by creating snapshots of your project at different points in time. Then, you can compare these snapshots to see what has changed.
 
-It also allows you to see who made changes, when they made them, and what the changes were. This is useful when working on a project with multiple people, as it allows you to collaborate more effectively.
+Git also lets you upload your code to a remote repository, this allow you to access your code from anywhere, collaborate with others, and keeps your code safe in case something happens to your computer.
+
+As you create these snapshots, Git keeps track of not only the changes you make to your code but also who made the changes and when they were made. This makes it easy to see what has changed in your project over time.
 
 This video will give you a brief overview of Git and its features:
 
@@ -107,8 +109,6 @@ In this video we will see these commands in action:
 
 4. Navigate into the `Exercise1` directory.
 
-5. Navigate to your home/user directory, using only one command.
-
 ## Hints {#exercise-1-hints}
 
 <details>
@@ -129,17 +129,6 @@ Use the `cd` command followed by the name of the folder that you want to navigat
 
 ```bash
 cd MyFolder
-```
-
-</details>
-
-<details>
-	<summary>How do I navigate to my home directory?</summary>
-
-Use the `cd` command followed by the tilde character `~`. This will take you to your home directory:
-
-```bash
-cd ~
 ```
 
 </details>
@@ -172,40 +161,13 @@ Once you have completed the exercise, copy the commands you used to complete the
 <details>
 	<summary>Show the Answer</summary>
 
-1. Open up your terminal (or PowerShell) and navigate to your desktop.
+Here are the commands you need to complete the exercise:
 
 ```bash
 cd Desktop
-```
-
-Or if you didn't start from your home directory:
-
-```bash
-cd ~\Desktop
-```
-
-2. Create a new directory called `Exercise1`.
-
-```bash
 mkdir Exercise1
-```
-
-3. Show the files and folders in the current directory, to confirm that the folder was created.
-
-```bash
 ls
-```
-
-4. Navigate into the `Exercise1` directory.
-
-```bash
 cd Exercise1
-```
-
-5. Navigate to your home/user directory, using only one command.
-
-```bash
-cd ~
 ```
 
 </details>
