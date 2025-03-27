@@ -28,12 +28,20 @@ This will create a new folder called `.git` in your current directory. This fold
 
 > [!NOTE] The `.git` folder is hidden by default. To view it, you may need to enable the option to show hidden files in your file explorer.
 
-This video will show you how to create a local repository in Windows 10. The process is very similar for other operating systems:
+Additionally, if we want to see the status of our repository, we can run the following command:
+
+```bash
+git status
+```
+
+This will show a different message depending on the state of your repository. If you have just initialized a repository, it will show that you have no commits yet.
+
+This video will show you how to create a local repository in Windows 10. The process is similar for other operating systems:
 
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/UHdadGCPc64" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -43,12 +51,12 @@ This video will show you how to create a local repository in Windows 10. The pro
 
 Before you can commit changes to your repository, you need to stage them. This tells Git which files you want to commit. 
 
-This video will show you how to stage changes and commit them:
+This video will cover how to stage changes in Git:
 
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/z2GBW0rBhKI" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -68,11 +76,32 @@ git add .
 
 ## Committing Changes
 
-Once you have staged your changes, you can commit them to your repository. To commit your changes, run the following command:
+Once you have staged your changes, you can commit them to your repository.
+
+To commit your changes, run the following command:
 
 ```bash
 git commit -m "Commit message"
 ```
+
+The `-m` flag is used to add a message to your commit. This message should be a short description of the changes you are committing. For example, if you added a menu to your website, your commit message might be "Added main menu".
+
+Additionally, if you want to add an emoji to your commit message, you can use the following syntax:
+
+```bash
+git commit -m ":emoji: Commit message"
+```
+
+This video will show you how to commit changes in Git:
+
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
 
 The commit message should be a short description of the changes you are committing. For example, if you added a menu to your website, your commit message might be "Added main menu".:
 
@@ -80,25 +109,94 @@ The commit message should be a short description of the changes you are committi
 git commit -m "Added main menu"
 ```
 
-In the video we also showed `git status` to see the status of your repository, and `git log` to see the history of your commits. We will cover these commands in more detail in a later section.
+As you saw in the video, I like the idea of adding an emoji to my commit messages. This can help you quickly identify the type of change you are making. For example, you might use a 🐛 emoji for bug fixes, or a 🚀 emoji for new features.
 
-# Fixing Common Mistakes
+The website that I use to find emojis is [gitmoji.dev](https://gitmoji.dev/). You can also hover over the emoji in the emoji picker to see the name of the emoji. For example, if you hover over the 🐛 emoji, you will see that it is called "bug".
 
-It's not uncommon to make mistakes when using Git. Here are a few common mistakes and how to fix them:
+In the video we also showed `git log` to see the commit history. This command will show you a list of all the commits in your repository, along with the commit message, the author, and the date of the commit.
+
+```bash
+git log
+```
+
+# Follow Along
+
+As mentioned in the previous video, I want you to follow along now as we create a project, stage changes, and commit those changes together.
 
 <details open>
-	<summary class="video">Show/Hide Video</summary>
-	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/H5UkrhsbFZg" width="100%" height="100%" frameborder="0"
-			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-		</iframe>
-	</div>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
 </details>
 
-## Unhooking a Repository
-
-If you want to unhook a repository, you can delete the `.git` folder. This will remove all of the version control information from your project, but it will not delete any of your files.
 
 ## Forgetting the -m Flag
 
 If you forget the -m flag when committing changes, Git will open a text editor for you to enter your commit message. By default, this will be Vim, which can be confusing for new users. If this happens to you, my recommendation (for now) is to exit out of your terminal and run the command again with the -m flag.
+
+
+# Exercise 1
+
+<details open>
+    <summary class="video">Show/Hide Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
+
+Continuing with our `test-project`, open the `index.html` file (if you closed it), and add a new paragraph of text under your name.
+
+Stage your changes and run the `git status` command to confirm that your changes are staged.
+
+Commit your changes with the commit message. For example, "Added new paragraph of text". Optionally add an emoji to your commit message. Choose an emoji that we didn't use in the previous video.
+
+When you have completed the exercise, copy your status through your commit message and paste it into the submission box below, then click the "Submit Exercise" button.
+
+## Hints {#exercise-1-hints}
+
+<details>
+    <summary>How do I stage changes?</summary>
+
+You can stage changes using the `git add` command. To stage a single file, use `git add <file name>`. To stage all of the files in your repository, use `git add .`.
+
+```bash
+git add index.html
+```
+
+```bash
+git add .
+```
+
+</details>
+
+<details>
+    <summary>How do I commit changes?</summary>
+
+You can commit changes using the `git commit` command. Use the `-m` flag to add a message to your commit.
+
+```bash
+git commit -m "Added new paragraph of text"
+```
+
+## Solution {#exercise-1-solution}
+
+<details>
+    <summary>Show the Answer</summary>
+
+
+
+</details>
+
+<details>
+    <summary>Walkthrough Video</summary>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
+            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</details>
