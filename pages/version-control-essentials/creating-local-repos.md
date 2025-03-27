@@ -151,7 +151,7 @@ If you forget the -m flag when committing changes, Git will open a text editor f
 
 Continuing with our `test-project`, open the `index.html` file (if you closed it), and add a new paragraph of text under your name. I won't see this, so it can be something silly 🤪 or spicy 🔥.
 
-> [!NOTE] Use the `<p> </p>` tags to create a new paragraph.
+> [!TIP] Use the `<p> </p>` tags to create a new paragraph.
 
 Stage your changes and run the `git status` command to confirm that your changes are staged.
 
