@@ -23,19 +23,19 @@ For this assignment you are going to create a [GitHub](https://github.com) accou
 
 ## Register or Sign In
 
--[ ] If you already have an account, make sure that you know your login credentials.
+- [ ] If you already have an account, make sure that you know your login credentials.
 
 or
 
--[ ] If you are creating an account for the first time, choose a username that is professional and easy to remember. Many students use their GitHub account long after they graduate. It's not unheard of for potential employers to look at your GitHub account to see what kind of projects you have worked on.
+- [ ] If you are creating an account for the first time, choose a username that is professional and easy to remember. Many students use their GitHub account long after they graduate. It's not unheard of for potential employers to look at your GitHub account to see what kind of projects you have worked on.
 
--[ ] You will also need to provide an email address. You can use your school email address or a personal one. It's really easy to change later if you need to.
+- [ ] You will also need to provide an email address. You can use your school email address or a personal one. It's really easy to change later if you need to.
 
--[ ] [Click here](https://github.com/signup) to create a new account.
+- [ ] [Click here](https://github.com/signup) to create a new account.
 
 ## Change your Avatar
 
--[ ] Once you have created your account, you should change your avatar. It can be a picture of you, a cartoon character, or anything else that you like that is school/work appropriate. This will help personalize your account and make it easier for others to recognize you.
+- [ ] Once you have created your account, you should change your avatar. It can be a picture of you, a cartoon character, or anything else that you like that is school/work appropriate. This will help personalize your account and make it easier for others to recognize you.
 
 To change your avatar:
 
