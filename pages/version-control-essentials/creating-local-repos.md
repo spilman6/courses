@@ -155,7 +155,14 @@ Stage your changes and run the `git status` command to confirm that your changes
 
 Commit your changes with the commit message. For example, "Added new paragraph of text". Optionally add an emoji to your commit message. Choose an emoji that we didn't use in the previous video.
 
-When you have completed the exercise, copy your status through your commit message and paste it into the submission box below, then click the "Submit Exercise" button.
+## Submission {#exercise-1-submission}
+
+Once you have completed the exercise, copy the commands you used to complete the exercise and paste them into the text area below. Then click the "Submit Exercise" button.
+
+<div data-language="" class="exercise-submission">
+    <textarea placeholder="Paste your code here..."></textarea>
+    <button type="button" class="submit-button">Submit Exercise</button>
+</div>
 
 ## Hints {#exercise-1-hints}
 
