@@ -183,6 +183,8 @@ You can commit changes using the `git commit` command. Use the `-m` flag to add 
 git commit -m "Added new paragraph of text"
 ```
 
+</details>
+
 ## Solution {#exercise-1-solution}
 
 <details>
