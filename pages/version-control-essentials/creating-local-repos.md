@@ -138,7 +138,7 @@ As mentioned in the previous video, I want you to follow along now as we create 
 If you forget the -m flag when committing changes, Git will open a text editor for you to enter your commit message. By default, this will be Vim, which can be confusing for new users. If this happens to you, my recommendation (for now) is to exit out of your terminal and run the command again with the -m flag.
 
 
-# Exercise 1
+# Exercise 2
 
 <details open>
     <summary class="video">Show/Hide Video</summary>
@@ -159,7 +159,7 @@ Stage your changes and run the `git status` command to confirm that your changes
 
 Commit your changes with the commit message. For example, "Added new paragraph of text". Optionally add an emoji to your commit message. Choose an emoji that we didn't use in the previous video.
 
-## Submission {#exercise-1-submission}
+## Submission {#exercise-2-submission}
 
 Once you have completed the exercise, copy the commands you used to complete the exercise and paste them into the text area below. Then click the "Submit Exercise" button.
 
@@ -168,7 +168,7 @@ Once you have completed the exercise, copy the commands you used to complete the
     <button type="button" class="submit-button">Submit Exercise</button>
 </div>
 
-## Hints {#exercise-1-hints}
+## Hints {#exercise-2-hints}
 
 <details>
     <summary>How do I stage changes?</summary>
@@ -196,7 +196,7 @@ git commit -m "Added new paragraph of text"
 
 </details>
 
-## Solution {#exercise-1-solution}
+## Solution {#exercise-2-solution}
 
 <details>
     <summary>Show the Answer</summary>
