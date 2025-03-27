@@ -10,7 +10,7 @@ repo: https://github.com/rdappel/courses
 
 # Assignment 1 - GitHub Account
 
-For this assignment you are going to create a [GitHub](https://github.com) account (if you don't already have one). This will be your primary means of submitting assignments for this course.
+For this assignment you are going to create a [GitHub](https://github.com) account (if you don't already have one).
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
@@ -21,10 +21,32 @@ For this assignment you are going to create a [GitHub](https://github.com) accou
 	</div>
 </details>
 
+## Register or Sign In
+
 - If you already have an account, make sure that you know your login credentials.
 
-- If you are creating an account for the first time, take care when choosing a username. There's a good chance that you'll want to use this after you graduate. [Join GitHub · GitHub](https://github.com/signup)
+or
+
+- If you are creating an account for the first time, choose a username that is professional and easy to remember. Many students use their GitHub account long after they graduate. It's not unheard of for potential employers to look at your GitHub account to see what kind of projects you have worked on.
+
+- You will also need to provide an email address. You can use your school email address or a personal one. It's really easy to change later if you need to.
+
+- [Click here](https://github.com/signup) to create a new account.
+
+## Change your Avatar
+
+- Once you have created your account, you should change your avatar. It can be a picture of you, a cartoon character, or anything else that you like that is school/work appropriate. This will help personalize your account and make it easier for others to recognize you.
+
+To change your avatar:
+
+1. Go to [your settings/profile page](https://github.com/settings/profile).
+
+2. Click "Edit" on the `Profile picture` on the right side of the page.
+
+3. Click "Upload a photo" and select a photo from your computer.
 
 # Submission
 
-Once you have your GitHub account, submit the link (example: github.com/your-username) to Blackboard.
+Once you have your GitHub account created and your avatar changed, submit the URL to your GitHub profile in Blackboard. The url should look like: `https://github.com/your-username`.
+
+
