@@ -161,7 +161,7 @@ Commit your changes with the commit message. For example, "Added new paragraph o
 
 Once you have completed the exercise, copy the commands you used to complete the exercise and paste them into the text area below. Then click the "Submit Exercise" button.
 
-<div data-language="" class="exercise-submission">
+<div data-language="bash" class="exercise-submission">
     <textarea placeholder="Paste your code here..."></textarea>
     <button type="button" class="submit-button">Submit Exercise</button>
 </div>
