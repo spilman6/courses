@@ -10,35 +10,11 @@ repo: https://github.com/rdappel/courses
 
 # Remote Repositories
 
-## What is a Remote Repository?
-
-A remote repository is a version of your project that is hosted on the internet or another network. This allows you to share your code with others and collaborate on projects. Remote repositories are often used in conjunction with local repositories, allowing you to work on your code locally and then push your changes to the remote repository.
-
-## Why Use a Remote Repository?
-
-Remote repositories are useful for several reasons:
-
-- **Collaboration**: Remote repositories allow multiple people to work on the same project simultaneously. This is especially useful for open-source projects or when working with a team.
-
-- **Backup**: Remote repositories provide a backup of your code. If something happens to your local machine, you can always retrieve your code from the remote repository.
-
-- **Code Access**: Remote repositories allow you to access your code from anywhere. This is especially useful if you work on multiple machines or need to access your code while traveling.
-
-## Popular Repository Hosts
-
-- **[GitHub](https://github.com)**: GitHub is one of the most popular remote repository hosting services. It offers a user-friendly interface and a wide range of features for collaboration.
-
-- **[Azure DevOps](https://dev.azure.com)**: Azure DevOps is a cloud-based service that provides a range of tools for software development, including remote repository hosting.
-
-- **[GitLab](https://gitlab.com)**: GitLab is another popular remote repository hosting service that offers a wide range of features for collaboration and project management.
-
-- **[Bitbucket](https://bitbucket.org)**: Bitbucket is a remote repository hosting service that is particularly popular among teams using Atlassian products like Jira and Confluence.
-
-At FVTC, we will be using [GitHub](https://github.com) and [Azure DevOps](https://dev.azure.com) for our remote repositories.
+In the previous sections, we learned how to create a local repository and make changes to it. In this section, we will learn how to create a remote repository in GitHub, and push our code to it.
 
 # Creating a Remote Repository
 
-Creating a remote repository is different depending on the hosting service and the Environment you are using. For example, if you're using Git Bash to push a repository to GitHub the process is very different than if you're pusing a Visual Studio project to Azure DevOps.
+Creating a remote repository is different depending on the hosting service and the environment you are using. For example, if you're using Git Bash to push a repository to GitHub the process is very different than if you're pusing a Visual Studio project to Azure DevOps.
 
 We will cover both of these processes (and more) in upcoming sections.
 
@@ -47,7 +23,7 @@ For now, let's take a look at how to create a remote repository on GitHub:
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/8clSztIQFXU" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -64,7 +40,7 @@ This video will show you how to push your local repo to GitHub:
 <details open>
     <summary class="video">Show/Hide Video</summary>
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/1uthnj32j80" width="100%" height="100%" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
             allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
     </div>
@@ -77,7 +53,7 @@ git init
 
 git add .
 
-git commit -m "first commit"
+git commit -m ":tada: first commit"
 ```
 
 The commands that were copy/pasted from GitHub:
@@ -101,7 +77,7 @@ This video will show you how to push changes to GitHub:
 <details open>
 	<summary class="video">Show/Hide Video</summary>
 	<div class="video-container">
-		<iframe src="https://www.youtube.com/embed/PJ8lR4ixvlQ" width="100%" height="100%" frameborder="0"
+		<iframe src="https://www.youtube.com/embed/" width="100%" height="100%" frameborder="0"
 			allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 		</iframe>
 	</div>
@@ -112,7 +88,17 @@ The commands we ran were:
 ```bash
 git add .
 
-git commit -m "Your message here"
+git commit -m ":memo: added readme"
+
+git push
+```
+
+Then the next update was:
+
+```bash
+git add .
+
+git commit -m ":sparkles: added git commands"
 
 git push
 ```
