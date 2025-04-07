@@ -169,7 +169,7 @@ Open the `index.html` file (if you closed it), and add a new paragraph of text u
 
 Stage your changes and run the `git status` command to confirm that your changes are staged.
 
-Commit your changes with the commit message. For example, "Added new paragraph of text". Optionally add an emoji to your commit message. Choose an emoji that we didn't use in the previous video.
+Commit your changes with the commit message. For example, "Added new paragraph of text". Optionally add an emoji to your commit message. Choose an emoji that we didn't use in the previous video. Here is the [Gitmoji](https://gitmoji.dev/) website again if you need it.
 
 ## Submission {#exercise-3-submission}
 
