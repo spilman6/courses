@@ -12,13 +12,13 @@ repo: https://github.com/rappel/courses
 
 Before we start using Git, let's take a moment to look at some basic commands you will need to know to navigate the command line. The command line interface (CLI) is a text-based interface that allows you to interact with your computer using commands.
 
-If you are using MacOS or Linux, use the Terminal. If you are using Windows, use PowerShell. If you are using Visual Studio Code, you can use the integrated terminal.
+If you are using MacOS or Linux, use the Terminal. If you are using Windows, use the Command Prompt. If you are using Visual Studio Code, you can use the integrated terminal.
 
-> [!NOTE] If you have experience using command line tools, specifically `ls`, `cd`, and `mkdir`, you can skip directly to [Exercise 1](#exercise-1).
+> [!NOTE] If you have experience using command line tools, specifically `ls/dir`, `cd`, and `mkdir`, you can skip directly to [Exercise 1](#exercise-1).
 
 Here are some basic commands you will need to know:
 
-- `ls`: List the files and folders in the current directory (folder).
+- `ls/dir`: List the files and folders in the current directory (folder). The command prompt uses `dir` and the terminal uses `ls`, but for the most part they work the same way.
 
 - `cd`: Change directories. For example, `cd MyProject` will take you to the myProject folder, assuming it exists in the current directory. You can also use `cd ..` to go up to the parent directory, or `cd ~` to go to your home directory. You can also combine them with slashes to navigate to a specific directory, such as `cd ~/../Joe/Desktop`, which will take you to the Desktop folder for the user Joe (assuming that user exists).
 
@@ -83,7 +83,13 @@ cd MyFolder
 <details>
     <summary>How do I list the files and folders in the current directory?</summary>
 
-Use the `ls` command to list the files and folders in the current directory:
+Use the `dir` command on the Windows command prompt:
+
+```bash
+dir
+```
+
+Or, use the `ls` command on the terminal:
 
 ```bash
 ls
@@ -116,6 +122,8 @@ mkdir Exercise1
 ls
 cd Exercise1
 ```
+
+Note that the `ls` command will need to be replaced with `dir` if you are using the command prompt on Windows.
 
 </details>
 
