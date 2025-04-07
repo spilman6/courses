@@ -109,7 +109,7 @@ The commit message should be a short description of the changes you are committi
 git commit -m "Added main menu"
 ```
 
-As you saw in the video, I like the idea of adding an emoji to my commit messages. This can help you quickly identify the type of change you are making. For example, you might use a 🐛 emoji for bug fixes, or a 🚀 emoji for new features.
+As you saw in the video, I like the idea of adding an emoji to my commit messages. This can help you quickly identify the type of change you are making. For example, you might use a 🐛 :bug: emoji for bug fixes, a ✨ :sparkles: emoji for new features, or a 🚀 :rocket: for when you deploy!
 
 The website that I use to find emojis is [gitmoji.dev](https://gitmoji.dev/). You can also hover over the emoji in the emoji picker to see the name of the emoji. For example, if you hover over the 🐛 emoji, you will see that it is called "bug".
 
