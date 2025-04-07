@@ -96,24 +96,15 @@ git config --global user.email "Your Email"
     </div>
 </details>
 
+> [!NOTE] `Ctrl` + `C` and `Ctrl` + `V` do not copy & paste in Git Bash! To copy text in Bash, simply highlight it with your mouse, it will automatically be copied to your clipboard. To paste text, right-click in the terminal and select "Paste" from the context menu.
+
 Perform the following tasks:
 
 1. Open the Desktop directory using the "Open Git Bash Here" option in the context menu.
 
 2. Using the terminal/bash, show which version of Git you have installed.
 
-> [!NOTE] `Ctrl` + `C` and `Ctrl` + `V` will not work in Git Bash. To copy text in Bash, simply highlight it with your mouse, it will automatically be copied to your clipboard. To paste text, right-click in the terminal and select "Paste" from the context menu.
-
 3. Copy the commands in Bash and submit them below.
-
-## Submission {#exercise-2-submission}
-
-Once you have completed the exercise, paste the contents of your terminal into the text area below. Then click the "Submit Exercise" button.
-
-<div data-language="bash" class="exercise-submission">
-    <textarea placeholder="Paste your code here..."></textarea>
-    <button type="button" class="submit-button">Submit Exercise</button>
-</div>
 
 ## Hints {#exercise-2-hints}
 
@@ -129,6 +120,15 @@ git --version
 There is a shortcut for this command, which is `git -v`.
 
 </details>
+
+## Submission {#exercise-2-submission}
+
+Once you have completed the exercise, paste the contents of your terminal into the text area below. Then click the "Submit Exercise" button.
+
+<div data-language="bash" class="exercise-submission">
+    <textarea placeholder="Paste your code here..."></textarea>
+    <button type="button" class="submit-button">Submit Exercise</button>
+</div>
 
 ## Solution {#exercise-2-solution}
 
