@@ -225,6 +225,7 @@ Add your paragraph to the `index.html` file, under your name. For example:
         <p>I like to write code!</p>
     </body>
 </html>
+```
 
 Then, open Git Bash (or a terminal) and navigate to the folder where you created your repository, and run the following commands:
 
