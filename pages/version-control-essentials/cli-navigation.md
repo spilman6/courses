@@ -10,9 +10,9 @@ repo: https://github.com/rappel/courses
 
 # Navigating the Command Line
 
-Before we start using Git, let's take a moment to look at some basic commands you will need to know to navigate the command line. The command line is a text-based interface that allows you to interact with your computer using commands.
+Before we start using Git, let's take a moment to look at some basic commands you will need to know to navigate the command line. The command line interface (CLI) is a text-based interface that allows you to interact with your computer using commands.
 
-If you are using MacOS or Linux, use the Terminal. If you are using Windows, use PowerShell or the Command Prompt. If you are using Visual Studio Code, you can use the integrated terminal.
+If you are using MacOS or Linux, use the Terminal. If you are using Windows, use PowerShell. If you are using Visual Studio Code, you can use the integrated terminal.
 
 > [!NOTE] If you have experience using command line tools, specifically `ls`, `cd`, and `mkdir`, you can skip directly to [Exercise 1](#exercise-1).
 
