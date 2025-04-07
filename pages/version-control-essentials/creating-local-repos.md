@@ -132,6 +132,18 @@ As mentioned in the previous video, I want you to follow along now as we create 
     </div>
 </details>
 
+Here is the html code that we created in the video:
+
+```html
+<html>
+    <head>
+        <title>Creating a local repo!</title>
+    </head>
+    <body>
+        <h1>My name is Ryan.</h1>
+    </body>
+</html>
+```
 
 ## Forgetting the -m Flag
 
@@ -201,7 +213,26 @@ git commit -m "Added new paragraph of text"
 <details>
     <summary>Show the Answer</summary>
 
+Add your paragraph to the `index.html` file, under your name. For example:
 
+```html
+<html>
+    <head>
+        <title>Creating a local repo!</title>
+    </head>
+    <body>
+        <h1>My name is Ryan.</h1>
+        <p>I like to write code!</p>
+    </body>
+</html>
+
+Then, open Git Bash (or a terminal) and navigate to the folder where you created your repository, and run the following commands:
+
+```bash
+git add .
+git status
+git commit -m ":technologist: Added programmer paragraph"
+```
 
 </details>
 
