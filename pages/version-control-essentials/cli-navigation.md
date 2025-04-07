@@ -20,7 +20,7 @@ Here are some basic commands you will need to know:
 
 - `ls/dir`: List the files and folders in the current directory (folder). The command prompt uses `dir` and the terminal uses `ls`, but for the most part they work the same way.
 
-- `cd`: Change directories. For example, `cd MyProject` will take you to the myProject folder, assuming it exists in the current directory. You can also use `cd ..` to go up to the parent directory, or `cd ~` to go to your home directory. You can also combine them with slashes to navigate to a specific directory, such as `cd ~/../Joe/Desktop`, which will take you to the Desktop folder for the user Joe (assuming that user exists).
+- `cd`: Change directories. For example, `cd MyProject` will take you to the myProject folder, assuming it exists in the current directory. You can also use `cd ..` to go up to the parent directory, or `cd ~` to go to your home/user directory. You can also combine them with slashes to navigate to a specific directory, such as `cd ~/../Joe/Desktop`, which will take you to the Desktop folder for the user Joe (assuming that user exists).
 
 - `mkdir`: Make a new directory. For example, `mkdir MyProject` will create a new folder called MyProject in the current directory.
 
@@ -47,6 +47,8 @@ In this video we will see these commands in action:
         </iframe>
     </div>
 </details>
+
+Perform the following tasks:
 
 1. Open up your terminal and navigate to your desktop.
 
