@@ -171,15 +171,6 @@ Stage your changes and run the `git status` command to confirm that your changes
 
 Commit your changes with the commit message. For example, "Added new paragraph of text". Optionally add an emoji to your commit message. Choose an emoji that we didn't use in the previous video. Here is the [Gitmoji](https://gitmoji.dev/) website again if you need it.
 
-## Submission {#exercise-3-submission}
-
-Once you have completed the exercise, copy the commands you used to complete the exercise and paste them into the text area below. Then click the "Submit Exercise" button.
-
-<div data-language="bash" class="exercise-submission">
-    <textarea placeholder="Paste your code here..."></textarea>
-    <button type="button" class="submit-button">Submit Exercise</button>
-</div>
-
 ## Hints {#exercise-3-hints}
 
 <details>
@@ -207,6 +198,15 @@ git commit -m "Added new paragraph of text"
 ```
 
 </details>
+
+## Submission {#exercise-3-submission}
+
+Once you have completed the exercise, copy the commands you used to complete the exercise and paste them into the text area below. Then click the "Submit Exercise" button.
+
+<div data-language="bash" class="exercise-submission">
+    <textarea placeholder="Paste your code here..."></textarea>
+    <button type="button" class="submit-button">Submit Exercise</button>
+</div>
 
 ## Solution {#exercise-3-solution}
 
