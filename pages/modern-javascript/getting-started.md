@@ -29,7 +29,7 @@ The software we will be using is:
 
 2. **Node.js**, which is a JavaScript runtime environment. Node.js allows us to run JavaScript code outside of a web browser. You can download it here: [https://nodejs.org/en/](https://nodejs.org/en/). I would recommend downloading the LTS version, which is the most stable version.
 
-3. **Git**, which is a version control system. Git allows us to keep track of changes to our code. Some of you have probably used Git before, but if you haven't, I have a series of videos that will walk you through installing Git, and get you started with the basics. You can watch them here: [https://fvtc.software/appel/source-control/getting-started](https://fvtc.software/appel/source-control/getting-started)
+3. **Git**, which is a version control system. Git allows us to keep track of changes to our code. Some of you have probably used Git before, but if you haven't, I have a series of videos that will walk you through installing Git, and get you started with the basics. You can watch them here: [https://fvtc.software/appel/version-control-essentials/getting-started](https://fvtc.software/appel/version-control-essentials/getting-started)
 
 4. **A web browser**. Any modern web browser will work, but I recommend using Google Chrome: [https://www.google.com/chrome/](https://www.google.com/chrome/). This is the browser that will be used in the videos.
 
@@ -49,6 +49,8 @@ In the early days of JavaScript, it was used primarily for simple tasks like for
 </details>
 
 > [!NOTE] The video above mentions a VS Code extension called "Live Server". If you had any difficulty installing it, there is an installation link here: [https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+> [!CAUTION] New students often confuse JavaScript with Java. They are two completely different languages. JavaScript was created by Netscape in 1995, while Java was created by Sun Microsystems in 1991. The only thing they have in common is the word "Java" in their names.
 
 # Writing JavaScript Code
 
@@ -89,7 +91,7 @@ console.log('Hello World')
 </html>
 ```
 
-> [!TIP] Even thouhg I will give you the code in the video, you should be following along and typing it out yourself. I am posting the code here incase your copy doesn't work for some reason. Again, make sure that you are typing the code yourself, and completing the exercises as they come up.
+> [!TIP] Even though I will give you the code in the video, you should be following along and typing it out yourself. I am posting the code here incase your copy doesn't work for some reason. Again, make sure that you are typing the code yourself, and completing the exercises as they come up.
 
 ## Playing around with our Webpage
 

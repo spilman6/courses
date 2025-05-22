@@ -12,9 +12,8 @@ live: https://fvtc.software/appel
 
 [Modern JavaScript](/appel/modern-javascript)
 
+[Advanced JavaScript](/appel/advanced-javascript)
+
 [Computer Programming C++](/appel/computer-programming-cpp)
 
-[C# Introduction to Programming](/appel/csharp-introduction-to-programming)
-
-[C# Intermediate Programming](/appel/csharp-intermediate-programming)
-
+[Version Control Essentials](/appel/version-control-essentials)

@@ -4,6 +4,8 @@ subtitle: Computer Programming C++
 hideNav: false
 
 live: https://fvtc.software/appel/computer-programming-cpp/assignment
+dev: http://localhost:3006/appel/computer-programming-cpp/assignment
+repo: https://github.com/rdappel/courses
 ---
 
 # Assignment 3 - Mad Lib
@@ -26,13 +28,13 @@ Your program should include the following tasks:
 1. Use the following Struct:
 
 ```cpp
-struct Entries {
+struct Entry {
 	string type;
 	string input;
 };
 ```
 
-The struct `Entries` has two attributes:
+The struct `Entry` has two attributes:
 
 - `type` (string): The type of word to be entered (e.g., noun, adjective, place, sport).
 - `input` (string): The word entered by the user.
@@ -44,7 +46,7 @@ The struct `Entries` has two attributes:
    - You can hard-code the Initial state of the array. For example:
 
 ```cpp
-Entries entries[] = {
+Entry entries[] = {
 	{"place", ""},
 	{"adjective", ""},
 	{"noun", ""},
@@ -100,7 +102,7 @@ Yesterday, I went to McDonald's and saw a smelly doughnut. I asked Obama if he w
 
 # Submission
 
-For submission, you will need to create a new repository on GitHub and push your code to it. You will then submit the link to your repository on Blackboard.
+For submission, you will need to create a new repository on GitHub and push your code to it. You will then submit the link to your repository to Blackboard.
 
 ## Pushing to GitHub
 

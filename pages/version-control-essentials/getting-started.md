@@ -3,12 +3,24 @@ title: Getting Started
 subtitle: Version Control Essentials
 hideNav: false
 
-live: https://fvtc.software/appel/version-control/getting-started
+live: https://fvtc.software/appel/version-control-essentials/getting-started
 ---
 
 # Getting Started
 
+As a software developer, or a web developer, you will be working on projects that involve multiple files and multiple people. Keeping track of changes, managing versions, and collaborating with others can be a challenge. This is where version control comes in.
+
 By far the most popular version control system is [Git](https://git-scm.com/). Git is a free, open-source version control system that was created by Linus Torvalds, the creator of Linux. It is used by many large companies, including Microsoft, Google, Facebook, and Twitter.
+
+## Is Git Already Installed?
+
+You can quickly check to see if git is installed on your computer, and which version. Simply open a terminal (or command prompt) and type the following command:
+
+```bash
+git --version
+```
+
+If you see a version number, then Git is already installed on your computer. If you see an error message or if your version is less than 2.0, you will need to install Git.
 
 ## Installing Git
 
