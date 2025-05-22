@@ -6,7 +6,7 @@ hide-nav: true
 live: https://fvtc.software/spilman/data-access-for-programmers
 ---
 
-[Getting Started](data-access-for-programmers/getting-started) - _Week 11_
+[Getting Started](data-access-for-programmers/getting-started) - _Week 1_
 
 [Objects and File Types](data-access-for-programmers/objects-and-file-types) - _Week 2_
 
