@@ -1,6 +1,6 @@
 ---
 title: Version Control Essentials
-subtitle: Ryan's Courses
+subtitle: Spilman
 hideNav: false
 
 live: https://fvtc.software/appel/version-control-essentials

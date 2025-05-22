@@ -1,6 +1,6 @@
 ---
 title: C# Intermediate Programming
-subtitle: Ryan's Courses
+subtitle: Spilman
 hide-nav: false
 
 live: https://fvtc.software/appel/csharp-intermediate-programming

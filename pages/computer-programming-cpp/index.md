@@ -1,6 +1,6 @@
 ---
 title: Computer Programming C++
-subtitle: Ryan's Courses
+subtitle: Spilman
 hideNav: false
 
 live: https://fvtc.software/appel/computer-programming-cpp

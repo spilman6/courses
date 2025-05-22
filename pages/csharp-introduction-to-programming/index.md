@@ -1,6 +1,6 @@
 ---
 title: C# Introduction to Programming
-subtitle: Ryan's Courses
+subtitle: Spilman
 hide-nav: false
 
 live: https://fvtc.software/appel/csharp-introduction-to-programming

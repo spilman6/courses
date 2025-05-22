@@ -1,6 +1,6 @@
 ---
 title: Advanced JavaScript
-subtitle: Ryan's Courses
+subtitle: Spilman
 hideNav: false
 
 live: https://fvtc.software/appel/advanced-javascript

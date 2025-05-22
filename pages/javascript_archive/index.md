@@ -1,6 +1,6 @@
 ---
 title: Modern JavaScript
-subtitle: Ryan's Courses
+subtitle: Spilman
 hide-nav: true
 
 live: https://fvtc.software/appel/javascirpt_archive
