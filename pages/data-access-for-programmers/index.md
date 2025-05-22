@@ -1,9 +1,9 @@
 ---
 title: Data Access for Programmers
-subtitle: Spilman
+subtitle: Spilman a
 hide-nav: true
 
-live: https://fvtc.software/appel/data-access-for-programmers
+live: https://fvtc.software/spilman/data-access-for-programmers
 ---
 
 [Getting Started](data-access-for-programmers/getting-started) - _Week 1_
