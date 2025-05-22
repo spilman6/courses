@@ -1,9 +1,9 @@
 ---
 title: Courses
-subtitle: Ryan Appel
+subtitle: TJ Spilman
 hide-nav: true
 
-live: https://fvtc.software/appel
+live: https://fvtc.software/spilman
 ---
 
 # Ryan Appel's Courses
