@@ -1,6 +1,6 @@
 ---
 title: Data Access for Programmers
-subtitle: Appel
+subtitle: Spilman
 hide-nav: true
 
 live: https://fvtc.software/appel/data-access-for-programmers
