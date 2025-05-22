@@ -3,7 +3,7 @@ title: Getting Started
 subtitle: Data Access for Programmers
 hideNav: false
 
-live: https://fvtc.software/appel/data-access-for-programmers/getting-started
+live: https://fvtc.software/spilman/data-access-for-programmers/getting-started
 ---
 
 # Welcome to the Class!

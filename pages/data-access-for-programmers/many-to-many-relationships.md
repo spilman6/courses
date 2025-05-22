@@ -3,7 +3,7 @@ title: Many-to-Many Relationships
 subtitle: Data Access for Programmers
 hideNav: false
 
-live: https://fvtc.software/appel/data-access-for-programmers/many-to-many-relationships
+live: https://fvtc.software/spilman/data-access-for-programmers/many-to-many-relationships
 ---
 
 # Many-to-Many Relationships

@@ -3,7 +3,7 @@ title: Group By and Having Statements
 subtitle: Data Access for Programmers
 hideNav: false
 
-live: https://fvtc.software/appel/data-access-for-programmers/group-by-and-having-statements
+live: https://fvtc.software/spilman/data-access-for-programmers/group-by-and-having-statements
 ---
 
 # Group By and Having Statements

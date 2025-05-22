@@ -3,7 +3,7 @@ title: One-to-Many Relationships
 subtitle: Data Access for Programmers
 hideNav: false
 
-live: https://fvtc.software/appel/data-access-for-programmers/one-to-many-relationships
+live: https://fvtc.software/spilman/data-access-for-programmers/one-to-many-relationships
 ---
 
 # One-to-Many Relationships

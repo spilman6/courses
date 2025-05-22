@@ -3,7 +3,7 @@ title: RESTful APIs
 subtitle: Data Access for Programmers
 hideNav: false
 
-live: https://fvtc.software/appel/data-access-for-programmers/restful-apis
+live: https://fvtc.software/spilman/data-access-for-programmers/restful-apis
 ---
 
 # RESTful APIs
