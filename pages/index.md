@@ -8,8 +8,9 @@ live: https://fvtc.software/spilman
 
 # TJ Spilman's Courses
 
-[Data Access for Programmers](/appel/data-access-for-programmers)
-[C# Introduction to Programming](/appel/c-sharp-intro)
+[Data Access for Programmers](/spilman/data-access-for-programmers)
+
+[C# Introduction to Programming](/spilman/csharp-introduction-to-programming)
 
 <!-- [Modern JavaScript](/appel/modern-javascript) -->
 
@@ -17,4 +18,4 @@ live: https://fvtc.software/spilman
 
 <!-- [Computer Programming C++](/appel/computer-programming-cpp) -->
 
-[Version Control Essentials](/appel/version-control-essentials)
+[Version Control Essentials](/spilman/version-control-essentials)
