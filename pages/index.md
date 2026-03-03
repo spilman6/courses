@@ -6,14 +6,15 @@ hide-nav: true
 live: https://fvtc.software/spilman
 ---
 
-# Ryan Appel's Courses
+# TJ Spilman's Courses
 
 [Data Access for Programmers](/appel/data-access-for-programmers)
+[C# Introduction to Programming](/appel/c-sharp-intro)
 
-[Modern JavaScript](/appel/modern-javascript)
+<!-- [Modern JavaScript](/appel/modern-javascript) -->
 
-[Advanced JavaScript](/appel/advanced-javascript)
+<!-- [Advanced JavaScript](/appel/advanced-javascript) -->
 
-[Computer Programming C++](/appel/computer-programming-cpp)
+<!-- [Computer Programming C++](/appel/computer-programming-cpp) -->
 
 [Version Control Essentials](/appel/version-control-essentials)
