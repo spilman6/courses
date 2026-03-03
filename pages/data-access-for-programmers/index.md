@@ -10,11 +10,6 @@ live: https://fvtc.software/spilman/data-access-for-programmers
 
 > Learn relational data modeling, SQL querying, and API-backed data workflows.
 
-## Quick Links
-
-- 🌐 [Open Live Course Site](https://fvtc.software/spilman/data-access-for-programmers)
-- ▶️ [Start Here: Getting Started](/spilman/data-access-for-programmers/getting-started)
-
 ## Weekly Roadmap
 
 | Week | Topic | Lesson |
