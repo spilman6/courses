@@ -10,7 +10,9 @@ repo: https://github.com/rappel/courses
 
 # Version Control Essentials
 
-## Week 1
+# Week 1 - Introduction to Version Control
+
+Summary: You’ll learn the basics of version control, how to navigate the command line, and set up your first local Git repository.
 
 [Introduction to Git](/appel/version-control-essentials/intro-to-git)
 
@@ -22,24 +24,60 @@ repo: https://github.com/rappel/courses
 
 [Assignment 1 - GitHub Account](/appel/version-control-essentials/assignments/github-account)
 
-## Week 2
+# Week 2 - Remote Repositories
+
+Summary: You will create remote repositories and use them to host our source code.
 
 [Remote Repositories](/appel/version-control-essentials/remote-repos)
 
 [Cloning and Forking Repositories](/appel/version-control-essentials/cloning-and-forking)
 
-[Assignment 2 - Webpage Update](/appel/version-control-essentials/assignments/webpage-update)
+[Assignment 2 - MD Cheatsheet](/appel/version-control-essentials/assignments/md-cheatsheet)
 
-## Week 3
+[Assignment 3 - Azure DevOps Account](/appel/version-control-essentials/assignments/devops-account)
 
-## Week 4
+# Week 3 - Syncing Work & Handling Merge Conflicts
 
-## Week 5
+Summary: You will begin to learn how collaboration works in Git.
 
-## Week 6
+[Pulling and Pushing Changes](/appel/version-control-essentials/pulling-and-pushing)
 
-## Week 7
+[Handling Merge Conflicts](/appel/version-control-essentials/merge-conflicts)
 
-## Week 8
+[Assignment 4 - Merge Conflict](/appel/version-control-essentials/assignments/merge-conflict)
 
-## Week 9
+# Week 4 - Contributing & Pull Requests
+
+Summary: You'll learn how to contribute to open-source projects.
+
+[Readme Files and .gitignore](/appel/version-control-essentials/readme-and-gitignore)
+
+[Pull Requests](/appel/version-control-essentials/pull-requests)
+
+[Assignment 5 - First Contribution](/appel/version-control-essentials/assignments/first-contribution)
+
+# Week 5 - Branching and Feature Development Workflow
+
+Summary: You will be creating branches to help keep features separate from working code.
+
+[Branching and Feature Development Workflow](/appel/version-control-essentials/branching)
+
+[Assignment 6 - Branching Practice](/appel/version-control-essentials/assignments/branching-practice)
+
+# Week 6 - Workflow Interruptions & Stashing
+
+Summary: You'll learn how to handle situations where we need to pause work on a feature.
+
+[Workflow Interruptions & Stashing](/appel/version-control-essentials/workflow-stashing)
+
+[Assignment 7 - Stashing Practice](/appel/version-control-essentials/assignments/stashing-practice)
+
+# Weeks 7 & 8 - Exam Review and Final Project Work
+
+Summary: You will review the course material and work on your final project.
+
+[Assignment 8 - Final Project](/appel/version-control-essentials/assignments/choose-your-adventure)
+
+# Week 9 - Final Project Submission & Exam
+
+Summary: This week you will complete your Exam, and submit your final projects.
