@@ -1,29 +1,38 @@
 ---
 title: Data Access for Programmers
-subtitle: Spilman1
+subtitle: Spilman
 hide-nav: true
 
 live: https://fvtc.software/spilman/data-access-for-programmers
 ---
 
-[Getting Started](data-access-for-programmers/getting-started) - _Week 1_
+# Data Access for Programmers
 
-[Objects and File Types](data-access-for-programmers/objects-and-file-types) - _Week 2_
+> Learn relational data modeling, SQL querying, and API-backed data workflows.
 
-[Single Table Databases](data-access-for-programmers/single-table-databases) - _Week 3_
+## Quick Links
 
-[Single Table Queries](data-access-for-programmers/single-table-queries) - _Week 4_
+- 🌐 [Open Live Course Site](https://fvtc.software/spilman/data-access-for-programmers)
+- ▶️ [Start Here: Getting Started](/spilman/data-access-for-programmers/getting-started)
 
-[Group by and Having Statements](data-access-for-programmers/group-by-and-having-statements) - _Week 5_
+## Weekly Roadmap
 
-[One-to-Many Relationships](data-access-for-programmers/one-to-many-relationships) - _Week 6_
+| Week | Topic | Lesson |
+|---|---|---|
+| 1 | Course setup and workflow | [Getting Started](/spilman/data-access-for-programmers/getting-started) |
+| 2 | Data structures and storage formats | [Objects and File Types](/spilman/data-access-for-programmers/objects-and-file-types) |
+| 3 | Intro to relational databases | [Single Table Databases](/spilman/data-access-for-programmers/single-table-databases) |
+| 4 | Core SQL query patterns | [Single Table Queries](/spilman/data-access-for-programmers/single-table-queries) |
+| 5 | Aggregation and grouped analysis | [Group by and Having Statements](/spilman/data-access-for-programmers/group-by-and-having-statements) |
+| 6 | Parent-child data modeling | [One-to-Many Relationships](/spilman/data-access-for-programmers/one-to-many-relationships) |
+| 7 | Querying across related tables | [Multi-Table Queries](/spilman/data-access-for-programmers/multi-table-queries) |
+| 9 | Advanced SQL techniques | [Advanced Joins, Views, and Procedures](/spilman/data-access-for-programmers/advanced-joins-views-and-procedures) |
+| 10 | Many-to-many design patterns | [Many-to-Many Relationships](/spilman/data-access-for-programmers/many-to-many-relationships) |
+| 11 | Schema quality and optimization | [Database Normalization](/spilman/data-access-for-programmers/database-normalization) |
+| 12 | API fundamentals for data apps | [RESTful APIs](/spilman/data-access-for-programmers/restful-apis) |
 
-[Multi-Table Queries](data-access-for-programmers/multi-table-queries) - _Week 7_
+## Course Notes
 
-[Advanced Joins, Views, and Procedures](data-access-for-programmers/advanced-joins-views-and-procedures) - _Week 9_
+- Complete each week in order unless your instructor says otherwise.
+- Bring questions to class with the week number and topic for faster support.
 
-[Many-to-Many Relationships](data-access-for-programmers/many-to-many-relationships) - _Week 10_
-
-[Database Normalization](data-access-for-programmers/database-normalization) - _Week 11_
-
-[RESTful APIs](data-access-for-programmers/restful-apis) - _Week 12_

@@ -8,14 +8,28 @@ live: https://fvtc.software/spilman
 
 # TJ Spilman's Courses
 
-[Data Access for Programmers](/spilman/data-access-for-programmers)
+> Central hub for course content, exercises, and project resources.
 
-[C# Introduction to Programming](/spilman/csharp-introduction-to-programming)
+## Quick Start
 
-<!-- [Modern JavaScript](/spilman/modern-javascript) -->
+- 🚀 [Open Live Course Site](https://fvtc.software/spilman)
+- 📘 Choose a course below and start with its **Getting Started** page
+- ✅ Use **Version Control Essentials** first if you need a Git/GitHub refresher
 
-<!-- [Advanced JavaScript](/spilman/advanced-javascript) -->
+## Course Catalog
 
-<!-- [Computer Programming C++](/spilman/computer-programming-cpp) -->
+| Course | Focus | Link |
+|---|---|---|
+| C# Introduction to Programming | Core programming fundamentals | [Open Course](/spilman/csharp-introduction-to-programming) |
+| Version Control Essentials | Git, GitHub, and workflow basics | [Open Course](/spilman/version-control-essentials) |
+| Data Access for Programmers | SQL, database design, and APIs | [Open Course](/spilman/data-access-for-programmers) |
 
-[Version Control Essentials](/spilman/version-control-essentials)
+## Upcoming Courses
+
+- Modern JavaScript *(in development)*
+- Advanced JavaScript *(in development)*
+- Computer Programming C++ *(in development)*
+
+## Help & Support
+
+If you find a broken link or content issue, include the **course name** and **page URL** when reporting it so fixes can be made quickly.
