@@ -10,7 +10,7 @@ live: https://fvtc.software/spilman/data-access-for-programmers/getting-started
 
 > Week 1 foundation: data types, calculated values, type conversion, and VM setup.
 
-## Learning Outcomes
+# Learning Outcomes
 
 By the end of this lesson, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this lesson, you should be able to:
 - Describe basic data-type conversion scenarios
 - Access your training VM and run the programming demos
 
-## Welcome to the Class!
+# Welcome to the Class!
 
 <details open>
 	<summary class="video">Show/Hide Video</summary>
@@ -33,7 +33,7 @@ By the end of this lesson, you should be able to:
 	</div>
 </details>
 
-## Primitive Data Types
+# Primitive Data Types
 
 There are an infinite number of types of data that programmers need to use when developing an application. However, all data types can be broken down into core components. These components are often referred to as "basic" or "primitive" types. Depending on the language that the programmer is using, similar data types may have different names. The following video covers some of the most common data types.
 
@@ -48,7 +48,7 @@ There are an infinite number of types of data that programmers need to use when 
 	</div>
 </details>
 
-### String Data
+## String Data
 
 The data type that we'll be using most often is called a string, short for a "string of characters".
 
@@ -65,7 +65,7 @@ The data type that we'll be using most often is called a string, short for a "st
 	</div>
 </details>
 
-### Numeric Data
+## Numeric Data
 
 After string data, the next most common data types are numeric types.
 
@@ -84,7 +84,7 @@ After string data, the next most common data types are numeric types.
 	</div>
 </details>
 
-### Boolean Data
+## Boolean Data
 
 The last type that we are going to focus on this week is a boolean (true/false) data type.
 
@@ -99,7 +99,7 @@ The last type that we are going to focus on this week is a boolean (true/false) 
 	</div>
 </details>
 
-### String Ambiguity
+## String Ambiguity
 
 One of the most common problems that programmers face is determining the type of data that they are working with. Since strings can contain numeric characters, it's important to determine which type of data you're working with.
 
@@ -114,7 +114,7 @@ One of the most common problems that programmers face is determining the type of
 	</div>
 </details>
 
-## Exercise 1
+# Exercise 1
 
 Take a minute to look at the following data, then try to determine the data-type of each value.
 
@@ -151,7 +151,7 @@ Salary: $9,000,000 - Float (9000000.00)
 	</div>
 </details>
 
-## Calculated Data
+# Calculated Data
 
 Sometimes we choose not to store data because it can be calculated from another piece of data. For example, if we have a database that stores the date of birth for a person, we can calculate their age by subtracting their date of birth from today's date.
 
@@ -166,7 +166,7 @@ Sometimes we choose not to store data because it can be calculated from another 
 	</div>
 </details>
 
-## Exercise 2
+# Exercise 2
 
 Let's take a look at the following data. Can you determine the data-type of each value? Or determine if the value is calculated, and should not be stored?
 
@@ -207,7 +207,7 @@ Shoots: Right - String (or Boolean)
 	</div>
 </details>
 
-## Data-Type Conversion
+# Data-Type Conversion
 
 Sometimes we need to convert data from one type to another. For example, if we have a string that contains a number, we may need to convert it to an integer or floating-point number. Or, if we have a string that contains a date, we may need to convert it to a date object.
 
@@ -222,7 +222,7 @@ Sometimes we need to convert data from one type to another. For example, if we h
 	</div>
 </details>
 
-## Accessing Your VM
+# Accessing Your VM
 
 We will be using Virtual Machines in this class. This will make it easier for us to all be using the same software and tools.
 
@@ -240,7 +240,7 @@ We will be using Virtual Machines in this class. This will make it easier for us
 	</div>
 </details>
 
-## Programming Demos
+# Programming Demos
 
 The VMs that we are using in this class are pre-configured with all of the software that we will need. This includes Visual Studio Code, Google Chrome, MySQL Workbench, and the MySQL Server. It also includes a few databases that we will be using in our exercises.
 
@@ -259,7 +259,7 @@ This video will show you how to run the programming demos.
 	</div>
 </details>
 
-## Review Questions
+# Review Questions
 
 1. What is the difference between a string and a numeric data-type?
 <details>
