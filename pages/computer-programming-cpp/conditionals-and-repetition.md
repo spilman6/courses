@@ -3,7 +3,7 @@ title: Conditionals and Repetition
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/conditionals-and-repetition
+live: https://fvtc.software/spilman/computer-programming-cpp/conditionals-and-repetition
 ---
 
 # Conditional Statements
@@ -266,7 +266,7 @@ For this example, you can use either an `if-else if-else` statement or a `switch
 
 ```cpp
 // Exercise 3
-// Ryan Appel
+// Ryan spilman
 
 #include <iostream>
 #include <conio.h>

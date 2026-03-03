@@ -3,7 +3,7 @@ title: Assignment 2 - Homepage
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/assignment-2
+live: https://fvtc.software/spilman/javascirpt_archive/assignment-2
 ---
 
 # Assignment 2 - Homepage

@@ -31,7 +31,7 @@ If you want to follow along with the video, we'll be using this data:
 | 133        | Erin       | Price     | Appleton | WI | 54913 | 2, 3    | C# Intro to Programming, PHP  | 1/07, 1/05 |
 | 134        | Marquise   | Alton     | Appleton | WI | 54915 | 2       | C# Intro to Programming 		| 1/05       |
 
-You can download the Excel file here: [students.xlsx](https://github.com/RDAppel/courses/raw/master/support-files/dap/database-normalization/students.xlsx).
+You can download the Excel file here: [students.xlsx](https://github.com/RDspilman/courses/raw/master/support-files/dap/database-normalization/students.xlsx).
 
 > [!NOTE]
 > There is an error in the video. The Student ID for Erica Zastrow is 125, not 124.

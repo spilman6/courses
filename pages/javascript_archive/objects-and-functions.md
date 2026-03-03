@@ -3,7 +3,7 @@ title: Objects and Functions
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/objects-and-functions
+live: https://fvtc.software/spilman/javascirpt_archive/objects-and-functions
 ---
 
 # Objects in JavaScript
@@ -23,7 +23,7 @@ Before we get started, let's fork and clone down some starter code.
 	</div>
 </details>
 
-You can find the starter code [here](https://github.com/RDAppel/example-website2).
+You can find the starter code [here](https://github.com/RDspilman/example-website2).
 
 ## Looking at the Starter Code Objects
 
@@ -324,4 +324,4 @@ Take a peek:
 
 # Exercises
 
-[Objects and Functions Exercises](/appel/javascript/objects-and-functions-exercises)
+[Objects and Functions Exercises](/spilman/javascript/objects-and-functions-exercises)

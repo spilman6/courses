@@ -3,7 +3,7 @@ title: Getting Started - Exercises
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/exercises/getting-started
+live: https://fvtc.software/spilman/javascirpt_archive/exercises/getting-started
 ---
 
 # Exercise 1

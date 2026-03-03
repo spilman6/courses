@@ -3,9 +3,9 @@ title: Assignment 8 - Advanced JS Research Project
 subtitle: Advanced JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/advanced-javascript/assignments/research-project
-dev: http://localhost:3006/appel/advanced-javascript/assignments/research-project
-repo: https://github.com/rappel/courses
+live: https://fvtc.software/spilman/advanced-javascript/assignments/research-project
+dev: http://localhost:3006/spilman/advanced-javascript/assignments/research-project
+repo: https://github.com/rspilman/courses
 ---
 
 # Advanced JavaScript Research Project

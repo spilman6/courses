@@ -3,7 +3,7 @@ title: Assignment 9 - Joke API
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/assignments/joke-api
+live: https://fvtc.software/spilman/modern-javascript/assignments/joke-api
 ---
 
 # Assignment 9 - Joke API

@@ -3,7 +3,7 @@ title: Higher Order Functions
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/higher-order-functions
+live: https://fvtc.software/spilman/javascirpt_archive/higher-order-functions
 ---
 
 # Higher Order Functions
@@ -331,4 +331,4 @@ console.log(pets.filter(isOld))
 
 # Exercises
 
-[Higher Order Functions Exercises](/appel/javascript/higher-order-functions-exercises)
+[Higher Order Functions Exercises](/spilman/javascript/higher-order-functions-exercises)

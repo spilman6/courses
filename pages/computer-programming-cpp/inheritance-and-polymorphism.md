@@ -3,7 +3,7 @@ title: Inheritance and Polymorphism
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/inheritance-and-polymorphism
+live: https://fvtc.software/spilman/computer-programming-cpp/inheritance-and-polymorphism
 ---
 
 # Inheritance and Polymorphism

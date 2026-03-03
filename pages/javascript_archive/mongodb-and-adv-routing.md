@@ -3,7 +3,7 @@ title: MongoDB and Advanced Routing
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/mongodb-and-adv-routing
+live: https://fvtc.software/spilman/javascirpt_archive/mongodb-and-adv-routing
 ---
 
 # MongoDB and Advanced Routing
@@ -12,7 +12,7 @@ In this unit, we will learn how to interact with a MongoDB database and create m
 
 ## Getting Started
 
-We're going to be building on the Joke API that we created in the last unit. If you don't have that code available, you can [download it from here](https://github.com/RDAppel/joke-api-lecture/tree/part1-complete).
+We're going to be building on the Joke API that we created in the last unit. If you don't have that code available, you can [download it from here](https://github.com/RDspilman/joke-api-lecture/tree/part1-complete).
 
 # MongoDB
 
@@ -172,8 +172,8 @@ We can add an error handling endpoint to our Express.js application. This will a
     </div>
 </details>
 
-You can access the [completed code here](https://github.com/RDAppel/joke-api-lecture/tree/dev).
+You can access the [completed code here](https://github.com/RDspilman/joke-api-lecture/tree/dev).
 
 # Exercises
 
-[MongoDB and Advanced Routing Exercises](/appel/javascript/mongodb-and-adv-routing-exercises)
+[MongoDB and Advanced Routing Exercises](/spilman/javascript/mongodb-and-adv-routing-exercises)

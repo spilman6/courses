@@ -3,7 +3,7 @@ title: Structs and Arrays
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/structs-and-arrays
+live: https://fvtc.software/spilman/computer-programming-cpp/structs-and-arrays
 ---
 
 # Structs and Arrays

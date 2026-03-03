@@ -3,9 +3,9 @@ title: ESM Modules and Bundling
 subtitle: Advanced JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/advanced-javascript/esm-and-bundling
-dev: http://localhost:3006/appel/advanced-javascript/esm-and-bundling
-repo: https://github.com/rappel/courses
+live: https://fvtc.software/spilman/advanced-javascript/esm-and-bundling
+dev: http://localhost:3006/spilman/advanced-javascript/esm-and-bundling
+repo: https://github.com/rspilman/courses
 ---
 
 # ESM Modules and Bundling

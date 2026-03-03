@@ -3,7 +3,7 @@ title: C# Introduction to Programming
 subtitle: Spilman
 hide-nav: false
 
-live: https://fvtc.software/appel/csharp-introduction-to-programming
+live: https://fvtc.software/spilman/csharp-introduction-to-programming
 ---
 
 # C# Introduction to Programming

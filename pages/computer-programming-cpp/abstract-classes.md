@@ -3,7 +3,7 @@ title: Abstract Classes
 subtitle: Computer Programming, C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/abstract-classes
+live: https://fvtc.software/spilman/computer-programming-cpp/abstract-classes
 ---
 
 # Abstract Classes

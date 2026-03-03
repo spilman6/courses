@@ -3,7 +3,7 @@ title: Joining a Team
 subtitle: Microsoft Teams
 hideNav: false
 
-live: https://fvtc.software/appel/general/joining-a-team
+live: https://fvtc.software/spilman/general/joining-a-team
 ---
 
 # Joining a Team

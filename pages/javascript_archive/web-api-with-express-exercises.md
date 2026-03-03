@@ -3,7 +3,7 @@ title: Web API with Express.js - Exercises
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/web-api-with-express-exercises
+live: https://fvtc.software/spilman/javascirpt_archive/web-api-with-express-exercises
 ---
 
 # Getting Started
@@ -175,7 +175,7 @@ In the `public` directory, create a new file called `index.html` and add the fol
 </html>
 ```
 
-Use the [stylesheet found here](https://gist.github.com/RDAppel/ea0ff788b216f3bf7ed0ef687526c6b0), either by downloading it or copying the contents into a new file called `site.css` in the `public` directory.
+Use the [stylesheet found here](https://gist.github.com/RDspilman/ea0ff788b216f3bf7ed0ef687526c6b0), either by downloading it or copying the contents into a new file called `site.css` in the `public` directory.
 
 Modify your `app.js` file to serve the `index.html` file when a `GET` request is made to the root endpoint (`/`).
 

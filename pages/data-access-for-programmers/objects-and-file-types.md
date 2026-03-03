@@ -143,7 +143,7 @@ const john = {
 	Phone: "920-722-5013"
 	Course: {
 		Title: "Data Access for Programmers",
-		Instructor: "Ryan Appel",
+		Instructor: "Ryan spilman",
 		Room: "Appleton Campus C125",
 		Credits: 3,
 		Start: {
@@ -211,7 +211,7 @@ Here's an example of a CSV file:
 	</div>
 </details>
 
-You can see/download the CSV file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/example.csv).
+You can see/download the CSV file [here](https://github.com/RDspilman/courses/blob/master/support-files/dap/objects-and-file-types/example.csv).
 
 
 ### XML Files
@@ -229,7 +229,7 @@ Another common file type is called an XML file. XML stands for "extensible marku
 	</div>
 </details>
 
-You can see/download the XML file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/example.xml).
+You can see/download the XML file [here](https://github.com/RDspilman/courses/blob/master/support-files/dap/objects-and-file-types/example.xml).
 
 ### JSON Files
 
@@ -246,7 +246,7 @@ The last common file type is called a JSON file. JSON stands for "JavaScript Obj
 	</div>
 </details>
 
-You can see/download the JSON file [here](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/example.json).
+You can see/download the JSON file [here](https://github.com/RDspilman/courses/blob/master/support-files/dap/objects-and-file-types/example.json).
 
 # Exercise 1
 
@@ -255,7 +255,7 @@ Time to create your first object! Create a CSV, XML, and JSON file that contains
 ```ebnf
 Course ID: 10-152-168
 Course Name: Data Access for Programmers
-Instructor Name: Ryan Appel
+Instructor Name: Ryan spilman
 Credits: 3
 ```
 
@@ -270,7 +270,7 @@ Credits: 3
 	</div>
 </details>
 
-The solution files for this demo can be found here: [CSV File](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/exercise1.csv), [XML File](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/exercise1.xml), [JSON File](https://github.com/RDAppel/courses/blob/master/support-files/dap/objects-and-file-types/exercise1.json).
+The solution files for this demo can be found here: [CSV File](https://github.com/RDspilman/courses/blob/master/support-files/dap/objects-and-file-types/exercise1.csv), [XML File](https://github.com/RDspilman/courses/blob/master/support-files/dap/objects-and-file-types/exercise1.xml), [JSON File](https://github.com/RDspilman/courses/blob/master/support-files/dap/objects-and-file-types/exercise1.json).
 
 # RESTful APIs
 

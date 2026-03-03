@@ -3,7 +3,7 @@ title: Selecting DOM Elements - Exercises
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/selecting-dom-elements-exercises
+live: https://fvtc.software/spilman/javascirpt_archive/selecting-dom-elements-exercises
 ---
 
 # Setup HTML

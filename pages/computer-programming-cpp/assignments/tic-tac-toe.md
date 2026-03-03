@@ -3,7 +3,7 @@ title: Assignment 6 - Tic Tac Toe
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/assignments/tic-tac-toe
+live: https://fvtc.software/spilman/computer-programming-cpp/assignments/tic-tac-toe
 ---
 
 # Assignment 6 - Tic Tac Toe

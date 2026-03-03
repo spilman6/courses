@@ -3,7 +3,7 @@ title: Selecting DOM Elements
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/selecting-dom-elements
+live: https://fvtc.software/spilman/javascirpt_archive/selecting-dom-elements
 ---
 
 # Selecting DOM Elements
@@ -25,7 +25,7 @@ Before we get started, let's clone down some starter code.
 	</div>
 </details>
 
-You can find the starter code [here](https://github.com/RDAppel/example-website).
+You can find the starter code [here](https://github.com/RDspilman/example-website).
 
 # The Document Object Model (DOM)
 
@@ -273,4 +273,4 @@ git push
 
 # Exercises
 
-[Query Selector Exercises](/appel/javascript/selecting-dom-elements-exercises)
+[Query Selector Exercises](/spilman/javascript/selecting-dom-elements-exercises)

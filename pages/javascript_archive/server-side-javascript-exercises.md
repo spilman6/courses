@@ -3,7 +3,7 @@ title: Server-Side JavaScript - Exercises
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/server-side-javascript-exercises
+live: https://fvtc.software/spilman/javascirpt_archive/server-side-javascript-exercises
 ---
 
 # Getting Started

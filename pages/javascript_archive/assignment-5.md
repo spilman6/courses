@@ -3,7 +3,7 @@ title: Assignment 5 - Array Methods
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/assignment-5
+live: https://fvtc.software/spilman/javascirpt_archive/assignment-5
 ---
 
 # Assignment 5 - Array Methods
@@ -19,7 +19,7 @@ In this assignment, you will be given a starting array, and a "result" variable.
 	</div>
 </details>
 
-To get started, fork and clone down the following node project: [Assignment 5](https://github.com/RDAppel/js-assignment5).
+To get started, fork and clone down the following node project: [Assignment 5](https://github.com/RDspilman/js-assignment5).
 
 Before you start, open the console and run the following command:
 

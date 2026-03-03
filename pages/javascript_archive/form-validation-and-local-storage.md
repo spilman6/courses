@@ -3,7 +3,7 @@ title: Form Validation and Local Storage
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/form-validation-and-local-storage
+live: https://fvtc.software/spilman/javascirpt_archive/form-validation-and-local-storage
 ---
 
 # Form Validation
@@ -189,7 +189,7 @@ const book = {
 	"Year": 1965 // changed from video to correct year
 }
 
-const strName = "{ \"firstName\": \"Ryan\", \"lastName\": \"Appel\" }"
+const strName = "{ \"firstName\": \"Ryan\", \"lastName\": \"spilman\" }"
 
 const p = document.querySelector('p')
 p.textContent = JSON.stringify(book)
@@ -309,4 +309,4 @@ getStoredNames().forEach(displayName)
 
 # Exercises
 
-[Form Validation and Local Storage Exercises](/appel/javascript/form-validation-and-local-storage-exercises)
+[Form Validation and Local Storage Exercises](/spilman/javascript/form-validation-and-local-storage-exercises)

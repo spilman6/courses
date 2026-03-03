@@ -3,7 +3,7 @@ title: Functions and Events
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/functions-and-events
+live: https://fvtc.software/spilman/modern-javascript/functions-and-events
 ---
 
 # Functions

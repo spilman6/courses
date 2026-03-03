@@ -3,7 +3,7 @@ title: Assignment 6 - To Do List
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/assignments/to-do-list
+live: https://fvtc.software/spilman/modern-javascript/assignments/to-do-list
 ---
 
 # Assignment 6 - To Do List

@@ -19,7 +19,7 @@ Since we can use arrays in JSON, having many-to-many relationship is easy.  We j
 	"instructors": [
 		{
 			"ID": 12345,
-			"Name": "Ryan Appel",
+			"Name": "Ryan spilman",
 			"CourseIds": [ 56441, 51232, 51112 ]
 		},
 		{

@@ -2,7 +2,7 @@
 title: MongoDB and Advanced Routing - Exercises
 subtitle: Modern JavaScript
 
-live: https://fvtc.software/appel/javascirpt_archive/mongodb-and-adv-routing-exercises
+live: https://fvtc.software/spilman/javascirpt_archive/mongodb-and-adv-routing-exercises
 ---
 
 # Getting Started
@@ -20,7 +20,7 @@ In this exercise, you will be using MongoDB to build a small movie database API 
 
 ## Starter Code
 
-To get started, fork the [Movie API Starter Code](https://github.com/RDAppel/js-movie-exercise) repository from GitHub, and then clone it to your computer. This repository contains the following:
+To get started, fork the [Movie API Starter Code](https://github.com/RDspilman/js-movie-exercise) repository from GitHub, and then clone it to your computer. This repository contains the following:
 
 - A basic Express application, setup to respond with JSON data.
 - A `api-routes.js` file that you will add your routes to.

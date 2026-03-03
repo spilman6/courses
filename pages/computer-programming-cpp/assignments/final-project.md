@@ -3,9 +3,9 @@ title: Assignment 10 - Game Modification (Final Project)
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/assignments/final-project
-dev: http://localhost:3006/appel/computer-programming-cpp/assignments/final-project
-repository: https://github.com/rdappel/courses
+live: https://fvtc.software/spilman/computer-programming-cpp/assignments/final-project
+dev: http://localhost:3006/spilman/computer-programming-cpp/assignments/final-project
+repository: https://github.com/rdspilman/courses
 ---
 
 # Assignment 10 - Game Modification

@@ -3,7 +3,7 @@ title: Assignment 3 - Dynamic Welcome
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/assignments/dynamic-welcome
+live: https://fvtc.software/spilman/modern-javascript/assignments/dynamic-welcome
 ---
 
 # Assignment 3 - Dynamic Welcome

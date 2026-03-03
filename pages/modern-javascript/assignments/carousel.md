@@ -3,7 +3,7 @@ title: Assignment 5 - Carousel
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/assignments/carousel
+live: https://fvtc.software/spilman/modern-javascript/assignments/carousel
 ---
 
 # Assignment 5 - Carousel

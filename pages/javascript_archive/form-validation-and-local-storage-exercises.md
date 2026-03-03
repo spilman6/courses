@@ -3,7 +3,7 @@ title: Form Validation and Local Storage - Exercises
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/form-validation-and-local-storage-exercises
+live: https://fvtc.software/spilman/javascirpt_archive/form-validation-and-local-storage-exercises
 ---
 
 # Exercise 1

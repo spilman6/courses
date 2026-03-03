@@ -3,7 +3,7 @@ title: Selecting DOM Elements
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/selecting-dom-elements
+live: https://fvtc.software/spilman/modern-javascript/selecting-dom-elements
 ---
 
 # Selecting DOM Elements
@@ -349,5 +349,5 @@ We can run git commands in the terminal to push our changes to GitHub. If you're
 	</div>
 </details>
 
-Remember, you can always refer back to the [Getting Started with Version Control](/appel/version-control-essentials/getting-started) unit if you need a refresher.
+Remember, you can always refer back to the [Getting Started with Version Control](/spilman/version-control-essentials/getting-started) unit if you need a refresher.
 

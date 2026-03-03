@@ -3,7 +3,7 @@ title: Getting Started
 subtitle: Version Control Essentials
 hideNav: false
 
-live: https://fvtc.software/appel/version-control-essentials/getting-started
+live: https://fvtc.software/spilman/version-control-essentials/getting-started
 ---
 
 # Getting Started

@@ -3,9 +3,9 @@ title: Cloning and Forking Repositories
 subtitle: Version Control Essentials
 hideNav: false
 
-live: https://fvtc.software/appel/version-control-essentials/remote-repos
-dev: http://localhost:3006/appel/version-control-essentials/remote-repos
-repo: https://github.com/rdappel/courses
+live: https://fvtc.software/spilman/version-control-essentials/remote-repos
+dev: http://localhost:3006/spilman/version-control-essentials/remote-repos
+repo: https://github.com/rdspilman/courses
 ---
 
 # Cloning a Repository

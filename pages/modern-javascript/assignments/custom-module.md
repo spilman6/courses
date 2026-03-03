@@ -3,7 +3,7 @@ title: Assignment 8 - Custom Module
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/assignments/custom-module
+live: https://fvtc.software/spilman/modern-javascript/assignments/custom-module
 ---
 
 # Assignment 8 - Custom Module

@@ -3,9 +3,9 @@ title: Assignment 1 - GitHub Account
 subtitle: Version Control Essentials
 hideNav: false
 
-live: https://fvtc.software/appel/version-control-essentials/assignments/github-account
-dev: http://localhost:3006/appel/version-control-essentials/assignments/github-account
-repo: https://github.com/rdappel/courses
+live: https://fvtc.software/spilman/version-control-essentials/assignments/github-account
+dev: http://localhost:3006/spilman/version-control-essentials/assignments/github-account
+repo: https://github.com/rdspilman/courses
 ---
 
 # Assignment 1 - GitHub Account

@@ -3,7 +3,7 @@ title: Assignment 7 - Peer Review
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/assignments/peer-review
+live: https://fvtc.software/spilman/computer-programming-cpp/assignments/peer-review
 ---
 
 # Assignment 7 - Peer Review
@@ -21,7 +21,7 @@ For this assignment, you will review and discuss the code of one of your classma
 
 # Peer Review Guidelines
 
-Read through the "Peer Review Guidelines" found [here](https://github.com/rdappel/courses/raw/refs/heads/master/support-files/cpp/Peer%20Review%20Guidelines.docx).
+Read through the "Peer Review Guidelines" found [here](https://github.com/rdspilman/courses/raw/refs/heads/master/support-files/cpp/Peer%20Review%20Guidelines.docx).
 
 # Classroom Students
 
@@ -31,7 +31,7 @@ You will be completing this assignment in class. I will assign you a partner to 
 
 ## Finding a Partner
 
-After you have completed [Assignment 6 - Tic Tac Toe](https://fvtc.software/appel/computer-programming-cpp/assignments/tic-tac-toe), you will need to find a partner to review. I have setup a [Teams Channel](https://teams.microsoft.com/l/channel/19%3A22361d30392b4302bc18d9579cd626ee%40thread.tacv2/Peer%20Review%20-%20Online?groupId=ee1b6d24-5c8f-42ad-b178-cfe8ad4f69fe&tenantId=ae888c53-4d60-47da-a75a-c8a10f1d47b0) for this purpose.
+After you have completed [Assignment 6 - Tic Tac Toe](https://fvtc.software/spilman/computer-programming-cpp/assignments/tic-tac-toe), you will need to find a partner to review. I have setup a [Teams Channel](https://teams.microsoft.com/l/channel/19%3A22361d30392b4302bc18d9579cd626ee%40thread.tacv2/Peer%20Review%20-%20Online?groupId=ee1b6d24-5c8f-42ad-b178-cfe8ad4f69fe&tenantId=ae888c53-4d60-47da-a75a-c8a10f1d47b0) for this purpose.
 
 ## Explaining Your Code
 

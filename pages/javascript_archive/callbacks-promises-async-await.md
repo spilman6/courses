@@ -3,7 +3,7 @@ title: Callbacks, Promises, and Async/Await
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascript_archive/callbacks-promises-async-await
+live: https://fvtc.software/spilman/javascript_archive/callbacks-promises-async-await
 ---
 
 # Callbacks
@@ -373,6 +373,6 @@ That's it! We have covered callbacks, promises, async/await, IIFEs, and http req
 
 # Exercises
 
-[Callbacks, Promises and Async/Await Exercises](/appel/javascript/callbacks-promises-async-await-exercises)
+[Callbacks, Promises and Async/Await Exercises](/spilman/javascript/callbacks-promises-async-await-exercises)
 
 

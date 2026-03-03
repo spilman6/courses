@@ -3,9 +3,9 @@ title: Exercise 5 - Arrays
 subtitle: C# Intermediate Programming
 hideNav: false
 
-live: https://fvtc.software/appel/csharp-intermediate-programming/exercises/arrays
-dev: http://localhost:3006/appel/csharp-intermediate-programming/exercises/arrays
-repo: https://github.com/rappel/courses
+live: https://fvtc.software/spilman/csharp-intermediate-programming/exercises/arrays
+dev: http://localhost:3006/spilman/csharp-intermediate-programming/exercises/arrays
+repo: https://github.com/rspilman/courses
 ---
 
 # Exercise 5 - Arrays

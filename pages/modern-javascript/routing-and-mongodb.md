@@ -3,7 +3,7 @@ title: Advanced Routing and MongoDB
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/routing-and-mongodb
+live: https://fvtc.software/spilman/modern-javascript/routing-and-mongodb
 ---
 
 # Advanced Routing and MongoDB

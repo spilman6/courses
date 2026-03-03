@@ -3,7 +3,7 @@ title: Conditionals and Loops
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/conditionals-and-loops
+live: https://fvtc.software/spilman/modern-javascript/conditionals-and-loops
 ---
 
 # Conditional Statements

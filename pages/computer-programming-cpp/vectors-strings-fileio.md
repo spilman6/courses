@@ -3,7 +3,7 @@ title: Vectors, Strings, and File I/O
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/vectors-strings-fileio
+live: https://fvtc.software/spilman/computer-programming-cpp/vectors-strings-fileio
 ---
 
 # Vectors
@@ -97,10 +97,10 @@ using namespace std;
 int main()
 {
 	string name = "Ryan";
-	// cout << name + " Appel";
-	// name.append(" Appel");
-	name += " Appel";
-	cout << name; // Ryan Appel
+	// cout << name + " spilman";
+	// name.append(" spilman");
+	name += " spilman";
+	cout << name; // Ryan spilman
 }
 ```
 

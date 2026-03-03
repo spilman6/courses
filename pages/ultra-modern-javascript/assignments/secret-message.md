@@ -3,7 +3,7 @@ title: Assignment 4 - Secret Message
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/assignments/secret-message
+live: https://fvtc.software/spilman/modern-javascript/assignments/secret-message
 ---
 
 # Assignment 4 - Secret Message

@@ -3,7 +3,7 @@ title: Getting Started
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/getting-started
+live: https://fvtc.software/spilman/computer-programming-cpp/getting-started
 ---
 
 # Getting Started
@@ -39,7 +39,7 @@ Here is the code from the video:
 
 ```cpp
 // Getting Started Demo
-// Ryan Appel
+// Ryan spilman
  
 int main()
 {
@@ -97,7 +97,7 @@ Here is the code from the video:
 
 ```cpp
 // Getting Started Demo
-// Ryan Appel
+// Ryan spilman
 
 #include <iostream> // allows us to use cout
 #include <conio.h> // allows us to use _getch()
@@ -250,7 +250,7 @@ std::cout << "\"Hello World!\"";
 
 ```cpp
 // Exercise 1
-// Ryan Appel
+// Ryan spilman
 
 #include <iostream>
 #include <conio.h>
@@ -493,7 +493,7 @@ int ageIn10Years = age + 10;
 
 ```cpp
 // Exercise 2
-// Ryan Appel
+// Ryan spilman
 
 #include <iostream>
 #include <conio.h>

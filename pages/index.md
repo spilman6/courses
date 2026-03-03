@@ -12,10 +12,10 @@ live: https://fvtc.software/spilman
 
 [C# Introduction to Programming](/spilman/csharp-introduction-to-programming)
 
-<!-- [Modern JavaScript](/appel/modern-javascript) -->
+<!-- [Modern JavaScript](/spilman/modern-javascript) -->
 
-<!-- [Advanced JavaScript](/appel/advanced-javascript) -->
+<!-- [Advanced JavaScript](/spilman/advanced-javascript) -->
 
-<!-- [Computer Programming C++](/appel/computer-programming-cpp) -->
+<!-- [Computer Programming C++](/spilman/computer-programming-cpp) -->
 
 [Version Control Essentials](/spilman/version-control-essentials)

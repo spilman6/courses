@@ -3,7 +3,7 @@ title: Pointers and Heap Memory
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/pointers-and-heap-memory
+live: https://fvtc.software/spilman/computer-programming-cpp/pointers-and-heap-memory
 ---
 
 # Pointers

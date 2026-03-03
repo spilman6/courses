@@ -3,7 +3,7 @@ title: Web API with Express.js
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/web-api-with-express
+live: https://fvtc.software/spilman/javascirpt_archive/web-api-with-express
 ---
 
 # Web API with Express.js
@@ -165,7 +165,7 @@ Continuing on, we will get our joke to display and do some miscellaneous clean u
 	</div>
 </details>
 
-Here is the [link to the stylesheet](https://gist.github.com/RDAppel/e99a30f281d61225acfe2549524095a1) that we used in the video.
+Here is the [link to the stylesheet](https://gist.github.com/RDspilman/e99a30f281d61225acfe2549524095a1) that we used in the video.
 
 And here is the updated `site.js` file:
 
@@ -319,4 +319,4 @@ And here is the `404.html` file we created:
 
 # Exercises
 
-[ Web Api with Express Exercises](/appel/javascript/web-api-with-express-exercises)
+[ Web Api with Express Exercises](/spilman/javascript/web-api-with-express-exercises)

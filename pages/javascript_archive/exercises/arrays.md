@@ -3,7 +3,7 @@ title: Arrays - Exercises
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/exercises/arrays
+live: https://fvtc.software/spilman/javascirpt_archive/exercises/arrays
 ---
 
 # Exercise 1

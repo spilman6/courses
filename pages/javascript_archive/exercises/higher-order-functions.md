@@ -3,7 +3,7 @@ title: Higher Order Functions - Exercises
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/exercises/higher-order-functions
+live: https://fvtc.software/spilman/javascirpt_archive/exercises/higher-order-functions
 ---
 
 # Getting Setup
@@ -19,7 +19,7 @@ Before we start, this video will walk you through getting setup for the followin
 	</div>
 </details>
 
-Here is the link to the [rooms.json](https://gist.githubusercontent.com/RDAppel/a53f49158335136462b2954c70429521/raw/600006fbfa061e7136c1267a2bad75a2d7e793e5/rooms.json) file.
+Here is the link to the [rooms.json](https://gist.githubusercontent.com/RDspilman/a53f49158335136462b2954c70429521/raw/600006fbfa061e7136c1267a2bad75a2d7e793e5/rooms.json) file.
 
 # Exercise 1
 

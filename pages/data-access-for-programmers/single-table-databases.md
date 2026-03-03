@@ -170,13 +170,13 @@ The following video will give a brief overview of how to create a schema and tab
 To add (or insert) data into a table, we use the `INSERT INTO` statement. To insert data into the `Students` table, we would use the following SQL code:
 
 ```sql
-INSERT INTO Students (ID, FirstName, LastName) VALUES (123456, "Ryan", "Appel");
+INSERT INTO Students (ID, FirstName, LastName) VALUES (123456, "Ryan", "spilman");
 ```
 
 Or if we are inserting data into all of the columns, we can omit the column names:
 
 ```sql
-INSERT INTO Students VALUES (123456, "Ryan", "Appel");
+INSERT INTO Students VALUES (123456, "Ryan", "spilman");
 ```
 
 The following video will give a brief overview of how to insert data into our table from the previous exercise video.

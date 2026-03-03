@@ -3,7 +3,7 @@ title: Assignment 4 - Pay Report
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/assignments/pay-report
+live: https://fvtc.software/spilman/computer-programming-cpp/assignments/pay-report
 ---
 
 # Assignment 4 - Pay Report

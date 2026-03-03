@@ -3,7 +3,7 @@ title: Assignment 3 - Library Book Manager
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/assignments/book-manager
+live: https://fvtc.software/spilman/computer-programming-cpp/assignments/book-manager
 ---
 
 # Assignment 3 - Library Book Manager

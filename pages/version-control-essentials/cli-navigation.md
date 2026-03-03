@@ -3,9 +3,9 @@ title: Command Line Navigation
 subtitle: Version Control Essentials
 hideNav: false
 
-live: https://fvtc.software/appel/version-control-essentials/intro-to-git
-dev: http://localhost:3006/appel/version-control-essentials/intro-to-git
-repo: https://github.com/rappel/courses
+live: https://fvtc.software/spilman/version-control-essentials/intro-to-git
+dev: http://localhost:3006/spilman/version-control-essentials/intro-to-git
+repo: https://github.com/rspilman/courses
 ---
 
 # Navigating the Command Line

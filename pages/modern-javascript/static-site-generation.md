@@ -3,7 +3,7 @@ title: Static Site Generation
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/static-site-generation
+live: https://fvtc.software/spilman/modern-javascript/static-site-generation
 ---
 
 # Static Site Generation

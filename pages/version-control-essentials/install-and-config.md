@@ -5,15 +5,15 @@ hideNav: false
 
 # next:
 #   title: Creating Local Repos
-#   url: /appel/version-control-essentials/create-local-repos
+#   url: /spilman/version-control-essentials/create-local-repos
 
 # previous:
 #   title: Home
-#   url: /appel/version-control-essentials
+#   url: /spilman/version-control-essentials
 
-live: https://fvtc.software/appel/version-control-essentials/install-and-config
-dev: http://localhost:3006/appel/version-control-essentials/install-and-config
-repo: https://github.com/rdappel/courses
+live: https://fvtc.software/spilman/version-control-essentials/install-and-config
+dev: http://localhost:3006/spilman/version-control-essentials/install-and-config
+repo: https://github.com/rdspilman/courses
 ---
 
 # Downloading and Installing Git

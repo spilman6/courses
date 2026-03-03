@@ -3,7 +3,7 @@ title: Server Side JavaScript
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/server-side-javascript
+live: https://fvtc.software/spilman/javascirpt_archive/server-side-javascript
 ---
 
 # Server Side JavaScript
@@ -337,7 +337,7 @@ app.js:
 	const { prompt } = require('enquirer')
 	const axios = require('axios')
 
-	const { data } = await axios.get('https://raw.githubusercontent.com/RDAppel/survey/master/questions.json')
+	const { data } = await axios.get('https://raw.githubusercontent.com/RDspilman/survey/master/questions.json')
 	const questions = data
 
 	console.log(await prompt(questions))
@@ -383,7 +383,7 @@ app.js:
 (async () => {
 
 	const survey = require('./survey')
-	const url = 'https://raw.githubusercontent.com/RDAppel/survey/master/questions.json'
+	const url = 'https://raw.githubusercontent.com/RDspilman/survey/master/questions.json'
 	survey.setUrl(url)
 	const result = await survey.run()
 	console.log(result)
@@ -393,6 +393,6 @@ app.js:
 
 # Exercises
 
-[Server-Side JavaScript Exercises](/appel/javascript/server-side-javascript-exercises)
+[Server-Side JavaScript Exercises](/spilman/javascript/server-side-javascript-exercises)
 
 

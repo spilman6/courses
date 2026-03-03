@@ -3,7 +3,7 @@ title: Arrays
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/arrays
+live: https://fvtc.software/spilman/javascirpt_archive/arrays
 ---
 
 # Arrays
@@ -12,7 +12,7 @@ Arrays are a special type of object. They are used to store a list of values. Ar
 
 We are going to use them to store our product objects from the previous unit.
 
-So, open your project from the last unit. If you don't have it, you can download the code [here](github.com/rdappel/example-website2-part2).
+So, open your project from the last unit. If you don't have it, you can download the code [here](github.com/rdspilman/example-website2-part2).
 
 However, before we start, let's create a space on our webpage to display some information. This will allow us to run some code and see the results.
 
@@ -403,4 +403,4 @@ printFirstWord('Hello there, how are you?'.split(' ')) // Hello
 
 # Exercises
 
-[Arrays Exercises](/appel/javascript/arrays-exercises)
+[Arrays Exercises](/spilman/javascript/arrays-exercises)

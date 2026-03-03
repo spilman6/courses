@@ -3,7 +3,7 @@ title: Higher Order Functions
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/higher-order-functions
+live: https://fvtc.software/spilman/modern-javascript/higher-order-functions
 ---
 
 # Higher Order Functions

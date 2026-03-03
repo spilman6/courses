@@ -3,7 +3,7 @@ title: Variables and Operators
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/variables-and-operators
+live: https://fvtc.software/spilman/modern-javascript/variables-and-operators
 ---
 
 # Variables

@@ -3,7 +3,7 @@ title: Assignment 7 - API Fetch
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/assignments/api-fetch
+live: https://fvtc.software/spilman/modern-javascript/assignments/api-fetch
 ---
 
 # Assignment 7 - API Fetch

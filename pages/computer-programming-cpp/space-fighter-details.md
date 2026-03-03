@@ -3,7 +3,7 @@ title: Space Fighter Details
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/space-fighter-details
+live: https://fvtc.software/spilman/computer-programming-cpp/space-fighter-details
 ---
 
 # Space Fighter Details

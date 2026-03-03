@@ -3,7 +3,7 @@ title: Assignment 10 - Final Project
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/modern-javascript/assignments/final-project
+live: https://fvtc.software/spilman/modern-javascript/assignments/final-project
 ---
 
 # Assignment 10 - Final Project

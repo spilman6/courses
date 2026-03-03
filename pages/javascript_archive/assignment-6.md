@@ -3,7 +3,7 @@ title: Assignment 6 - Custom Module
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/assignment-6
+live: https://fvtc.software/spilman/javascirpt_archive/assignment-6
 ---
 
 # Assignment 6 - Custom Module

@@ -3,7 +3,7 @@ title: Assignment 7 - To Do App
 subtitle: Modern JavaScript
 hideNav: false
 
-live: https://fvtc.software/appel/javascirpt_archive/assignment-7
+live: https://fvtc.software/spilman/javascirpt_archive/assignment-7
 ---
 
 # Assignment 7 - To Do App
@@ -23,7 +23,7 @@ In this assignment, you will create a simple "To Do" API using Express. The API 
 
 ## Getting Started
 
-To get started, fork the [Assignment 7 Starter Code](https://github.com/RDAppel/js-assignment7) repository from GitHub, and then clone it to your computer. This repository contains a basic Express application with a single route that returns an index.html file.
+To get started, fork the [Assignment 7 Starter Code](https://github.com/RDspilman/js-assignment7) repository from GitHub, and then clone it to your computer. This repository contains a basic Express application with a single route that returns an index.html file.
 
 > [!NOTE] Remember to run `npm install` to install the required dependencies.
 

@@ -3,7 +3,7 @@ title: Assignment 9 - Modification Proposal
 subtitle: Computer Programming C++
 hideNav: false
 
-live: https://fvtc.software/appel/computer-programming-cpp/assignments/modification-proposal
+live: https://fvtc.software/spilman/computer-programming-cpp/assignments/modification-proposal
 ---
 
 # Assignment 9 - Modification Proposal
