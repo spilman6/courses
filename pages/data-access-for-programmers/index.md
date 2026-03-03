@@ -1,7 +1,7 @@
 ---
 title: Data Access for Programmers
 subtitle: Spilman
-hide-nav: true
+hide-nav: false
 
 live: https://fvtc.software/spilman/data-access-for-programmers
 ---
