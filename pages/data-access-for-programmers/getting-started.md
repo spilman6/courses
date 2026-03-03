@@ -10,25 +10,6 @@ live: https://fvtc.software/spilman/data-access-for-programmers/getting-started
 
 > Week 1 foundation: data types, calculated values, type conversion, and VM setup.
 
-## Quick Navigation
-
-- [Getting Started](#getting-started)
-	- [Quick Navigation](#quick-navigation)
-	- [Learning Outcomes](#learning-outcomes)
-	- [Welcome to the Class!](#welcome-to-the-class)
-	- [Primitive Data Types](#primitive-data-types)
-		- [String Data](#string-data)
-		- [Numeric Data](#numeric-data)
-		- [Boolean Data](#boolean-data)
-		- [String Ambiguity](#string-ambiguity)
-	- [Exercise 1](#exercise-1)
-	- [Calculated Data](#calculated-data)
-	- [Exercise 2](#exercise-2)
-	- [Data-Type Conversion](#data-type-conversion)
-	- [Accessing Your VM](#accessing-your-vm)
-	- [Programming Demos](#programming-demos)
-	- [Review Questions](#review-questions)
-
 ## Learning Outcomes
 
 By the end of this lesson, you should be able to:
